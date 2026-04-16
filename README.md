@@ -257,6 +257,8 @@ Conociendo esto, se generan las siguientes preguntas, ¿Cómo podemos ayudar a l
 
 ###  1.2.2.4. Lean UX Canvas
 
+![Lean UX Canvas](./assets/img/lean-ux-canvas-locksight.png)
+
 ## 1.3 Segmentos Objetivos
 ## Segmento #1: Dueños y Administradores de PYMES (Retail, Tiendas y Pequeños Almacenes)
 
