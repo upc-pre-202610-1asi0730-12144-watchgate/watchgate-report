@@ -188,13 +188,73 @@ Conociendo esto, se generan las siguientes preguntas, ¿Cómo podemos ayudar a l
 
 ###  1.2.2.2. Lean UX Assumptions
 
+**Business Outcomes**
+
+* Incrementar la cantidad de empresas que se suscriban a la plataforma Locksight.
+* Mejorar la retención de clientes corporativos ofreciendo un servicio estable y confiable.
+* Reducir las pérdidas económicas causadas por robos, accesos no autorizados y fallas de control en los almacenes.
+* Facilitar el uso de tecnología IoT para que las empresas puedan modernizar su seguridad y pasar de un enfoque reactivo a uno solo preventivo.
+* Generar ingresos recurrentes mediante un modelo de suscripción con distintos planes según el tamaño del cliente.
+
+**User Benefits**
+
+* **Dueños de empresas medianas**
+
+  Tener control claro sobre lo que ocurre en sus almacenes sin necesidad de estar físicamente presentes, reduciendo la incertidumbre sobre posibles pérdidas o accesos no autorizados.
+
+* **Jefes de Operaciones / Logística**
+
+  Monitorear en tiempo real la actividad del almacén y reaccionar rápidamente ante cualquier incidente gracias a alertas automáticas y un panel centralizado.
+
+* **Personal de Seguridad**
+
+  Reducir la carga de trabajo manual al contar con un sistema que automatiza la vigilancia y registra los eventos de forma ordenada.
+
+* **Empresas con múltiples almacenes**
+
+  Centralizar la supervisión de todas sus sedes en una sola plataforma, facilitando el control y la toma de decisiones.
+
+**Assumptions**
+
+* Se asume que los clientes necesitan una forma más activa y en tiempo real de monitorear sus almacenes, en lugar de depender de sistemas que solo registran incidentes.
+* Se cree que esta necesidad puede resolverse mediante una plataforma que conecte sensores físicos con un dashboard web simple y claro.
+* Los clientes iniciales serán dueños de PYMES y responsables de operaciones en empresas más grandes que necesitan mayor control y trazabilidad.
+* El principal valor para el cliente será la tranquilidad de saber que sus activos están protegidos y monitoreados constantemente.
+* Se espera que valoren beneficios adicionales como el control de horarios del personal y la gestión de varias sedes.
+* Los clientes se captarán principalmente mediante contacto directo, redes profesionales y pruebas piloto.
+* El modelo de ingresos será por suscripción, según la cantidad de almacenes o sensores utilizados.
+* La principal competencia serán los sistemas tradicionales de cámaras y alarmas.
+* Uno de los principales riesgos es la dependencia de una conexión a internet estable. Para reducir este riesgo, el sistema podrá almacenar información de forma temporal y sincronizarla cuando se recupere la conexión.
+* Se asume que las empresas estarán dispuestas a pagar una suscripción mensual por el servicio. Si no es así, el modelo de negocio podría verse afectado.
+
+**Assumptions Worksheet**
+
+* ¿Quién es el usuario?
+  
+  Son dueños o administradores de PYMES, así como jefes de operaciones o seguridad en empresas más grandes que necesitan controlar sus almacenes.
+* ¿Dónde encaja nuestro producto en su trabajo o vida?
+  
+  Forma parte de la gestión diaria del almacén. Funciona de manera continua y se consulta desde una computadora o celular en cualquier momento.
+* ¿Qué problemas tiene nuestro producto y cómo se puede resolver?
+  
+  Puede existir cierta dificultad inicial al usar tecnología nueva, por lo que se priorizará una interfaz simple e intuitiva. También pueden presentarse problemas de conexión o energía, que se manejarán guardando información temporalmente hasta recuperar el servicio.
+* ¿Cuándo y cómo es usado nuestro producto?
+  
+  Los sensores funcionan todo el tiempo. La plataforma se usa para revisar el estado del almacén, controlar accesos o responder ante alertas.
+* ¿Qué características son importantes?
+  
+  Que sea confiable, rápido, fácil de usar y que muestre la información de forma clara.
+* ¿Cómo debe verse nuestro producto y cómo comportarse?
+  
+  Debe tener un diseño limpio y profesional, transmitiendo seguridad. Además, debe responder de forma rápida y precisa ante cualquier evento.
+
 ###  1.2.2.3. Lean UX Hypothesis Statements
 
 ###  1.2.2.4. Lean UX Canvas
 
-##   1.3 Segmento Objetivo
+## 1.3 Segmentos Objetivos
 
-# Segmentación de Clientes - Startup de Seguridad IoT
+## Segmentación de Clientes - Startup de Seguridad IoT
 
 ## Segmento #1: Dueños y Administradores de PYMES (Retail, Tiendas y Pequeños Almacenes)
 
