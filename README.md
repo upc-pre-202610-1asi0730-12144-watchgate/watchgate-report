@@ -258,87 +258,72 @@ Conociendo esto, se generan las siguientes preguntas, ¿Cómo podemos ayudar a l
 ###  1.2.2.4. Lean UX Canvas
 
 ## 1.3 Segmentos Objetivos
-
-## Segmentación de Clientes - Startup de Seguridad IoT
-
 ## Segmento #1: Dueños y Administradores de PYMES (Retail, Tiendas y Pequeños Almacenes)
 
-Personas responsables de la gestión operativa de pequeños negocios que requieren control básico pero efectivo sobre sus almacenes, sin incurrir en altos costos de seguridad. Representan el principal público objetivo para el plan básico de la plataforma.
+Este segmento representa a los emprendedores y gerentes de pequeñas y medianas empresas. Son los que comprarían el **Plan Básico**. No cuentan con presupuesto para un equipo de vigilancia 24/7, pero necesitan tranquilidad y control sobre su inventario.
 
-### Aspectos demográficos:
-- **Edad:** Jóvenes y adultos  
-- **Sexo:** Masculino y femenino  
-- **Ubicación:** Distritos urbanos y comerciales de Lima Metropolitana  
-- **Tipo de negocio:** Retail, bodegas, tiendas mayoristas, almacenes pequeños y negocios familiares  
-- **Nivel de digitalización:** Medio (uso frecuente de smartphones, apps móviles y banca digital)  
+### Aspectos demográficos
+- **Edad:** Adultos y jóvenes  
+- **Ocupación:** Dueños de negocio, gerentes generales o administradores comerciales  
+  - Usan el celular para actividades clave como WhatsApp y banca móvil  
+  - Buscan dashboards simples que no requieran conocimientos técnicos  
 
-### Aspectos psicográficos:
+### Aspectos psicográficos
 - **Motivaciones:**  
-  - Proteger su inversión y reducir pérdidas por robos o errores internos  
-  - Tener tranquilidad sin depender de vigilancia física constante  
-  - Controlar su negocio incluso cuando no están presentes  
+  - Tener tranquilidad y control del negocio  
+  - Evitar inversiones costosas en seguridad  
 
 - **Intereses:**  
-  - Soluciones accesibles de seguridad  
-  - Tecnología práctica y fácil de usar (apps móviles, alertas en tiempo real)  
-  - Herramientas que automaticen tareas sin complicaciones técnicas  
+  - Soluciones simples  
+  - Tecnología accesible  
+  - Herramientas prácticas para gestionar el negocio  
 
 - **Comportamiento:**  
-  - Prefieren soluciones simples, intuitivas y de rápida implementación  
-  - Valoran recibir notificaciones inmediatas en el celular ante cualquier evento sospechoso  
-  - Buscan alternativas más eficientes que cámaras tradicionales sin monitoreo activo  
-  - Comparan precios y beneficios antes de invertir  
+  - Prefieren herramientas fáciles de usar  
+  - Valoran la rapidez de configuración  
+  - Priorizan el uso desde el celular  
 
-### Necesidades clave:
-- Alertas en tiempo real (apertura fuera de horario, accesos no autorizados)  
-- Monitoreo remoto desde el celular  
-- Bajo costo y fácil instalación  
-- Visibilidad básica del movimiento dentro del almacén  
+### Comportamiento y necesidades
+- Requieren notificaciones en tiempo real en el celular  
+- Su principal dolor es la merma por robos (internos o externos)  
+- Necesitan saber si el local fue abierto fuera de horario  
 
-### Información estadística de sustento:
-- En el Perú, más del **90% de empresas son PYMES**, muchas con recursos limitados para seguridad avanzada  
-- Lima presenta altos índices de **robos en negocios minoristas**, especialmente en zonas comerciales  
-- La mayoría de pequeños negocios aún depende de **métodos tradicionales** (cámaras sin monitoreo activo o vigilancia informal)  
 
+---
 
 ## Segmento #2: Jefes de Seguridad y Operaciones (Medianas y Grandes Corporaciones)
 
-Profesionales encargados de la gestión de seguridad, logística y operaciones en empresas con múltiples almacenes o centros de distribución. Representan el público objetivo para planes avanzados (Pro/Empresarial).
+Este segmento incluye profesionales de empresas grandes como fábricas, constructoras y corporaciones. Son quienes justificarían la compra del **Plan Pro o Empresarial**.
 
-### Aspectos demográficos:
-- **Edad:** Adultos  
-- **Sexo:** Masculino y femenino  
-- **Ubicación:** Zonas industriales y logísticas de Lima Metropolitana  
-- **Tipo de empresa:** Corporaciones de manufactura, logística, consumo masivo y retail a gran escala  
-- **Cargos:** Jefes de Seguridad, Jefes de Operaciones, Supply Chain Managers, Supervisores Logísticos  
-- **Nivel de digitalización:** Alto (uso de ERP, dashboards y analítica de datos)  
+### Aspectos demográficos
+- **Edad:** Adultos y jóvenes  
+- **Ocupación:**  
+  - Jefes de Seguridad Industrial  
+  - Supervisores Logísticos  
+  - Supply Chain Managers  
+  - Jefes de Planta  
+  - Manejan ERPs, reportes y sistemas de gestión  
 
-### Aspectos psicográficos:
+### Aspectos psicográficos
 - **Motivaciones:**  
-  - Reducir pérdidas operativas y mejorar la eficiencia  
-  - Contar con trazabilidad completa para auditorías internas  
-  - Minimizar riesgos operativos y cumplir estándares de seguridad  
+  - Tener control total de operaciones  
+  - Reducir pérdidas  
+  - Optimizar la seguridad en múltiples almacenes  
 
 - **Intereses:**  
-  - Automatización de procesos  
-  - Integración con sistemas existentes (ERP, WMS)  
-  - Analítica de datos y generación de reportes  
-  - Innovación tecnológica (IoT, inteligencia operativa)  
+  - Auditoría  
+  - Trazabilidad  
+  - Automatización  
+  - Gestión centralizada  
 
 - **Comportamiento:**  
-  - Evalúan soluciones basadas en retorno de inversión (ROI)  
-  - Priorizan plataformas escalables y centralizadas  
-  - Buscan herramientas que permitan gestionar múltiples almacenes desde un solo sistema  
-  - Necesitan evidencia y reportes para la toma de decisiones estratégicas  
+  - Buscan soluciones robustas  
+  - Necesitan escalabilidad  
+  - Prefieren integración con sistemas existentes  
 
-### Necesidades clave:
-- Control de accesos con permisos personalizados  
-- Historial y trazabilidad completa de eventos  
-- Integración con sistemas empresariales  
-- Alertas inteligentes y automatizadas  
-- Gestión centralizada de múltiples ubicaciones  
-
-### Información estadística de sustento:
-- Empresas medianas y grandes pueden perder entre **2% y 5% de su inventario anual** por mermas y robos  
-- Existe una creciente adopción de tecnologías IoT en logística para mejorar el control y la eficiencia operativa  
-- La seguridad basada en datos se está convirtiendo en un estándar en operaciones empresariales modernas  
+### Comportamiento y necesidades
+- Necesitan más que alertas: requieren auditoría completa  
+- Buscan trazabilidad detallada de accesos  
+- Requieren control de permisos por usuario y zona  
+- Necesitan historiales completos para justificar pérdidas  
+- Valoran reglas automáticas inteligentes para múltiples almacenes  
