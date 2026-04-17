@@ -174,3 +174,26 @@ En un entorno empresarial donde la seguridad de los almacenes y el control de ac
 
 **Visión:** Nuestra visión es posicionarnos como una plataforma líder en seguridad inteligente para entornos empresariales, elevando el estándar de control y protección en almacenes mediante el uso de IoT y análisis de datos. Aspiramos a que cada instalación conectada opere como un sistema autónomo capaz de anticipar riesgos, detectar comportamientos inusuales y activar mecanismos de alerta en tiempo real, permitiendo a las empresas mantener el control total desde cualquier lugar. Con nuestra solución buscamos construir un ecosistema seguro, eficiente y escalable que no solo reduzca pérdidas, sino que también transforme la manera en que las organizaciones gestionan su seguridad y operación diaria.
 
+## 1.2. Solution Profile
+
+## 1.2.1. Antecdentes y problematica
+Antecedentes
+En los últimos años, el sector logístico y de almacenamiento ha experimentado un crecimiento acelerado, impulsado en gran medida por el auge del comercio electrónico y la necesidad de optimizar las cadenas de suministro. Sin embargo, a pesar de la modernización en la gestión de inventarios, los sistemas de seguridad física en los almacenes han avanzado a un ritmo mucho menor.
+
+En el contexto local y nacional, particularmente en las zonas industriales de Lima y provincias, la seguridad de los almacenes sigue dependiendo en gran medida de métodos tradicionales y reactivos. Las empresas suelen apoyarse en el uso de candados físicos, registros manuales de entrada y salida en cuadernos de control, y sistemas de videovigilancia (CCTV) cerrados. Estos métodos presentan una limitación crítica: son sistemas aislados que requieren supervisión humana constante y, por lo general, solo sirven para revisar incidentes una vez que ya han ocurrido, sin ofrecer capacidad de prevención o alerta temprana.
+
+Si bien existen soluciones corporativas de control de acceso electrónico, estas suelen ser infraestructuras monolíticas, costosas y difíciles de implementar para pequeñas y medianas empresas. Además, carecen de la flexibilidad necesaria para integrarse en un modelo de monitoreo centralizado en la nube que permita gestionar múltiples sedes desde una única plataforma.
+
+Problemática
+El problema central que aborda watchgate con su producto locksight es la alta vulnerabilidad de los almacenes ante accesos no autorizados, robos internos y la falta de visibilidad en tiempo real sobre los eventos de seguridad físicos, lo cual genera pérdidas económicas significativas y deficiencias operativas.
+
+Esta problemática principal se desglosa en los siguientes puntos críticos que afectan tanto a pequeños negocios como a grandes corporaciones:
+Ausencia de alertas en tiempo real: Los sistemas actuales no notifican a los administradores cuando ocurre un evento inusual (por ejemplo, la apertura de una puerta fuera del horario laboral o movimiento en zonas restringidas). Esto retrasa el tiempo de respuesta ante intrusiones o actividades sospechosas.
+
+Gestión deficiente y descentralizada de accesos: Las empresas con múltiples zonas de almacenamiento o diferentes sedes enfrentan dificultades para controlar quién tiene acceso a qué áreas. La falta de un registro digital automatizado impide tener una trazabilidad exacta (cuándo, dónde y por cuánto tiempo se accedió a un espacio).
+
+Altos costos de implementación tecnológica: Las soluciones de seguridad perimetral e interna tradicionales requieren instalaciones complejas y servidores locales. Esto crea una barrera de entrada para empresas emergentes que necesitan seguridad de alto nivel pero no pueden asumir el costo de arquitecturas de red cerradas.
+
+Toma de decisiones basada en intuición en lugar de datos: Al no contar con un dashboard que centralice e interprete el flujo de actividad física del almacén, los gerentes de operaciones no pueden identificar patrones de riesgo, auditar incidentes de manera eficiente, ni optimizar los protocolos de seguridad.
+
+Frente a esta situación, existe una brecha tecnológica evidente: la necesidad de un sistema puente que logre comunicar el entorno físico (mediante sensores IoT y microcontroladores) con el entorno digital (aplicación web), emitiendo información procesable y escalable mediante un modelo de suscripción (SaaS).
