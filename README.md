@@ -175,7 +175,7 @@ En un entorno empresarial donde la seguridad de los almacenes y el control de ac
 **Visión:** Nuestra visión es posicionarnos como una plataforma líder en seguridad inteligente para entornos empresariales, elevando el estándar de control y protección en almacenes mediante el uso de IoT y análisis de datos. Aspiramos a que cada instalación conectada opere como un sistema autónomo capaz de anticipar riesgos, detectar comportamientos inusuales y activar mecanismos de alerta en tiempo real, permitiendo a las empresas mantener el control total desde cualquier lugar. Con nuestra solución buscamos construir un ecosistema seguro, eficiente y escalable que no solo reduzca pérdidas, sino que también transforme la manera en que las organizaciones gestionan su seguridad y operación diaria.
 
 # Capítulo II: Requirements Elicitation & Analysis
-
+## 2.1. Competidores.
 ### 2.1.1. Análisis competitivo
 
 ## ¿Por qué llevar a cabo este análisis?
@@ -215,3 +215,63 @@ Aprovechando la creciente digitalización de las empresas peruanas, ofreceremos 
 
 #### Estrategia frente a lo existente
 Para empresas que aún utilizan sistemas tradicionales, ya sea por desconfianza o por los elevados costos, nuestra estrategia será demostrar de forma clara los beneficios de la solución, como la facilidad de uso y capacidad preventiva. Buscaremos posicionarnos no solo como una alternativa tecnológica, sino como una inversión rentable que mejora la seguridad y optimiza la operación.
+
+## 2.2. Entrevistas.
+### 2.2.1. Diseño de entrevistas
+**Primer segmento: Dueños y Administradores de PYMES**
+
+A continuación, se presentan las preguntas dirigidas al segmento de dueños y administradores de pequeñas y medianas empresas, quienes buscan tener mayor control y seguridad sobre sus almacenes sin necesidad de sistemas complejos o costosos.
+
+**Preguntas principales**
+1. ¿Te preocupa la seguridad de tu almacén o negocio?
+2. ¿Has tenido problemas de robos o pérdidas dentro de tu local?
+3. ¿Cómo controlas actualmente quién entra o sale de tu almacén?
+4. ¿Te gustaría saber en tiempo real lo que pasa en tu almacén?
+5. ¿Qué tan útil sería recibir alertas en tu celular si ocurre algo extraño?
+6. ¿Qué tipo de alertas te gustaría recibir? (puertas abiertas, movimiento, fuera de horario, etc.)
+7. ¿Te ayudaría poder revisar lo que pasó en el almacén en cualquier momento?
+8. ¿Qué tan fácil debería ser usar una app para controlar tu almacén?
+9. ¿Qué es lo más importante para ti en un sistema de seguridad?
+10. ¿Te daría tranquilidad poder ver todo desde tu celular sin estar presente?
+11. ¿Qué problemas te gustaría evitar con una herramienta como esta?
+12. ¿Usarías una solución como Locksight en tu negocio?
+
+**Preguntas complementarias**
+
+13. ¿Qué edad tienes?
+14. ¿A qué se dedica tu negocio?
+15. ¿Cuántas personas trabajan contigo?
+16. ¿En qué distrito está tu negocio?
+17. ¿Usas aplicaciones en tu celular para tu negocio? ¿Cuáles?
+18. ¿Qué tan seguido revisas tu negocio cuando no estás presente?
+19. ¿Prefieres usar más el celular o la computadora?
+20. ¿Qué tan cómodo te sientes usando tecnología nueva?
+
+**Segundo segmento: Jefes de Seguridad y Operaciones**
+
+A continuación, se presentan las preguntas dirigidas al segmento de jefes de seguridad y operaciones, quienes necesitan controlar almacenes de mayor tamaño, tener registro de accesos y tomar decisiones basadas en información.
+
+**Preguntas principales**
+1. ¿Te preocupa la seguridad de los almacenes o instalaciones que supervisas?
+2. ¿Qué problemas has tenido con accesos no autorizados o pérdidas?
+3. ¿Cómo controlan actualmente quién entra y sale de los almacenes?
+4. ¿Te gustaría tener información en tiempo real de lo que ocurre en cada almacén?
+5. ¿Qué tan útil sería recibir alertas automáticas ante movimientos sospechosos?
+6. ¿Qué tipo de alertas serían más útiles para tu trabajo?
+7. ¿Te serviría tener un historial de accesos y eventos del almacén?
+8. ¿Qué tan importante es para ti poder revisar información desde cualquier lugar?
+9. ¿Qué es lo más importante en un sistema de seguridad para almacenes?
+10. ¿Te ayudaría tener todo el control en una sola plataforma?
+11. ¿Qué problemas actuales te gustaría solucionar con una herramienta como esta?
+12. ¿Crees que una solución así mejoraría la seguridad y control en tu trabajo?
+    
+**Preguntas complementarias**
+
+13. ¿Cuál es tu cargo dentro de la empresa?
+14. ¿En qué tipo de empresa trabajas?
+15. ¿Cuántos almacenes o sedes manejan?
+16. ¿En qué zonas operan?
+17. ¿Qué sistemas o herramientas usan actualmente?
+18. ¿Qué tan seguido usas computadora o celular en tu trabajo?
+19. ¿Trabajas más en oficina o en campo?
+20. ¿Qué tan familiarizado estás con sistemas tecnológicos?
