@@ -32,7 +32,7 @@
 | U201819276  | Bardales Tejada, Luis Alexis        |
 | U202416276  | Higa Kohatsue, Alonso Enrique       |
 | U202412903  | Lozano Quispe, Fabricio Jofred      |
-| U202418645  | Sandoval Aiquipa, Kelver Yamir      |
+| U202418645  | Sandoval Aiquipa, Kelber Yamir      |
 | U202414356  | Vite Celis, Rodrigo Matias          |
 
 <div style="font-weight: bold;"> Abril, 2026</div>
@@ -197,3 +197,32 @@ Altos costos de implementación tecnológica: Las soluciones de seguridad perime
 Toma de decisiones basada en intuición en lugar de datos: Al no contar con un dashboard que centralice e interprete el flujo de actividad física del almacén, los gerentes de operaciones no pueden identificar patrones de riesgo, auditar incidentes de manera eficiente, ni optimizar los protocolos de seguridad.
 
 Frente a esta situación, existe una brecha tecnológica evidente: la necesidad de un sistema puente que logre comunicar el entorno físico (mediante sensores IoT y microcontroladores) con el entorno digital (aplicación web), emitiendo información procesable y escalable mediante un modelo de suscripción (SaaS).
+
+## 1.3. Segmentos objetivos
+
+El modelo de negocio se enmarca en el sector B2B (Business-to-Business), enfocándose en la seguridad de activos críticos y la optimización de la gestión operativa en almacenes. Se han identificado dos segmentos principales que presentan necesidades diferenciadas en cuanto a escalabilidad y profundidad de control:
+
+### Segmento 1: Dueños y Administradores de PYMES (Retail y Almacenes Pequeños)
+Este segmento representa el motor emprendedor del país. Operan negocios que manejan inventarios físicos (tiendas de ropa, ferreterías mayoristas, distribuidores de repuestos) y, por lo general, no cuentan con departamentos de seguridad especializados. Su objetivo principal es la prevención de pérdidas directas mediante una inversión eficiente.
+
+**Características Demográficas y Perfil:**
+* **Edad:** Entre 25 y 55 años.
+* **Ocupación:** Dueños de negocio, gerentes de tienda o administradores comerciales.
+* **Nivel de digitalización:** Dependen de herramientas cotidianas como WhatsApp para la coordinación operativa y aplicaciones bancarias para sus finanzas. Por ello, valoran interfaces simples, intuitivas y notificaciones móviles inmediatas.
+
+**Necesidad Principal:**
+Sufren por la falta de control sobre quién accede al almacén durante su ausencia y lidian con la ineficiencia de los sistemas de cámaras tradicionales, que solo graban pero no alertan en tiempo real. Buscan reducir la merma por el "robo hormiga" y obtener tranquilidad mental al cerrar su local.
+
+**Sustento Estadístico:**
+> De acuerdo con Gómez et al. (2024), el 73% de las PYMES latinoamericanas carecen de sistemas automatizados de gestión de almacenes, lo cual genera ineficiencias que pueden representar hasta el 25% de sus costos logísticos totales.
+
+### Segmento 2: Jefes de Seguridad y Operaciones (Medianas y Grandes Corporaciones)
+Este segmento está conformado por profesionales que gestionan infraestructuras logísticas complejas para empresas de gran envergadura (como centros de distribución de consumo masivo o plantas industriales). Su enfoque va más allá de la simple alerta; requieren trazabilidad total y el cumplimiento estricto de normativas de seguridad industrial.
+
+**Características Demográficas y Perfil:**
+* **Edad:** Entre 35 y 60 años.
+* **Ocupación:** Gerentes de Operaciones, Jefes de Seguridad Industrial, Supply Chain Managers o Jefes de Planta.
+* **Nivel de digitalización:** Avanzado. Están familiarizados con sistemas ERP (como SAP u Oracle), software de gestión de almacenes (WMS) y protocolos de seguridad corporativa.
+
+**Necesidad Principal:**
+Se enfrentan a la dificultad de integrar dispositivos de diferentes proveedores y a la lentitud de respuesta ante eventos sospechosos en almacenes ubicados en zonas periféricas. Necesitan automatizar el registro de accesos, gestionar permisos diferenciados por zonas (seguridad granular) y obtener datos precisos y exportables para auditorías internas.
