@@ -32,7 +32,7 @@
 | U201819276  | Bardales Tejada, Luis Alexis        |
 | U202416276  | Higa Kohatsue, Alonso Enrique       |
 | U202412903  | Lozano Quispe, Fabricio Jofred      |
-| U202418645  | Sandoval Aiquipa, Kelver Yamir      |
+| U202418645  | Sandoval Aiquipa, Kelber Yamir      |
 | U202414356  | Vite Celis, Rodrigo Matias          |
 
 <div style="font-weight: bold;"> Abril, 2026</div>
@@ -259,73 +259,47 @@ Conociendo esto, se generan las siguientes preguntas, ¿Cómo podemos ayudar a l
 
 ![Lean UX Canvas](./assets/img/lean-ux-canvas-locksight.png)
 
-## 1.3 Segmentos Objetivos
-## Segmento #1: Dueños y Administradores de PYMES (Retail, Tiendas y Pequeños Almacenes)
+## 1.3. Segmentos objetivos
 
-Este segmento representa a los emprendedores y gerentes de pequeñas y medianas empresas. Son los que comprarían el **Plan Básico**. No cuentan con presupuesto para un equipo de vigilancia 24/7, pero necesitan tranquilidad y control sobre su inventario.
+El modelo de negocio se enmarca en el sector B2B (Business-to-Business), enfocándose en la seguridad de activos críticos y la optimización de la gestión operativa en almacenes. Se han identificado dos segmentos principales que presentan necesidades diferenciadas en cuanto a escalabilidad y profundidad de control:
 
-### Aspectos demográficos
-- **Edad:** Adultos y jóvenes  
-- **Ocupación:** Dueños de negocio, gerentes generales o administradores comerciales  
-  - Usan el celular para actividades clave como WhatsApp y banca móvil  
-  - Buscan dashboards simples que no requieran conocimientos técnicos  
+### Segmento 1: Dueños y Administradores de PYMES (Retail, Tiendas y Pequeños Almacenes)
+Este segmento representa a los emprendedores y gerentes de pequeñas y medianas empresas. Son los clientes objetivo para el **Plan Básico**. Por lo general, no cuentan con el presupuesto para mantener un equipo de vigilancia 24/7, pero tienen una necesidad imperiosa de tranquilidad y control sobre su inventario.
 
-### Aspectos psicográficos
-- **Motivaciones:**  
-  - Tener tranquilidad y control del negocio  
-  - Evitar inversiones costosas en seguridad  
+**Aspectos demográficos:**
+* **Edad:** Entre 25 y 55 años.
+* **Ocupación:** Dueños de negocio, gerentes generales o administradores comerciales.
+* **Nivel de digitalización:** Usan intensivamente el celular para actividades clave de su negocio (WhatsApp, banca móvil). Buscan *dashboards* simples que no requieran conocimientos técnicos previos.
 
-- **Intereses:**  
-  - Soluciones simples  
-  - Tecnología accesible  
-  - Herramientas prácticas para gestionar el negocio  
+**Aspectos psicográficos:**
+* **Motivaciones:** Obtener tranquilidad mental, mantener el control del negocio a distancia y evitar inversiones costosas o complejas en seguridad tradicional.
+* **Intereses:** Soluciones simples, tecnología accesible y herramientas prácticas que faciliten la gestión diaria sin añadir carga operativa.
 
-- **Comportamiento:**  
-  - Prefieren herramientas fáciles de usar  
-  - Valoran la rapidez de configuración  
-  - Priorizan el uso desde el celular  
+**Comportamiento y necesidades:**
+* Prefieren herramientas intuitivas y valoran la rapidez de configuración.
+* Priorizan el uso de la plataforma desde sus dispositivos móviles.
+* **Principal dolor:** La merma por robos (internos o externos, como el "robo hormiga").
+* Necesitan notificaciones en tiempo real en el celular, especialmente para saber si el local fue abierto fuera del horario establecido.
 
-### Comportamiento y necesidades
-- Requieren notificaciones en tiempo real en el celular  
-- Su principal dolor es la merma por robos (internos o externos)  
-- Necesitan saber si el local fue abierto fuera de horario  
-
+> **Dato estadistico:** De acuerdo con Gómez et al. (2024), el 73% de las PYMES latinoamericanas carecen de sistemas automatizados de gestión de almacenes, lo cual genera ineficiencias que pueden representar hasta el 25% de sus costos logísticos totales.
 
 ---
 
-## Segmento #2: Jefes de Seguridad y Operaciones (Medianas y Grandes Corporaciones)
+### Segmento 2: Jefes de Seguridad y Operaciones (Medianas y Grandes Corporaciones)
+Este segmento incluye a profesionales que gestionan infraestructuras logísticas complejas para empresas de gran envergadura (fábricas, constructoras, centros de distribución). Son el público objetivo que justificaría la adquisición del **Plan Pro o Empresarial**, ya que su enfoque requiere el cumplimiento de normativas de seguridad industrial.
 
-Este segmento incluye profesionales de empresas grandes como fábricas, constructoras y corporaciones. Son quienes justificarían la compra del **Plan Pro o Empresarial**.
+**Aspectos demográficos:**
+* **Edad:** Entre 35 y 60 años.
+* **Ocupación:** Jefes de Seguridad Industrial, Supervisores Logísticos, Supply Chain Managers o Jefes de Planta.
+* **Nivel de digitalización:** Alto. Acostumbrados a manejar sistemas ERP (SAP, Oracle), generar reportes consolidados y utilizar software de gestión de almacenes (WMS).
 
-### Aspectos demográficos
-- **Edad:** Adultos y jóvenes  
-- **Ocupación:**  
-  - Jefes de Seguridad Industrial  
-  - Supervisores Logísticos  
-  - Supply Chain Managers  
-  - Jefes de Planta  
-  - Manejan ERPs, reportes y sistemas de gestión  
+**Aspectos psicográficos:**
+* **Motivaciones:** Tener control total de las operaciones, reducir las pérdidas a gran escala y optimizar la seguridad en múltiples sedes de forma simultánea.
+* **Intereses:** Auditoría constante, trazabilidad de eventos, automatización de procesos y gestión centralizada.
 
-### Aspectos psicográficos
-- **Motivaciones:**  
-  - Tener control total de operaciones  
-  - Reducir pérdidas  
-  - Optimizar la seguridad en múltiples almacenes  
-
-- **Intereses:**  
-  - Auditoría  
-  - Trazabilidad  
-  - Automatización  
-  - Gestión centralizada  
-
-- **Comportamiento:**  
-  - Buscan soluciones robustas  
-  - Necesitan escalabilidad  
-  - Prefieren integración con sistemas existentes  
-
-### Comportamiento y necesidades
-- Necesitan más que alertas: requieren auditoría completa  
-- Buscan trazabilidad detallada de accesos  
-- Requieren control de permisos por usuario y zona  
-- Necesitan historiales completos para justificar pérdidas  
-- Valoran reglas automáticas inteligentes para múltiples almacenes  
+**Comportamiento y necesidades:**
+* Buscan soluciones robustas y escalables que puedan crecer con la empresa.
+* Prefieren plataformas que ofrezcan facilidades de integración con sus sistemas corporativos existentes.
+* **Principal dolor:** La lentitud para auditar incidentes y la falta de control granular.
+* Necesitan más que simples alertas: requieren una auditoría completa y trazabilidad detallada de accesos (quién, cuándo y dónde).
+* Requieren control de permisos diferenciados por usuario y zona, además de historiales completos para justificar pérdidas y la capacidad de configurar reglas automáticas inteligentes para múltiples almacenes.
