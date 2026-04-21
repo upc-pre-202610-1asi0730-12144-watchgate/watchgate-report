@@ -182,7 +182,7 @@ En un entorno empresarial donde la seguridad de los almacenes y el control de ac
 
 **Logo de LockSight**
 
-<img src="./assets/logo-locksight.png" alt="color-palette-locksight" width="400">
+<img src="./assets/chapter-4//logo-locksight.png" alt="logo-locksight" width="400">
 
 El imagotipo de Locksight integra visualmente tres conceptos clave del sector logístico, que son protección, tecnología y entorno operativo. El escudo central representa la seguridad y el resguardo del patrimonio, mientras que los nodos conectados representan a una red de sensores IoT que permiten la transmisión de datos en tiempo real. En la parte inferior, la silueta de estanterías vincula directamente la identidad de la marca con su enfoque principal: el monitoreo inteligente de almacenes.
 
@@ -208,7 +208,7 @@ Inter es una tipografía moderna diseñada específicamente para interfaces de u
 
 La paleta de colores de Locksight está diseñada para transmitir confianza corporativa, tecnología y facilitar la rápida toma de decisiones operativas.
 
-<img src="./assets/color-palette-locksight.png" alt="color-palette-locksight" width="600">
+<img src="./assets/chapter-4//color-palette-locksight.png" alt="color-palette-locksight" width="600">
 
 * Azul oscuro (#0F172A): El azul oscuro es el estándar universal en psicología del color para representar seguridad corporativa, estabilidad y confianza
 * Azul eléctrico (#3B82F6): Aporta un toque moderno y tecnológico
@@ -262,7 +262,7 @@ El sistema de navegación de Locksight ha sido diseñado bajo principios de usab
 
 En el landing page, la navegación se organiza mediante un menú superior fijo que incluye accesos a secciones clave. En el extremo derecho se destacan los botones “Iniciar sesión”, facilitando el acceso directo a acciones de conversión. Este enfoque permite que el usuario mantenga siempre la orientación, incluso al desplazarse por la página, asegurando un recorrido claro hacia el registro o la exploración de la propuesta de valor.
 
-Para la aplicación web, específicamente el dashboard, se adopta un menú en la versión de escritorio, alineado con estándares comunes en plataformas empresariales. Este menú agrupa los módulos principales, como Dashboard, Auditoría, Sensores y Configuración, y se mantiene visible para facilitar la navegación entre secciones. En dispositivos móviles, esta estructura se adapta a un menú tipo hamburguesa o a una barra de navegación inferior, optimizando la interacción y el alcance del usuario.
+Para la aplicación web, específicamente el dashboard, se adopta un menú en la versión de escritorio, alineado con estándares comunes en plataformas empresariales. Este menú agrupa los módulos principales, como Dashboard, Auditoría, Sensores y Configuración, ya se mantiene visible para facilitar la navegación entre secciones. En dispositivos móviles, esta estructura se adapta a un menú tipo hamburguesa o a una barra de navegación inferior, optimizando la interacción y el alcance del usuario.
 
 ### 4.2.5. Navigation Systems
 El sistema de búsqueda de Locksight está diseñado para agilizar el acceso a reportes históricos y la localización de dispositivos específicos, evitando que el administrador tenga que revisar grandes volúmenes de información operativa. De esta manera, se convierte en un elemento clave para optimizar las auditorías de seguridad mediante consultas rápidas y precisas.
@@ -274,7 +274,37 @@ Complementariamente, el sistema incorpora indicadores visuales como íconos con 
 Para entornos con múltiples sedes logísticas, se añade un buscador rápido en el menú superior que permite acceder directamente a distintas “Sucursales”. Esto evita navegar por estructuras jerárquicas extensas y mejora el tiempo de respuesta, especialmente en situaciones donde se requiere actuar con rapidez tras la recepción de una alerta.
 
 ## 4.3. Landing Page UI Design
+En esta sección se presenta la propuesta de diseño de interfaz de usuario para el landing page de Locksight desde la versión desktop como la mobile. El objetivo es materializar las decisiones de arquitectura de la información y los lineamientos visuales en una experiencia digital clara y estructurada.
 
+A través de este diseño, se busca captar la atención del segmento objetivo y guiarlo de manera progresiva desde el primer impacto visual hasta la conversión final. Todo ello se desarrolla bajo una estética limpia, corporativa y centrada en la usabilidad, asegurando una interacción intuitiva y coherente en cada etapa del recorrido del usuario.
 ### 4.3.1. Landing Page Wireframe
+**Explicación para Desktop**
+
+<div align="center">
+  <img src="./assets/chapter-4/landing-wireframe-desk-hero-section.png" alt="hero-section" width="600">
+  <img src="./assets/chapter-4/landing-wireframe-desk-features.png" alt="features" width="600">
+  <img src="./assets/chapter-4/landing-wireframe-desk-pricing.png" alt="pricing" width="600">
+  <img src="./assets/chapter-4/landing-wireframe-desk-team.png" alt="team" width="600">
+  <img src="./assets/chapter-4/landing-wireframe-desk-testimonials.png" alt="testimonials" width="600">
+  <img src="./assets/chapter-4/landing-wireframe-desk-cta-footer.png" alt="footer" width="600">
+</div>
+
+
+El diseño de la versión de escritorio está estructurado para guiar al usuario a través de un recorrido narrativo y persuasivo. Cuando se abre en el navegador se abre con un hero section que sigue el patrón de lectura en “F”, integrando una barra de navegación clara y un área principal donde se destaca la propuesta de valor junto con llamadas a la acción, visibles y directas. A medida que el usuario se desplaza en la landing, se presentan las principales características del servicio en una disposición de tres columnas, donde se resaltan sus pilares diferenciales, que son alertas inmediatas, trazabilidad total y gestión centralizada. Luego de esto, la sección de suscripciones escalables utiliza tarjetas comparativas, facilitando la evaluación y elección según el perfil de cada empresa.
+
+Para reforzar la credibilidad, un aspecto clave en soluciones de seguridad, la parte inferior de la página incorpora elementos que dan seguridad al usuario. Entre ellos se incluye una sección dedicada al equipo, que aporta cercanía y transparencia y una cuadrícula de testimonios, que valida la propuesta mediante experiencias de usuarios. Estos elementos contribuyen a generar confianza en potenciales clientes.
+
+Al final la experiencia termina con un último bloque de conversión, donde invita al usuario a registrarse, diseñado para incentivar la acción del usuario. El recorrido se cierra con un footer corporativo bien estructurado, que reúne enlaces legales, soporte, redes sociales y accesos a la aplicación móvil, asegurando que el usuario siempre disponga de una siguiente acción clara dentro de la plataforma.
+
+**Explicación para Mobile**
+<div align="center">
+  <img src="./assets/chapter-4/landing-wireframe-mob-hero-features.png" alt="mob-hero-features" width="350"><br><br>
+  <img src="./assets/chapter-4/landing-wireframe-mob-pricing-team.png" alt="mob-pricing-team" width="350"><br><br>
+  <img src="./assets/chapter-4/landing-wireframe-mob-testimonials-footer.png" alt="mob-testimonials-footer" width="350">
+</div>
+
+En la versión móvil del landing page, la experiencia se replantea para priorizar la lectura vertical y la interacción táctil. Se adopta un diseño apilado que reorganiza los elementos en una secuencia clara, adaptada a pantallas reducidas. La navegación se simplifica mediante un menú de hamburguesa, liberando espacio visual y evitando distracciones. En este contexto, el hero section no solo mantiene la propuesta de valor, sino que la presenta de forma más directa, en donde el mensaje principal aparece primero, seguido del soporte visual y al final, los botones de acción, los cuales ocupan todo el ancho de la pantalla para facilitar su uso con el pulgar.
+
+A medida que el usuario avanza, el contenido se distribuye en bloques independientes que priorizan la claridad y evitan la sobrecarga visual. Las secciones de características, planes y testimonios se presentan de forma progresiva, permitiendo una comprensión gradual sin necesidad de desplazamientos laterales. Del mismo modo, elementos como el equipo se ajustan dinámicamente al ancho del dispositivo. La experiencia se cierra con un footer organizado en formato vertical, donde los enlaces se presentan con suficiente separación para asegurar una navegación precisa, manteniendo la coherencia y usabilidad hasta el final del recorrido.
 
 ### 4.3.2. Landing Page Mock-up
