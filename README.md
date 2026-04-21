@@ -253,13 +253,25 @@ En este sentido, se han definido etiquetas claras y estandarizadas, como “Dash
 Por último, las etiquetas están diseñadas para facilitar una asociación lógica entre los distintos niveles de información. Aquellas que representan módulos principales funcionan como contenedores de contenido más específico.
 
 ### 4.2.3. SEO Tags and Meta Tags
+En esta sección se definen las etiquetas de optimización para motores de búsqueda y los metadatos que se implementarán tanto en el sitio web estático como en la web application. Dado que Locksight es una solución B2B, el objetivo es captar tráfico orgánico de profesionales del sector logístico. Para el landing page, se propone una descripción que resalte la propuesta de valor algo como, “Plataforma inteligente de seguridad para almacenes mediante monitoreo IoT”. De igual manera, se incorporan palabras clave estratégicas como “seguridad logística”, “monitoreo IoT” y “prevención de mermas”, manteniendo a “Locksight Team” como autor.
 
+Por otro lado, en la web application, los metadatos estarán enfocados en facilitar el acceso operativo de los usuarios. Además, se utilizarán palabras clave con el fin de facilitar que los usuarios encuentren rápidamente su portal de acceso, manteniendo la consistencia en la autoría a nivel de todo el proyecto.
 
 ### 4.2.4. Searching Systems
+El sistema de navegación de Locksight ha sido diseñado bajo principios de usabilidad y eficiencia, con el objetivo de que la orientación del usuario sea intuitiva tanto en el landing page como en el dashboard del producto SaaS. La estructura busca reducir la carga cognitiva del administrador, permitiéndole operar el sistema de seguridad de forma ágil, sin depender de manuales extensos.
 
+En el landing page, la navegación se organiza mediante un menú superior fijo que incluye accesos a secciones clave. En el extremo derecho se destacan los botones “Iniciar sesión”, facilitando el acceso directo a acciones de conversión. Este enfoque permite que el usuario mantenga siempre la orientación, incluso al desplazarse por la página, asegurando un recorrido claro hacia el registro o la exploración de la propuesta de valor.
+
+Para la aplicación web, específicamente el dashboard, se adopta un menú en la versión de escritorio, alineado con estándares comunes en plataformas empresariales. Este menú agrupa los módulos principales, como Dashboard, Auditoría, Sensores y Configuración, y se mantiene visible para facilitar la navegación entre secciones. En dispositivos móviles, esta estructura se adapta a un menú tipo hamburguesa o a una barra de navegación inferior, optimizando la interacción y el alcance del usuario.
 
 ### 4.2.5. Navigation Systems
+El sistema de búsqueda de Locksight está diseñado para agilizar el acceso a reportes históricos y la localización de dispositivos específicos, evitando que el administrador tenga que revisar grandes volúmenes de información operativa. De esta manera, se convierte en un elemento clave para optimizar las auditorías de seguridad mediante consultas rápidas y precisas.
 
+En lugar de recurrir a un buscador global con resultados poco organizados, se prioriza un enfoque basado en búsquedas contextuales dentro de cada módulo. Este diseño reduce la dependencia de búsquedas textuales y facilita la exploración eficiente de los datos.
+
+Complementariamente, el sistema incorpora indicadores visuales como íconos con colores semánticos que permiten interpretar el estado general sin necesidad de realizar una búsqueda activa. A través de tarjetas de resumen, el usuario accede rápidamente a información crítica, como sensores activos, puertas abiertas o dispositivos desconectados, favoreciendo una detección inmediata de incidentes.
+
+Para entornos con múltiples sedes logísticas, se añade un buscador rápido en el menú superior que permite acceder directamente a distintas “Sucursales”. Esto evita navegar por estructuras jerárquicas extensas y mejora el tiempo de respuesta, especialmente en situaciones donde se requiere actuar con rapidez tras la recepción de una alerta.
 
 ## 4.3. Landing Page UI Design
 
