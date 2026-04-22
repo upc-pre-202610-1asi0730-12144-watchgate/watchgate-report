@@ -423,3 +423,16 @@ A partir de las 4 entrevistas realizadas a jefes de seguridad y supervisores de 
 | Responder rápidamente ante alertas de seguridad | Sometimes | High |
 
 ### 2.3.3 User Journey Mapping
+> Segmento 1
+<img width="1053" height="949" alt="Customer Journey by XO Projects (2)" src="https://github.com/user-attachments/assets/20e6d520-f0ca-443d-b73d-550d09ab947c" />
+
+
+> Segmento 2
+<img width="1049" height="952" alt="Customer Journey by XO Projects (4)" src="https://github.com/user-attachments/assets/fd7a9003-c573-41ce-8a39-a776b6b69823" />
+
+### 2.3.4. Empathy Mapping
+> Segmento 1
+<img width="1024" height="768" alt="Copia de Brainstorming Mapa de Empatia Usuario Simple Blanco Y Negro (2)" src="https://github.com/user-attachments/assets/81968604-632d-42a7-8acc-da0d898de92c" />
+
+> Segmento 2
+<img width="1024" height="768" alt="Copia de Brainstorming Mapa de Empatia Usuario Simple Blanco Y Negro (3)" src="https://github.com/user-attachments/assets/39001a97-eb6d-4024-9288-702c280d79e5" />
