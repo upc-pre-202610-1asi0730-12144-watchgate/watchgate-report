@@ -279,127 +279,33 @@ A continuación, se presentan las preguntas dirigidas al segmento de jefes de se
 ### 2.2.1. Registro de entrevistas
 **Primer segmento: Dueños y Administradores de PYMES**
 
-<table width="100%">
-  <thead>
-    <tr>
-      <th colspan="2" align="center">
-        <h2>Entrevista #1</h2>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th colspan="2" align="left">Datos del entrevistado</th>
-    </tr>
-    <tr>
-      <td width="30%"><b>Nombre completo</b></td>
-      <td>Carlos Marcelo Mansilla Rivero</td>
-    </tr>
-    <tr>
-      <td><b>Edad</b></td>
-      <td>23 años</td>
-    </tr>
-    <tr>
-      <td><b>Ocupación</b></td>
-      <td>Dueño/Administrador de distribuidora mayorista</td>
-    </tr>
-    <tr>
-      <td><b>Distrito de residencia</b></td>
-      <td>Surquillo</td>
-    </tr>
-    <tr>
-      <th colspan="2" align="left">Datos del video</th>
-    </tr>
-    <tr>
-      <td><b>Link</b></td>
-      <td><a href="(link)" target="_blank">(link)</a></td>
-    </tr>
-    <tr>
-      <td><b>Duración</b></td>
-      <td>6:14</td>
-    </tr>
-    <tr>
-      <td><b>Timing de inicio</b></td>
-      <td>0:00</td>
-    </tr>
-    <tr>
-      <th colspan="2" align="center">Screenshot</th>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="./assets/screenshot-interview-marcelo-mansilla.png" alt="Screenshot Entrevista 1" width="400">
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div align="center">
 
-**Resumen de la entrevista**
+## Segmento 2: Dueños y Administradores de PYMES
 
-Carlos Mansilla Rivero de 23 años, administra una distribuidora mayorista de abarrotes y productos de limpieza. Cuenta con un equipo de ocho personas, entre vendedores, un jefe de almacén, estibadores y un vigilante. En su gestión diaria utiliza principalmente su celular, apoyándose en herramientas como WhatsApp Business, banca móvil y Excel en la nube para el control de inventarios. Actualmente, el control de accesos se realiza mediante un cuaderno físico administrado por el vigilante, complementado con tres cámaras de seguridad.
+<div align="center">
 
-Su principal problema operativo es la merma y el “robo hormiga” es decir, pequeñas pérdidas de mercadería que generan descuadres al cierre de mes. Dado que la mercadería representa capital inmovilizado, cualquier pérdida impacta directamente en su rentabilidad. Frente a ello, considera necesario contar con monitoreo en tiempo real para no depender únicamente de los reportes del vigilante y reducir el riesgo de posibles complicidades internas. De igual manera, valora recibir alertas en su celular ante eventos críticos, como aperturas fuera de horario, movimientos en zonas de alto valor o fallas del sistema.
+| Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
+|--------------|------------------------|--------------------------|--------------------------|
+| 1 | **Nombre:** Carlos Marcelo Mansilla Rivero <br> **Edad:** 23 <br> **Distrito:** Surquillo <br> **Ocupación:** Dueño/Administrador de distribuidora mayorista <br> **Link:** colocar link | El entrevistado administra una distribuidora mayorista y utiliza herramientas digitales para su gestión diaria; su principal problema es la merma y el “robo hormiga”, lo que afecta la rentabilidad del negocio; considera que el control actual es insuficiente, por lo que valora el monitoreo en tiempo real y alertas ante eventos críticos; busca una solución intuitiva, confiable y accesible desde el celular que le brinde mayor control y tranquilidad. | <p align="center"><img src="./assets/screenshot-interview-marcelo-mansilla.png" width="300"></p> |
+| 2 | **Nombre:** — <br> **Edad:** — <br> **Distrito:** — <br> **Ocupación:** — <br> **Link:** — | Pendiente de entrevista | — |
+| 3 | **Nombre:** — <br> **Edad:** — <br> **Distrito:** — <br> **Ocupación:** — <br> **Link:** — | Pendiente de entrevista | — |
+| 4 | **Nombre:** — <br> **Edad:** — <br> **Distrito:** — <br> **Ocupación:** — <br> **Link:** — | Pendiente de entrevista | — |
 
-Para adoptar una solución tecnológica, Carlos prioriza que sea intuitiva, con una interfaz clara, botones grandes y uso de colores diferenciados. También enfatiza la importancia de la confiabilidad, ya que las falsas alarmas podrían generar desuso de la aplicación. Por último, señala que poder monitorear su negocio desde el celular le brindaría mayor tranquilidad, especialmente los fines de semana y estaría dispuesto a usar una solución como Locksight siempre que el costo sea razonable y menor al de contratar personal adicional o asumir pérdidas por robos.
+</div>
+
+</div>
 
 
 **Segundo segmento: Jefes de Seguridad y Operaciones**
 
-<table width="100%">
-  <thead>
-    <tr>
-      <th colspan="2" align="center"><h2>Entrevista #2</h2></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th colspan="2" align="left">Datos del entrevistado</th>
-    </tr>
-    <tr>
-      <td width="30%"><b>Nombre completo</b></td>
-      <td>Joao Jiménez</td>
-    </tr>
-    <tr>
-      <td><b>Edad</b></td>
-      <td>26 años</td>
-    </tr>
-    <tr>
-      <td><b>Ocupación</b></td>
-      <td>Encargado del servicio de seguridad y planificación</td>
-    </tr>
-    <tr>
-      <td><b>Distrito de residencia</b></td>
-      <td>San Juan de Lurigancho</td>
-    </tr>
-    <tr>
-      <th colspan="2" align="left">Datos del video</th>
-    </tr>
-    <tr>
-      <td><b>Link</b></td>
-      <td><a href="(link)" target="_blank">(link)</a></td>
-    </tr>
-    <tr>
-      <td><b>Duración</b></td>
-      <td>7:05</td>
-    </tr>
-    <tr>
-      <td><b>Timing de inicio</b></td>
-      <td>0:00</td>
-    </tr>
-    <tr>
-      <th colspan="2" align="center">Screenshot</th>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="./assets/screenshot-interview-joao-jimenez.png" alt="Screenshot Entrevista 2" width="400">
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div align="center">
 
-**Resumen de la entrevista**
+| Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
+|--------------|------------------------|--------------------------|--------------------------|
+| 1 | **Nombre:** Joao Jiménez <br> **Edad:** 26 <br> **Distrito:** San Juan de Lurigancho <br> **Ocupación:** Encargado de seguridad y planificación <br> **Link:** colocar link | El entrevistado trabaja en seguridad supervisando almacenes y utilizando métodos tradicionales como guardias, registros manuales y cámaras; enfrenta problemas como accesos fuera de horario y pérdidas difíciles de rastrear, además de la ineficiencia al revisar grabaciones; por ello, valora el monitoreo en tiempo real, alertas precisas y un historial de accesos, buscando una solución confiable que optimice el control y mejore la toma de decisiones. | <p align="center"><img src="./assets/screenshot-interview-joao-jimenez.png" width="300"></p> |
+| 2 | **Nombre:** — <br> **Edad:** — <br> **Distrito:** — <br> **Ocupación:** — <br> **Link:** — | Pendiente de entrevista | — |
+| 3 | **Nombre:** — <br> **Edad:** — <br> **Distrito:** — <br> **Ocupación:** — <br> **Link:** — | Pendiente de entrevista | — |
+| 4 | **Nombre:** — <br> **Edad:** — <br> **Distrito:** — <br> **Ocupación:** — <br> **Link:** — | Pendiente de entrevista | — |
 
-Joao trabaja en el área de seguridad de la empresa de telecomunicaciones Claro, donde se encarga de planificar estrategias y supervisar la operación de dos almacenes ubicados en zonas de alta afluencia, como el centro de Lima. Su rutina laboral combina trabajo de oficina, combinando dos a tres días por semana con labores de campo. En este momento, el sistema de seguridad que utiliza se basa en métodos convencionales, como guardias en puntos de acceso, registros manuales y cámaras de vigilancia.
-
-En este contexto, ha identificado problemas recurrentes como accesos fuera del horario establecido y pequeñas pérdidas de productos de alto valor que resultan difíciles de justificar. Uno de los principales desafíos es la ineficiencia en el uso de las cámaras, ya que ante un incidente debe invertir una cantidad considerable de tiempo revisando grabaciones para identificar lo ocurrido. Esta situación limita la capacidad de respuesta inmediata y dificulta la toma de decisiones oportunas.
-
-Para mejorar su gestión, Joao considera fundamental contar con monitoreo remoto y acceso a información en tiempo real. Valora especialmente un sistema que genere alertas precisas sin falsas alarmas ante eventos como accesos fuera de horario, puertas abiertas por periodos prolongados o movimientos en zonas restringidas. De igual manera, destaca la importancia de disponer de un historial de accesos para auditorías e investigaciones. En este sentido, percibe a Locksight como una solución eficiente que podría integrarse a su sistema actual, optimizando el control y brindándole mayor visibilidad sobre lo que ocurre en todo momento.
+</div>
