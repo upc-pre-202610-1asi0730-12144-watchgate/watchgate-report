@@ -253,25 +253,92 @@ En este sentido, se han definido etiquetas claras y estandarizadas, como “Dash
 Por último, las etiquetas están diseñadas para facilitar una asociación lógica entre los distintos niveles de información. Aquellas que representan módulos principales funcionan como contenedores de contenido más específico.
 
 ### 4.2.3. SEO Tags and Meta Tags
-En esta sección se definen las etiquetas de optimización para motores de búsqueda y los metadatos que se implementarán tanto en el sitio web estático como en la web application. Dado que Locksight es una solución B2B, el objetivo es captar tráfico orgánico de profesionales del sector logístico. Para el landing page, se propone una descripción que resalte la propuesta de valor algo como, “Plataforma inteligente de seguridad para almacenes mediante monitoreo IoT”. De igual manera, se incorporan palabras clave estratégicas como “seguridad logística”, “monitoreo IoT” y “prevención de mermas”, manteniendo a “Locksight Team” como autor.
 
-Por otro lado, en la web application, los metadatos estarán enfocados en facilitar el acceso operativo de los usuarios. Además, se utilizarán palabras clave con el fin de facilitar que los usuarios encuentren rápidamente su portal de acceso, manteniendo la consistencia en la autoría a nivel de todo el proyecto.
+En esta sección se definen los SEO Tags y Meta Tags que serán implementados en las principales páginas de la experiencia de LockSight, tanto en la Landing Page como en la Web Application. Estos elementos permiten mejorar el posicionamiento del producto en motores de búsqueda y facilitar su descubrimiento por parte de profesionales del sector logístico y de seguridad.
+
+**Landing Page:**
+
+| Elemento | Valor |
+|----------|------|
+| Title | LockSight | Seguridad Inteligente para Almacenes con IoT en Tiempo Real |
+| Meta Description | Plataforma inteligente de seguridad para almacenes que permite monitorear accesos, detectar anomalías y prevenir pérdidas mediante sensores IoT y alertas en tiempo real. |
+| Meta Keywords | seguridad logística, monitoreo de almacenes, IoT almacenes, control de accesos, prevención de robos internos, trazabilidad logística, seguridad empresarial |
+| Author | Equipo LockSight - UPC Ingeniería de Software |
+
+**Web Application**
+
+| Elemento | Valor |
+|----------|------|
+| Title | Dashboard de Seguridad | LockSight |
+| Meta Description | Sistema de monitoreo de almacenes que permite gestionar sensores, visualizar eventos, auditar accesos y detectar incidentes en tiempo real. |
+| Meta Keywords | dashboard seguridad, monitoreo IoT, sensores inteligentes, auditoría de accesos, control de almacenes, alertas en tiempo real |
+| Author | Equipo LockSight - UPC Ingeniería de Software |
 
 ### 4.2.4. Searching Systems
-El sistema de navegación de Locksight ha sido diseñado bajo principios de usabilidad y eficiencia, con el objetivo de que la orientación del usuario sea intuitiva tanto en el landing page como en el dashboard del producto SaaS. La estructura busca reducir la carga cognitiva del administrador, permitiéndole operar el sistema de seguridad de forma ágil, sin depender de manuales extensos.
 
-En el landing page, la navegación se organiza mediante un menú superior fijo que incluye accesos a secciones clave. En el extremo derecho se destacan los botones “Iniciar sesión”, facilitando el acceso directo a acciones de conversión. Este enfoque permite que el usuario mantenga siempre la orientación, incluso al desplazarse por la página, asegurando un recorrido claro hacia el registro o la exploración de la propuesta de valor.
+En esta sección se describen los mecanismos de búsqueda que ofrece LockSight para ayudar al usuario a encontrar información dentro del sistema, evitando que se sienta perdido frente al volumen de datos generados por sensores y eventos.
 
-Para la aplicación web, específicamente el dashboard, se adopta un menú en la versión de escritorio, alineado con estándares comunes en plataformas empresariales. Este menú agrupa los módulos principales, como Dashboard, Auditoría, Sensores y Configuración, ya se mantiene visible para facilitar la navegación entre secciones. En dispositivos móviles, esta estructura se adapta a un menú tipo hamburguesa o a una barra de navegación inferior, optimizando la interacción y el alcance del usuario.
+El sistema permite realizar búsquedas dentro de los principales módulos del producto, facilitando la localización de información relevante de manera rápida y precisa.
+
+**Opciones de búsqueda**
+
+- Búsqueda de sensores por nombre o tipo.
+- Búsqueda de eventos registrados (alertas, accesos, anomalías).
+- Búsqueda de registros de auditoría.
+- Búsqueda por sucursal o zona del almacén.
+
+**Filtros de búsqueda**
+
+| Filtro | Descripción |
+|--------|------------|
+| Fecha | Permite delimitar la búsqueda en un rango de tiempo específico |
+| Tipo de evento | Permite filtrar por alertas, accesos o incidentes |
+| Estado del sensor | Permite identificar sensores activos, inactivos o con fallas |
+| Ubicación | Permite filtrar por zonas o sucursales |
+
+**Presentación de resultados**
+
+- Los resultados se muestran en listas organizadas por fecha o relevancia.
+- Cada resultado incluye información como tipo de evento, ubicación y hora.
+- Se utilizan indicadores visuales para diferenciar estados (alerta, normal, fallo).
+- Los resultados se visualizan dentro del contexto del módulo donde se realiza la búsqueda.
+
+**Características del sistema**
+
+- Permite búsquedas rápidas dentro de cada módulo.
+- Reduce la sobrecarga de información mediante filtros específicos.
+- Presenta resultados claros y fáciles de interpretar.
+- Facilita la identificación de eventos críticos en el sistema.
 
 ### 4.2.5. Navigation Systems
-El sistema de búsqueda de Locksight está diseñado para agilizar el acceso a reportes históricos y la localización de dispositivos específicos, evitando que el administrador tenga que revisar grandes volúmenes de información operativa. De esta manera, se convierte en un elemento clave para optimizar las auditorías de seguridad mediante consultas rápidas y precisas.
 
-En lugar de recurrir a un buscador global con resultados poco organizados, se prioriza un enfoque basado en búsquedas contextuales dentro de cada módulo. Este diseño reduce la dependencia de búsquedas textuales y facilita la exploración eficiente de los datos.
+En esta sección se describen las acciones y técnicas de navegación que permiten guiar a los usuarios a través del Landing Page y la Web Application de LockSight, facilitando el cumplimiento de sus objetivos dentro del sistema.
 
-Complementariamente, el sistema incorpora indicadores visuales como íconos con colores semánticos que permiten interpretar el estado general sin necesidad de realizar una búsqueda activa. A través de tarjetas de resumen, el usuario accede rápidamente a información crítica, como sensores activos, puertas abiertas o dispositivos desconectados, favoreciendo una detección inmediata de incidentes.
+El sistema de navegación está diseñado para que el usuario pueda recorrer el contenido de manera clara, desde el acceso inicial hasta la interacción con los distintos módulos del producto.
 
-Para entornos con múltiples sedes logísticas, se añade un buscador rápido en el menú superior que permite acceder directamente a distintas “Sucursales”. Esto evita navegar por estructuras jerárquicas extensas y mejora el tiempo de respuesta, especialmente en situaciones donde se requiere actuar con rapidez tras la recepción de una alerta.
+**Tipos de navegación**
+
+| Tipo | Descripción |
+|------|------------|
+| Navegación global | Menú principal que permite acceder a secciones clave como Solución, Planes, Contacto y acceso al sistema |
+| Navegación jerárquica | Organización por niveles que permite pasar de vistas generales a específicas (Dashboard → Sucursal → Zona → Evento) |
+| Navegación local | Opciones dentro de cada módulo como Sensores, Auditoría, Usuarios y Configuración |
+| Navegación contextual | Acciones disponibles según la sección, como visualizar detalles o revisar eventos |
+
+**Recorrido del usuario**
+
+- En la Landing Page:
+  - Inicio → Información de la solución → Beneficios → Planes → Registro/Login
+
+- En la Web Application:
+  - Dashboard → Selección de sucursal → Visualización de sensores y eventos → Revisión de alertas o auditoría
+
+**Características**
+
+- Permite una navegación clara y estructurada.
+- Facilita el acceso rápido a los módulos principales.
+- Reduce la cantidad de pasos para acceder a información crítica.
+- Se adapta a diferentes dispositivos (desktop y mobile).
 
 ## 4.3. Landing Page UI Design
 En esta sección se presenta la propuesta de diseño de interfaz de usuario para el landing page de Locksight desde la versión desktop como la mobile. El objetivo es materializar las decisiones de arquitectura de la información y los lineamientos visuales en una experiencia digital clara y estructurada.
