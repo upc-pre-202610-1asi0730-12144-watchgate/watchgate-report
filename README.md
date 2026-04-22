@@ -436,3 +436,10 @@ A partir de las 4 entrevistas realizadas a jefes de seguridad y supervisores de 
 
 > Segmento 2
 <img width="1024" height="768" alt="Copia de Brainstorming Mapa de Empatia Usuario Simple Blanco Y Negro (3)" src="https://github.com/user-attachments/assets/39001a97-eb6d-4024-9288-702c280d79e5" />
+
+### 2.3.5 As-Is Scenario Mapping
+> Segmento 1
+<img width="1502" height="665" alt="Scenario Mapping (5)" src="https://github.com/user-attachments/assets/071295b7-1609-4b01-a3b8-16b0f345481c" />
+
+> Segmento 2
+<img width="1505" height="664" alt="Scenario Mapping (6)" src="https://github.com/user-attachments/assets/c0e3ba65-d469-49e3-959c-32253772f2ab" />
