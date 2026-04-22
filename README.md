@@ -1,5 +1,3 @@
-<img width="1920" height="1080" alt="Black and White Simple User Persona Brainstorm (1)" src="https://github.com/user-attachments/assets/ee535dd6-c9b3-41e5-9de0-a6c334fe6b59" /><!-- Carátula -->
-
 <div align="center">
     <img src="./logo-upc.png">
 </div>
