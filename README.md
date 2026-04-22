@@ -32,7 +32,7 @@
 | U201819276  | Bardales Tejada, Luis Alexis        |
 | U202416276  | Higa Kohatsue, Alonso Enrique       |
 | U202412903  | Lozano Quispe, Fabricio Jofred      |
-| U202418645  | Sandoval Aiquipa, Kelver Yamir      |
+| U202418645  | Sandoval Aiquipa, Kelber Yamir      |
 | U202414356  | Vite Celis, Rodrigo Matias          |
 
 <div style="font-weight: bold;"> Abril, 2026</div>
@@ -309,3 +309,26 @@ A continuación, se presentan las preguntas dirigidas al segmento de jefes de se
 | 4 | **Nombre:** — <br> **Edad:** — <br> **Distrito:** — <br> **Ocupación:** — <br> **Link:** — | Pendiente de entrevista | — |
 
 </div>
+## 1.2. Solution Profile
+
+## 1.2.1. Antecdentes y problematica
+Antecedentes
+En los últimos años, el sector logístico y de almacenamiento ha experimentado un crecimiento acelerado, impulsado en gran medida por el auge del comercio electrónico y la necesidad de optimizar las cadenas de suministro. Sin embargo, a pesar de la modernización en la gestión de inventarios, los sistemas de seguridad física en los almacenes han avanzado a un ritmo mucho menor.
+
+En el contexto local y nacional, particularmente en las zonas industriales de Lima y provincias, la seguridad de los almacenes sigue dependiendo en gran medida de métodos tradicionales y reactivos. Las empresas suelen apoyarse en el uso de candados físicos, registros manuales de entrada y salida en cuadernos de control, y sistemas de videovigilancia (CCTV) cerrados. Estos métodos presentan una limitación crítica: son sistemas aislados que requieren supervisión humana constante y, por lo general, solo sirven para revisar incidentes una vez que ya han ocurrido, sin ofrecer capacidad de prevención o alerta temprana.
+
+Si bien existen soluciones corporativas de control de acceso electrónico, estas suelen ser infraestructuras monolíticas, costosas y difíciles de implementar para pequeñas y medianas empresas. Además, carecen de la flexibilidad necesaria para integrarse en un modelo de monitoreo centralizado en la nube que permita gestionar múltiples sedes desde una única plataforma.
+
+Problemática
+El problema central que aborda watchgate con su producto locksight es la alta vulnerabilidad de los almacenes ante accesos no autorizados, robos internos y la falta de visibilidad en tiempo real sobre los eventos de seguridad físicos, lo cual genera pérdidas económicas significativas y deficiencias operativas.
+
+Esta problemática principal se desglosa en los siguientes puntos críticos que afectan tanto a pequeños negocios como a grandes corporaciones:
+Ausencia de alertas en tiempo real: Los sistemas actuales no notifican a los administradores cuando ocurre un evento inusual (por ejemplo, la apertura de una puerta fuera del horario laboral o movimiento en zonas restringidas). Esto retrasa el tiempo de respuesta ante intrusiones o actividades sospechosas.
+
+Gestión deficiente y descentralizada de accesos: Las empresas con múltiples zonas de almacenamiento o diferentes sedes enfrentan dificultades para controlar quién tiene acceso a qué áreas. La falta de un registro digital automatizado impide tener una trazabilidad exacta (cuándo, dónde y por cuánto tiempo se accedió a un espacio).
+
+Altos costos de implementación tecnológica: Las soluciones de seguridad perimetral e interna tradicionales requieren instalaciones complejas y servidores locales. Esto crea una barrera de entrada para empresas emergentes que necesitan seguridad de alto nivel pero no pueden asumir el costo de arquitecturas de red cerradas.
+
+Toma de decisiones basada en intuición en lugar de datos: Al no contar con un dashboard que centralice e interprete el flujo de actividad física del almacén, los gerentes de operaciones no pueden identificar patrones de riesgo, auditar incidentes de manera eficiente, ni optimizar los protocolos de seguridad.
+
+Frente a esta situación, existe una brecha tecnológica evidente: la necesidad de un sistema puente que logre comunicar el entorno físico (mediante sensores IoT y microcontroladores) con el entorno digital (aplicación web), emitiendo información procesable y escalable mediante un modelo de suscripción (SaaS).
