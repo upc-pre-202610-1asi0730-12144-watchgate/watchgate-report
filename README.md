@@ -174,3 +174,113 @@ En un entorno empresarial donde la seguridad de los almacenes y el control de ac
 
 **Visión:** Nuestra visión es posicionarnos como una plataforma líder en seguridad inteligente para entornos empresariales, elevando el estándar de control y protección en almacenes mediante el uso de IoT y análisis de datos. Aspiramos a que cada instalación conectada opere como un sistema autónomo capaz de anticipar riesgos, detectar comportamientos inusuales y activar mecanismos de alerta en tiempo real, permitiendo a las empresas mantener el control total desde cualquier lugar. Con nuestra solución buscamos construir un ecosistema seguro, eficiente y escalable que no solo reduzca pérdidas, sino que también transforme la manera en que las organizaciones gestionan su seguridad y operación diaria.
 
+# Capitulo III: Requirements Specification
+## 3.1 User Stories
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|----------------|--------|-------------|--------------------------|----------------------------|
+| US01 | Visualizar almacenes registrados | Como dueño de PYME, quiero visualizar mis almacenes registrados para tener control general de mis operaciones. | Given el usuario tiene almacenes registrados, When accede al sistema, Then el sistema muestra la lista de almacenes asociados.<br>Given no tiene almacenes, When accede, Then el sistema muestra un estado vacío. | EP01 |
+| US02 | Ver estado de un almacén | Como dueño de PYME, quiero consultar el estado de un almacén para conocer su situación actual. | Given existe un almacén, When el usuario lo selecciona, Then el sistema muestra su estado actual.<br>Given el almacén tiene eventos recientes, When se consulta, Then se muestran dichos eventos. | EP01 |
+| US03 | Monitorear actividad en tiempo real | Como jefe de seguridad, quiero monitorear la actividad en tiempo real para detectar incidentes rápidamente. | Given existen eventos en el almacén, When ocurren, Then el sistema los actualiza en tiempo real.<br>Given múltiples eventos, When se generan, Then se visualizan sin retraso significativo. | EP01 |
+| US04 | Registrar un nuevo almacén | Como dueño de PYME, quiero registrar un nuevo almacén para gestionarlo dentro del sistema. | Given el usuario ingresa datos válidos, When registra un almacén, Then el sistema lo guarda correctamente.<br>Given datos incompletos, When intenta registrar, Then el sistema rechaza la operación. | EP02 |
+| US05 | Configurar horarios de acceso | Como jefe de seguridad, quiero definir horarios de acceso para controlar entradas y salidas. | Given el usuario define un horario, When lo guarda, Then el sistema lo aplica al almacén.<br>Given un acceso fuera de horario, When ocurre, Then se registra como evento. | EP02 |
+| US06 | Recibir alertas de acceso fuera de horario | Como jefe de seguridad, quiero recibir alertas cuando haya accesos fuera de horario para reaccionar rápidamente. | Given ocurre un acceso fuera de horario, When el evento es detectado, Then el sistema genera una alerta.<br>Given una alerta generada, When se envía, Then llega al usuario correctamente. | EP03 |
+| US07 | Recibir alertas de movimiento sospechoso | Como dueño de PYME, quiero recibir alertas de movimientos sospechosos para prevenir robos. | Given se detecta un movimiento inusual, When el sistema lo identifica, Then genera una alerta.<br>Given la alerta es válida, When se envía, Then el usuario la recibe. | EP03 |
+| US08 | Registrar eventos de seguridad | Como jefe de seguridad, quiero registrar eventos de seguridad para mantener control histórico. | Given ocurre un evento, When es detectado, Then el sistema lo almacena.<br>Given eventos registrados, When se consultan, Then se muestran correctamente. | EP04 |
+| TS09 | Registrar evento mediante API | Como developer, quiero registrar eventos de seguridad mediante API para integrarlos al sistema. | Given una solicitud válida, When se envía al endpoint, Then el sistema registra el evento.<br>Given datos inválidos, When se envía la solicitud, Then el sistema retorna error. | EP05 |
+| US10 | Visualizar historial de eventos | Como jefe de seguridad, quiero visualizar el historial de eventos para analizar incidentes pasados. | Given existen eventos registrados, When el usuario consulta el historial, Then el sistema muestra la lista completa.<br>Given no existen eventos, When se consulta, Then se muestra un estado vacío. | EP04 |
+| US11 | Filtrar eventos por tipo | Como jefe de seguridad, quiero filtrar eventos por tipo para facilitar el análisis. | Given existen múltiples tipos de eventos, When el usuario aplica un filtro, Then el sistema muestra solo los eventos correspondientes.<br>Given un filtro aplicado, When se elimina, Then se muestran todos los eventos. | EP04 |
+| US12 | Filtrar eventos por fecha | Como jefe de seguridad, quiero filtrar eventos por fecha para revisar periodos específicos. | Given el usuario selecciona un rango de fechas, When aplica el filtro, Then el sistema muestra eventos dentro del rango.<br>Given fechas inválidas, When se aplican, Then el sistema no procesa la consulta. | EP04 |
+| US13 | Gestionar múltiples almacenes | Como jefe de seguridad, quiero gestionar múltiples almacenes para tener control centralizado. | Given el usuario tiene varios almacenes, When accede al sistema, Then puede visualizar y seleccionar cualquiera.<br>Given cambia de almacén, When lo selecciona, Then el sistema actualiza la información mostrada. | EP02 |
+| US14 | Recibir alertas de puertas abiertas | Como dueño de PYME, quiero recibir alertas cuando una puerta quede abierta para evitar riesgos. | Given una puerta permanece abierta, When se supera el tiempo permitido, Then el sistema genera una alerta.<br>Given la alerta generada, When se envía, Then el usuario la recibe. | EP03 |
+| US15 | Consultar detalle de un evento | Como jefe de seguridad, quiero ver el detalle de un evento para entender lo ocurrido. | Given existe un evento, When el usuario lo selecciona, Then el sistema muestra su información detallada.<br>Given el evento no existe, When se consulta, Then el sistema retorna error. | EP04 |
+| US16 | Recibir notificaciones en tiempo real | Como jefe de seguridad, quiero recibir notificaciones en tiempo real para actuar inmediatamente. | Given ocurre un evento crítico, When es detectado, Then el sistema envía una notificación inmediata.<br>Given múltiples eventos, When ocurren, Then se notifican sin retraso significativo. | EP03 |
+| US17 | Acceder al sistema desde dispositivo móvil | Como dueño de PYME, quiero acceder al sistema desde mi celular para monitorear mi negocio en cualquier momento. | Given el usuario accede desde un dispositivo móvil, When ingresa al sistema, Then la interfaz se adapta correctamente.<br>Given interacción en móvil, When navega, Then las funcionalidades se mantienen operativas. | EP01 |
+| TS18 | Obtener eventos mediante API | Como developer, quiero obtener eventos mediante API para integrarlos en el sistema. | Given una solicitud válida, When se consulta el endpoint, Then el sistema retorna los eventos.<br>Given la solicitud es inválida, When se envía, Then el sistema retorna error. | EP05 |
+| US19 | Acceder al sistema | Como dueño de PYME, quiero acceder al sistema para gestionar mis almacenes. | Given el usuario tiene credenciales válidas, When intenta acceder, Then el sistema permite el ingreso.<br>Given credenciales inválidas, When intenta acceder, Then el sistema rechaza el acceso. | EP02 |
+| US20 | Cerrar sesión | Como jefe de seguridad, quiero cerrar sesión para proteger el acceso al sistema. | Given el usuario tiene sesión activa, When cierra sesión, Then el sistema finaliza la sesión.<br>Given sesión cerrada, When intenta acceder a recursos, Then el sistema requiere autenticación. | EP02 |
+| US21 | Visualizar landing page | Como dueño de PYME (visitante), quiero visualizar la landing page para conocer el producto. | Given el usuario accede al sitio, When carga la página, Then el sistema muestra la información del producto.<br>Given contenido disponible, When se visualiza, Then se presenta correctamente. | EP06 |
+| US22 | Visualizar video del producto | Como jefe de seguridad (visitante), quiero ver el video del producto para entender su funcionamiento. | Given el video está disponible, When el usuario lo reproduce, Then el sistema lo muestra correctamente.<br>Given el video no carga, When se intenta reproducir, Then el sistema muestra un error. | EP06 |
+| US23 | Visualizar información del equipo | Como dueño de PYME (visitante), quiero ver información del equipo para generar confianza en el producto. | Given existe información del equipo, When el usuario accede a la sección, Then el sistema la muestra.<br>Given no hay contenido, When se accede, Then se muestra estado vacío. | EP06 |
+| US24 | Contactar desde la landing page | Como jefe de seguridad (visitante), quiero contactar al equipo para resolver dudas. | Given el usuario completa los datos requeridos, When envía el formulario, Then el sistema registra la solicitud.<br>Given datos inválidos, When intenta enviar, Then el sistema rechaza la solicitud. | EP06 |
+| US25 | Registrar usuario | Como dueño de PYME, quiero registrarme en el sistema para usar la plataforma. | Given el usuario ingresa datos válidos, When se registra, Then el sistema crea la cuenta.<br>Given datos inválidos, When intenta registrarse, Then el sistema rechaza el registro. | EP02 |
+| US26 | Asociar usuario a almacén | Como jefe de seguridad, quiero asociarme a un almacén para gestionarlo. | Given el usuario tiene permisos, When se asocia a un almacén, Then el sistema registra la relación.<br>Given no tiene permisos, When intenta asociarse, Then el sistema rechaza la acción. | EP02 |
+| TS27 | Autenticación de usuario mediante API | Como developer, quiero autenticar usuarios mediante API para controlar el acceso al sistema. | Given credenciales válidas, When se envía la solicitud, Then el sistema retorna autenticación exitosa.<br>Given credenciales inválidas, When se envía, Then el sistema retorna error. | EP05 |
+| US28 | Visualizar dashboard consolidado | Como jefe de seguridad, quiero visualizar un dashboard consolidado para tener una visión general de todos los almacenes. | Given existen múltiples almacenes, When el usuario accede al dashboard, Then el sistema muestra información consolidada.<br>Given no hay datos, When accede, Then se muestra estado vacío. | EP01 |
+| US29 | Priorizar alertas críticas | Como jefe de seguridad, quiero priorizar alertas críticas para atender primero los incidentes más importantes. | Given existen múltiples alertas, When se generan, Then el sistema identifica las críticas.<br>Given alertas críticas, When se visualizan, Then se muestran con prioridad. | EP03 |
+| US30 | Marcar alertas como atendidas | Como jefe de seguridad, quiero marcar alertas como atendidas para llevar control de incidentes gestionados. | Given una alerta existe, When el usuario la marca como atendida, Then el sistema actualiza su estado.<br>Given alerta actualizada, When se consulta, Then refleja el nuevo estado. | EP03 |
+| US31 | Generar reportes de seguridad | Como jefe de seguridad, quiero generar reportes para analizar el comportamiento de los almacenes. | Given existen datos registrados, When el usuario genera un reporte, Then el sistema produce el reporte.<br>Given no hay datos, When genera el reporte, Then el sistema indica ausencia de información. | EP04 |
+| US32 | Acceder desde diferentes ubicaciones | Como jefe de seguridad, quiero acceder al sistema desde cualquier lugar para mantener el control operativo. | Given el usuario tiene conexión, When accede al sistema, Then puede ingresar desde cualquier ubicación.<br>Given acceso remoto, When navega, Then mantiene funcionalidades completas. | EP01 |
+| US33 | Gestionar permisos de acceso | Como dueño de PYME, quiero gestionar permisos de acceso para controlar quién puede ver mis almacenes. | Given el usuario asigna permisos, When guarda los cambios, Then el sistema los aplica.<br>Given permisos insuficientes, When un usuario accede, Then el sistema restringe el acceso. | EP02 |
+| US34 | Integrar servicio externo de notificaciones | Como jefe de seguridad, quiero integrar un servicio externo para recibir notificaciones confiables. | Given el servicio externo está disponible, When ocurre un evento, Then el sistema envía la notificación.<br>Given falla del servicio, When se intenta enviar, Then el sistema maneja el error. | EP05 |
+| TS35 | Manejo de errores en API | Como developer, quiero manejar errores en la API para asegurar la estabilidad del sistema. | Given ocurre un error, When se procesa la solicitud, Then el sistema retorna un mensaje de error controlado.<br>Given error inesperado, When ocurre, Then el sistema registra el incidente. | EP05 |
+
+## Relación de Epics y User Stories – Locksight
+
+### Epic 01: Monitoreo y visualización de almacenes
+| Story ID | Título |
+|----------|--------|
+| US01 | Visualizar almacenes registrados |
+| US02 | Ver estado de un almacén |
+| US03 | Monitorear actividad en tiempo real |
+| US17 | Acceder al sistema desde dispositivo móvil |
+| US28 | Visualizar dashboard consolidado |
+| US32 | Acceder desde diferentes ubicaciones |
+
+---
+
+### Epic 02: Gestión de usuarios y almacenes
+| Story ID | Título |
+|----------|--------|
+| US04 | Registrar un nuevo almacén |
+| US05 | Configurar horarios de acceso |
+| US13 | Gestionar múltiples almacenes |
+| US19 | Acceder al sistema |
+| US20 | Cerrar sesión |
+| US25 | Registrar usuario |
+| US26 | Asociar usuario a almacén |
+| US33 | Gestionar permisos de acceso |
+
+---
+
+### Epic 03: Alertas y seguridad activa
+| Story ID | Título |
+|----------|--------|
+| US06 | Recibir alertas de acceso fuera de horario |
+| US07 | Recibir alertas de movimiento sospechoso |
+| US14 | Recibir alertas de puertas abiertas |
+| US16 | Recibir notificaciones en tiempo real |
+| US29 | Priorizar alertas críticas |
+| US30 | Marcar alertas como atendidas |
+
+---
+
+### Epic 04: Historial, auditoría y reportes
+| Story ID | Título |
+|----------|--------|
+| US08 | Registrar eventos de seguridad |
+| US10 | Visualizar historial de eventos |
+| US11 | Filtrar eventos por tipo |
+| US12 | Filtrar eventos por fecha |
+| US15 | Consultar detalle de un evento |
+| US31 | Generar reportes de seguridad |
+
+---
+
+### Epic 05: Integraciones técnicas y API RESTful
+| Story ID | Título |
+|----------|--------|
+| TS09 | Registrar evento mediante API |
+| TS18 | Obtener eventos mediante API |
+| TS27 | Autenticación de usuario mediante API |
+| US34 | Integrar servicio externo de notificaciones |
+| TS35 | Manejo de errores en API |
+
+---
+
+### Epic 06: Landing Page y adquisición de usuarios
+| Story ID | Título |
+|----------|--------|
+| US21 | Visualizar landing page |
+| US22 | Visualizar video del producto |
+| US23 | Visualizar información del equipo |
+| US24 | Contactar desde la landing page |
