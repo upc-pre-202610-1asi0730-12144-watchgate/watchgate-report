@@ -1,4 +1,4 @@
-<!-- Carátula -->
+<img width="1920" height="1080" alt="Black and White Simple User Persona Brainstorm (1)" src="https://github.com/user-attachments/assets/ee535dd6-c9b3-41e5-9de0-a6c334fe6b59" /><!-- Carátula -->
 
 <div align="center">
     <img src="./logo-upc.png">
@@ -389,3 +389,39 @@ A partir de las 4 entrevistas realizadas a jefes de seguridad y supervisores de 
 
 - El **100% asocia este tipo de soluciones con mayor control, rapidez de respuesta y reducción de riesgos**, destacando que el valor principal está en pasar de un enfoque reactivo a uno preventivo en la gestión de seguridad.
 
+## 2.3. Needfinding
+### 2.3.1. User Personas
+> Segmento 1
+<img width="1920" height="1080" alt="Black and White Simple User Persona Brainstorm (1)" src="https://github.com/user-attachments/assets/eaa98a45-fc38-4d33-b509-2be98e38e938" />
+
+> Segmento 2
+<img width="1920" height="1080" alt="Black and White Simple User Persona Brainstorm (2)" src="https://github.com/user-attachments/assets/7e5f923f-9b0b-4385-a30a-9b2ad64ad57b" />
+
+### 2.3.2 User Task Matrix
+### Segmento 1: Dueños y Administradores de PYMES
+
+| Tarea | Frecuencia | Importancia |
+|------|------------|-------------|
+| Monitorear el estado de su negocio o almacén cuando no está presente | Often | High |
+| Detectar pérdidas o faltantes de mercadería | Often | High |
+| Identificar posibles robos o “robo hormiga” | Often | High |
+| Revisar registros de accesos o actividad del personal | Sometimes | High |
+| Recibir alertas ante eventos sospechosos | Occasionally | High |
+| Gestionar su negocio desde el celular | Often | High |
+| Tomar decisiones rápidas ante incidentes | Sometimes | High |
+
+---
+
+### Segmento 2: Jefes de Seguridad y Operaciones
+
+| Tarea | Frecuencia | Importancia |
+|------|------------|-------------|
+| Supervisar múltiples almacenes o puntos de control | Often | High |
+| Revisar cámaras o registros de seguridad | Often | High |
+| Detectar accesos no autorizados o fuera de horario | Often | High |
+| Coordinar acciones ante incidentes de seguridad | Sometimes | High |
+| Analizar historial de eventos para auditorías | Occasionally | High |
+| Gestionar información dispersa de diferentes sistemas | Often | High |
+| Responder rápidamente ante alertas de seguridad | Sometimes | High |
+
+### 2.3.3 User Journey Mapping
