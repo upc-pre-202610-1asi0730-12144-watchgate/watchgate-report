@@ -306,4 +306,86 @@ En general, todas las entrevistas muestran algo bien claro: quienes manejan esto
 **Resumen de entrevistas segmento #2**
 En estas entrevistas se repite una idea bastante clara: quienes trabajan en seguridad y supervisión de almacenes lidian todos los días con sistemas poco integrados que les hacen perder tiempo y les quitan visibilidad. Aunque usan cámaras, controles de acceso y registros manuales, igual les cuesta detectar a tiempo accesos fuera de horario o pérdidas, y muchas veces terminan reaccionando tarde porque todo es más reactivo que preventivo. Por eso, valoran mucho poder tener información en tiempo real, recibir alertas precisas apenas ocurre algo sospechoso y contar con un historial claro que les facilite auditorías y decisiones. Al final, lo que buscan es una plataforma centralizada, confiable y fácil de manejar que les permita controlar varios almacenes desde cualquier lugar, reducir riesgos y responder más rápido sin complicarse con sistemas dispersos.
 
+### 2.2.3. Análisis de entrevistas.
+## Análisis de entrevistas – Segmento 1: Dueños y Administradores de PYMES
+
+A partir de las 4 entrevistas realizadas a dueños y administradores de PYMES en distintos rubros (distribución, retail y almacenes), se identificaron patrones consistentes en sus características objetivas y subjetivas, evidenciando necesidades claras relacionadas con el control y la seguridad de sus negocios.
+
+### Características objetivas
+
+- El **100% de los entrevistados administra directamente su negocio** (dueños o responsables de operación).
+- El **100% utiliza herramientas digitales básicas** (principalmente celular, apps como WhatsApp o sistemas simples de control).
+- El **75% depende de métodos tradicionales de seguridad**, como cámaras y registros manuales.
+- El **100% ha experimentado pérdidas de mercadería** o situaciones donde no pueden identificar claramente su origen.
+- El **100% gestiona equipos de trabajo**, lo que incrementa la necesidad de control de accesos y supervisión.
+
+### Características subjetivas
+
+- El **100% manifiesta preocupación constante por pérdidas de mercadería**, especialmente asociadas al “robo hormiga”.
+
+- El **100% considera que sus sistemas actuales son insuficientes**, debido a:
+  - Falta de monitoreo en tiempo real  
+  - Dependencia de revisión manual (cámaras o registros)  
+  - Dificultad para identificar responsables o momentos exactos de incidentes  
+
+- El **100% valora funcionalidades clave como:**
+  - Monitoreo en tiempo real  
+  - Alertas inmediatas ante accesos o movimientos sospechosos  
+  - Historial o registro de eventos para revisión  
+
+- El **100% busca una solución que sea:**
+  - Fácil de usar  
+  - Accesible desde el celular  
+  - Rápida de implementar  
+  - Intuitiva (sin necesidad de capacitación compleja)  
+
+- El **75% prioriza la confiabilidad del sistema**, mostrando rechazo a soluciones con falsas alarmas o fallos.
+
+- El **100% muestra disposición a adoptar nuevas tecnologías**, siempre que:
+  - Sean accesibles en costo  
+  - No compliquen su operación diaria  
+  - Generen valor directo en reducción de pérdidas  
+
+- El **100% asocia este tipo de soluciones con mayor control y tranquilidad**, destacando que el principal beneficio es poder supervisar su negocio sin estar físicamente presente.
+
+## Análisis de entrevistas – Segmento 2: Jefes de Seguridad y Operaciones
+
+A partir de las 4 entrevistas realizadas a jefes de seguridad y supervisores de operaciones en entornos logísticos, se identificaron patrones claros en sus características objetivas y subjetivas, evidenciando necesidades enfocadas en la centralización, eficiencia y control de la seguridad operativa.
+
+### Características objetivas
+
+- El **100% de los entrevistados trabaja en roles de supervisión o gestión de seguridad**, con responsabilidad directa sobre uno o más almacenes.
+- El **75% supervisa múltiples almacenes**, lo que incrementa la complejidad del control y monitoreo.
+- El **100% utiliza sistemas tradicionales de seguridad**, como cámaras, controles de acceso y registros manuales.
+- El **75% trabaja con sistemas no integrados**, lo que dificulta la gestión unificada de la información.
+- El **100% ha enfrentado incidentes como accesos no autorizados o pérdidas difíciles de rastrear**.
+
+### Características subjetivas
+
+- El **100% manifiesta frustración por la falta de integración de los sistemas actuales**, lo que genera pérdida de tiempo y menor visibilidad.
+
+- El **100% considera que el monitoreo actual es reactivo e ineficiente**, debido a:
+  - Dependencia de revisión manual de cámaras  
+  - Falta de alertas en tiempo real  
+  - Dificultad para detectar incidentes de forma oportuna  
+
+- El **100% valora funcionalidades clave como:**
+  - Monitoreo en tiempo real  
+  - Alertas automáticas y precisas  
+  - Historial de accesos y eventos para auditorías  
+
+- El **100% busca una solución que sea:**
+  - Centralizada (una sola plataforma)  
+  - Confiable y sin errores  
+  - Accesible desde cualquier lugar  
+  - Clara y fácil de usar  
+
+- El **75% prioriza la trazabilidad y generación de reportes**, como apoyo para auditorías y toma de decisiones.
+
+- El **100% muestra disposición a adoptar nuevas tecnologías**, siempre que:
+  - Se integren con sus sistemas actuales  
+  - Mejoren la eficiencia operativa  
+  - Reduzcan tiempos de supervisión  
+
+- El **100% asocia este tipo de soluciones con mayor control, rapidez de respuesta y reducción de riesgos**, destacando que el valor principal está en pasar de un enfoque reactivo a uno preventivo en la gestión de seguridad.
 
