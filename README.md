@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./logo-upc.png">
+    <img src="./assets/logo-upc(1).png">
 </div>
 
 <div align="center">
@@ -443,3 +443,15 @@ A partir de las 4 entrevistas realizadas a jefes de seguridad y supervisores de 
 
 > Segmento 2
 <img width="1505" height="664" alt="Scenario Mapping (6)" src="https://github.com/user-attachments/assets/c0e3ba65-d469-49e3-959c-32253772f2ab" />
+
+## 2.4. Big Picture Event Storming
+
+En la sesión de Big Picture Event Storming, el equipo identificó los eventos más relevantes del dominio de seguridad inteligente para almacenes, trazando de forma visual el panorama general de la plataforma LockSight. Se representaron los flujos críticos de monitoreo, control de accesos y gestión de alertas, integrando los sistemas externos que interactúan con la solución e identificando dudas, problemas y oportunidades de mejora. Esta primera exploración permitió al equipo alinear el entendimiento del negocio y establecer las bases para un diseño más detallado en etapas posteriores.
+
+### Big Picture Event Storming – Mapa General
+
+<p align="center"><img src="./assets/big picture event storming.jpg" width="1505" height="664"></p>
+
+### Big Picture Event Storming - Leyenda de Colores
+
+<p align="center"><img src="./assets/big picture-leyenda de colores.jpg" width="1505" height="664"></p>
