@@ -376,6 +376,28 @@ A medida que el usuario avanza, el contenido se distribuye en bloques independie
 
 ### 4.3.2. Landing Page Mock-up
 
+**Explicación para Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/landing-mockup-desk-hero-section.png" alt="hero-section" width="600">
+  <img src="./assets/chapter-4/landing-mockup-desk-features.png" alt="features" width="600">
+  <img src="./assets/chapter-4/landing-mockup-desk-pricing.png" alt="pricing" width="600">
+  <img src="./assets/chapter-4/landing-mockup-desk-team.png" alt="team" width="600">
+  <img src="./assets/chapter-4/landing-mockup-desk-testimonials.png" alt="testimonials" width="600">
+  <img src="./assets/chapter-4/landing-mockup-desk-cta-footer.png" alt="footer" width="600">
+</div>
+El diseño de la landing page para la versión desktop de Locksight presenta una estructura clara y ordenada, iniciando con una sección principal que resalta el monitoreo inteligente en tiempo real y ofrece accesos directos para registrarse o revisar los planes disponibles. A partir de ahí, la navegación continúa de forma fluida hacia una sección organizada en tres columnas, donde se explican las funcionalidades clave como las alertas inmediatas y la trazabilidad de eventos.
+
+**Explicación para Mobile**
+<div align="center">
+  <img src="./assets/chapter-4/landing-mockup-mob-hero-features.png" alt="mob-hero-features" width="350"><br><br>
+  <img src="./assets/chapter-4/landing-mockup-mob-pricing-team.png" alt="mob-pricing-team" width="350"><br><br>
+  <img src="./assets/chapter-4/landing-mockup-mob-testimonials-footer.png" alt="mob-testimonials-footer" width="350">
+</div>
+
+La versión mobile adapta la landing page a un formato de desplazamiento vertical, ofreciendo una experiencia más fluida y enfocada en pantallas pequeñas. La navegación superior se simplifica mediante un menú hamburguesa, manteniendo como prioridad la propuesta de valor y los principales llamados a la acción. 
+
+Para aprovechar mejor el espacio, las secciones de características, planes de suscripción y equipo se reorganizan en un diseño de una sola columna, lo que mejora la legibilidad y facilita la interacción táctil. 
+
 ## 4.4. Web Applications UX/UI Design
 El diseño de la experiencia de usuario (UX) y de la interfaz (UI) de la plataforma Locksight se ha centrado en la operatividad bajo presión. Entendemos que un jefe de seguridad o un dueño de negocio entra a la aplicación web buscando respuestas rápidas: "¿Está todo cerrado?", "¿Hubo alguna alerta?". Por ello, la UX prioriza la visibilidad de los estados de los sensores y la facilidad para auditar eventos pasados. La UI, basada en Material Design, utiliza una estética limpia y profesional que reduce la carga cognitiva, permitiendo que el usuario identifique anomalías mediante el uso estratégico de colores semánticos (rojo para alertas, verde para estados seguros).
 
