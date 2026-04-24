@@ -1022,6 +1022,6 @@ El diseño de la base de datos proporciona la estructura necesaria para almacena
 ### 4.8.1. Database Diagrams
 
 
-<p align="center">
+<div align="center">
   <img src="./assets/chapter-4/erd-database-locksight.png" alt="ERD Database Diagram - LockSight" width="800">
-</p>
+</div>
