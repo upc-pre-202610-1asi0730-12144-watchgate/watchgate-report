@@ -1,7 +1,5 @@
-<!-- Carátula -->
-
 <div align="center">
-    <img src="./logo-upc.png">
+    <img src="./assets/logo-upc(1).png">
 </div>
 
 <div align="center">
