@@ -81,6 +81,55 @@ Commits del Report:
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivos](#13-segmentos-objetivos)
+    - [Segmento 1: Dueños y Administradores de PYMES (Retail, Tiendas y Pequeños Almacenes)](#segmento-1-dueños-y-administradores-de-pymes-retail-tiendas-y-pequeños-almacenes)
+    - [Segmento 2: Jefes de Seguridad y Operaciones (Medianas y Grandes Corporaciones)](#segmento-2-jefes-de-seguridad-y-operaciones-medianas-y-grandes-corporaciones)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores.](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+  - [¿Por qué llevar a cabo este análisis?](#por-qué-llevar-a-cabo-este-análisis)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+      - [Estrategia de diferenciación tecnológica](#estrategia-de-diferenciación-tecnológica)
+      - [Estrategia de inserción en el mercado](#estrategia-de-inserción-en-el-mercado)
+      - [Estrategia de captación de clientes](#estrategia-de-captación-de-clientes)
+      - [Estrategia frente a lo existente](#estrategia-frente-a-lo-existente)
+  - [2.2. Entrevistas.](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.1. Registro de entrevistas](#221-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas.](#223-análisis-de-entrevistas)
+  - [Análisis de entrevistas – Segmento 1: Dueños y Administradores de PYMES](#análisis-de-entrevistas--segmento-1-dueños-y-administradores-de-pymes)
+    - [Características objetivas](#características-objetivas)
+    - [Características subjetivas](#características-subjetivas)
+  - [Análisis de entrevistas – Segmento 2: Jefes de Seguridad y Operaciones](#análisis-de-entrevistas--segmento-2-jefes-de-seguridad-y-operaciones)
+    - [Características objetivas](#características-objetivas-1)
+    - [Características subjetivas](#características-subjetivas-1)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2 User Task Matrix](#232-user-task-matrix)
+    - [Segmento 1: Dueños y Administradores de PYMES](#segmento-1-dueños-y-administradores-de-pymes)
+    - [Segmento 2: Jefes de Seguridad y Operaciones](#segmento-2-jefes-de-seguridad-y-operaciones)
+    - [2.3.3 User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+    - [Big Picture Event Storming – Mapa General](#big-picture-event-storming--mapa-general)
+- [Capitulo III: Requirements Specification](#capitulo-iii-requirements-specification)
+  - [3.1 User Stories](#31-user-stories)
+  - [Relación de Epics y User Stories – Locksight](#relación-de-epics-y-user-stories--locksight)
+    - [Epic 01: Monitoreo y visualización de almacenes](#epic-01-monitoreo-y-visualización-de-almacenes)
+    - [Epic 02: Gestión de usuarios y almacenes](#epic-02-gestión-de-usuarios-y-almacenes)
+    - [Epic 03: Alertas y seguridad activa](#epic-03-alertas-y-seguridad-activa)
+    - [Epic 04: Historial, auditoría y reportes](#epic-04-historial-auditoría-y-reportes)
+    - [Epic 05: Integraciones técnicas y API RESTful](#epic-05-integraciones-técnicas-y-api-restful)
+    - [Epic 06: Landing Page y adquisición de usuarios](#epic-06-landing-page-y-adquisición-de-usuarios)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+    - [Segmento 1: Dueños y Administradores de PYMES](#segmento-1-dueños-y-administradores-de-pymes-1)
+    - [Segmento 2: Jefes de Seguridad y Operaciones](#segmento-2-jefes-de-seguridad-y-operaciones-1)
+  - [3.4. Product Backlog](#34-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -359,7 +408,7 @@ A continuación, se presentan las preguntas dirigidas al segmento de jefes de se
 
 | Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
 |--------------|------------------------|--------------------------|--------------------------|
-| 1 | **Nombre:** Carlos Marcelo Mansilla Rivero <br> **Edad:** 23 <br> **Distrito:** Surquillo <br> **Ocupación:** Dueño/Administrador de distribuidora mayorista <br> **Link:** colocar link | El entrevistado administra una distribuidora mayorista y utiliza herramientas digitales para su gestión diaria; su principal problema es la merma y el “robo hormiga”, lo que afecta la rentabilidad del negocio; considera que el control actual es insuficiente, por lo que valora el monitoreo en tiempo real y alertas ante eventos críticos; busca una solución intuitiva, confiable y accesible desde el celular que le brinde mayor control y tranquilidad. | <p align="center"><img src="./assets/screenshot-interview-marcelo-mansilla.png" width="300"></p> |
+| 1 | **Nombre:** Carlos Marcelo Mansilla Rivero <br> **Edad:** 23 <br> **Distrito:** Surquillo <br> **Ocupación:** Dueño/Administrador de distribuidora mayorista <br> **Link:** colocar link | El entrevistado administra una distribuidora mayorista y utiliza herramientas digitales para su gestión diaria; su principal problema es la merma y el “robo hormiga”, lo que afecta la rentabilidad del negocio; considera que el control actual es insuficiente, por lo que valora el monitoreo en tiempo real y alertas ante eventos críticos; busca una solución intuitiva, confiable y accesible desde el celular que le brinde mayor control y tranquilidad. | <p align="center"><img src="./assets/screenshot-interview-carlos-mansilla.png" width="300"></p> |
 | 2 | **Nombre:** Valeria Alejandra Flores Paz <br> **Edad:** 28 <br> **Distrito:** San Borja <br> **Ocupación:** Administradora de tienda de ropa <br> **Link:** colocar link | La entrevistada administra una tienda de ropa y utiliza exclusivamente su celular para la gestión diaria; su principal problema es el "robo hormiga", lo que le genera preocupación al no tener registro de accesos; considera fundamental recibir alertas en tiempo real en su celular ante aperturas fuera de horario; por ello, busca una aplicación sumamente intuitiva, de rápida instalación y costo accesible que le brinde tranquilidad. | <p align="center"><img src="./assets/screenshot-interview-valeria-flores.png" width="300"></p> |
 | 3 | **Nombre:** Song Ju Loo <br> **Edad:** 22 <br> **Distrito:** El Agustino <br> **Ocupación:** Dueño de tienda mayorista <br> **Link:** — | El entrevistado, dueño de una tienda mayorista, presenta preocupación por pérdidas de mercadería sin poder identificar su origen; actualmente usa cámaras y confianza en el personal, pero considera el sistema limitado; valora monitoreo en tiempo real, alertas inmediatas y registros históricos; busca una solución simple, accesible desde el celular y que le permita mayor control sin estar presente. | <p align="center"><img src="./assets/screenshot-interview-song-ju-loo.png" width="300"></p> |
 | 4 | **Nombre:** Gloria Celis <br> **Edad:** 59 <br> **Distrito:** Villa el Salvador <br> **Ocupación:** Dueña de almacén <br> **Link:** — | La entrevistada, dueña de un almacén con un equipo de aprox 5 personas, enfrenta pérdidas constantes y falta de control de accesos; depende de métodos manuales y cámaras básicas, por lo que valora monitoreo en tiempo real y alertas inmediatas; busca una solución confiable, simple y accesible desde el celular que le brinde mayor control y tranquilidad. | <p align="center"><img src="https://github.com/user-attachments/assets/ce3907dd-d339-4066-9c1a-6d28a808a78a" width="300"></p> |
@@ -377,7 +426,7 @@ En general, todas las entrevistas muestran algo bien claro: quienes manejan esto
 | 1 | **Nombre:** Joao Jiménez <br> **Edad:** 26 <br> **Distrito:** San Juan de Lurigancho <br> **Ocupación:** Encargado de seguridad y planificación <br> **Link:** colocar link | El entrevistado trabaja en seguridad supervisando almacenes y utilizando métodos tradicionales como guardias, registros manuales y cámaras; enfrenta problemas como accesos fuera de horario y pérdidas difíciles de rastrear, además de la ineficiencia al revisar grabaciones; por ello, valora el monitoreo en tiempo real, alertas precisas y un historial de accesos, buscando una solución confiable que optimice el control y mejore la toma de decisiones. | <p align="center"><img src="./assets/screenshot-interview-joao-jimenez.png" width="300"></p> |
 | 2 | **Nombre:** Carlos Rodrigo Chavez Quispe <br> **Edad:** 36 <br> **Distrito:** La Molina <br> **Ocupación:** Supervisor Logístico <br> **Link:** colocar link | El entrevistado supervisa tres almacenes utilizando sistemas tradicionales desconectados entre sí; su principal problema es rastrear las mermas debido a la naturaleza reactiva de las cámaras actuales; valora críticamente la información en tiempo real para reaccionar ante aperturas no autorizadas o fallas de sensores; por ello, requiere una plataforma centralizada que ofrezca trazabilidad absoluta y reportes consolidados, buscando una solución estable que optimice sus auditorías. | <p align="center"><img src="./assets/screenshot-interview-carlos-chavez.png" width="300"></p> |
 | 3 | **Nombre:** Diego Castillo <br> **Edad:** 24 <br> **Distrito:** San Juan de Lurigancho <br> **Ocupación:** Jefe de seguridad y supervisor de almacenes <br> **Link:** — | El entrevistado, jefe de seguridad en una empresa de logística y distribución, es responsable de supervisar múltiples almacenes, lo que implica un alto nivel de control y toma de decisiones sobre la seguridad operativa. Señala que la seguridad es crítica, ya que cualquier falla impacta directamente en la empresa, y ha enfrentado problemas como accesos no autorizados y pérdidas difíciles de justificar.<br>Actualmente utiliza cámaras, controles de acceso y registros manuales, pero identifica como principal limitación la falta de centralización de la información, lo que genera ineficiencia y pérdida de tiempo en el monitoreo y análisis.<br>Valora especialmente la posibilidad de contar con información en tiempo real, alertas automáticas ante eventos sospechosos (como accesos fuera de horario o movimientos en zonas restringidas) y un historial completo de accesos para auditorías y toma de decisiones.<br>Busca un sistema confiable, claro y centralizado, que le permita supervisar múltiples almacenes desde cualquier lugar, mejorar la trazabilidad y optimizar la gestión de la seguridad, facilitando una respuesta más rápida y efectiva ante incidentes. | <p align="center"><img src="./assets/screenshot-interview-diego-castillo.png" width="300"></p> |
-| 4 | **Nombre:** Cristina Celis <br> **Edad:** 61 <br> **Distrito:** Ate <br> **Ocupación:** Jefa de almacen— <br> **Link:** — | La entrevistada, jefa de Seguridad/Operaciones en una empresa mediana/grande de logística o retail que gestiona entre 2 y 10 almacenes en Lima y alrededores, enfrenta problemas de accesos fuera de horario, pérdidas difíciles de rastrear y falta de integración entre sistemas (CCTV, controles básicos y registros manuales), lo que limita la visibilidad y retrasa la detección de incidentes; valora altamente el monitoreo en tiempo real, las alertas automáticas (accesos no autorizados, actividad inusual, puertas abiertas) y un historial detallado para auditorías, además de poder acceder a la información desde cualquier lugar, por lo que considera clave una solución unificada, precisa e integrada que mejore la eficiencia, reduzca riesgos y simplifique la gestión operativa.| <img width="1350" height="739" alt="image" src="https://github.com/user-attachments/assets/a0a296eb-be77-467c-a995-15f26c506b01" />
+| 4 | **Nombre:** Cristina Celis <br> **Edad:** 61 <br> **Distrito:** Ate <br> **Ocupación:** Jefa de almacen— <br> **Link:** — | La entrevistada, jefa de Seguridad/Operaciones en una empresa mediana/grande de logística o retail que gestiona entre 2 y 10 almacenes en Lima y alrededores, enfrenta problemas de accesos fuera de horario, pérdidas difíciles de rastrear y falta de integración entre sistemas (CCTV, controles básicos y registros manuales), lo que limita la visibilidad y retrasa la detección de incidentes; valora altamente el monitoreo en tiempo real, las alertas automáticas (accesos no autorizados, actividad inusual, puertas abiertas) y un historial detallado para auditorías, además de poder acceder a la información desde cualquier lugar, por lo que considera clave una solución unificada, precisa e integrada que mejore la eficiencia, reduzca riesgos y simplifique la gestión operativa.| <img width="350" alt="image" src="https://github.com/user-attachments/assets/a0a296eb-be77-467c-a995-15f26c506b01" />
 
 </div>
 
@@ -1077,6 +1126,190 @@ En esta sección se presentan los wireframes diseñados para la versión mobile 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 El Wireflow es un artefacto que combina la estructura de los wireframes con la lógica de un diagrama de flujo. Su importancia radica en que permite visualizar no solo qué elementos hay en cada pantalla, sino cómo el usuario se desplaza entre ellas para completar un proceso. Para Locksight, esto es vital porque el sistema debe ser capaz de guiar al usuario desde la recepción de una alerta hasta la resolución del incidente en el menor número de pasos posible. En esta sección se detalla la arquitectura de navegación, mostrando los caminos que conectan el panel de control con los módulos de configuración de sensores y revisión de historiales.
+
+1. User Goal: Acceso al sistema
+  
+  El flujo visual comienza con un nodo de inicio que lleva a la pantalla de presentación. Luego se presenta un rombo de decisión que evalúa si el usuario posee credenciales. De esa decisión se desprenden dos ramas, una que va hacia el registro de nueva empresa y otra hacia el inicio de sesión tradicional, ambas terminan en la validación y finalizando en el acceso al dashboard.
+  <div align="center">
+    <img src="./assets/chapter-4/flow-diagram-user-goal-1.png" alt="user-goal-1" width="450">
+  </div>
+
+  **El happy path**
+
+  Inicio de la aplicación => El administrador abre la plataforma web o móvil.
+
+  Pantalla principal => Se muestra directamente la vista de inicio de sesión.
+
+  Decisión: "¿El usuario tiene una cuenta?"
+
+  En el happy path suponemos que el usuario ya es un cliente registrado.
+
+  Ingreso de datos => El usuario completa los campos de correo electrónico y contraseña en el formulario.
+
+  Autenticación => El usuario hace clic en el botón Ingresar y el sistema valida las credenciales correctamente en la base de datos
+
+  Fin del flujo de acceso => El usuario entra de manera exitosa a la aplicación y aterriza directamente en el dashboard de Mis Almacenes para comenzar a monitorear
+
+  <div align="center">
+    <img src="./assets/chapter-4/wireflow-user-goal-1-picture-1.png" alt="user-goal-1" width="450">
+  </div>
+
+2. User Goal: Monitoreo y gestión de almacenes
+   
+   Este flujo ilustra cómo un administrador registra una nueva sucursal desde el panel principal. El usuario completa un formulario con datos y horarios operativos, en caso la información es incorrecta, el sistema bloquea el avance y muestra alertas preventivas. Al validar correctamente los datos, se confirma el registro mediante una ventana emergente de éxito y se redirige al usuario de vuelta al dashboard, donde el nuevo almacén ya aparece activo y listo para su monitoreo.
+  <div align="center">
+    <img src="./assets/chapter-4/flow-diagram-user-goal-2.png" alt="user-goal-2" width="450">
+  </div>
+
+
+  **El happy path**
+
+  Inicio => El usuario se encuentra en el dashboard de "Mis Almacenes"
+
+  Acción => Clic en el botón "+ Registrar nuevo almacén"
+
+  Ingreso de datos => Llena el formulario sin cometer errores
+
+  Guardar => Clic en el botón "Guardar Almacén".
+
+  Validación interna => El sistema verifica que todo es correcto
+
+  Confirmación => Aparece la ventana emergente con el mensaje "Almacén Guardado".
+
+  Fin => El usuario regresa al dashboard y visualiza la nueva sucursal en la lista
+
+  <div align="center">
+    <img src="./assets/chapter-4/wireflow-user-goal-2-picture-1.png" alt="user-goal-2" width="450">
+  </div>
+   
+3. User Goal: Administración de dispositivos IoT
+   
+   Este flujo describe el proceso de gestión de hardware de seguridad en el sistema. Desde el panel principal de dispositivos, el usuario puede intentar agregar un sensor o cámara nueva. El sistema realiza una validación preventiva de la cuota del plan, si se alcanzó el límite, bloquea la acción con una ventana informativo. Si existe cupo disponible, el usuario accede al formulario donde ingresa el número de serie y la zona para registrar y sincronizar el equipo. De igual manera, el módulo permite desvincular hardware obsoleto, acción protegida por una ventana de advertencia para evitar eliminaciones accidentales.
+
+  <div align="center">
+    <img src="./assets/chapter-4/flow-diagram-user-goal-3.png" alt="user-goal-3" width="450">
+  </div>
+   
+  **El happy path**
+
+  Inicio => El usuario se encuentra en la vista principal de "Dispositivos IoT"
+
+  Acción de registro => Hace clic en el botón oscuro "Vincular nuevo dispositivo"
+
+  Validación interna => El sistema verifica que el usuario tiene cupo disponible en su plan.
+
+  Ingreso de datos => El sistema despliega el formulario y el usuario ingresa el Número de Serie, Nombre y asigna una Zona.
+
+  Guardar en el botón "Vincular Dispositivo"
+
+  Fin del flujo => El sistema sincroniza el equipo y devuelve al usuario al dashboard, donde el nuevo sensor ya figura en la lista con el indicador nuevo indicador
+
+  <div align="center">
+    <img src="./assets/chapter-4/wireflow-user-goal-3-picture-1.png" alt="user-goal-3" width="450">
+  </div>
+   
+4. User Goal: Registro de eventos e incidentes
+
+  Este flujo ilustra cómo un usuario audita la actividad del sistema mediante el historial de eventos. Desde la vista principal, el administrador puede utilizar filtros inferiores para acotar la lista cronológica por tipo de alerta o rango de fechas, facilitando la búsqueda. Al localizar un evento específico, el usuario puede seleccionarlo para desplegar una ventana que brinda información rápida y detallada del incidente sin perder su contexto en la lista principal.
+
+  <div align="center">
+    <img src="./assets/chapter-4/flow-diagram-user-goal-4.png" alt="user-goal-4" width="450">
+  </div>
+   
+  **El happy path**
+
+  Inicio => El usuario ingresa a la vista del "Historial de Eventos".
+
+  Interacción => El usuario hace clic en el botón superior "Tipo de evento".
+
+  Filtrado => Se despliega el menú inferior correspondiente, el usuario selecciona sus opciones y presiona "Aplicar Filtros".
+
+  Actualización => El menú se cierra y la lista principal se actualiza mostrando solo los resultados relevantes.
+
+  Selección => El usuario hace clic sobre una tarjeta de la lista.
+
+  Fin del flujo => El sistema despliega la ventana central mostrando el resumen rápido del evento seleccionado.
+
+  <div align="center">
+    <img src="./assets/chapter-4/wireflow-user-goal-4-picture-1.png" alt="user-goal-4" width="450">
+  </div>
+
+5. User Goal: User Goal: Gestión de personal y accesos
+
+  Este flujo ilustra el proceso de administración de usuarios en la plataforma. Desde el panel "Equipo y Accesos", el administrador puede añadir nuevos miembros abriendo un formulario donde ingresa el correo y asigna el nivel de permisos. Además, el administrador puede gestionar al personal existente seleccionando el menú de opciones en la tarjeta de un empleado. Desde allí, puede abrir un menú inferior para eliminarlo, acción que requiere confirmación mediante una ventana emergente de advertencia para evitar la revocación accidental de accesos, garantizando así un control seguro del equipo.
+
+  <div align="center">
+    <img src="./assets/chapter-4/flow-diagram-user-goal-5.png" alt="user-goal-5" width="450">
+  </div>
+   
+  **El happy path**
+
+  Inicio => El usuario ingresa a la vista del "Historial de Eventos".
+
+  Inicio => El usuario administrador ingresa a la vista "Equipo y Accesos".
+
+  Acción => Hace clic en el botón superior "+ Invitar nuevo usuario".
+
+  Ingreso de datos => El sistema muestra el formulario, el administrador escribe el correo electrónico y selecciona el "Rol en el sistema".
+
+  Confirmación => Hace clic en el botón oscuro "Enviar Invitación".
+
+  Fin del flujo => El sistema procesa la solicitud, envía el correo al invitado y devuelve al administrador a la lista actualizada, donde el nuevo usuario aparece en estado "Pendiente".
+
+  <div align="center">
+    <img src="./assets/chapter-4/wireflow-user-goal-5-picture-1.png" alt="user-goal-5" width="450">
+  </div>
+
+6. User Goal: Administración de suscripción y facturación
+
+  Este flujo describe cómo un usuario administra la facturación y escalabilidad de su cuenta. Desde el panel principal de suscripción, el administrador puede optar por cancelar su servicio o mejorar su plan actual. Si decide actualizar, navega por un catálogo comparativo y accede a un cotizador interactivo para el plan Enterprise, donde ajusta sus límites de almacenes y dispositivos de forma dinámica. Por último el usuario revisa el resumen de pago con los montos prorrateados y confirma la transacción, logrando que el sistema actualice inmediatamente los límites operativos de su cuenta.
+
+  <div align="center">
+    <img src="./assets/chapter-4/flow-diagram-user-goal-6.png" alt="user-goal-6" width="450">
+  </div>
+   
+  **El happy path**
+
+  Inicio => El administrador ingresa a la vista "Mi Suscripción".
+
+  Acción => Hace clic en el botón principal "Cambiar Plan".
+
+  Selección => En el catálogo de "Mejorar Plan", revisa las opciones y hace clic en "Actualizar a Enterprise".
+
+  Configuración => Utiliza los controles deslizantes para establecer la cantidad exacta de Almacenes y Dispositivos IoT que necesita, y presiona "Continuar al Pago".
+
+  Pago => Revisa el detalle del "Resumen de Pago", valida su tarjeta y hace clic en el botón oscuro "Confirmar y Pagar".
+
+  Fin del flujo => La plataforma procesa el cobro y redirige al usuario de vuelta al panel "Mi Suscripción", donde ahora se visualiza el plan Enterprise activo junto con las nuevas barras de límites extendidos.
+
+  <div align="center">
+    <img src="./assets/chapter-4/wireflow-user-goal-6-picture-1.png" alt="user-goal-6" width="450">
+  </div>
+
+7. User Goal: Configuración de cuenta y notificaciones
+
+  Este flujo ilustra la gestión de preferencias y seguridad de la cuenta del usuario. Desde el panel principal de configuración, el administrador interactúa con los canales de notificaciones o selecciona la opción para salir de la plataforma. El sistema integra validaciones preventivas antes de ejecutar acciones definitivas, como si el usuario intenta silenciar las alertas, se le advierte del riesgo operativo mediante un pop up, de manera similar al intentar finalizar su sesión, se exige una confirmación explícita para evitar cierres accidentales y garantizar que el usuario comprenda que dejará de recibir alertas inmediatas en ese dispositivo.
+
+  <div align="center">
+    <img src="./assets/chapter-4/flow-diagram-user-goal-7.png" alt="user-goal-7" width="450">
+  </div>
+   
+  **El happy path**
+
+  Inicio => El usuario ingresa a la vista principal de Configuración.
+
+  Acción => Hace clic en el botón inferior con el texto "Cerrar Sesión".
+
+  Advertencia => El sistema detecta el intento de salida y despliega el modal de confirmación para evitar un cierre por error táctil.
+
+  Confirmación => El usuario hace clic en el botón oscuro "Cerrar Sesión" dentro de la ventana.
+
+  Fin del flujo => La plataforma cierra la sesión de forma segura y redirige automáticamente al usuario a la pantalla inicial de inicio de sesión.
+
+  <div align="center">
+    <img src="./assets/chapter-4/wireflow-user-goal-7-picture-1.png" alt="user-goal-7" width="450">
+  </div>
+
 
 ### 4.4.4. Web Applications User Flow Diagrams
 Mientras que el wireflow se enfoca en el diseño de las pantallas, el User Flow o Diagrama de Flujo de Usuario se centra en el proceso de toma de decisiones de la persona que opera Locksight. Este diagrama ayuda a comprender el camino lógico que sigue un Administrador o Jefe de Seguridad para alcanzar un objetivo específico, como puede ser la auditoría de un acceso no autorizado. Al desglosar cada acción y punto de decisión, podemos identificar posibles fricciones en la experiencia y asegurar que el sistema responda de manera coherente a las necesidades operativas de la empresa, garantizando que el flujo de información sea siempre claro y directo.
