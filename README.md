@@ -1018,3 +1018,10 @@ El diseño orientado a objetos es fundamental para estructurar Locksight de mane
 
 ## 4.8. Database Design
 El diseño de la base de datos proporciona la estructura necesaria para almacenar y gestionar toda la información operativa de Locksight de forma segura y eficiente. Se ha modelado un esquema relacional que organiza las tablas, relaciones y restricciones necesarias para garantizar la integridad de los datos de sensores, historiales de acceso y perfiles de usuario. Un diseño de base de datos sólido permite que el sistema responda con rapidez ante consultas históricas y guarde cada evento de seguridad con precisión milimétrica.
+
+### 4.8.1. Database Diagrams
+
+
+<p align="center">
+  <img src="./assets/chapter-4/erd-database-locksight.png" alt="ERD Database Diagram - LockSight" width="800">
+</p>
