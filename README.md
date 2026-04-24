@@ -1007,6 +1007,12 @@ El prototipado de la aplicación web es la etapa donde se materializa la interac
 ## 4.6. Domain-Driven Software Architecture
 La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño que estructura Locksight en torno a los procesos clave del negocio de seguridad y almacenamiento. Este método permite que el software refleje con precisión las reglas de negocio, como la gestión de permisos por zonas o la activación automática de alertas. Al aplicar DDD, logramos un sistema robusto, escalable y fácil de mantener, donde cada componente técnico está alineado con los objetivos de seguridad y eficiencia operativa de nuestros clientes.
 
+### 4.6.2. Software Architecture Context Diagram
+
+<p align="center">
+  <img src="./assets/chapter-4/c4-context-diagram-locksight.png" alt="C4 Context Diagram - LockSight">
+</p>
+
 ## 4.7. Software Object-Oriented Design
 El diseño orientado a objetos es fundamental para estructurar Locksight de manera modular. A través de este diseño, definimos las clases y métodos que dan vida a las funcionalidades, aprovechando principios de reutilización de código y mantenimiento. Esto nos permite modelar entidades del mundo real (sensores, usuarios, almacenes) dentro del código de forma lógica, facilitando que el sistema crezca y se adapte a nuevas necesidades de seguridad industrial sin comprometer la estabilidad actual.
 
