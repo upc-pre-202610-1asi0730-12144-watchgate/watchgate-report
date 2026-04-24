@@ -71,37 +71,18 @@ Commits del Report:
 ## CONTENIDO
 
 ### Tabla de contenido
+- [Universidad Peruana de Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
+  - [Carrera de Ingeniería de Software](#carrera-de-ingeniería-de-software)
+  - ["Informe del trabajo final"](#informe-del-trabajo-final)
+  - [Relacion de integrantes:](#relacion-de-integrantes)
+  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [CONTENIDO](#contenido)
+    - [Tabla de contenido](#tabla-de-contenido)
+- [**Student Outcomes**](#student-outcomes)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivos](#13-segmentos-objetivos)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
-  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. User Stories](#31-user-stories)
-  - [3.2. Impact Mapping](#32-impact-mapping)
-  - [3.3. Product Backlog](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -116,46 +97,13 @@ Commits del Report:
     - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
   - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.3.1. Web Applications Wireframes](#431-web-applications-wireframes)
     - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
     - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
-    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
   - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams](#471-class-diagrams)
   - [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagrams](#481-database-diagrams)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint n](#521-sprint-n)
-      - [5.2.1.1. Sprint Planning n](#5211-sprint-planning-n)
-      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog n](#5213-sprint-backlog-n)
-      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
-- [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
 
 
 
@@ -400,6 +348,138 @@ Para aprovechar mejor el espacio, las secciones de características, planes de s
 
 ## 4.4. Web Applications UX/UI Design
 El diseño de la experiencia de usuario (UX) y de la interfaz (UI) de la plataforma Locksight se ha centrado en la operatividad bajo presión. Entendemos que un jefe de seguridad o un dueño de negocio entra a la aplicación web buscando respuestas rápidas: "¿Está todo cerrado?", "¿Hubo alguna alerta?". Por ello, la UX prioriza la visibilidad de los estados de los sensores y la facilidad para auditar eventos pasados. La UI, basada en Material Design, utiliza una estética limpia y profesional que reduce la carga cognitiva, permitiendo que el usuario identifique anomalías mediante el uso estratégico de colores semánticos (rojo para alertas, verde para estados seguros).
+
+### 4.3.1. Web Applications Wireframes
+En esta sección se presentan los wireframes diseñados para la versión mobile de la plataforma. Estos modelos estructurales establecen la arquitectura de la información, la jerarquía visual y los flujos de interacción principales sin la distracción de elementos gráficos complejos. Los wireframes detallan la experiencia del usuario administrador a través de los módulos críticos del sistema, como lo es el dashboard de monitoreo de almacenes, la gestión del inventario de dispositivos IoT, el control de accesos del personal y el ecosistema de facturación. El objetivo de esta etapa es validar la usabilidad y la eficiencia de las tareas operativas antes de transicionar al diseño de alta fidelidad.
+
+
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-user-goal-1-picture-1.png" alt="user-goal-1" width="450">
+</div>
+
+1. User Goal: Acceso al sistema
+
+  Permitir a los dueños de PYMES y administradores registrar su empresa, ingresar a la plataforma de forma segura y recuperar sus credenciales en caso de olvido
+
+  En el diseño del flujo de acceso, la arquitectura de información sigue un modelo de navegación lineal que guía al usuario paso a paso, evitando distracciones innecesarias. Se emplean campos de texto amplios y una tipografía sans-serif de alto contraste, lo que mejora la legibilidad y refuerza principios como la alineación y la simplicidad visual.
+
+  Pantallas de flujo
+
+  * Formulario inicial donde el usuario registra sus datos personales, los de su empresa y crea una contraseña para iniciar su prueba gratuita
+  * Pantalla de login estándar para usuarios que ya tienen una cuenta.
+  * Interfaz sencilla donde el usuario ingresa su correo electrónico para recibir un enlace de restablecimiento de acceso
+
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-user-goal-2-picture-1.png" alt="user-goal-1" width="450"><br><br>
+  <img src="./assets/chapter-4/wireframe-user-goal-2-picture-2.png" alt="user-goal-1" width="450">
+</div>
+
+2. User Goal: Monitoreo y gestión de almacenes
+
+  Proveer un panel de control para visualizar el estado de todas las sucursales en tiempo real y permitir la configuración de nuevos locales operativos
+
+  Para el panel principal de almacenes, la arquitectura de información sigue un modelo jerárquico basado en cards, lo que permite visualizar y entender rápidamente el estado de múltiples sucursales. Se aplica el principio de contraste para resaltar claramente los estados de “Alerta Crítica” frente a los estados normales, facilitando una lectura rápida y priorizada de la información.
+
+  Otro aspecto de la información crítica no depende únicamente del color, ya que se complementa con etiquetas en texto y elementos destacados. Los botones de acción también cuentan con áreas táctiles amplias, lo que mejora la accesibilidad para usuarios con dificultades motrices.
+
+  Pantallas de flujo
+
+  * Lista principal que muestra el estado en tiempo real de cada sucursal registrada
+  * Formulario para registrar una nueva sucursal y establecer sus horarios de operación automáticos
+  * Estado del formulario que resalta visualmente en rojo los campos obligatorios faltantes o con formato incorrecto
+  * Ventana emergente que confirma que el nuevo almacén ha sido guardado y está listo para monitorearse
+
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-user-goal-3-picture-1.png" alt="user-goal-3" width="450"><br><br>
+  <img src="./assets/chapter-4/wireframe-user-goal-3-picture-2.png" alt="user-goal-3" width="450">
+</div>
+
+3. User Goal: Administración de dispositivos IoT
+
+  Facilitar la vinculación de nuevo hardware de seguridad a zonas específicas, visualizar su estado de conexión y controlar los límites de uso
+
+  La vinculación y gestión de dispositivos se diseña con el objetivo de reducir la carga cognitiva, agrupando el hardware por categorías para facilitar su identificación y acceso. Se aplica el principio de proximidad de Gestalt para organizar de forma clara la información de cada dispositivo junto a su estado de conexión, mientras que el uso de modales superpuestos permite realizar acciones sin perder el contexto de la pantalla principal. Desde un enfoque inclusivo, los formularios y acciones críticas, como la desvinculación, presentan alto contraste y botones con descripciones claras y directas (“Sí, desvincular” y “Cancelar”), evitando ambigüedades y mejorando la comprensión para todo tipo de usuarios.
+
+  Pantallas de flujo
+
+  * Inventario visual del hardware conectado, indicando si están Online/Offline y mostrando el uso actual de la cuota del plan
+  * Formulario para ingresar el número de serie de un equipo nuevo y asignarlo a una zona del almacén
+  * Ventana emergente de éxito que confirma la correcta sincronización del nuevo sensor con el sistema.
+  * Ventana emergente de advertencia que bloquea la vinculación cuando el usuario ha alcanzado el límite de hardware permitido por su plan
+
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-user-goal-4-picture-1.png" alt="user-goal-4" width="450"><br><br>
+  <img src="./assets/chapter-4/wireframe-user-goal-4-picture-2.png" alt="user-goal-4" width="450">
+</div>
+
+4. User Goal: Registro de eventos e incidentes
+
+  Permitir al usuario revisar la bitácora de actividad del sistema, buscar eventos mediante filtros y acceder al detalle de las alertas críticas.
+
+  Dado que el historial maneja grandes volúmenes de datos, su arquitectura de información se organiza de forma secuencial y con opciones de filtrado claras para facilitar la búsqueda. Se aplica una jerarquía visual donde la hora y la gravedad del incidente destacan en el primer nivel de lectura, permitiendo identificar rápidamente eventos críticos.
+
+  Pantallas de flujo
+
+  * Lista cronológica detallada de todas las actividades del almacén, diferenciando alertas de accesos normales o de sistema
+  * Menús desplegables que permiten filtrar el historial por "Tipo de evento" o "Rango de fechas"
+  * Ventana emergente que muestra el resumen inmediato de un incidente crítico sin salir de la vista actual
+
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-user-goal-5-picture-1.png" alt="user-goal-5" width="450"><br><br>
+  <img src="./assets/chapter-4/wireframe-user-goal-5-picture-2.png" alt="user-goal-5" width="450">
+</div>
+
+5. User Goal: Gestión de personal y accesos
+
+  Controlar de forma segura qué empleados tienen acceso a la plataforma, invitar nuevos miembros y delimitar qué zonas pueden monitorear
+
+  Este módulo utiliza una arquitectura de información facetada que separa claramente los roles de administrador y personal de seguridad, reduciendo el riesgo de errores en la asignación de permisos. Se aplica el principio de repetición en las tarjetas de usuario para mantener un orden visual consistente y fácil de seguir, mientras que elementos como los badges de roles emplean variaciones tonales sutiles para diferenciarlos sin sobrecargar la interfaz. Desde un enfoque inclusivo, la edición de permisos se apoya en interruptores visuales grandes acompañados de texto claro y confirmatorio, además de un diseño tolerante a errores que evita cambios accidentales, especialmente en usuarios con dificultades motoras.
+
+  Pantallas de flujo
+
+  * Panel central que lista al equipo de trabajo, separando claramente a los Administradores del Personal de Seguridad
+  * Formulario para enviar una invitación por correo asignando un rol de sistema específico a un nuevo miembro
+  * Panel de configuración con opciones para habilitar o deshabilitar el acceso de un guardia a zonas específicas
+  * Ventana emergente de advertencia destructiva para revocar definitivamente el acceso de un empleado a la plataforma.
+
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-user-goal-6-picture-1.png" alt="user-goal-5" width="450"><br><br>
+  <img src="./assets/chapter-4/wireframe-user-goal-6-picture-2.png" alt="user-goal-5" width="450"><br><br>
+  <img src="./assets/chapter-4/wireframe-user-goal-6-picture-3.png" alt="user-goal-5" width="450">
+</div>
+
+6. User Goal: Administración de suscripción y facturación
+
+  Permitir a la empresa escalar sus operaciones mejorando su plan, personalizar límites a medida o gestionar la cancelación del servicio
+
+  El flujo de facturación guía al usuario desde la comparación de planes hasta el pago mediante una arquitectura de información progresiva. Además, se incorporan elementos interactivos como sliders y resúmenes de pago claros que facilitan la comprensión del proceso. Desde el enfoque inclusivo, se prioriza la legibilidad financiera mediante tipografías grandes para los montos y textos simples, evitando jerga técnica. Esto permite que usuarios con distintos niveles de conocimiento o limitaciones visuales comprendan fácilmente la información y tomen decisiones con mayor confianza.
+
+  Pantallas de flujo
+
+  * Panel de resumen con el plan actual, fecha de próximo cobro y barras de progreso que muestran los límites consumidos
+  * Pantalla comparativa de beneficios y precios entre los diferentes planes ofrecidos
+  * Interfaz de cotizador interactivo con controles deslizables para elegir la cantidad exacta de almacenes e IoT necesarios.
+  * Pantalla de checkout que detalla el costo total, prorrateos y permite confirmar el método de pago con tarjeta
+  * Ventana emergente retención que advierte al usuario sobre las funcionalidades clave que perderá si decide cancelar
+  * Ventana emergente de confirmación de transacción aprobada y notificación de actualización de los límites del plan
+  * Vista del dashboard en estado "sin plan" cuando la cuenta no posee una suscripción activa, bloqueando nuevas acciones
+
+
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-user-goal-7-picture-1.png" alt="user-goal-7" width="450">
+</div>
+
+7. User Goal: Configuración de cuenta y notificaciones
+
+  Dar control al usuario sobre sus credenciales de seguridad y los canales por los cuales desea recibir alertas
+
+  La sección de configuración organiza las preferencias mediante una arquitectura categórica, aplicando el principio de agrupamiento para mantener juntas las opciones relacionadas y facilitar su comprensión. Se utilizan controles estándar y líneas divisorias sutiles que ordenan la interfaz sin recargarla, manteniendo una experiencia limpia y clara.
+  
+  Pantallas de flujo
+
+  * Menú de ajustes con interruptores para activar o desactivar notificaciones Push, Email y SMS.
+  * Ventana emergente que advierte al usuario las consecuencias si intenta silenciar por completo las notificaciones del sistema
+  * Ventana emergente de confirmación que avisa sobre la pausa de recepción de alertas Push en el dispositivo actual al salir de la cuenta
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 El Wireflow es un artefacto que combina la estructura de los wireframes con la lógica de un diagrama de flujo. Su importancia radica en que permite visualizar no solo qué elementos hay en cada pantalla, sino cómo el usuario se desplaza entre ellas para completar un proceso. Para Locksight, esto es vital porque el sistema debe ser capaz de guiar al usuario desde la recepción de una alerta hasta la resolución del incidente en el menor número de pasos posible. En esta sección se detalla la arquitectura de navegación, mostrando los caminos que conectan el panel de control con los módulos de configuración de sensores y revisión de historiales.
