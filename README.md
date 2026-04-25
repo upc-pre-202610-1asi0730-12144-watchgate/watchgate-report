@@ -448,7 +448,7 @@ En la sesión de Big Picture Event Storming, el equipo identificó los eventos m
 
 ### Big Picture Event Storming - Leyenda de Colores
 
-<p align="center"><img src="./assets/big picture-leyenda de colores.jpg" width="1505" height="664"></p>
+<p align="center"><img src="./assets/big-picture-event-storming.png" width="1505" height="664"></p>
 
 ## 2.5. Ubiquitous Language
 
