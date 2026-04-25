@@ -28,7 +28,7 @@
 | Código      | Nombre                              |
 |-------------|-------------------------------------|
 | U201819276  | Bardales Tejada, Luis Alexis        |
-| U202416276  | Higa Kohatsue, Alonso Enrique       |
+| U202416276  | Higa Kohatsu, Alonso Enrique       |
 | U202412903  | Lozano Quispe, Fabricio Jofred      |
 | U202418645  | Sandoval Aiquipa, Kelber Yamir      |
 | U202414356  | Vite Celis, Rodrigo Matias          |
