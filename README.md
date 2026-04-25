@@ -1585,7 +1585,7 @@ Como dueño de distribuidora Marcelo Mansilla quiere gestionar las preferencias 
 En este escenario Marcelo interactúa con el panel de Configuración donde puede activar o desactivar notificaciones Push correos o SMS. El sistema incorpora validaciones preventivas. Si Marcelo intenta apagar todas las alertas el sistema despliega un modal advirtiendo el riesgo de seguridad. De igual manera sí decide salir de la plataforma la acción de cerrar sesión requiere una confirmación explícita para evitar cierres accidentales y la pérdida de monitoreo en su dispositivo móvil.
 
 <div align="center">
-  <img src="./assets/chapter-4/mockup-mobile-flow-user-goal-1.png" alt="mock-up-mobile-user-goal-7" width="450">
+  <img src="./assets/chapter-4/mockup-mobile-flow-user-goal-7.png" alt="mock-up-mobile-user-goal-7" width="450">
 </div>
 
 **El happy path:** Cierre de sesión seguro
