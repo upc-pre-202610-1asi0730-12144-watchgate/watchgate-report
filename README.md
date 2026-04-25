@@ -146,6 +146,7 @@ Commits del Report:
   - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
     - [4.3.1. Web Applications Wireframes](#431-web-applications-wireframes)
     - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
     - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
@@ -1342,6 +1343,36 @@ El Wireflow es un artefacto que combina la estructura de los wireframes con la l
   <div align="center">
     <img src="./assets/chapter-4/wireflow-user-goal-7-picture-1.png" alt="user-goal-7" width="450">
   </div>
+
+### 4.4.3. Web Applications Mock-ups
+
+**Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/mock-up-desktop-user-goal-1.png" alt="mock-up-desktop-user-goal-1" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-desktop-user-goal-2.png" alt="mock-up-desktop-user-goal-2" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-desktop-user-goal-3.png" alt="mock-up-desktop-user-goal-3" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-desktop-user-goal-4.png" alt="mock-up-desktop-user-goal-4" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-desktop-user-goal-5.png" alt="mock-up-desktop-user-goal-5" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-desktop-user-goal-6.png" alt="mock-up-desktop-user-goal-6" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-desktop-user-goal-7.png" alt="mock-up-desktop-user-goal-7" width="450">
+</div>
+
+Los mockups de la versión de escritorio presentan un sistema de diseño moderno y coherente, con una paleta de colores oscuros que ayuda a reducir la fatiga visual durante largos periodos de monitoreo. La arquitectura de información se organiza a través de una barra lateral persistente que facilita la navegación entre módulos clave como el panel de almacenes, el historial de eventos y la configuración. Además, el uso consistente de tipografías legibles y componentes estandarizados, como tarjetas y botones en tonos azules, permite mantener una jerarquía visual clara y fácil de seguir.
+
+Con respecto a usabilidad e inclusión, la interfaz prioriza la prevención de errores y la retroalimentación constante. Las acciones críticas están protegidas mediante ventanas emergentes con alertas de alto contraste que advierten sobre sus consecuencias, mientras que los estados del sistema combinan iconos y texto para asegurar una comprensión clara. Esto permite que la información sea accesible para distintos tipos de usuarios y garantiza que tanto los flujos principales como los de error sean intuitivos.
+
+
+**Mobile**
+<div align="center">
+  <img src="./assets/chapter-4/mock-up-mobile-user-goal-1.png" alt="mock-up-mobile-user-goal-1" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-mobile-user-goal-2.png" alt="mock-up-mobile-user-goal-2" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-mobile-user-goal-3.png" alt="mock-up-mobile-user-goal-3" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-mobile-user-goal-4.png" alt="mock-up-mobile-user-goal-4" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-mobile-user-goal-5-parte1.png" alt="mock-up-mobile-user-goal-5" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-mobile-user-goal-5-parte2.png" alt="mock-up-mobile-user-goal-6" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-mobile-user-goal-6.png" alt="mock-up-mobile-user-goal-7" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-mobile-user-goal-7.png" alt="mock-up-mobile-user-goal-7" width="450">
+</div>
 
 
 ### 4.4.4. Web Applications User Flow Diagrams
