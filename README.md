@@ -248,6 +248,8 @@ En un entorno empresarial donde la seguridad de los almacenes y el control de ac
 | US17 | Acceder al sistema desde dispositivo móvil |
 | US28 | Visualizar dashboard consolidado |
 | US32 | Acceder desde diferentes ubicaciones |
+| US51 | Visualizar nivel de riesgo por zona en el dashboard |
+| US52 | Consultar resumen de actividad diaria del almacén |
 
 ---
 
@@ -262,6 +264,9 @@ En un entorno empresarial donde la seguridad de los almacenes y el control de ac
 | US25 | Registrar usuario |
 | US26 | Asociar usuario a almacén |
 | US33 | Gestionar permisos de acceso |
+| US36 | Registrar empresa en la plataforma |
+| US43 | Asignar roles a usuarios del sistema |
+| US49 | Desactivar almacén |
 
 ---
 
@@ -274,6 +279,9 @@ En un entorno empresarial donde la seguridad de los almacenes y el control de ac
 | US16 | Recibir notificaciones en tiempo real |
 | US29 | Priorizar alertas críticas |
 | US30 | Marcar alertas como atendidas |
+| US50 | Recibir alerta por sensor desconectado |
+| US53 | Configurar canal de notificación preferido |
+| US54 | Consultar alertas activas por almacén |
 
 ---
 
@@ -286,6 +294,8 @@ En un entorno empresarial donde la seguridad de los almacenes y el control de ac
 | US12 | Filtrar eventos por fecha |
 | US15 | Consultar detalle de un evento |
 | US31 | Generar reportes de seguridad |
+| US55 | Exportar reporte de seguridad |
+| US56 | Consultar historial de alertas atendidas |
 
 ---
 
@@ -297,6 +307,11 @@ En un entorno empresarial donde la seguridad de los almacenes y el control de ac
 | TS27 | Autenticación de usuario mediante API |
 | US34 | Integrar servicio externo de notificaciones |
 | TS35 | Manejo de errores en API |
+| TS44 | Gestionar sensores mediante API |
+| TS45 | Gestionar suscripciones y pagos mediante API |
+| TS46 | Procesar eventos IoT entrantes mediante API |
+| TS47 | Gestionar zonas mediante API |
+| TS48 | Gestionar empresas mediante API |
 
 ---
 
@@ -307,6 +322,61 @@ En un entorno empresarial donde la seguridad de los almacenes y el control de ac
 | US22 | Visualizar video del producto |
 | US23 | Visualizar información del equipo |
 | US24 | Contactar desde la landing page |
+| US57 | Visualizar testimonios de la comunidad |
+| US58 | Ver planes y precios desde la landing page |
+
+---
+
+### Epic 07: Suscripciones y pagos
+| Story ID | Título |
+|----------|--------|
+| US36 | Registrar empresa en la plataforma |
+| US37 | Seleccionar plan de suscripción |
+| US38 | Procesar pago de suscripción |
+| US42 | Consultar comprobantes de pago |
+| TS45 | Gestionar suscripciones y pagos mediante API |
+| TS48 | Gestionar empresas mediante API |
+| US59 | Cancelar suscripción activa |
+
+---
+
+### Epic 08: Gestión de sensores IoT y zonas
+| Story ID | Título |
+|----------|--------|
+| US39 | Gestionar zonas dentro de un almacén |
+| US40 | Registrar sensor IoT en una zona |
+| US41 | Ver estado de conexión de sensores IoT |
+| US50 | Recibir alerta por sensor desconectado |
+| TS44 | Gestionar sensores mediante API |
+| TS46 | Procesar eventos IoT entrantes mediante API |
+| TS47 | Gestionar zonas mediante API |
+| US60 | Editar o eliminar un sensor IoT registrado |
+
+---
+
+### Epic 09: Seguridad de acceso e identidad
+| Story ID | Título |
+|----------|--------|
+| US19 | Acceder al sistema |
+| US20 | Cerrar sesión |
+| US25 | Registrar usuario |
+| US33 | Gestionar permisos de acceso |
+| US43 | Asignar roles a usuarios del sistema |
+| TS27 | Autenticación de usuario mediante API |
+| TS35 | Manejo de errores en API |
+
+---
+
+### Epic 10: Experiencia de usuario y accesibilidad
+| Story ID | Título |
+|----------|--------|
+| US17 | Acceder al sistema desde dispositivo móvil |
+| US28 | Visualizar dashboard consolidado |
+| US32 | Acceder desde diferentes ubicaciones |
+| US51 | Visualizar nivel de riesgo por zona en el dashboard |
+| US52 | Consultar resumen de actividad diaria del almacén |
+| US57 | Visualizar testimonios de la comunidad |
+| US58 | Ver planes y precios desde la landing page |
 
 ## 3.3. Impact Mapping
 ### Segmento 1: Dueños y Administradores de PYMES
