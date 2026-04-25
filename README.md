@@ -148,6 +148,13 @@ Commits del Report:
     - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
     - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
     - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+      - [**User Goal 1: Acceso e Inicio en el Sistema**](#user-goal-1-acceso-e-inicio-en-el-sistema)
+      - [**User Goal 2: Registro y Monitoreo de Almacenes**](#user-goal-2-registro-y-monitoreo-de-almacenes)
+      - [**User Goal 3: Gestión de Dispositivos IoT**](#user-goal-3-gestión-de-dispositivos-iot)
+      - [**User Goal 4: Auditoría de Eventos e Incidentes**](#user-goal-4-auditoría-de-eventos-e-incidentes)
+      - [**User Goal 5: Gestión de Equipo y Accesos**](#user-goal-5-gestión-de-equipo-y-accesos)
+      - [**User Goal 6: Suscripción y Facturación**](#user-goal-6-suscripción-y-facturación)
+      - [**User Goal 7: Configuración de cuenta y notificaciones**](#user-goal-7-configuración-de-cuenta-y-notificaciones)
   - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
   - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
@@ -1374,9 +1381,224 @@ Con respecto a usabilidad e inclusión, la interfaz prioriza la prevención de e
   <img src="./assets/chapter-4/mock-up-mobile-user-goal-7.png" alt="mock-up-mobile-user-goal-7" width="450">
 </div>
 
+La versión móvil mantiene coherencia con el diseño de escritorio, conservando el modo oscuro para asegurar comodidad visual y una experiencia profesional en cualquier contexto. La arquitectura de información se adapta a pantallas pequeñas mediante una barra de navegación inferior persistente, facilitando el acceso con el pulgar a módulos clave como Almacenes, Dispositivos IoT e Historial. Además, los tamaños de texto, tarjetas y áreas táctiles han sido optimizados para cumplir con estándares de accesibilidad, permitiendo una interacción fluida incluso en movimiento o con una sola mano.
+
+A nivel interactivo, se priorizan patrones propios del entorno móvil, como el uso de bottom sheets para opciones secundarias y modales para confirmaciones críticas, evitando menús complejos. También, se incorporan indicadores visuales claros para estados del sistema, lo que permite identificar alertas de forma inmediata. Este enfoque no solo responde a las limitaciones del dispositivo, sino que mejora la experiencia general al ofrecer navegación intuitiva, retroalimentación constante y un diseño accesible para distintos tipos de usuarios.
 
 ### 4.4.4. Web Applications User Flow Diagrams
 Mientras que el wireflow se enfoca en el diseño de las pantallas, el User Flow o Diagrama de Flujo de Usuario se centra en el proceso de toma de decisiones de la persona que opera Locksight. Este diagrama ayuda a comprender el camino lógico que sigue un Administrador o Jefe de Seguridad para alcanzar un objetivo específico, como puede ser la auditoría de un acceso no autorizado. Al desglosar cada acción y punto de decisión, podemos identificar posibles fricciones en la experiencia y asegurar que el sistema responda de manera coherente a las necesidades operativas de la empresa, garantizando que el flujo de información sea siempre claro y directo.
+
+#### **User Goal 1: Acceso e Inicio en el Sistema**
+
+Marcelo, interactúa con la aplicación para registrarse o acceder a su cuenta mediante un flujo claro y sin fricciones. Si es su primera vez, sigue la ruta de registro completando sus datos comerciales para iniciar, en cambio sí ya cuenta con credenciales, ingresa directamente con su correo y contraseña para acceder al panel principal. El sistema en caso sea necesario cuenta con un proceso de recuperación de contraseña que le permite restablecer su acceso de forma segura a través de un enlace enviado a su correo electrónico, garantizando continuidad sin bloqueos.
+
+<div align="center">
+  <img src="./assets/chapter-4/mockup-mobile-flow-user-goal-1.png" alt="mock-up-mobile-user-goal-1" width="450">
+</div>
+
+**El happy path:** Inicio de sesión exitoso
+
+Inicio => Marcelo abre la aplicación móvil y visualiza la pantalla de Acceso.
+
+Decisión => El sistema le presenta las opciones y Marcelo determina que ya tiene una cuenta activa
+
+Ingreso de datos => Marcelo escribe su correo electrónico y su contraseña en los campos correspondientes.
+
+Acción => Presiona el botón azul Ingresar
+
+Fin del flujo => El sistema valida las credenciales y Marcelo entra exitosamente al panel de monitoreo de sus almacenes
+
+**El unhappy path:** Recuperación de Contraseña
+
+Inicio => Marcelo abre la aplicación móvil, pero no recuerda su contraseña para ingresar al sistema
+
+Acción => Al estar bloqueado en la pantalla de Acceso, Marcelo presiona el enlace "¿Olvidaste tu contraseña?"
+
+Navegación => El sistema lo redirige a la vista de "Recuperar Contraseña"
+
+Ingreso de datos => Marcelo escribe el correo electrónico asociado a su cuenta de empresa en el campo de texto
+
+Confirmación => Presiona el botón oscuro "Enviar Enlace".
+
+Fin del flujo => El sistema procesa la solicitud y envía las instrucciones de restablecimiento al correo de Marcelo para que pueda recuperar su acceso de forma segura
+
+#### **User Goal 2: Registro y Monitoreo de Almacenes**
+
+Como Jefe de Seguridad, Diego Castillo quiere registrar nuevas sucursales y ver el estado de todos los almacenes de la empresa en una sola plataforma para detectar rápidamente cualquier incidente
+
+En este escenario, Diego necesita agregar una nueva sucursal al sistema de Locksight desde el panel principal. El flujo le solicita datos básicos y horarios de operación, incorporando validaciones en tiempo real para evitar errores. Además, el sistema controla los límites del plan, mostrando una alerta si ya alcanzó la cantidad máxima de almacenes permitidos.
+
+<div align="center">
+  <img src="./assets/chapter-4/mockup-mobile-flow-user-goal-2.png" alt="mock-up-mobile-user-goal-2" width="450">
+</div>
+
+**El happy path:** Registro de almacen exitoso
+
+Inicio => Diego ingresa a la aplicación y se encuentra en la vista principal de "Mis Almacenes"
+
+Acción => Presiona el botón azul principal "Registrar nuevo almacén"
+
+Navegación => El sistema le permite el paso y despliega la pantalla del formulario "Nuevo Almacén"
+
+Ingreso de datos => Diego completa correctamente todos los campos, escribiendo el Nombre del Almacén, la Dirección y configurando los Horarios de Operación mediante los controles interactivos
+
+Confirmación => Hace clic en el botón inferior "Guardar Almacén"
+
+Fin del flujo => El sistema valida que la información es correcta, muestra la ventana emergente de "Registro Exitoso" y al presionar "Entendido", Diego vuelve al dashboard actualizado donde la nueva sucursal ya aparece lista para ser monitoreada.
+
+**El unhappy path:** Límite de Plan Alcanzado
+
+Inicio => Diego ingresa a la aplicación y se encuentra en la vista principal de "Mis Almacenes"
+
+Acción => Presiona el botón azul principal "Registrar nuevo almacén"
+
+Intercepción => El sistema verifica la suscripción actual y detecta que la empresa ya alcanzó el límite máximo de almacenes permitidos.
+
+Notificación => En lugar de abrir el formulario, el sistema despliega la ventana emergente "Límite de Almacenes", bloqueando el proceso de registro
+
+Fin del flujo => Diego se topa con un bloqueo funcional y debe tomar una decisión => presionar "Mejorar a Plan Premium" para escalar la cuenta de la empresa, o presionar "Quizás más tarde" para cancelar la acción y regresar al dashboard sin realizar cambios
+
+#### **User Goal 3: Gestión de Dispositivos IoT**
+
+Como Jefe de Seguridad, Diego Castillo quiere registrar, vincular y administrar los sensores y cámaras de cada almacén para mantener una vigilancia centralizada y recibir alertas en tiempo real.
+
+En este escenario, Diego gestiona los dispositivos desde el panel de IoT, donde visualiza su estado si estan online u offline. Puede vincular nuevos equipos ingresando sus datos, siempre que su plan lo permita, de lo contrario el sistema bloquea la acción y sugiere una mejora. También puede eliminar dispositivos, acción que está protegida con una confirmación para evitar errores.
+
+<div align="center">
+  <img src="./assets/chapter-4/mockup-mobile-flow-user-goal-3.png" alt="mock-up-mobile-user-goal-3" width="450">
+</div>
+
+**El happy path:** Vinculación de dispositivo exitosa
+
+Inicio => Diego ingresa a la vista de "Dispositivos IoT", donde visualiza la lista de sensores y cámaras del almacén seleccionado
+
+Acción => Presiona el botón azul principal "Vincular nuevo dispositivo"
+
+Navegación => Al tener cupo disponible, el sistema le permite el paso y lo dirige al formulario "Vincular Dispositivo".
+
+Ingreso de datos => Diego ingresa el Número de Serie, asigna un nombre descriptivo y selecciona la Zona correspondiente
+
+Procesamiento => Hace clic en el botón inferior "Vincular Dispositivo". El sistema despliega una ventana de espera con el mensaje "Activando Dispositivo..." mientras establece la conexión segura
+
+Fin del flujo => Se muestra el mensaje de confirmación "Dispositivo en línea" y al presionar "Entendido", Diego regresa al panel principal donde el nuevo sensor ya aparece listado, activo y sumado al contador de uso
+
+**El unhappy path:** Límite de Dispositivos Alcanzado
+
+Inicio => Diego ingresa a la vista de "Dispositivos IoT" con la intención de agregar una nueva cámara
+
+Acción => Presiona el botón azul "Vincular nuevo dispositivo"
+
+Intercepción => El sistema verifica los parámetros de la suscripción y detecta que se ha alcanzado la cantidad máxima de hardware permitido por su plan actual.
+
+Notificación => En lugar de mostrar el formulario, el sistema despliega la ventana "Límite de Dispositivos", bloqueando el proceso de vinculación.
+
+Fin del flujo => Diego debe tomar una decisión, presionar el botón "Mejorar Plan Premium" para adquirir más capacidad o presionar "Cerrar" para cancelar la acción y mantener su límite actual.
+
+#### **User Goal 4: Auditoría de Eventos e Incidentes**
+
+Como Jefe de Seguridad, Diego Castillo quiere ver un registro cronológico detallado de todas las actividades del almacén y poder filtrar la información rápidamente para investigar cualquier alerta o intrusión.
+
+En este escenario Diego audita una alerta desde el historial de eventos usando filtros para encontrarla por tipo o fecha. Al ubicar una alerta crítica revisa un resumen y luego el detalle con la evidencia del sensor. Después de evaluarla debe decidir si la descarta como falsa alarma o si la escala contactando al equipo de seguridad mediante una confirmación.
+
+<div align="center">
+  <img src="./assets/chapter-4/mockup-mobile-flow-user-goal-4.png" alt="mock-up-mobile-user-goal-4" width="450">
+</div>
+
+**El happy path:** Auditoría y Escalamiento de Incidente
+
+Inicio => Diego ingresa a la vista de "Historial de Eventos", donde observa la lista cronológica de actividades
+
+Acción => Hace clic en la tarjeta de la alerta crítica "Puerta Principal Abierta" marcada en rojo.
+
+Vista Rápida => El sistema despliega la ventana superpuesto con el resumen del evento. Diego presiona el botón azul "Ver Detalles y Evidencia"
+
+Análisis => El sistema lo dirige a la pantalla "Detalle del Evento", donde Diego revisa la información específica del sensor y la causa de activación
+
+Decisión => Al confirmar que es un incidente real, Diego presiona el botón con borde rojo "Llamar a Seguridad".
+
+Fin del flujo => El sistema despliega la ventana de advertencia "Contactar a Seguridad". Diego presiona el botón rojo "Sí, Llamar" para enlazar la comunicación con la central de monitoreo
+
+#### **User Goal 5: Gestión de Equipo y Accesos**
+
+Como dueño de distribuidora Marcelo Mansilla quiere invitar a su personal al sistema y asignar permisos específicos para delegar el monitoreo sin perder el control de la seguridad
+
+En este escenario Marcelo agrega a un nuevo miembro desde el panel de accesos donde visualiza administradores y personal de seguridad. Inicia la invitación completando un formulario con el correo del empleado y definiendo su nivel de permisos para mantener el control operativo.
+
+El flujo también permite gestionar al equipo actual ya que puede actualizar accesos por zonas o eliminar usuarios cuando sea necesario. Estas acciones están protegidas con confirmaciones claras para evitar errores y asegurar que ningún permiso se modifique por accidente.
+
+<div align="center">
+  <img src="./assets/chapter-4/mockup-mobile-flow-user-goal-5.png" alt="mock-up-mobile-user-goal-5" width="450">
+</div>
+
+**El happy path:** Invitación de usuario exitosa
+
+Inicio => Marcelo ingresa a la vista de Equipo y Accesos donde observa la lista de su personal activo.
+
+Acción => Presiona el botón azul principal "+ Invitar nuevo usuario"
+
+Navegación => El sistema despliega el formulario "Invitar Usuario".
+
+Ingreso de datos => Marcelo escribe el correo electrónico del empleado y selecciona el rol de Personal de Seguridad
+
+Confirmación => Presiona el botón inferior "Enviar Invitación"
+
+Fin del flujo => El sistema despliega la ventana "Invitación Enviada" y al presionar Entendido Marcelo regresa al panel actualizado donde el nuevo correo aparece con la etiqueta Pendiente.
+
+**El unhappy path:** Eliminación de Personal
+
+Inicio => Marcelo decide retirar el acceso de un ex empleado.
+
+Acción => Selecciona el menú del usuario y presiona el botón rojo Eliminar Personal.
+
+Advertencia => El sistema bloquea la pantalla con una ventana de confirmación informando que la acción es irreversible
+
+Fin del flujo => Marcelo presiona el botón rojo "Sí Eliminar" y el sistema remueve al usuario de la lista de accesos.
+
+#### **User Goal 6: Suscripción y Facturación**
+
+Como dueño de distribuidora Marcelo Mansilla quiere gestionar la facturación de su cuenta y ampliar los límites de su plan para escalar su negocio sin interrupciones.
+
+En este escenario Marcelo accede al panel de suscripción para mejorar su plan al notar que está cerca del límite actual. Selecciona una opción superior y ajusta la capacidad según sus necesidades mediante un cotizador interactivo. Luego continúa al pago donde el sistema aplica los ajustes correspondientes y procesa la transacción.El flujo finaliza con la actualización inmediata de los nuevos límites en su cuenta, permitiéndole seguir operando sin restricciones y con mayor capacidad de crecimiento.
+
+<div align="center">
+  <img src="./assets/chapter-4/mockup-mobile-flow-user-goal-6.png" alt="mock-up-mobile-user-goal-7" width="450">
+</div>
+
+**El happy path:** Actualización a Plan Enterprise
+
+Inicio => Marcelo ingresa a la vista "Mi Suscripción" donde revisa su plan actual y nota que sus límites están al máximo
+
+Acción => Presiona el botón azul "Cambiar Plan".
+
+Selección => El sistema muestra el catálogo de planes y Marcelo presiona el botón amarillo "Actualizar a Enterprise"
+
+Configuración => En la pantalla Configurar Enterprise Marcelo usa los controles deslizantes para establecer 5 almacenes y 25 dispositivos y presiona el botón naranja Continuar al Pago.
+
+Pago => El sistema muestra el Resumen de Pago con el total calculado Marcelo valida su tarjeta y presiona el botón verde Confirmar y "Pagar"
+
+Fin del flujo => Aparece la ventana "Actualización Exitosa" con un check verde y al presionar el botón azul Ir a mi suscripción Marcelo regresa al dashboard donde ya visualiza sus nuevos límites operativos extendidos listos para usar
+
+#### **User Goal 7: Configuración de cuenta y notificaciones**
+
+Como dueño de distribuidora Marcelo Mansilla quiere gestionar las preferencias de sus notificaciones y la seguridad de su cuenta para asegurar que recibe alertas críticas sin distracciones innecesarias.
+
+En este escenario Marcelo interactúa con el panel de Configuración donde puede activar o desactivar notificaciones Push correos o SMS. El sistema incorpora validaciones preventivas. Si Marcelo intenta apagar todas las alertas el sistema despliega un modal advirtiendo el riesgo de seguridad. De igual manera sí decide salir de la plataforma la acción de cerrar sesión requiere una confirmación explícita para evitar cierres accidentales y la pérdida de monitoreo en su dispositivo móvil.
+
+<div align="center">
+  <img src="./assets/chapter-4/mockup-mobile-flow-user-goal-1.png" alt="mock-up-mobile-user-goal-7" width="450">
+</div>
+
+**El happy path:** Cierre de sesión seguro
+
+Inicio => Marcelo ingresa a la vista principal de "Configuración"
+
+Acción => Toca el botón con borde rojo "Cerrar Sesión" ubicado en la parte inferior de la pantalla
+
+Advertencia => El sistema detecta el intento de salida y despliega el modal emergente ¿Cerrar sesión? para prevenir un toque accidental
+
+Confirmación => Marcelo presiona el botón rojo Sí salir.
+
+Fin del flujo => La plataforma finaliza la sesión de forma segura y redirige a Marcelo a la pantalla inicial de acceso
 
 ## 4.5. Web Applications Prototyping
 El prototipado de la aplicación web es la etapa donde se materializa la interacción de Locksight de manera funcional antes de pasar al desarrollo. Este artefacto, desarrollado en la herramienta Figma, permite simular el comportamiento real de la plataforma, desde el inicio de sesión hasta la recepción de una alerta inteligente. El objetivo es validar el flujo de navegación y la usabilidad, asegurando que el sistema sea comprensible y que los administradores puedan acceder a sus reportes y cámaras sin fricciones.
