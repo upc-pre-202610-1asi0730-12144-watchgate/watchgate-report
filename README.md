@@ -995,7 +995,11 @@ El diseño de la experiencia de usuario (UX) y de la interfaz (UI) de la platafo
 ### 4.3.1. Web Applications Wireframes
 En esta sección se presentan los wireframes diseñados para la versión mobile de la plataforma. Estos modelos estructurales establecen la arquitectura de la información, la jerarquía visual y los flujos de interacción principales sin la distracción de elementos gráficos complejos. Los wireframes detallan la experiencia del usuario administrador a través de los módulos críticos del sistema, como lo es el dashboard de monitoreo de almacenes, la gestión del inventario de dispositivos IoT, el control de accesos del personal y el ecosistema de facturación. El objetivo de esta etapa es validar la usabilidad y la eficiencia de las tareas operativas antes de transicionar al diseño de alta fidelidad.
 
-
+**Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-desktop-user-goal-1-picture-1.png" alt="desktop-user-goal-1" width="450">
+</div>
+**Mobile**
 <div align="center">
   <img src="./assets/chapter-4/wireframe-user-goal-1-picture-1.png" alt="user-goal-1" width="450">
 </div>
@@ -1012,9 +1016,14 @@ En esta sección se presentan los wireframes diseñados para la versión mobile 
   * Pantalla de login estándar para usuarios que ya tienen una cuenta.
   * Interfaz sencilla donde el usuario ingresa su correo electrónico para recibir un enlace de restablecimiento de acceso
 
+**Desktop**
 <div align="center">
-  <img src="./assets/chapter-4/wireframe-user-goal-2-picture-1.png" alt="user-goal-1" width="450"><br><br>
-  <img src="./assets/chapter-4/wireframe-user-goal-2-picture-2.png" alt="user-goal-1" width="450">
+  <img src="./assets/chapter-4/wireframe-desktop-user-goal-2-picture-1.png" alt="desktop-user-goal-2" width="450">
+</div>
+**Mobile**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-user-goal-2-picture-1.png" alt="user-goal-2" width="450"><br><br>
+  <img src="./assets/chapter-4/wireframe-user-goal-2-picture-2.png" alt="user-goal-2" width="450">
 </div>
 
 2. User Goal: Monitoreo y gestión de almacenes
@@ -1032,6 +1041,11 @@ En esta sección se presentan los wireframes diseñados para la versión mobile 
   * Estado del formulario que resalta visualmente en rojo los campos obligatorios faltantes o con formato incorrecto
   * Ventana emergente que confirma que el nuevo almacén ha sido guardado y está listo para monitorearse
 
+**Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-desktop-user-goal-3-picture-1.png" alt="desktop-user-goal-3" width="450">
+</div>
+**Mobile**
 <div align="center">
   <img src="./assets/chapter-4/wireframe-user-goal-3-picture-1.png" alt="user-goal-3" width="450"><br><br>
   <img src="./assets/chapter-4/wireframe-user-goal-3-picture-2.png" alt="user-goal-3" width="450">
@@ -1050,6 +1064,11 @@ En esta sección se presentan los wireframes diseñados para la versión mobile 
   * Ventana emergente de éxito que confirma la correcta sincronización del nuevo sensor con el sistema.
   * Ventana emergente de advertencia que bloquea la vinculación cuando el usuario ha alcanzado el límite de hardware permitido por su plan
 
+**Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-desktop-user-goal-4-picture-1.png" alt="desktop-user-goal-4" width="450">
+</div>
+**Mobile**
 <div align="center">
   <img src="./assets/chapter-4/wireframe-user-goal-4-picture-1.png" alt="user-goal-4" width="450"><br><br>
   <img src="./assets/chapter-4/wireframe-user-goal-4-picture-2.png" alt="user-goal-4" width="450">
@@ -1067,6 +1086,11 @@ En esta sección se presentan los wireframes diseñados para la versión mobile 
   * Menús desplegables que permiten filtrar el historial por "Tipo de evento" o "Rango de fechas"
   * Ventana emergente que muestra el resumen inmediato de un incidente crítico sin salir de la vista actual
 
+**Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-desktop-user-goal-5-picture-1.png" alt="desktop-user-goal-5" width="450">
+</div>
+**Mobile**
 <div align="center">
   <img src="./assets/chapter-4/wireframe-user-goal-5-picture-1.png" alt="user-goal-5" width="450"><br><br>
   <img src="./assets/chapter-4/wireframe-user-goal-5-picture-2.png" alt="user-goal-5" width="450">
@@ -1085,6 +1109,11 @@ En esta sección se presentan los wireframes diseñados para la versión mobile 
   * Panel de configuración con opciones para habilitar o deshabilitar el acceso de un guardia a zonas específicas
   * Ventana emergente de advertencia destructiva para revocar definitivamente el acceso de un empleado a la plataforma.
 
+**Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-desktop-user-goal-6-picture-1.png" alt="desktop-user-goal-6" width="450">
+</div>
+**Mobile**
 <div align="center">
   <img src="./assets/chapter-4/wireframe-user-goal-6-picture-1.png" alt="user-goal-5" width="450"><br><br>
   <img src="./assets/chapter-4/wireframe-user-goal-6-picture-2.png" alt="user-goal-5" width="450"><br><br>
@@ -1107,7 +1136,11 @@ En esta sección se presentan los wireframes diseñados para la versión mobile 
   * Ventana emergente de confirmación de transacción aprobada y notificación de actualización de los límites del plan
   * Vista del dashboard en estado "sin plan" cuando la cuenta no posee una suscripción activa, bloqueando nuevas acciones
 
-
+**Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-desktop-user-goal-7-picture-1.png" alt="desktop-user-goal-7" width="450">
+</div>
+**Mobile**
 <div align="center">
   <img src="./assets/chapter-4/wireframe-user-goal-7-picture-1.png" alt="user-goal-7" width="450">
 </div>
