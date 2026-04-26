@@ -174,3 +174,16 @@ En un entorno empresarial donde la seguridad de los almacenes y el control de ac
 
 **Visión:** Nuestra visión es posicionarnos como una plataforma líder en seguridad inteligente para entornos empresariales, elevando el estándar de control y protección en almacenes mediante el uso de IoT y análisis de datos. Aspiramos a que cada instalación conectada opere como un sistema autónomo capaz de anticipar riesgos, detectar comportamientos inusuales y activar mecanismos de alerta en tiempo real, permitiendo a las empresas mantener el control total desde cualquier lugar. Con nuestra solución buscamos construir un ecosistema seguro, eficiente y escalable que no solo reduzca pérdidas, sino que también transforme la manera en que las organizaciones gestionan su seguridad y operación diaria.
 
+### 5.1.1. Software Development Environment Configuration
+
+Para desarrollar el proyecto de manera exitosa, primero hemos definido el entorno y las herramientas sobre las cuales programaremos las diferentes capas de Locksight. En primer lugar, usaremos **Visual Studio Code (VS Code)** como nuestro editor de código fuente principal. Se eligió esta herramienta por ser gratuita, ligera y por contar con múltiples extensiones que optimizan el desarrollo, como Live Server, la cual permite visualizar las modificaciones de la Landing Page en tiempo real en el navegador, agilizando la maquetación.
+
+Para la construcción de la Landing Page pública, haremos uso exclusivo de tecnologías nativas:
+
+* **HTML5:** Para el diseño de la estructura semántica de la página, facilitando la interpretación por parte de los navegadores y motores de búsqueda mediante el uso de etiquetas como `<section>`, `<nav>`, `<header>` y `<footer>`.
+* **CSS3 (Puro):** Nos ayudará con la definición de la capa visual, la personalización de tipografías (como la fuente Inter), la paleta de colores corporativa (tonos oscuros y acentos en azul primario) y la creación de un diseño *Responsive* mediante *Media Queries*, sin depender de frameworks externos.
+* **JavaScript (Vanilla):** Lo emplearemos para diseñar el comportamiento dinámico del sitio, agregando interactividad como la apertura de modales de autenticación, menús de navegación móvil y validaciones básicas de formularios.
+
+Para las siguientes etapas del proyecto, orientadas a la Web Application y el servicio backend, el entorno se expandirá para incluir **Vue.js** (Frontend interactivo) y **C# con ASP.NET Core** (RESTful API), integrados mediante editores complementarios según la preferencia del equipo.
+
+Finalmente, para el sistema de control de versiones haremos uso de **GitHub**, donde alojaremos nuestro repositorio colaborativo.
