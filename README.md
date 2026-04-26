@@ -590,7 +590,47 @@ En la sesión de Big Picture Event Storming, el equipo identificó los eventos m
 
 ### Big Picture Event Storming – Mapa General
 
-<p align="center"><img src="./assets/big picture event storming.jpg" width="1505" height="664"></p>
+<p align="center"><img src="./assets/big-picture-event-storming.png" width="1505" height="664"></p>
+
+<p align="center"><img src="./assets/big picture-leyenda de colores.jpg" width="1505" height="664"></p>
+
+## 2.5. Ubiquitous Language
+
+| Término | Definición |
+|--------|-----------|
+| Asset (Activo) | Mercadería, inventario o recursos almacenados que son monitoreados y protegidos dentro del sistema. |
+| Active Defense Protocol (Protocolo de Defensa Activa) | Conjunto de acciones automáticas (como generación de alertas o bloqueo de accesos) ejecutadas ante una amenaza detectada en el almacén. |
+| Interference Detection (Detección de Interferencias) | Identificación de fallas o interrupciones en la comunicación de los dispositivos que afectan el monitoreo del almacén. |
+| Live Tracking (Monitoreo en tiempo real) | Visualización continua del estado del almacén y de los eventos que ocurren dentro de la plataforma. |
+| Driving Behavior (Comportamiento de actividad) | Análisis del comportamiento dentro del almacén basado en eventos como movimientos, accesos y actividad del personal. |
+| Geofence (Geocerca) | Área virtual definida dentro del almacén o zonas específicas que permite detectar accesos o movimientos fuera de los límites establecidos. |
+| Health Check (Verificación de Estado) | Confirmación periódica de que los sensores y el sistema se encuentran conectados y operativos. |
+| Security Alert (Alerta de Seguridad) | Notificación de alta prioridad ante eventos críticos como accesos no autorizados o actividad sospechosa. |
+| Operational Performance (Rendimiento Operativo) | Medición de la eficiencia en la gestión del almacén basada en eventos, tiempos de respuesta y control de accesos. |
+=======
+La paleta de colores de Locksight está diseñada para transmitir confianza corporativa, tecnología y facilitar la rápida toma de decisiones operativas.
+
+<img src="./assets/chapter-4//color-palette-locksight.png" alt="color-palette-locksight" width="600">
+
+* Azul oscuro (#0F172A): El azul oscuro es el estándar universal en psicología del color para representar seguridad corporativa, estabilidad y confianza
+* Azul eléctrico (#3B82F6): Aporta un toque moderno y tecnológico
+* Rojo (#EF4444): Es vital para el dashboard. En un sistema de seguridad, el color rojo debe interpretarse de inmediato como peligro.
+* Verde (#22C55E): Brinda seguridad al usuario, indicando de un solo vistazo todo fluye con normalidad y los sensores están en orden.
+* Blanco humo (#F8FAFC): Permite que la interfaz "respire" y resalta la información sin cansar la vista durante largas jornadas de monitoreo.
+
+**Tonos de Comunicación**
+
+La voz y el tono con el que Locksight se dirige a sus usuarios en la landing page y en la plataforma son fundamentales para establecer confianza y eficacia. 
+
+1. **Profesional y Confiable**
+   
+   Dado que Locksight maneja la seguridad del patrimonio y los activos de las empresas, la comunicación no puede ser informal ni excesivamente coloquial. Al dirigirnos a gerentes de operaciones y dueños de PYMES, el lenguaje debe demostrar experiencia, seriedad y solidez técnica.
+  
+2. **Directo y Preventivo**
+   
+   En situaciones de monitoreo o riesgo, los usuarios no tienen tiempo para leer textos largos. El tono debe ir directo al grano, fomentando la prevención y la acción inmediata. Debe ser instructivo y libre de ambigüedades, lo cual es clave para la interfaz de un dashboard donde una instrucción confusa podría resultar en una brecha de seguridad.
+
+
 
 # Capitulo III: Requirements Specification
 ## 3.1 User Stories
