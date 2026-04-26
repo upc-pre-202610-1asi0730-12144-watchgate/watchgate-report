@@ -1763,12 +1763,6 @@ La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño 
   <img src="./assets/chapter-4/c4-container-locksight.png" alt="C4 Container Diagram - LockSight" width="800">
 </div>
 
-### 4.6.2. Software Architecture Context Diagram
-
-<div align="center">
-    <img src="./assets/c4-context-diagram-locksight.png" alt="C4 Context Diagram - LockSight" width="800">
-</div>
-
 ### 4.6.3. Software Architecture Components Diagram
 
 <div align="center">
