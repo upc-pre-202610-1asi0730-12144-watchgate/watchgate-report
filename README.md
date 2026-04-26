@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./assets/logo-upc(1).png">
+    <img src="./assets/logo-upc (1).png">
 </div>
 
 <div align="center">
@@ -1754,7 +1754,49 @@ La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño 
 ### 4.6.1. Design-Level Event Storming
 
 <div align="center">
-  <img src="./assets/event-storming-design.jpg" alt="Design-Level Event Storming - LockSight" width="800">
+  <img src="./assets/chapter-4/Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
+</div>
+
+**Company Registration:**
+
+<div align="center">
+  <img src="./assets/chapter-4/Company Registration-Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
+</div>
+
+**Subscription & Billing:**
+
+<div align="center">
+  <img src="./assets/chapter-4/Subscription & Billing-Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
+</div>
+
+**Warehouse Management:**
+
+<div align="center">
+  <img src="./assets/chapter-4/Warehouse Management-Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
+</div>
+
+**Sensor Integration:**
+
+<div align="center">
+  <img src="./assets/chapter-4/Sensor Integration-Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
+</div>
+
+**User & Access Management:**
+
+<div align="center">
+  <img src="./assets/chapter-4/User & Access Management-Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
+</div>
+
+**Security Alerts:**
+
+<div align="center">
+  <img src="./assets/chapter-4/Security Alerts-Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
+</div>
+
+**Reports Section:**
+
+<div align="center">
+  <img src="./assets/chapter-4/Reports Section-Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
 </div>
 
 ### 4.6.2. Software Architecture Context Diagram
