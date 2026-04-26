@@ -1783,8 +1783,9 @@ La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño 
 ## 4.7. Software Object-Oriented Design
 El diseño orientado a objetos es fundamental para estructurar Locksight de manera modular. A través de este diseño, definimos las clases y métodos que dan vida a las funcionalidades, aprovechando principios de reutilización de código y mantenimiento. Esto nos permite modelar entidades del mundo real (sensores, usuarios, almacenes) dentro del código de forma lógica, facilitando que el sistema crezca y se adapte a nuevas necesidades de seguridad industrial sin comprometer la estabilidad actual.
 ### 4.7.1. Class Diagrams
+
 <div align="center">
-  <img src="./assets/class-diagram-locksight.png" alt="Class Diagram - LockSight" width="800">
+  <img src="./assets/chapter-4/class-diagram-locksight.png" alt="Class Diagram - LockSight" width="1000">
 </div>
 
 ## 4.8. Database Design
