@@ -69,37 +69,71 @@ Commits del Report:
 ## CONTENIDO
 
 ### Tabla de contenido
+- [Universidad Peruana de Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
+  - [Carrera de Ingeniería de Software](#carrera-de-ingeniería-de-software)
+  - ["Informe del trabajo final"](#informe-del-trabajo-final)
+  - [Relacion de integrantes:](#relacion-de-integrantes)
+  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [CONTENIDO](#contenido)
+    - [Tabla de contenido](#tabla-de-contenido)
+- [**Student Outcomes**](#student-outcomes)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivos](#13-segmentos-objetivos)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
+    - [Segmento 1: Dueños y Administradores de PYMES (Retail, Tiendas y Pequeños Almacenes)](#segmento-1-dueños-y-administradores-de-pymes-retail-tiendas-y-pequeños-almacenes)
+    - [Segmento 2: Jefes de Seguridad y Operaciones (Medianas y Grandes Corporaciones)](#segmento-2-jefes-de-seguridad-y-operaciones-medianas-y-grandes-corporaciones)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores.](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+  - [¿Por qué llevar a cabo este análisis?](#por-qué-llevar-a-cabo-este-análisis)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
+      - [Estrategia de diferenciación tecnológica](#estrategia-de-diferenciación-tecnológica)
+      - [Estrategia de inserción en el mercado](#estrategia-de-inserción-en-el-mercado)
+      - [Estrategia de captación de clientes](#estrategia-de-captación-de-clientes)
+      - [Estrategia frente a lo existente](#estrategia-frente-a-lo-existente)
+  - [2.2. Entrevistas.](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.2.1. Registro de entrevistas](#221-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas.](#223-análisis-de-entrevistas)
+  - [Análisis de entrevistas – Segmento 1: Dueños y Administradores de PYMES](#análisis-de-entrevistas--segmento-1-dueños-y-administradores-de-pymes)
+    - [Características objetivas](#características-objetivas)
+    - [Características subjetivas](#características-subjetivas)
+  - [Análisis de entrevistas – Segmento 2: Jefes de Seguridad y Operaciones](#análisis-de-entrevistas--segmento-2-jefes-de-seguridad-y-operaciones)
+    - [Características objetivas](#características-objetivas-1)
+    - [Características subjetivas](#características-subjetivas-1)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.2 User Task Matrix](#232-user-task-matrix)
+    - [Segmento 1: Dueños y Administradores de PYMES](#segmento-1-dueños-y-administradores-de-pymes)
+    - [Segmento 2: Jefes de Seguridad y Operaciones](#segmento-2-jefes-de-seguridad-y-operaciones)
+    - [2.3.3 User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
   - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
-  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. User Stories](#31-user-stories)
-  - [3.2. Impact Mapping](#32-impact-mapping)
-  - [3.3. Product Backlog](#33-product-backlog)
+    - [Big Picture Event Storming – Mapa General](#big-picture-event-storming--mapa-general)
+- [Capitulo III: Requirements Specification](#capitulo-iii-requirements-specification)
+  - [3.1 User Stories](#31-user-stories)
+  - [Relación de Epics y User Stories – Locksight](#relación-de-epics-y-user-stories--locksight)
+    - [Epic 01: Monitoreo y visualización de almacenes](#epic-01-monitoreo-y-visualización-de-almacenes)
+    - [Epic 02: Gestión de usuarios y almacenes](#epic-02-gestión-de-usuarios-y-almacenes)
+    - [Epic 03: Alertas y seguridad activa](#epic-03-alertas-y-seguridad-activa)
+    - [Epic 04: Historial, auditoría y reportes](#epic-04-historial-auditoría-y-reportes)
+    - [Epic 05: Integraciones técnicas y API RESTful](#epic-05-integraciones-técnicas-y-api-restful)
+    - [Epic 06: Landing Page y adquisición de usuarios](#epic-06-landing-page-y-adquisición-de-usuarios)
+    - [Epic 07: Suscripciones y pagos](#epic-07-suscripciones-y-pagos)
+    - [Epic 08: Gestión de sensores IoT y zonas](#epic-08-gestión-de-sensores-iot-y-zonas)
+    - [Epic 09: Seguridad de acceso e identidad](#epic-09-seguridad-de-acceso-e-identidad)
+    - [Epic 10: Experiencia de usuario y accesibilidad](#epic-10-experiencia-de-usuario-y-accesibilidad)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+    - [Segmento 1: Dueños y Administradores de PYMES](#segmento-1-dueños-y-administradores-de-pymes-1)
+    - [Segmento 2: Jefes de Seguridad y Operaciones](#segmento-2-jefes-de-seguridad-y-operaciones-1)
+  - [3.4. Product Backlog](#34-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -118,42 +152,22 @@ Commits del Report:
     - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
     - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
     - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+      - [**User Goal 1: Acceso e Inicio en el Sistema**](#user-goal-1-acceso-e-inicio-en-el-sistema)
+      - [**User Goal 2: Registro y Monitoreo de Almacenes**](#user-goal-2-registro-y-monitoreo-de-almacenes)
+      - [**User Goal 3: Gestión de Dispositivos IoT**](#user-goal-3-gestión-de-dispositivos-iot)
+      - [**User Goal 4: Auditoría de Eventos e Incidentes**](#user-goal-4-auditoría-de-eventos-e-incidentes)
+      - [**User Goal 5: Gestión de Equipo y Accesos**](#user-goal-5-gestión-de-equipo-y-accesos)
+      - [**User Goal 6: Suscripción y Facturación**](#user-goal-6-suscripción-y-facturación)
+      - [**User Goal 7: Configuración de cuenta y notificaciones**](#user-goal-7-configuración-de-cuenta-y-notificaciones)
   - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
     - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
     - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+    - [4.6.3. Software Architecture Components Diagram](#463-software-architecture-components-diagram)
   - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
     - [4.7.1. Class Diagrams](#471-class-diagrams)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagrams](#481-database-diagrams)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint n](#521-sprint-n)
-      - [5.2.1.1. Sprint Planning n](#5211-sprint-planning-n)
-      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog n](#5213-sprint-backlog-n)
-      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
-- [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
 
 
 
@@ -617,6 +631,7 @@ La voz y el tono con el que Locksight se dirige a sus usuarios en la landing pag
    En situaciones de monitoreo o riesgo, los usuarios no tienen tiempo para leer textos largos. El tono debe ir directo al grano, fomentando la prevención y la acción inmediata. Debe ser instructivo y libre de ambigüedades, lo cual es clave para la interfaz de un dashboard donde una instrucción confusa podría resultar en una brecha de seguridad.
 
 
+
 # Capitulo III: Requirements Specification
 ## 3.1 User Stories
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
@@ -926,3 +941,941 @@ La voz y el tono con el que Locksight se dirige a sus usuarios en la landing pag
 | 58 | TS46 | Procesar eventos IoT entrantes mediante API | Como developer, quiero exponer un endpoint para recibir los eventos emitidos por los sensores IoT para que el sistema los evalúe, clasifique y dispare alertas automáticamente. | 8 |
 | 59 | TS47 | Gestionar zonas mediante API | Como developer, quiero exponer endpoints para crear, editar y consultar zonas dentro de un almacén para que el sistema organice el monitoreo por área. | 5 |
 | 60 | TS48 | Gestionar empresas mediante API | Como developer, quiero exponer endpoints para registrar y consultar empresas para que el sistema las vincule correctamente a usuarios, almacenes y planes de suscripción. | 5 |
+
+
+# Capítulo IV: Product Design
+
+## 4.1. Style Guidelines
+
+###  4.1.1. General Style Guidelines
+
+**Logo de LockSight**
+
+<img src="./assets/chapter-4//logo-locksight.png" alt="logo-locksight" width="400">
+
+El imagotipo de Locksight integra visualmente tres conceptos clave del sector logístico, que son protección, tecnología y entorno operativo. El escudo central representa la seguridad y el resguardo del patrimonio, mientras que los nodos conectados representan a una red de sensores IoT que permiten la transmisión de datos en tiempo real. En la parte inferior, la silueta de estanterías vincula directamente la identidad de la marca con su enfoque principal: el monitoreo inteligente de almacenes.
+
+A nivel tipográfico, el diseño busca transmitir autoridad y modernidad. El uso de una tipografía en negrita para el nombre refuerza la solidez de la marca, mientras que el eslogan “Smart Warehouse Control” comunica de forma directa su propuesta de valor. 
+
+**Tipografía**
+
+Para el desarrollo de la landing page y la plataforma web de Locksight, se ha seleccionado la tipografía Inter.
+
+Inter es una tipografía moderna diseñada específicamente para interfaces de usuario y visualización en pantallas de alta resolución. En el contexto de Locksight, una plataforma enfocada en el monitoreo y la seguridad en tiempo real, la legibilidad se convierte en un factor crítico. Los usuarios, como dueños de negocios y jefes de seguridad, requieren interpretar alertas, datos del dashboard y reportes de forma rápida y sin esfuerzo, incluso desde dispositivos móviles o en situaciones de alta presión. Su diseño limpio y minimalista refuerza una percepción de innovación, tecnología y seriedad corporativa. A diferencia de tipografías más recargadas, Inter prioriza la claridad visual y la funcionalidad, lo que la hace especialmente adecuada para entornos donde la rapidez de lectura y la precisión en la información son esenciales.
+
+**Características de la tipografía**
+
+* Clasificación: Sans-Serif
+* Pesos a utilizar
+
+  * Regular 400: Para el cuerpo de texto en la landing page, descripciones largas y el historial de eventos en el dashboard.
+  * Medium 500: Para subtítulos secundarios, botones y etiquetas de formularios.
+  * Semi-Bold 600: Para destacar nombres de zonas, usuarios y elementos clave en las tablas del sistema.
+  * Bold 700: Para los títulos principales (H1, H2), mensajes de alertas críticas y precios en la landing page.
+
+**Paleta de colores**
+
+La paleta de colores de Locksight está diseñada para transmitir confianza corporativa, tecnología y facilitar la rápida toma de decisiones operativas.
+
+<img src="./assets/chapter-4//color-palette-locksight.png" alt="color-palette-locksight" width="600">
+
+* Azul oscuro (#0F172A): El azul oscuro es el estándar universal en psicología del color para representar seguridad corporativa, estabilidad y confianza
+* Azul eléctrico (#3B82F6): Aporta un toque moderno y tecnológico
+* Rojo (#EF4444): Es vital para el dashboard. En un sistema de seguridad, el color rojo debe interpretarse de inmediato como peligro.
+* Verde (#22C55E): Brinda seguridad al usuario, indicando de un solo vistazo todo fluye con normalidad y los sensores están en orden.
+* Blanco humo (#F8FAFC): Permite que la interfaz "respire" y resalta la información sin cansar la vista durante largas jornadas de monitoreo.
+
+**Tonos de Comunicación**
+
+La voz y el tono con el que Locksight se dirige a sus usuarios en la landing page y en la plataforma son fundamentales para establecer confianza y eficacia. 
+
+1. **Profesional y Confiable**
+   
+   Dado que Locksight maneja la seguridad del patrimonio y los activos de las empresas, la comunicación no puede ser informal ni excesivamente coloquial. Al dirigirnos a gerentes de operaciones y dueños de PYMES, el lenguaje debe demostrar experiencia, seriedad y solidez técnica.
+  
+2. **Directo y Preventivo**
+   
+   En situaciones de monitoreo o riesgo, los usuarios no tienen tiempo para leer textos largos. El tono debe ir directo al grano, fomentando la prevención y la acción inmediata. Debe ser instructivo y libre de ambigüedades, lo cual es clave para la interfaz de un dashboard donde una instrucción confusa podría resultar en una brecha de seguridad.
+
+
+###  4.1.2. Web Style Guidelines
+Para el desarrollo de las interfaces web de Locksight, se adoptará el lenguaje de diseño Material Design junto con la biblioteca de componentes PrimeVue. Esta elección permite construir interfaces responsivas mediante un sistema de grillas fluidas, adaptando la visualización del dashboard y del landing page a distintos dispositivos. De esta manera, se asegura que los administradores puedan monitorear sus almacenes de forma cómoda y eficiente en todo momento.
+
+En cuanto a la interacción y la estructura visual, se emplearán tarjetas con ligeras elevaciones para organizar la información proveniente de los sensores IoT, favoreciendo una interfaz clara y ordenada. De igual manera, los elementos interactivos, como botones y alertas flotantes, utilizarán una paleta de colores semántica previamente definida, proporcionando un feedback visual inmediato que facilite la interpretación de eventos y la toma de decisiones operativas dentro del sistema.
+
+## 4.2. Information Architecture
+En esta sección se definen las decisiones y fundamentos que orientan la organización del contenido dentro de las interfaces web de Locksight. El objetivo principal es facilitar la adaptación de los usuarios, como dueños de negocios y jefes de seguridad, permitiéndoles acceder de manera rápida y sencilla a la información de sus almacenes, alertas y reportes. Para ello, se plantea una estructuración lógica basada en sistemas de organización, etiquetado, búsqueda y navegación, que optimizan la experiencia de uso y reducen el esfuerzo cognitivo.
+
+### 4.2.1. Organization Systems
+Para la interfaz principal de Locksight, tanto en el dashboard web como en su versión móvil, se ha optado por un sistema de organización que prioriza el acceso rápido a la información crítica. Dado que la plataforma está orientada a la seguridad de almacenes, se busca que gerentes y dueños de negocio puedan comprender de forma inmediata el estado general del sistema, especialmente en situaciones que requieren una respuesta rápida.
+
+Se adopta una organización jerárquica, ya que permite estructurar la información según su nivel de importancia e inmediatez. Este enfoque facilita que la capa superior muestre siempre un resumen del estado de las instalaciones, como alertas activas o el estado de los sensores, mientras que los niveles inferiores agrupan información más detallada, como el historial de accesos, la gestión de usuarios, las zonas del almacén y la configuración de dispositivos. Complementariamente, se emplea una organización secuencial en procesos críticos que requieren pasos controlados, como la incorporación de nuevos sensores, la creación de perfiles de usuario o la suscripción a planes. En estos casos, el sistema permite retroceder entre pasos para verificar la información antes de confirmar una acción.
+
+En cuanto a la categorización del contenido, el dashboard agrupa la información en función de objetos de negocio, como Sensores, Eventos, Usuarios y Sucursales, lo que facilita la localización de funcionalidades. Asimismo, el módulo de eventos y alertas, se organiza de manera cronológica, mostrando la actividad más reciente en la parte superior, con el fin de asegurar una respuesta oportuna ante cualquier incidente.
+
+### 4.2.2. Labeling Systems
+
+Esta sección se centra en la forma en que se nombran los grupos de información dentro de Locksight. El objetivo es que las etiquetas sean precisas, consistentes y alineadas a un entorno corporativo. En un contexto de seguridad logística, es fundamental que el usuario comprenda de inmediato el significado de cada sección, especialmente al momento de auditar un almacén.
+
+En este sentido, se han definido etiquetas claras y estandarizadas, como “Dashboard” en lugar de “Pantalla de resumen”, “Sensores” en lugar de “Dispositivos conectados”, “Auditoría” en lugar de “Registro de lo que pasó” y “Usuarios” en lugar de “Personas que usan el sistema”. De igual manera, se ha establecido que las etiquetas de la navegación principal no excedan entre dos y tres palabras, con el fin de mantenerlas simples, directas y fáciles de escanear visualmente, incluso en situaciones de presión. Esto también garantiza su correcta adaptación a pantallas móviles. En el landing page, se emplean etiquetas breves y directas como “Solución”, “Planes” y “Contacto”.
+
+Por último, las etiquetas están diseñadas para facilitar una asociación lógica entre los distintos niveles de información. Aquellas que representan módulos principales funcionan como contenedores de contenido más específico.
+
+### 4.2.3. SEO Tags and Meta Tags
+
+En esta sección se definen los SEO Tags y Meta Tags que serán implementados en las principales páginas de la experiencia de LockSight, tanto en la Landing Page como en la Web Application. Estos elementos permiten mejorar el posicionamiento del producto en motores de búsqueda y facilitar su descubrimiento por parte de profesionales del sector logístico y de seguridad.
+
+**Landing Page:**
+
+| Elemento | Valor |
+|----------|------|
+| Title | LockSight | Seguridad Inteligente para Almacenes con IoT en Tiempo Real |
+| Meta Description | Plataforma inteligente de seguridad para almacenes que permite monitorear accesos, detectar anomalías y prevenir pérdidas mediante sensores IoT y alertas en tiempo real. |
+| Meta Keywords | seguridad logística, monitoreo de almacenes, IoT almacenes, control de accesos, prevención de robos internos, trazabilidad logística, seguridad empresarial |
+| Author | Equipo LockSight - UPC Ingeniería de Software |
+
+**Web Application**
+
+| Elemento | Valor |
+|----------|------|
+| Title | Dashboard de Seguridad | LockSight |
+| Meta Description | Sistema de monitoreo de almacenes que permite gestionar sensores, visualizar eventos, auditar accesos y detectar incidentes en tiempo real. |
+| Meta Keywords | dashboard seguridad, monitoreo IoT, sensores inteligentes, auditoría de accesos, control de almacenes, alertas en tiempo real |
+| Author | Equipo LockSight - UPC Ingeniería de Software |
+
+### 4.2.4. Searching Systems
+
+En esta sección se describen los mecanismos de búsqueda que ofrece LockSight para ayudar al usuario a encontrar información dentro del sistema, evitando que se sienta perdido frente al volumen de datos generados por sensores y eventos.
+
+El sistema permite realizar búsquedas dentro de los principales módulos del producto, facilitando la localización de información relevante de manera rápida y precisa.
+
+**Opciones de búsqueda**
+
+- Búsqueda de sensores por nombre o tipo.
+- Búsqueda de eventos registrados (alertas, accesos, anomalías).
+- Búsqueda de registros de auditoría.
+- Búsqueda por sucursal o zona del almacén.
+
+**Filtros de búsqueda**
+
+| Filtro | Descripción |
+|--------|------------|
+| Fecha | Permite delimitar la búsqueda en un rango de tiempo específico |
+| Tipo de evento | Permite filtrar por alertas, accesos o incidentes |
+| Estado del sensor | Permite identificar sensores activos, inactivos o con fallas |
+| Ubicación | Permite filtrar por zonas o sucursales |
+
+**Presentación de resultados**
+
+- Los resultados se muestran en listas organizadas por fecha o relevancia.
+- Cada resultado incluye información como tipo de evento, ubicación y hora.
+- Se utilizan indicadores visuales para diferenciar estados (alerta, normal, fallo).
+- Los resultados se visualizan dentro del contexto del módulo donde se realiza la búsqueda.
+
+**Características del sistema**
+
+- Permite búsquedas rápidas dentro de cada módulo.
+- Reduce la sobrecarga de información mediante filtros específicos.
+- Presenta resultados claros y fáciles de interpretar.
+- Facilita la identificación de eventos críticos en el sistema.
+
+### 4.2.5. Navigation Systems
+
+En esta sección se describen las acciones y técnicas de navegación que permiten guiar a los usuarios a través del Landing Page y la Web Application de LockSight, facilitando el cumplimiento de sus objetivos dentro del sistema.
+
+El sistema de navegación está diseñado para que el usuario pueda recorrer el contenido de manera clara, desde el acceso inicial hasta la interacción con los distintos módulos del producto.
+
+**Tipos de navegación**
+
+| Tipo | Descripción |
+|------|------------|
+| Navegación global | Menú principal que permite acceder a secciones clave como Solución, Planes, Contacto y acceso al sistema |
+| Navegación jerárquica | Organización por niveles que permite pasar de vistas generales a específicas (Dashboard → Sucursal → Zona → Evento) |
+| Navegación local | Opciones dentro de cada módulo como Sensores, Auditoría, Usuarios y Configuración |
+| Navegación contextual | Acciones disponibles según la sección, como visualizar detalles o revisar eventos |
+
+**Recorrido del usuario**
+
+- En la Landing Page:
+  - Inicio → Información de la solución → Beneficios → Planes → Registro/Login
+
+- En la Web Application:
+  - Dashboard → Selección de sucursal → Visualización de sensores y eventos → Revisión de alertas o auditoría
+
+**Características**
+
+- Permite una navegación clara y estructurada.
+- Facilita el acceso rápido a los módulos principales.
+- Reduce la cantidad de pasos para acceder a información crítica.
+- Se adapta a diferentes dispositivos (desktop y mobile).
+
+## 4.3. Landing Page UI Design
+En esta sección se presenta la propuesta de diseño de interfaz de usuario para el landing page de Locksight desde la versión desktop como la mobile. El objetivo es materializar las decisiones de arquitectura de la información y los lineamientos visuales en una experiencia digital clara y estructurada.
+
+A través de este diseño, se busca captar la atención del segmento objetivo y guiarlo de manera progresiva desde el primer impacto visual hasta la conversión final. Todo ello se desarrolla bajo una estética limpia, corporativa y centrada en la usabilidad, asegurando una interacción intuitiva y coherente en cada etapa del recorrido del usuario.
+### 4.3.1. Landing Page Wireframe
+**Explicación para Desktop**
+
+<div align="center">
+  <img src="./assets/chapter-4/landing-wireframe-desk-hero-section.png" alt="hero-section" width="600">
+  <img src="./assets/chapter-4/landing-wireframe-desk-features.png" alt="features" width="600">
+  <img src="./assets/chapter-4/landing-wireframe-desk-pricing.png" alt="pricing" width="600">
+  <img src="./assets/chapter-4/landing-wireframe-desk-team.png" alt="team" width="600">
+  <img src="./assets/chapter-4/landing-wireframe-desk-testimonials.png" alt="testimonials" width="600">
+  <img src="./assets/chapter-4/landing-wireframe-desk-cta-footer.png" alt="footer" width="600">
+</div>
+
+
+El diseño de la versión de escritorio está estructurado para guiar al usuario a través de un recorrido narrativo y persuasivo. Cuando se abre en el navegador se abre con un hero section que sigue el patrón de lectura en “F”, integrando una barra de navegación clara y un área principal donde se destaca la propuesta de valor junto con llamadas a la acción, visibles y directas. A medida que el usuario se desplaza en la landing, se presentan las principales características del servicio en una disposición de tres columnas, donde se resaltan sus pilares diferenciales, que son alertas inmediatas, trazabilidad total y gestión centralizada. Luego de esto, la sección de suscripciones escalables utiliza tarjetas comparativas, facilitando la evaluación y elección según el perfil de cada empresa.
+
+Para reforzar la credibilidad, un aspecto clave en soluciones de seguridad, la parte inferior de la página incorpora elementos que dan seguridad al usuario. Entre ellos se incluye una sección dedicada al equipo, que aporta cercanía y transparencia y una cuadrícula de testimonios, que valida la propuesta mediante experiencias de usuarios. Estos elementos contribuyen a generar confianza en potenciales clientes.
+
+Al final la experiencia termina con un último bloque de conversión, donde invita al usuario a registrarse, diseñado para incentivar la acción del usuario. El recorrido se cierra con un footer corporativo bien estructurado, que reúne enlaces legales, soporte, redes sociales y accesos a la aplicación móvil, asegurando que el usuario siempre disponga de una siguiente acción clara dentro de la plataforma.
+
+**Explicación para Mobile**
+<div align="center">
+  <img src="./assets/chapter-4/landing-wireframe-mob-hero-features.png" alt="mob-hero-features" width="350"><br><br>
+  <img src="./assets/chapter-4/landing-wireframe-mob-pricing-team.png" alt="mob-pricing-team" width="350"><br><br>
+  <img src="./assets/chapter-4/landing-wireframe-mob-testimonials-footer.png" alt="mob-testimonials-footer" width="350">
+</div>
+
+En la versión móvil del landing page, la experiencia se replantea para priorizar la lectura vertical y la interacción táctil. Se adopta un diseño apilado que reorganiza los elementos en una secuencia clara, adaptada a pantallas reducidas. La navegación se simplifica mediante un menú de hamburguesa, liberando espacio visual y evitando distracciones. En este contexto, el hero section no solo mantiene la propuesta de valor, sino que la presenta de forma más directa, en donde el mensaje principal aparece primero, seguido del soporte visual y al final, los botones de acción, los cuales ocupan todo el ancho de la pantalla para facilitar su uso con el pulgar.
+
+A medida que el usuario avanza, el contenido se distribuye en bloques independientes que priorizan la claridad y evitan la sobrecarga visual. Las secciones de características, planes y testimonios se presentan de forma progresiva, permitiendo una comprensión gradual sin necesidad de desplazamientos laterales. Del mismo modo, elementos como el equipo se ajustan dinámicamente al ancho del dispositivo. La experiencia se cierra con un footer organizado en formato vertical, donde los enlaces se presentan con suficiente separación para asegurar una navegación precisa, manteniendo la coherencia y usabilidad hasta el final del recorrido.
+
+### 4.3.2. Landing Page Mock-up
+
+**Explicación para Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/landing-mockup-desk-hero-section.png" alt="hero-section" width="600">
+  <img src="./assets/chapter-4/landing-mockup-desk-features.png" alt="features" width="600">
+  <img src="./assets/chapter-4/landing-mockup-desk-pricing.png" alt="pricing" width="600">
+  <img src="./assets/chapter-4/landing-mockup-desk-team.png" alt="team" width="600">
+  <img src="./assets/chapter-4/landing-mockup-desk-testimonials.png" alt="testimonials" width="600">
+  <img src="./assets/chapter-4/landing-mockup-desk-cta-footer.png" alt="footer" width="600">
+</div>
+El diseño de la landing page para la versión desktop de Locksight presenta una estructura clara y ordenada, iniciando con una sección principal que resalta el monitoreo inteligente en tiempo real y ofrece accesos directos para registrarse o revisar los planes disponibles. A partir de ahí, la navegación continúa de forma fluida hacia una sección organizada en tres columnas, donde se explican las funcionalidades clave como las alertas inmediatas y la trazabilidad de eventos.
+
+**Explicación para Mobile**
+<div align="center">
+  <img src="./assets/chapter-4/landing-mockup-mob-hero-features.png" alt="mob-hero-features" width="350"><br><br>
+  <img src="./assets/chapter-4/landing-mockup-mob-pricing-team.png" alt="mob-pricing-team" width="350"><br><br>
+  <img src="./assets/chapter-4/landing-mockup-mob-testimonials-footer.png" alt="mob-testimonials-footer" width="350">
+</div>
+
+La versión mobile adapta la landing page a un formato de desplazamiento vertical, ofreciendo una experiencia más fluida y enfocada en pantallas pequeñas. La navegación superior se simplifica mediante un menú hamburguesa, manteniendo como prioridad la propuesta de valor y los principales llamados a la acción. 
+
+Para aprovechar mejor el espacio, las secciones de características, planes de suscripción y equipo se reorganizan en un diseño de una sola columna, lo que mejora la legibilidad y facilita la interacción táctil. 
+
+## 4.4. Web Applications UX/UI Design
+El diseño de la experiencia de usuario (UX) y de la interfaz (UI) de la plataforma Locksight se ha centrado en la operatividad bajo presión. Entendemos que un jefe de seguridad o un dueño de negocio entra a la aplicación web buscando respuestas rápidas: "¿Está todo cerrado?", "¿Hubo alguna alerta?". Por ello, la UX prioriza la visibilidad de los estados de los sensores y la facilidad para auditar eventos pasados. La UI, basada en Material Design, utiliza una estética limpia y profesional que reduce la carga cognitiva, permitiendo que el usuario identifique anomalías mediante el uso estratégico de colores semánticos (rojo para alertas, verde para estados seguros).
+
+### 4.4.1. Web Applications Wireframes
+En esta sección se presentan los wireframes diseñados para la versión mobile de la plataforma. Estos modelos estructurales establecen la arquitectura de la información, la jerarquía visual y los flujos de interacción principales sin la distracción de elementos gráficos complejos. Los wireframes detallan la experiencia del usuario administrador a través de los módulos críticos del sistema, como lo es el dashboard de monitoreo de almacenes, la gestión del inventario de dispositivos IoT, el control de accesos del personal y el ecosistema de facturación. El objetivo de esta etapa es validar la usabilidad y la eficiencia de las tareas operativas antes de transicionar al diseño de alta fidelidad.
+
+**Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-desktop-user-goal-1-picture-1.png" alt="desktop-user-goal-1" width="450">
+</div>
+**Mobile**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-user-goal-1-picture-1.png" alt="user-goal-1" width="450">
+</div>
+
+1. User Goal: Acceso al sistema
+
+  Permitir a los dueños de PYMES y administradores registrar su empresa, ingresar a la plataforma de forma segura y recuperar sus credenciales en caso de olvido
+
+  En el diseño del flujo de acceso, la arquitectura de información sigue un modelo de navegación lineal que guía al usuario paso a paso, evitando distracciones innecesarias. Se emplean campos de texto amplios y una tipografía sans-serif de alto contraste, lo que mejora la legibilidad y refuerza principios como la alineación y la simplicidad visual.
+
+  Pantallas de flujo
+
+  * Formulario inicial donde el usuario registra sus datos personales, los de su empresa y crea una contraseña para iniciar su prueba gratuita
+  * Pantalla de login estándar para usuarios que ya tienen una cuenta.
+  * Interfaz sencilla donde el usuario ingresa su correo electrónico para recibir un enlace de restablecimiento de acceso
+
+**Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-desktop-user-goal-2-picture-1.png" alt="desktop-user-goal-2" width="450">
+</div>
+**Mobile**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-user-goal-2-picture-1.png" alt="user-goal-2" width="450"><br><br>
+  <img src="./assets/chapter-4/wireframe-user-goal-2-picture-2.png" alt="user-goal-2" width="450">
+</div>
+
+2. User Goal: Monitoreo y gestión de almacenes
+
+  Proveer un panel de control para visualizar el estado de todas las sucursales en tiempo real y permitir la configuración de nuevos locales operativos
+
+  Para el panel principal de almacenes, la arquitectura de información sigue un modelo jerárquico basado en cards, lo que permite visualizar y entender rápidamente el estado de múltiples sucursales. Se aplica el principio de contraste para resaltar claramente los estados de “Alerta Crítica” frente a los estados normales, facilitando una lectura rápida y priorizada de la información.
+
+  Otro aspecto de la información crítica no depende únicamente del color, ya que se complementa con etiquetas en texto y elementos destacados. Los botones de acción también cuentan con áreas táctiles amplias, lo que mejora la accesibilidad para usuarios con dificultades motrices.
+
+  Pantallas de flujo
+
+  * Lista principal que muestra el estado en tiempo real de cada sucursal registrada
+  * Formulario para registrar una nueva sucursal y establecer sus horarios de operación automáticos
+  * Estado del formulario que resalta visualmente en rojo los campos obligatorios faltantes o con formato incorrecto
+  * Ventana emergente que confirma que el nuevo almacén ha sido guardado y está listo para monitorearse
+
+**Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-desktop-user-goal-3-picture-1.png" alt="desktop-user-goal-3" width="450">
+</div>
+**Mobile**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-user-goal-3-picture-1.png" alt="user-goal-3" width="450"><br><br>
+  <img src="./assets/chapter-4/wireframe-user-goal-3-picture-2.png" alt="user-goal-3" width="450">
+</div>
+
+3. User Goal: Administración de dispositivos IoT
+
+  Facilitar la vinculación de nuevo hardware de seguridad a zonas específicas, visualizar su estado de conexión y controlar los límites de uso
+
+  La vinculación y gestión de dispositivos se diseña con el objetivo de reducir la carga cognitiva, agrupando el hardware por categorías para facilitar su identificación y acceso. Se aplica el principio de proximidad de Gestalt para organizar de forma clara la información de cada dispositivo junto a su estado de conexión, mientras que el uso de modales superpuestos permite realizar acciones sin perder el contexto de la pantalla principal. Desde un enfoque inclusivo, los formularios y acciones críticas, como la desvinculación, presentan alto contraste y botones con descripciones claras y directas (“Sí, desvincular” y “Cancelar”), evitando ambigüedades y mejorando la comprensión para todo tipo de usuarios.
+
+  Pantallas de flujo
+
+  * Inventario visual del hardware conectado, indicando si están Online/Offline y mostrando el uso actual de la cuota del plan
+  * Formulario para ingresar el número de serie de un equipo nuevo y asignarlo a una zona del almacén
+  * Ventana emergente de éxito que confirma la correcta sincronización del nuevo sensor con el sistema.
+  * Ventana emergente de advertencia que bloquea la vinculación cuando el usuario ha alcanzado el límite de hardware permitido por su plan
+
+**Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-desktop-user-goal-4-picture-1.png" alt="desktop-user-goal-4" width="450">
+</div>
+**Mobile**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-user-goal-4-picture-1.png" alt="user-goal-4" width="450"><br><br>
+  <img src="./assets/chapter-4/wireframe-user-goal-4-picture-2.png" alt="user-goal-4" width="450">
+</div>
+
+4. User Goal: Registro de eventos e incidentes
+
+  Permitir al usuario revisar la bitácora de actividad del sistema, buscar eventos mediante filtros y acceder al detalle de las alertas críticas.
+
+  Dado que el historial maneja grandes volúmenes de datos, su arquitectura de información se organiza de forma secuencial y con opciones de filtrado claras para facilitar la búsqueda. Se aplica una jerarquía visual donde la hora y la gravedad del incidente destacan en el primer nivel de lectura, permitiendo identificar rápidamente eventos críticos.
+
+  Pantallas de flujo
+
+  * Lista cronológica detallada de todas las actividades del almacén, diferenciando alertas de accesos normales o de sistema
+  * Menús desplegables que permiten filtrar el historial por "Tipo de evento" o "Rango de fechas"
+  * Ventana emergente que muestra el resumen inmediato de un incidente crítico sin salir de la vista actual
+
+**Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-desktop-user-goal-5-picture-1.png" alt="desktop-user-goal-5" width="450">
+</div>
+**Mobile**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-user-goal-5-picture-1.png" alt="user-goal-5" width="450"><br><br>
+  <img src="./assets/chapter-4/wireframe-user-goal-5-picture-2.png" alt="user-goal-5" width="450">
+</div>
+
+5. User Goal: Gestión de personal y accesos
+
+  Controlar de forma segura qué empleados tienen acceso a la plataforma, invitar nuevos miembros y delimitar qué zonas pueden monitorear
+
+  Este módulo utiliza una arquitectura de información facetada que separa claramente los roles de administrador y personal de seguridad, reduciendo el riesgo de errores en la asignación de permisos. Se aplica el principio de repetición en las tarjetas de usuario para mantener un orden visual consistente y fácil de seguir, mientras que elementos como los badges de roles emplean variaciones tonales sutiles para diferenciarlos sin sobrecargar la interfaz. Desde un enfoque inclusivo, la edición de permisos se apoya en interruptores visuales grandes acompañados de texto claro y confirmatorio, además de un diseño tolerante a errores que evita cambios accidentales, especialmente en usuarios con dificultades motoras.
+
+  Pantallas de flujo
+
+  * Panel central que lista al equipo de trabajo, separando claramente a los Administradores del Personal de Seguridad
+  * Formulario para enviar una invitación por correo asignando un rol de sistema específico a un nuevo miembro
+  * Panel de configuración con opciones para habilitar o deshabilitar el acceso de un guardia a zonas específicas
+  * Ventana emergente de advertencia destructiva para revocar definitivamente el acceso de un empleado a la plataforma.
+
+**Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-desktop-user-goal-6-picture-1.png" alt="desktop-user-goal-6" width="450">
+</div>
+**Mobile**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-user-goal-6-picture-1.png" alt="user-goal-5" width="450"><br><br>
+  <img src="./assets/chapter-4/wireframe-user-goal-6-picture-2.png" alt="user-goal-5" width="450"><br><br>
+  <img src="./assets/chapter-4/wireframe-user-goal-6-picture-3.png" alt="user-goal-5" width="450">
+</div>
+
+6. User Goal: Administración de suscripción y facturación
+
+  Permitir a la empresa escalar sus operaciones mejorando su plan, personalizar límites a medida o gestionar la cancelación del servicio
+
+  El flujo de facturación guía al usuario desde la comparación de planes hasta el pago mediante una arquitectura de información progresiva. Además, se incorporan elementos interactivos como sliders y resúmenes de pago claros que facilitan la comprensión del proceso. Desde el enfoque inclusivo, se prioriza la legibilidad financiera mediante tipografías grandes para los montos y textos simples, evitando jerga técnica. Esto permite que usuarios con distintos niveles de conocimiento o limitaciones visuales comprendan fácilmente la información y tomen decisiones con mayor confianza.
+
+  Pantallas de flujo
+
+  * Panel de resumen con el plan actual, fecha de próximo cobro y barras de progreso que muestran los límites consumidos
+  * Pantalla comparativa de beneficios y precios entre los diferentes planes ofrecidos
+  * Interfaz de cotizador interactivo con controles deslizables para elegir la cantidad exacta de almacenes e IoT necesarios.
+  * Pantalla de checkout que detalla el costo total, prorrateos y permite confirmar el método de pago con tarjeta
+  * Ventana emergente retención que advierte al usuario sobre las funcionalidades clave que perderá si decide cancelar
+  * Ventana emergente de confirmación de transacción aprobada y notificación de actualización de los límites del plan
+  * Vista del dashboard en estado "sin plan" cuando la cuenta no posee una suscripción activa, bloqueando nuevas acciones
+
+**Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-desktop-user-goal-7-picture-1.png" alt="desktop-user-goal-7" width="450">
+</div>
+**Mobile**
+<div align="center">
+  <img src="./assets/chapter-4/wireframe-user-goal-7-picture-1.png" alt="user-goal-7" width="450">
+</div>
+
+7. User Goal: Configuración de cuenta y notificaciones
+
+  Dar control al usuario sobre sus credenciales de seguridad y los canales por los cuales desea recibir alertas
+
+  La sección de configuración organiza las preferencias mediante una arquitectura categórica, aplicando el principio de agrupamiento para mantener juntas las opciones relacionadas y facilitar su comprensión. Se utilizan controles estándar y líneas divisorias sutiles que ordenan la interfaz sin recargarla, manteniendo una experiencia limpia y clara.
+  
+  Pantallas de flujo
+
+  * Menú de ajustes con interruptores para activar o desactivar notificaciones Push, Email y SMS.
+  * Ventana emergente que advierte al usuario las consecuencias si intenta silenciar por completo las notificaciones del sistema
+  * Ventana emergente de confirmación que avisa sobre la pausa de recepción de alertas Push en el dispositivo actual al salir de la cuenta
+
+### 4.4.2. Web Applications Wireflow Diagrams
+El Wireflow es un artefacto que combina la estructura de los wireframes con la lógica de un diagrama de flujo. Su importancia radica en que permite visualizar no solo qué elementos hay en cada pantalla, sino cómo el usuario se desplaza entre ellas para completar un proceso. Para Locksight, esto es vital porque el sistema debe ser capaz de guiar al usuario desde la recepción de una alerta hasta la resolución del incidente en el menor número de pasos posible. En esta sección se detalla la arquitectura de navegación, mostrando los caminos que conectan el panel de control con los módulos de configuración de sensores y revisión de historiales.
+
+1. User Goal: Acceso al sistema
+  
+  El flujo visual comienza con un nodo de inicio que lleva a la pantalla de presentación. Luego se presenta un rombo de decisión que evalúa si el usuario posee credenciales. De esa decisión se desprenden dos ramas, una que va hacia el registro de nueva empresa y otra hacia el inicio de sesión tradicional, ambas terminan en la validación y finalizando en el acceso al dashboard.
+  <div align="center">
+    <img src="./assets/chapter-4/flow-diagram-user-goal-1.png" alt="user-goal-1" width="450">
+  </div>
+
+  **El happy path**
+
+  Inicio de la aplicación => El administrador abre la plataforma web o móvil.
+
+  Pantalla principal => Se muestra directamente la vista de inicio de sesión.
+
+  Decisión: "¿El usuario tiene una cuenta?"
+
+  En el happy path suponemos que el usuario ya es un cliente registrado.
+
+  Ingreso de datos => El usuario completa los campos de correo electrónico y contraseña en el formulario.
+
+  Autenticación => El usuario hace clic en el botón Ingresar y el sistema valida las credenciales correctamente en la base de datos
+
+  Fin del flujo de acceso => El usuario entra de manera exitosa a la aplicación y aterriza directamente en el dashboard de Mis Almacenes para comenzar a monitorear
+
+  <div align="center">
+    <img src="./assets/chapter-4/wireflow-user-goal-1-picture-1.png" alt="user-goal-1" width="450">
+  </div>
+
+2. User Goal: Monitoreo y gestión de almacenes
+   
+   Este flujo ilustra cómo un administrador registra una nueva sucursal desde el panel principal. El usuario completa un formulario con datos y horarios operativos, en caso la información es incorrecta, el sistema bloquea el avance y muestra alertas preventivas. Al validar correctamente los datos, se confirma el registro mediante una ventana emergente de éxito y se redirige al usuario de vuelta al dashboard, donde el nuevo almacén ya aparece activo y listo para su monitoreo.
+  <div align="center">
+    <img src="./assets/chapter-4/flow-diagram-user-goal-2.png" alt="user-goal-2" width="450">
+  </div>
+
+  **El happy path**
+
+  Inicio => El usuario se encuentra en el dashboard de "Mis Almacenes"
+
+  Acción => Clic en el botón "+ Registrar nuevo almacén"
+
+  Ingreso de datos => Llena el formulario sin cometer errores
+
+  Guardar => Clic en el botón "Guardar Almacén".
+
+  Validación interna => El sistema verifica que todo es correcto
+
+  Confirmación => Aparece la ventana emergente con el mensaje "Almacén Guardado".
+
+  Fin => El usuario regresa al dashboard y visualiza la nueva sucursal en la lista
+
+  <div align="center">
+    <img src="./assets/chapter-4/wireflow-user-goal-2-picture-1.png" alt="user-goal-2" width="450">
+  </div>
+   
+3. User Goal: Administración de dispositivos IoT
+   
+   Este flujo describe el proceso de gestión de hardware de seguridad en el sistema. Desde el panel principal de dispositivos, el usuario puede intentar agregar un sensor o cámara nueva. El sistema realiza una validación preventiva de la cuota del plan, si se alcanzó el límite, bloquea la acción con una ventana informativo. Si existe cupo disponible, el usuario accede al formulario donde ingresa el número de serie y la zona para registrar y sincronizar el equipo. De igual manera, el módulo permite desvincular hardware obsoleto, acción protegida por una ventana de advertencia para evitar eliminaciones accidentales.
+
+  <div align="center">
+    <img src="./assets/chapter-4/flow-diagram-user-goal-3.png" alt="user-goal-3" width="450">
+  </div>
+   
+  **El happy path**
+
+  Inicio => El usuario se encuentra en la vista principal de "Dispositivos IoT"
+
+  Acción de registro => Hace clic en el botón oscuro "Vincular nuevo dispositivo"
+
+  Validación interna => El sistema verifica que el usuario tiene cupo disponible en su plan.
+
+  Ingreso de datos => El sistema despliega el formulario y el usuario ingresa el Número de Serie, Nombre y asigna una Zona.
+
+  Guardar en el botón "Vincular Dispositivo"
+
+  Fin del flujo => El sistema sincroniza el equipo y devuelve al usuario al dashboard, donde el nuevo sensor ya figura en la lista con el indicador nuevo indicador
+
+  <div align="center">
+    <img src="./assets/chapter-4/wireflow-user-goal-3-picture-1.png" alt="user-goal-3" width="450">
+  </div>
+   
+4. User Goal: Registro de eventos e incidentes
+
+  Este flujo ilustra cómo un usuario audita la actividad del sistema mediante el historial de eventos. Desde la vista principal, el administrador puede utilizar filtros inferiores para acotar la lista cronológica por tipo de alerta o rango de fechas, facilitando la búsqueda. Al localizar un evento específico, el usuario puede seleccionarlo para desplegar una ventana que brinda información rápida y detallada del incidente sin perder su contexto en la lista principal.
+
+  <div align="center">
+    <img src="./assets/chapter-4/flow-diagram-user-goal-4.png" alt="user-goal-4" width="450">
+  </div>
+   
+  **El happy path**
+
+  Inicio => El usuario ingresa a la vista del "Historial de Eventos".
+
+  Interacción => El usuario hace clic en el botón superior "Tipo de evento".
+
+  Filtrado => Se despliega el menú inferior correspondiente, el usuario selecciona sus opciones y presiona "Aplicar Filtros".
+
+  Actualización => El menú se cierra y la lista principal se actualiza mostrando solo los resultados relevantes.
+
+  Selección => El usuario hace clic sobre una tarjeta de la lista.
+
+  Fin del flujo => El sistema despliega la ventana central mostrando el resumen rápido del evento seleccionado.
+
+  <div align="center">
+    <img src="./assets/chapter-4/wireflow-user-goal-4-picture-1.png" alt="user-goal-4" width="450">
+  </div>
+
+5. User Goal: User Goal: Gestión de personal y accesos
+
+  Este flujo ilustra el proceso de administración de usuarios en la plataforma. Desde el panel "Equipo y Accesos", el administrador puede añadir nuevos miembros abriendo un formulario donde ingresa el correo y asigna el nivel de permisos. Además, el administrador puede gestionar al personal existente seleccionando el menú de opciones en la tarjeta de un empleado. Desde allí, puede abrir un menú inferior para eliminarlo, acción que requiere confirmación mediante una ventana emergente de advertencia para evitar la revocación accidental de accesos, garantizando así un control seguro del equipo.
+
+  <div align="center">
+    <img src="./assets/chapter-4/flow-diagram-user-goal-5.png" alt="user-goal-5" width="450">
+  </div>
+   
+  **El happy path**
+
+  Inicio => El usuario ingresa a la vista del "Historial de Eventos".
+
+  Inicio => El usuario administrador ingresa a la vista "Equipo y Accesos".
+
+  Acción => Hace clic en el botón superior "+ Invitar nuevo usuario".
+
+  Ingreso de datos => El sistema muestra el formulario, el administrador escribe el correo electrónico y selecciona el "Rol en el sistema".
+
+  Confirmación => Hace clic en el botón oscuro "Enviar Invitación".
+
+  Fin del flujo => El sistema procesa la solicitud, envía el correo al invitado y devuelve al administrador a la lista actualizada, donde el nuevo usuario aparece en estado "Pendiente".
+
+  <div align="center">
+    <img src="./assets/chapter-4/wireflow-user-goal-5-picture-1.png" alt="user-goal-5" width="450">
+  </div>
+
+6. User Goal: Administración de suscripción y facturación
+
+  Este flujo describe cómo un usuario administra la facturación y escalabilidad de su cuenta. Desde el panel principal de suscripción, el administrador puede optar por cancelar su servicio o mejorar su plan actual. Si decide actualizar, navega por un catálogo comparativo y accede a un cotizador interactivo para el plan Enterprise, donde ajusta sus límites de almacenes y dispositivos de forma dinámica. Por último el usuario revisa el resumen de pago con los montos prorrateados y confirma la transacción, logrando que el sistema actualice inmediatamente los límites operativos de su cuenta.
+
+  <div align="center">
+    <img src="./assets/chapter-4/flow-diagram-user-goal-6.png" alt="user-goal-6" width="450">
+  </div>
+   
+  **El happy path**
+
+  Inicio => El administrador ingresa a la vista "Mi Suscripción".
+
+  Acción => Hace clic en el botón principal "Cambiar Plan".
+
+  Selección => En el catálogo de "Mejorar Plan", revisa las opciones y hace clic en "Actualizar a Enterprise".
+
+  Configuración => Utiliza los controles deslizantes para establecer la cantidad exacta de Almacenes y Dispositivos IoT que necesita, y presiona "Continuar al Pago".
+
+  Pago => Revisa el detalle del "Resumen de Pago", valida su tarjeta y hace clic en el botón oscuro "Confirmar y Pagar".
+
+  Fin del flujo => La plataforma procesa el cobro y redirige al usuario de vuelta al panel "Mi Suscripción", donde ahora se visualiza el plan Enterprise activo junto con las nuevas barras de límites extendidos.
+
+  <div align="center">
+    <img src="./assets/chapter-4/wireflow-user-goal-6-picture-1.png" alt="user-goal-6" width="450">
+  </div>
+
+7. User Goal: Configuración de cuenta y notificaciones
+
+  Este flujo ilustra la gestión de preferencias y seguridad de la cuenta del usuario. Desde el panel principal de configuración, el administrador interactúa con los canales de notificaciones o selecciona la opción para salir de la plataforma. El sistema integra validaciones preventivas antes de ejecutar acciones definitivas, como si el usuario intenta silenciar las alertas, se le advierte del riesgo operativo mediante un pop up, de manera similar al intentar finalizar su sesión, se exige una confirmación explícita para evitar cierres accidentales y garantizar que el usuario comprenda que dejará de recibir alertas inmediatas en ese dispositivo.
+
+  <div align="center">
+    <img src="./assets/chapter-4/flow-diagram-user-goal-7.png" alt="user-goal-7" width="450">
+  </div>
+   
+  **El happy path**
+
+  Inicio => El usuario ingresa a la vista principal de Configuración.
+
+  Acción => Hace clic en el botón inferior con el texto "Cerrar Sesión".
+
+  Advertencia => El sistema detecta el intento de salida y despliega el modal de confirmación para evitar un cierre por error táctil.
+
+  Confirmación => El usuario hace clic en el botón oscuro "Cerrar Sesión" dentro de la ventana.
+
+  Fin del flujo => La plataforma cierra la sesión de forma segura y redirige automáticamente al usuario a la pantalla inicial de inicio de sesión.
+
+  <div align="center">
+    <img src="./assets/chapter-4/wireflow-user-goal-7-picture-1.png" alt="user-goal-7" width="450">
+  </div>
+
+### 4.4.3. Web Applications Mock-ups
+
+**Desktop**
+<div align="center">
+  <img src="./assets/chapter-4/mock-up-desktop-user-goal-1.png" alt="mock-up-desktop-user-goal-1" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-desktop-user-goal-2.png" alt="mock-up-desktop-user-goal-2" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-desktop-user-goal-3.png" alt="mock-up-desktop-user-goal-3" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-desktop-user-goal-4.png" alt="mock-up-desktop-user-goal-4" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-desktop-user-goal-5.png" alt="mock-up-desktop-user-goal-5" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-desktop-user-goal-6.png" alt="mock-up-desktop-user-goal-6" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-desktop-user-goal-7.png" alt="mock-up-desktop-user-goal-7" width="450">
+</div>
+
+Los mockups de la versión de escritorio presentan un sistema de diseño moderno y coherente, con una paleta de colores oscuros que ayuda a reducir la fatiga visual durante largos periodos de monitoreo. La arquitectura de información se organiza a través de una barra lateral persistente que facilita la navegación entre módulos clave como el panel de almacenes, el historial de eventos y la configuración. Además, el uso consistente de tipografías legibles y componentes estandarizados, como tarjetas y botones en tonos azules, permite mantener una jerarquía visual clara y fácil de seguir.
+
+Con respecto a usabilidad e inclusión, la interfaz prioriza la prevención de errores y la retroalimentación constante. Las acciones críticas están protegidas mediante ventanas emergentes con alertas de alto contraste que advierten sobre sus consecuencias, mientras que los estados del sistema combinan iconos y texto para asegurar una comprensión clara. Esto permite que la información sea accesible para distintos tipos de usuarios y garantiza que tanto los flujos principales como los de error sean intuitivos.
+
+**Mobile**
+<div align="center">
+  <img src="./assets/chapter-4/mock-up-mobile-user-goal-1.png" alt="mock-up-mobile-user-goal-1" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-mobile-user-goal-2.png" alt="mock-up-mobile-user-goal-2" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-mobile-user-goal-3.png" alt="mock-up-mobile-user-goal-3" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-mobile-user-goal-4.png" alt="mock-up-mobile-user-goal-4" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-mobile-user-goal-5-parte1.png" alt="mock-up-mobile-user-goal-5" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-mobile-user-goal-5-parte2.png" alt="mock-up-mobile-user-goal-6" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-mobile-user-goal-6.png" alt="mock-up-mobile-user-goal-7" width="450"><br><br>
+  <img src="./assets/chapter-4/mock-up-mobile-user-goal-7.png" alt="mock-up-mobile-user-goal-7" width="450">
+</div>
+
+La versión móvil mantiene coherencia con el diseño de escritorio, conservando el modo oscuro para asegurar comodidad visual y una experiencia profesional en cualquier contexto. La arquitectura de información se adapta a pantallas pequeñas mediante una barra de navegación inferior persistente, facilitando el acceso con el pulgar a módulos clave como Almacenes, Dispositivos IoT e Historial. Además, los tamaños de texto, tarjetas y áreas táctiles han sido optimizados para cumplir con estándares de accesibilidad, permitiendo una interacción fluida incluso en movimiento o con una sola mano.
+
+A nivel interactivo, se priorizan patrones propios del entorno móvil, como el uso de bottom sheets para opciones secundarias y modales para confirmaciones críticas, evitando menús complejos. También, se incorporan indicadores visuales claros para estados del sistema, lo que permite identificar alertas de forma inmediata. Este enfoque no solo responde a las limitaciones del dispositivo, sino que mejora la experiencia general al ofrecer navegación intuitiva, retroalimentación constante y un diseño accesible para distintos tipos de usuarios.
+
+### 4.4.4. Web Applications User Flow Diagrams
+Mientras que el wireflow se enfoca en el diseño de las pantallas, el User Flow o Diagrama de Flujo de Usuario se centra en el proceso de toma de decisiones de la persona que opera Locksight. Este diagrama ayuda a comprender el camino lógico que sigue un Administrador o Jefe de Seguridad para alcanzar un objetivo específico, como puede ser la auditoría de un acceso no autorizado. Al desglosar cada acción y punto de decisión, podemos identificar posibles fricciones en la experiencia y asegurar que el sistema responda de manera coherente a las necesidades operativas de la empresa, garantizando que el flujo de información sea siempre claro y directo.
+
+#### **User Goal 1: Acceso e Inicio en el Sistema**
+
+Marcelo, interactúa con la aplicación para registrarse o acceder a su cuenta mediante un flujo claro y sin fricciones. Si es su primera vez, sigue la ruta de registro completando sus datos comerciales para iniciar, en cambio sí ya cuenta con credenciales, ingresa directamente con su correo y contraseña para acceder al panel principal. El sistema en caso sea necesario cuenta con un proceso de recuperación de contraseña que le permite restablecer su acceso de forma segura a través de un enlace enviado a su correo electrónico, garantizando continuidad sin bloqueos.
+
+<div align="center">
+  <img src="./assets/chapter-4/mockup-mobile-flow-user-goal-1.png" alt="mock-up-mobile-user-goal-1" width="450">
+</div>
+
+**El happy path:** Inicio de sesión exitoso
+
+Inicio => Marcelo abre la aplicación móvil y visualiza la pantalla de Acceso.
+
+Decisión => El sistema le presenta las opciones y Marcelo determina que ya tiene una cuenta activa
+
+Ingreso de datos => Marcelo escribe su correo electrónico y su contraseña en los campos correspondientes.
+
+Acción => Presiona el botón azul Ingresar
+
+Fin del flujo => El sistema valida las credenciales y Marcelo entra exitosamente al panel de monitoreo de sus almacenes
+
+**El unhappy path:** Recuperación de Contraseña
+
+Inicio => Marcelo abre la aplicación móvil, pero no recuerda su contraseña para ingresar al sistema
+
+Acción => Al estar bloqueado en la pantalla de Acceso, Marcelo presiona el enlace "¿Olvidaste tu contraseña?"
+
+Navegación => El sistema lo redirige a la vista de "Recuperar Contraseña"
+
+Ingreso de datos => Marcelo escribe el correo electrónico asociado a su cuenta de empresa en el campo de texto
+
+Confirmación => Presiona el botón oscuro "Enviar Enlace".
+
+Fin del flujo => El sistema procesa la solicitud y envía las instrucciones de restablecimiento al correo de Marcelo para que pueda recuperar su acceso de forma segura
+
+#### **User Goal 2: Registro y Monitoreo de Almacenes**
+
+Como Jefe de Seguridad, Diego Castillo quiere registrar nuevas sucursales y ver el estado de todos los almacenes de la empresa en una sola plataforma para detectar rápidamente cualquier incidente
+
+En este escenario, Diego necesita agregar una nueva sucursal al sistema de Locksight desde el panel principal. El flujo le solicita datos básicos y horarios de operación, incorporando validaciones en tiempo real para evitar errores. Además, el sistema controla los límites del plan, mostrando una alerta si ya alcanzó la cantidad máxima de almacenes permitidos.
+
+<div align="center">
+  <img src="./assets/chapter-4/mockup-mobile-flow-user-goal-2.png" alt="mock-up-mobile-user-goal-2" width="450">
+</div>
+
+**El happy path:** Registro de almacen exitoso
+
+Inicio => Diego ingresa a la aplicación y se encuentra en la vista principal de "Mis Almacenes"
+
+Acción => Presiona el botón azul principal "Registrar nuevo almacén"
+
+Navegación => El sistema le permite el paso y despliega la pantalla del formulario "Nuevo Almacén"
+
+Ingreso de datos => Diego completa correctamente todos los campos, escribiendo el Nombre del Almacén, la Dirección y configurando los Horarios de Operación mediante los controles interactivos
+
+Confirmación => Hace clic en el botón inferior "Guardar Almacén"
+
+Fin del flujo => El sistema valida que la información es correcta, muestra la ventana emergente de "Registro Exitoso" y al presionar "Entendido", Diego vuelve al dashboard actualizado donde la nueva sucursal ya aparece lista para ser monitoreada.
+
+**El unhappy path:** Límite de Plan Alcanzado
+
+Inicio => Diego ingresa a la aplicación y se encuentra en la vista principal de "Mis Almacenes"
+
+Acción => Presiona el botón azul principal "Registrar nuevo almacén"
+
+Intercepción => El sistema verifica la suscripción actual y detecta que la empresa ya alcanzó el límite máximo de almacenes permitidos.
+
+Notificación => En lugar de abrir el formulario, el sistema despliega la ventana emergente "Límite de Almacenes", bloqueando el proceso de registro
+
+Fin del flujo => Diego se topa con un bloqueo funcional y debe tomar una decisión => presionar "Mejorar a Plan Premium" para escalar la cuenta de la empresa, o presionar "Quizás más tarde" para cancelar la acción y regresar al dashboard sin realizar cambios
+
+#### **User Goal 3: Gestión de Dispositivos IoT**
+
+Como Jefe de Seguridad, Diego Castillo quiere registrar, vincular y administrar los sensores y cámaras de cada almacén para mantener una vigilancia centralizada y recibir alertas en tiempo real.
+
+En este escenario, Diego gestiona los dispositivos desde el panel de IoT, donde visualiza su estado si estan online u offline. Puede vincular nuevos equipos ingresando sus datos, siempre que su plan lo permita, de lo contrario el sistema bloquea la acción y sugiere una mejora. También puede eliminar dispositivos, acción que está protegida con una confirmación para evitar errores.
+
+<div align="center">
+  <img src="./assets/chapter-4/mockup-mobile-flow-user-goal-3.png" alt="mock-up-mobile-user-goal-3" width="450">
+</div>
+
+**El happy path:** Vinculación de dispositivo exitosa
+
+Inicio => Diego ingresa a la vista de "Dispositivos IoT", donde visualiza la lista de sensores y cámaras del almacén seleccionado
+
+Acción => Presiona el botón azul principal "Vincular nuevo dispositivo"
+
+Navegación => Al tener cupo disponible, el sistema le permite el paso y lo dirige al formulario "Vincular Dispositivo".
+
+Ingreso de datos => Diego ingresa el Número de Serie, asigna un nombre descriptivo y selecciona la Zona correspondiente
+
+Procesamiento => Hace clic en el botón inferior "Vincular Dispositivo". El sistema despliega una ventana de espera con el mensaje "Activando Dispositivo..." mientras establece la conexión segura
+
+Fin del flujo => Se muestra el mensaje de confirmación "Dispositivo en línea" y al presionar "Entendido", Diego regresa al panel principal donde el nuevo sensor ya aparece listado, activo y sumado al contador de uso
+
+**El unhappy path:** Límite de Dispositivos Alcanzado
+
+Inicio => Diego ingresa a la vista de "Dispositivos IoT" con la intención de agregar una nueva cámara
+
+Acción => Presiona el botón azul "Vincular nuevo dispositivo"
+
+Intercepción => El sistema verifica los parámetros de la suscripción y detecta que se ha alcanzado la cantidad máxima de hardware permitido por su plan actual.
+
+Notificación => En lugar de mostrar el formulario, el sistema despliega la ventana "Límite de Dispositivos", bloqueando el proceso de vinculación.
+
+Fin del flujo => Diego debe tomar una decisión, presionar el botón "Mejorar Plan Premium" para adquirir más capacidad o presionar "Cerrar" para cancelar la acción y mantener su límite actual.
+
+#### **User Goal 4: Auditoría de Eventos e Incidentes**
+
+Como Jefe de Seguridad, Diego Castillo quiere ver un registro cronológico detallado de todas las actividades del almacén y poder filtrar la información rápidamente para investigar cualquier alerta o intrusión.
+
+En este escenario Diego audita una alerta desde el historial de eventos usando filtros para encontrarla por tipo o fecha. Al ubicar una alerta crítica revisa un resumen y luego el detalle con la evidencia del sensor. Después de evaluarla debe decidir si la descarta como falsa alarma o si la escala contactando al equipo de seguridad mediante una confirmación.
+
+<div align="center">
+  <img src="./assets/chapter-4/mockup-mobile-flow-user-goal-4.png" alt="mock-up-mobile-user-goal-4" width="450">
+</div>
+
+**El happy path:** Auditoría y Escalamiento de Incidente
+
+Inicio => Diego ingresa a la vista de "Historial de Eventos", donde observa la lista cronológica de actividades
+
+Acción => Hace clic en la tarjeta de la alerta crítica "Puerta Principal Abierta" marcada en rojo.
+
+Vista Rápida => El sistema despliega la ventana superpuesto con el resumen del evento. Diego presiona el botón azul "Ver Detalles y Evidencia"
+
+Análisis => El sistema lo dirige a la pantalla "Detalle del Evento", donde Diego revisa la información específica del sensor y la causa de activación
+
+Decisión => Al confirmar que es un incidente real, Diego presiona el botón con borde rojo "Llamar a Seguridad".
+
+Fin del flujo => El sistema despliega la ventana de advertencia "Contactar a Seguridad". Diego presiona el botón rojo "Sí, Llamar" para enlazar la comunicación con la central de monitoreo
+
+#### **User Goal 5: Gestión de Equipo y Accesos**
+
+Como dueño de distribuidora Marcelo Mansilla quiere invitar a su personal al sistema y asignar permisos específicos para delegar el monitoreo sin perder el control de la seguridad
+
+En este escenario Marcelo agrega a un nuevo miembro desde el panel de accesos donde visualiza administradores y personal de seguridad. Inicia la invitación completando un formulario con el correo del empleado y definiendo su nivel de permisos para mantener el control operativo.
+
+El flujo también permite gestionar al equipo actual ya que puede actualizar accesos por zonas o eliminar usuarios cuando sea necesario. Estas acciones están protegidas con confirmaciones claras para evitar errores y asegurar que ningún permiso se modifique por accidente.
+
+<div align="center">
+  <img src="./assets/chapter-4/mockup-mobile-flow-user-goal-5.png" alt="mock-up-mobile-user-goal-5" width="450">
+</div>
+
+**El happy path:** Invitación de usuario exitosa
+
+Inicio => Marcelo ingresa a la vista de Equipo y Accesos donde observa la lista de su personal activo.
+
+Acción => Presiona el botón azul principal "+ Invitar nuevo usuario"
+
+Navegación => El sistema despliega el formulario "Invitar Usuario".
+
+Ingreso de datos => Marcelo escribe el correo electrónico del empleado y selecciona el rol de Personal de Seguridad
+
+Confirmación => Presiona el botón inferior "Enviar Invitación"
+
+Fin del flujo => El sistema despliega la ventana "Invitación Enviada" y al presionar Entendido Marcelo regresa al panel actualizado donde el nuevo correo aparece con la etiqueta Pendiente.
+
+**El unhappy path:** Eliminación de Personal
+
+Inicio => Marcelo decide retirar el acceso de un ex empleado.
+
+Acción => Selecciona el menú del usuario y presiona el botón rojo Eliminar Personal.
+
+Advertencia => El sistema bloquea la pantalla con una ventana de confirmación informando que la acción es irreversible
+
+Fin del flujo => Marcelo presiona el botón rojo "Sí Eliminar" y el sistema remueve al usuario de la lista de accesos.
+
+#### **User Goal 6: Suscripción y Facturación**
+
+Como dueño de distribuidora Marcelo Mansilla quiere gestionar la facturación de su cuenta y ampliar los límites de su plan para escalar su negocio sin interrupciones.
+
+En este escenario Marcelo accede al panel de suscripción para mejorar su plan al notar que está cerca del límite actual. Selecciona una opción superior y ajusta la capacidad según sus necesidades mediante un cotizador interactivo. Luego continúa al pago donde el sistema aplica los ajustes correspondientes y procesa la transacción.El flujo finaliza con la actualización inmediata de los nuevos límites en su cuenta, permitiéndole seguir operando sin restricciones y con mayor capacidad de crecimiento.
+
+<div align="center">
+  <img src="./assets/chapter-4/mockup-mobile-flow-user-goal-6.png" alt="mock-up-mobile-user-goal-7" width="450">
+</div>
+
+**El happy path:** Actualización a Plan Enterprise
+
+Inicio => Marcelo ingresa a la vista "Mi Suscripción" donde revisa su plan actual y nota que sus límites están al máximo
+
+Acción => Presiona el botón azul "Cambiar Plan".
+
+Selección => El sistema muestra el catálogo de planes y Marcelo presiona el botón amarillo "Actualizar a Enterprise"
+
+Configuración => En la pantalla Configurar Enterprise Marcelo usa los controles deslizantes para establecer 5 almacenes y 25 dispositivos y presiona el botón naranja Continuar al Pago.
+
+Pago => El sistema muestra el Resumen de Pago con el total calculado Marcelo valida su tarjeta y presiona el botón verde Confirmar y "Pagar"
+
+Fin del flujo => Aparece la ventana "Actualización Exitosa" con un check verde y al presionar el botón azul Ir a mi suscripción Marcelo regresa al dashboard donde ya visualiza sus nuevos límites operativos extendidos listos para usar
+
+#### **User Goal 7: Configuración de cuenta y notificaciones**
+
+Como dueño de distribuidora Marcelo Mansilla quiere gestionar las preferencias de sus notificaciones y la seguridad de su cuenta para asegurar que recibe alertas críticas sin distracciones innecesarias.
+
+En este escenario Marcelo interactúa con el panel de Configuración donde puede activar o desactivar notificaciones Push correos o SMS. El sistema incorpora validaciones preventivas. Si Marcelo intenta apagar todas las alertas el sistema despliega un modal advirtiendo el riesgo de seguridad. De igual manera sí decide salir de la plataforma la acción de cerrar sesión requiere una confirmación explícita para evitar cierres accidentales y la pérdida de monitoreo en su dispositivo móvil.
+
+<div align="center">
+  <img src="./assets/chapter-4/mockup-mobile-flow-user-goal-7.png" alt="mock-up-mobile-user-goal-7" width="450">
+</div>
+
+**El happy path:** Cierre de sesión seguro
+
+Inicio => Marcelo ingresa a la vista principal de "Configuración"
+
+Acción => Toca el botón con borde rojo "Cerrar Sesión" ubicado en la parte inferior de la pantalla
+
+Advertencia => El sistema detecta el intento de salida y despliega el modal emergente ¿Cerrar sesión? para prevenir un toque accidental
+
+Confirmación => Marcelo presiona el botón rojo Sí salir.
+
+Fin del flujo => La plataforma finaliza la sesión de forma segura y redirige a Marcelo a la pantalla inicial de acceso
+
+## 4.5. Web Applications Prototyping
+El prototipado de la aplicación web es la etapa donde se materializa la interacción de Locksight de manera funcional antes de pasar al desarrollo. Este artefacto, desarrollado en la herramienta Figma, permite simular el comportamiento real de la plataforma, desde el inicio de sesión hasta la recepción de una alerta inteligente. El objetivo es validar el flujo de navegación y la usabilidad, asegurando que el sistema sea comprensible y que los administradores puedan acceder a sus reportes y cámaras sin fricciones.
+
+**Version Desktop**
+
+<div align="center">
+  <img src="./assets/chapter-4/web-applications-prototyping-desktop-locksight.png" alt="web-applications-prototyping-desktop-locksight" width="450">
+</div>
+
+link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416276_upc_edu_pe/IQDillIMnJnPQLW5JrvB9BY8AY2LlKTZ636r3Ljzqpku1tA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4Ogfam
+
+**Version Mobile**
+
+<div align="center">
+  <img src="./assets/chapter-4/web-applications-prototyping-mobile-locksight.png" alt="web-applications-prototyping-mobile-locksight" width="450">
+</div>
+
+link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416276_upc_edu_pe/IQCfW_b3VmGhSIjF7rQDbtkPAZKYeF5M-mMwFxVv6BLr9tI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6q8KR4
+
+
+## 4.6. Domain-Driven Software Architecture
+La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño que estructura Locksight en torno a los procesos clave del negocio de seguridad y almacenamiento. Este método permite que el software refleje con precisión las reglas de negocio, como la gestión de permisos por zonas o la activación automática de alertas. Al aplicar DDD, logramos un sistema robusto, escalable y fácil de mantener, donde cada componente técnico está alineado con los objetivos de seguridad y eficiencia operativa de nuestros clientes.
+
+### 4.6.1. Design-Level Event Storming
+
+<div align="center">
+  <img src="./assets/chapter-4/Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
+</div>
+
+**Company Registration:**
+
+<div align="center">
+  <img src="./assets/chapter-4/Company Registration-Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
+</div>
+
+**Subscription & Billing:**
+
+<div align="center">
+  <img src="./assets/chapter-4/Subscription & Billing-Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
+</div>
+
+**Warehouse Management:**
+
+<div align="center">
+  <img src="./assets/chapter-4/Warehouse Management-Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
+</div>
+
+**Sensor Integration:**
+
+<div align="center">
+  <img src="./assets/chapter-4/Sensor Integration-Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
+</div>
+
+**User & Access Management:**
+
+<div align="center">
+  <img src="./assets/chapter-4/User & Access Management-Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
+</div>
+
+**Security Alerts:**
+
+<div align="center">
+  <img src="./assets/chapter-4/Security Alerts-Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
+</div>
+
+**Reports Section:**
+
+<div align="center">
+  <img src="./assets/chapter-4/Reports Section-Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
+</div>
+
+### 4.6.2. Software Architecture Context Diagram
+
+<div align="center">
+  <img src="./assets/chapter-4/c4-context-locksight.png" alt="C4 Context Diagram - LockSight" width="800">
+</div>
+
+### 4.6.3. Software Architecture Container Diagrams.
+
+<div align="center">
+  <img src="./assets/chapter-4/c4-container-locksight.png" alt="C4 Container Diagram - LockSight" width="800">
+</div>
+
+### 4.6.4 Software Architecture Components Diagrams.
+
+<div align="center">
+  <img src="./assets/chapter-4/c4-component-backend.png" alt="C4 Component Diagram Backend - LockSight" width="800">
+</div>
+
+<div align="center">
+  <img src="./assets/chapter-4/c4-component-frontend.png" alt="C4 Component Diagram Frontend - LockSight" width="800">
+</div>
+
+
+## 4.7. Software Object-Oriented Design
+El diseño orientado a objetos es fundamental para estructurar Locksight de manera modular. A través de este diseño, definimos las clases y métodos que dan vida a las funcionalidades, aprovechando principios de reutilización de código y mantenimiento. Esto nos permite modelar entidades del mundo real (sensores, usuarios, almacenes) dentro del código de forma lógica, facilitando que el sistema crezca y se adapte a nuevas necesidades de seguridad industrial sin comprometer la estabilidad actual.
+### 4.7.1. Class Diagrams
+
+<div align="center">
+  <img src="./assets/chapter-4/class-diagram-locksight.png" alt="Class Diagram - LockSight" width="1000">
+</div>
+
+## 4.8. Database Design
+El diseño de la base de datos proporciona la estructura necesaria para almacenar y gestionar toda la información operativa de Locksight de forma segura y eficiente. Se ha modelado un esquema relacional que organiza las tablas, relaciones y restricciones necesarias para garantizar la integridad de los datos de sensores, historiales de acceso y perfiles de usuario. Un diseño de base de datos sólido permite que el sistema responda con rapidez ante consultas históricas y guarde cada evento de seguridad con precisión milimétrica.
+
+### 4.8.1. Database Diagrams
+
+
+<div align="center">
+  <img src="./assets/chapter-4/erd-database-locksight.png" alt="Database Entity-Relationship Diagram - LockSight" width="800">
+</div>
