@@ -1889,7 +1889,7 @@ El diseño orientado a objetos es fundamental para estructurar Locksight de mane
 ### 4.7.1. Class Diagrams
 
 <div align="center">
-  <img src="./assets/class-diagram-locksight.png" alt="Class Diagram - LockSight" width="1000">
+  <img src="./assets/class-diagram-locksight.jpeg" alt="Class Diagram - LockSight" width="1000">
 </div>
 
 ## 4.8. Database Design
