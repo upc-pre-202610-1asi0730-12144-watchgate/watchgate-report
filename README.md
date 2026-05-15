@@ -1966,6 +1966,7 @@ El equipo trabajará con repositorios independientes para cada componente del si
 | Landing Page              | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-website |
 | Web Services              | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-platform |
 | Frontend Web Application  | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-webapp |
+| mock-api                  | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/mock-api | 
 
 ---
 
