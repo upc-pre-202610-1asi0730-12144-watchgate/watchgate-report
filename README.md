@@ -1967,7 +1967,7 @@ El equipo trabajará con repositorios independientes para cada componente del si
 | Component                  | Repository                                                                 |
 |---------------------------|-----------------------------------------------------------------------------|
 | Project Report            | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-report |
-| Landing Page              | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-website |
+| Landing Page              | [https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-website](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/) |
 | Web Services              | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-platform |
 | Frontend Web Application  | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-webapp |
 
