@@ -1899,7 +1899,7 @@ El diseño de la base de datos proporciona la estructura necesaria para almacena
 
 
 <div align="center">
-  <img src="./assets/chapter-4/erd-database-locksight.png" alt="Database Entity-Relationship Diagram - LockSight" width="800">
+  <img src="./assets/chapter-4/erd-database-locksight.jpg" alt="Database Entity-Relationship Diagram - LockSight" width="800">
 </div>
 
 # Capítulo V: Product Implementation, Validation & Deployment. 
