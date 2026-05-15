@@ -2682,10 +2682,8 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 ABET – EAC - Student Outcome 5
 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
-LINKS IMPORTANTES:
+### LINKS IMPORTANTES:
 
-URL LANDING PAGE DESPLEGADO: https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/
-
-URL APP WEB DESPLEGADA: https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/
-
-URL DEL FIGMA: https://www.figma.com/design/kbhdQovpVLS8GuQqHQ0QDh/Watchgate?node-id=0-1&p=f
+* **URL LANDING PAGE DESPLEGADA:** [https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/)
+* **URL APP WEB DESPLEGADA:** [https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/)
+* **URL DEL FIGMA:** [https://www.figma.com/design/kbhdQovpVLS8GuQqHQ0QDh/Watchgate?node-id=0-1&p=f](https://www.figma.com/design/kbhdQovpVLS8GuQqHQ0QDh/Watchgate?node-id=0-1&p=f)
