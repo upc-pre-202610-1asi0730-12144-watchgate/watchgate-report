@@ -44,7 +44,7 @@
 | 0.1     | 00/04/26 | Bardales Tejada, Luis Alexis    | Desarrollo de la Estructura del informe |
 | 0.1    | 00/04/26 | Higa Kohatsue, Alonso Enrique | Desarrollo de la Estructura del informe|
 | 0.1    | 10/04/26 | Lozano Quispe, Fabricio Jofred | Desarrollar de la estructura del informe |
-| 0.1    | 00/04/26 | Sandoval Aiquipa, Kelver Yamir | Desarrollo de la Estructura del informe|
+| 0.1    | 00/04/26 | Sandoval Aiquipa, Kelber Yamir | Desarrollo de la Estructura del informe|
 | 0.1    | 10/04/26 | Vite Celis, Rodrigo Matias | Desarrollo de la Estructura del informe|
 
 
@@ -61,7 +61,7 @@
 
 
 
-**URL LANDING PAGE DESPLEGADO**:
+**URL LANDING PAGE DESPLEGADO**: https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/
 
 
 Commits del Report:
@@ -1967,7 +1967,7 @@ El equipo trabajará con repositorios independientes para cada componente del si
 | Component                  | Repository                                                                 |
 |---------------------------|-----------------------------------------------------------------------------|
 | Project Report            | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-report |
-| Landing Page              | https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/ |
+| Landing Page              | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-website |
 | Web Services              | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-platform |
 | Frontend Web Application  | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-webapp |
 
