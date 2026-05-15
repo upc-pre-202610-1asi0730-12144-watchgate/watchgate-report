@@ -33,7 +33,7 @@
 | U202418645  | Sandoval Aiquipa, Kelber Yamir      |
 | U202414356  | Vite Celis, Rodrigo Matias          |
 
-<div style="font-weight: bold;"> Abril, 2026</div>
+<div style="font-weight: bold;"> Mayo, 2026</div>
 
 </div>
 
@@ -2271,13 +2271,13 @@ Las User Stories seleccionadas para este sprint se descompusieron en tareas téc
 
 Durante el Sprint 2, el equipo trabajó en el repositorio `watchgate-webapp`, integrando Vue.js y manejando el control de versiones a través de la rama `develop`. A continuación, se detallan los commits más relevantes del sprint.
 
-| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited On (Date) |
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed On (Date) |
 |---|---|---|---|---|---|
-| watchgate-webapp | develop |  |  | May 12, 2026 |
-| watchgate-webapp | develop |  |  | May 12, 2026 |
-| watchgate-webapp | develop |  |  | May 13, 2026 |
-| watchgate-webapp | develop |  |  | May 13, 2026 |
-| watchgate-webapp | develop |  |  | May 13, 2026 |
+| watchgate-webapp | develop | 4d9bb6b | feat(iam): add i18n support to iam module | Added internationalization support | May 12, 2026 |
+| watchgate-webapp | develop | c968fb5 | feat(iam): update user registration | Updated registration flow | May 12, 2026 |
+| watchgate-webapp | develop | 90d36d4 | feat(iam): add some bounded context directory | Initial directory setup | May 13, 2026 |
+| watchgate-webapp | develop | bd4e5cb | feat(iam): add some bounded context directory | Directory structure update | May 14, 2026 |
+| watchgate-webapp | develop | 0a664c9 | feat(iam): add i18n support to iam module | Added i18n to IAM | May 14, 2026 |
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
