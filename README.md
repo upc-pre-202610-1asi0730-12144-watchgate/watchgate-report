@@ -2287,24 +2287,24 @@ En esta entrega, el equipo logró implementar la estructura core de la Web Appli
 A continuación, se presentan las capturas de la aplicación en funcionamiento:
 
 <p align="center">
-  <img src="[PENDIENTE]" alt="Vista de Login" width="800">
+  <img src="./assets/app(1).png" alt="Vista de Login" width="800">
 </p>
 
 <p align="center">
-  <img src="[PENDIENTE]" alt="Vista de Registro" width="800">
+  <img src="./assets/app(2).png" alt="Vista de Registro" width="800">
 </p>
 
 <p align="center">
-  <img src="[PENDIENTE]" alt="Vista de Dashboard" width="800">
+  <img src="./assets/app(3).png" alt="Vista de Dashboard" width="800">
 </p>
 
 <p align="center">
-  <img src="[PENDIENTE]" alt="Vista de Almacenes" width="800">
+  <img src="./assets/app(4).png" alt="Vista de Almacenes" width="800">
 </p>
 
 **Video de navegación del Sprint 2:**
 
-URL del video: [PENDIENTE]
+URL del video: [NAVEGACIÓN DEL SPRINT 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418645_upc_edu_pe/IQAgZR1OWtMYQJbNAhf5C6_0AZAakhsJIfMCBFytiqNUEnc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=URbqw1)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
