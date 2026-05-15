@@ -53,16 +53,15 @@
 
 | URL de la organización del proyecto | URL del repositorio del reporte |
 | :------------------: | :---------------------------: |
-| https://github.com/upc-pre-202610-1asi0730-12144-watchgate | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-report |
+| [https://github.com/upc-pre-202610-1asi0730-12144-watchgate](https://github.com/upc-pre-202610-1asi0730-12144-watchgate) | [https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-report](https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-report) |
 
 | URL del repositorio de la landing page |
 | :----------------------------: |
-| https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-website |
+| [https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-website](https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-website) |
 
 
 
-**URL LANDING PAGE DESPLEGADO**: https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/
-
+**URL LANDING PAGE DESPLEGADA:** [Ir a la Landing Page](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/)
 
 Commits del Report:
 
