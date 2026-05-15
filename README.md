@@ -1889,7 +1889,7 @@ El diseño orientado a objetos es fundamental para estructurar Locksight de mane
 ### 4.7.1. Class Diagrams
 
 <div align="center">
-  <img src="./assets/chapter-4/class-diagram-locksight.png" alt="Class Diagram - LockSight" width="1000">
+  <img src="./assets/class-diagram-locksight.png" alt="Class Diagram - LockSight" width="1000">
 </div>
 
 ## 4.8. Database Design
@@ -1899,7 +1899,7 @@ El diseño de la base de datos proporciona la estructura necesaria para almacena
 
 
 <div align="center">
-  <img src="./assets/chapter-4/erd-database-locksight.jpg" alt="Database Entity-Relationship Diagram - LockSight" width="800">
+  <img src="./assets/erd-database-locksight.png" alt="Database Entity-Relationship Diagram - LockSight" width="800">
 </div>
 
 # Capítulo V: Product Implementation, Validation & Deployment. 
