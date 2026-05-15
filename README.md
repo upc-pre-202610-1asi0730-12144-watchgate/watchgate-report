@@ -51,13 +51,13 @@
 
 ## Project Report Collaboration Insights
 
-| URL de la organización del proyecto | URL del repositorio del reporte   |
-| :------------------: | :---------------------------: | 
-|  |  |
+| URL de la organización del proyecto | URL del repositorio del reporte |
+| :------------------: | :---------------------------: |
+| https://github.com/upc-pre-202610-1asi0730-12144-watchgate | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-report |
 
 | URL del repositorio de la landing page |
-| :----------------------------: | 
-|  | 
+| :----------------------------: |
+| https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-website |
 
 
 
@@ -65,6 +65,9 @@
 
 
 Commits del Report:
+
+<img width="697" height="812" alt="image" src="https://github.com/user-attachments/assets/6f3b3a5e-7bce-4596-a1a5-259815387815" />
+
 
 ## CONTENIDO
 
