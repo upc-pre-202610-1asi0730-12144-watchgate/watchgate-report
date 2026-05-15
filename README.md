@@ -2687,3 +2687,5 @@ LINKS IMPORTANTES:
 URL LANDING PAGE DESPLEGADO: https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/
 
 URL APP WEB DESPLEGADA: https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/
+
+URL DEL FIGMA: https://www.figma.com/design/kbhdQovpVLS8GuQqHQ0QDh/Watchgate?node-id=0-1&p=f
