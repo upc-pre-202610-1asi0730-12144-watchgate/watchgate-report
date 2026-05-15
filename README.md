@@ -2215,6 +2215,115 @@ Durante el Sprint 1, los cinco integrantes del equipo Watchgate participaron act
 
 Se aplicó GitFlow de forma consistente: se crearon ramas con la convención `feature/<nombre-de-seccion>` y se realizó el merge únicamente tras revisión del código por al menos un integrante del equipo.
 
+### 5.2.2. Sprint 2
+
+Durante el Sprint 2, el equipo Watchgate enfocó sus esfuerzos en el desarrollo parcial de la Web Application (Frontend) de Locksight, utilizando Vue.js. El objetivo principal fue implementar el Bounded Context de Identity and Access Management (IAM) para el control de acceso, así como el Bounded Context de Warehouse Management para permitir a los usuarios visualizar y registrar almacenes en la plataforma.
+
+#### 5.2.2.1. Sprint Planning 2
+
+En esta sección se documenta el Sprint Planning Meeting del Sprint 2, donde el equipo revisó los resultados del Sprint 1, estableció los nuevos objetivos centrados en la aplicación web interactiva y asignó las tareas correspondientes.
+
+| Sprint # | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-13-05 |
+| Time | 07:00 PM |
+| Location | Reunión virtual vía Discord |
+| Prepared By | Sandoval Aiquipa, Kelber Yamir |
+| Attendees (to planning meeting) | Bardales Tejada, Luis Alexis / Higa Kohatsu, Alonso Enrique / Lozano Quispe, Fabricio Jofred / Sandoval Aiquipa, Kelber Yamir / Vite Celis, Rodrigo Matias |
+| Sprint 2 – 1 Review Summary | Se revisó el despliegue exitoso de la Landing Page (Sprint 1). Se validó que el feedback brindado se haya tomado en cuenta  mejorando o enriqueciendo el reporta, además de la nueva aplicación web que se desarrollará en este sprint. |
+| Sprint 2 – 1 Retrospective Summary | El equipo identificó que se necesita una mayor estandarización en la creación de componentes en Vue.js para evitar duplicidad de código. Se acordó implementar una carpeta de componentes compartidos (UI Kit) antes de iniciar las vistas principales. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | Our focus is to deliver the foundational structure of the Locksight Web Application, implementing authentication flows (Login/Register) and initial warehouse management (Dashboard and branch creation). We believe this will allow users to access a secure environment and visualize the general state of their infrastructure. This will be validated once a user can successfully register, log in, view the consolidated dashboard, and register a new warehouse on the platform. |
+| Sprint 2 Velocity | 26 Story Points |
+| Sum of Story Points | 26 Story Points |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Para este Sprint 2, el trabajo se dividió en módulos clave de la Web Application. Cada integrante asumió el liderazgo de un componente o Bounded Context en el Frontend, colaborando con los demás para la integración mediante Vue Router y la gestión de estado.
+
+| Team Member (Last Name, First Name) | GitHub Username | IAM Module (Auth) (L/C) | Warehouse Module (L/C) | Dashboard & UI (L/C) | Routing & State (L/C) | API Integration/Mocks (L/C) |
+|---|---|---|---|---|---|---|
+| Bardales Tejada, Luis Alexis | AlexisBardales | C | C | C | L | C |
+| Higa Kohatsu, Alonso Enrique | AlonsoHiga | C | L | C | C | C |
+| Lozano Quispe, Fabricio Jofred | FabricioZz15 | C | C | C | C | L |
+| Sandoval Aiquipa, Kelber Yamir | Kyesei | L | C | C | C | C |
+| Vite Celis, Rodrigo Matias | rodriznnn | C | C | L | C | C |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+Las User Stories seleccionadas para este sprint se descompusieron en tareas técnicas de desarrollo (Frontend) orientadas a la creación de vistas, validación de formularios y componentes en Vue.js.
+
+| Sprint # | Sprint 2 | | | | | | |
+|---|---|---|---|---|---|---|---|
+| **User Story** | | **Work-Item / Task** | | | | | |
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+| US25 | Registrar usuario | T01 | Vista de Registro (Register View) | Maquetar la vista de creación de cuenta y estructurar el formulario interactivo en Vue | 4 | Sandoval Aiquipa, Kelber Yamir | Done |
+| US25 | Registrar usuario | T02 | Validación de Formulario de Registro | Implementar validaciones de campos (correo, contraseña segura, roles) antes del submit | 3 | Sandoval Aiquipa, Kelber Yamir | Done |
+| US19 | Acceder al sistema | T03 | Vista de Login y Auth Guard | Desarrollar la vista de inicio de sesión e implementar protección de rutas en Vue Router | 5 | Bardales Tejada, Luis Alexis | Done |
+| US28 | Visualizar dashboard consolidado | T04 | Layout Principal y Navbar interno | Crear el layout del sistema (Sidebar y Topbar) para usuarios autenticados | 4 | Vite Celis, Rodrigo Matias | Done |
+| US28 | Visualizar dashboard consolidado | T05 | Dashboard Summary Components | Crear tarjetas de resumen (KPIs) de sensores activos y alertas recientes | 5 | Vite Celis, Rodrigo Matias | Done |
+| US01 | Visualizar almacenes registrados | T06 | Vista de Lista de Almacenes | Implementar la tabla o cuadrícula (Cards) para renderizar los almacenes asociados al usuario | 5 | Higa Kohatsu, Alonso Enrique | Done |
+| US04 | Registrar un nuevo almacén | T07 | Formulario de Nuevo Almacén | Crear el modal o vista dedicada para el registro de sucursales con captura de datos | 4 | Higa Kohatsu, Alonso Enrique | Done |
+| Todas | Integración | T08 | Mock de Servicios (JSON/API) | Desarrollar servicios simulados (mocks) para proveer datos a las vistas mientras se culmina la API REST | 5 | Lozano Quispe, Fabricio Jofred | Done |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo trabajó en el repositorio `watchgate-webapp`, integrando Vue.js y manejando el control de versiones a través de la rama `develop`. A continuación, se detallan los commits más relevantes del sprint.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited On (Date) |
+|---|---|---|---|---|---|
+| watchgate-webapp | develop |  |  | May 12, 2026 |
+| watchgate-webapp | develop |  |  | May 12, 2026 |
+| watchgate-webapp | develop |  |  | May 13, 2026 |
+| watchgate-webapp | develop |  |  | May 13, 2026 |
+| watchgate-webapp | develop |  |  | May 13, 2026 |
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+En esta entrega, el equipo logró implementar la estructura core de la Web Application. Los usuarios ahora pueden navegar por el sistema, registrarse, iniciar sesión y acceder al panel de control para visualizar y gestionar almacenes.
+
+A continuación, se presentan las capturas de la aplicación en funcionamiento:
+
+<p align="center">
+  <img src="[PENDIENTE]" alt="Vista de Login" width="800">
+</p>
+
+<p align="center">
+  <img src="[PENDIENTE]" alt="Vista de Registro" width="800">
+</p>
+
+<p align="center">
+  <img src="[PENDIENTE]" alt="Vista de Dashboard" width="800">
+</p>
+
+<p align="center">
+  <img src="[PENDIENTE]" alt="Vista de Almacenes" width="800">
+</p>
+
+**Video de navegación del Sprint 2:**
+
+URL del video: [PENDIENTE]
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2, a la par del desarrollo del Frontend interactivo en Vue.js, el equipo de Backend continuó estructurando la RESTful API en ASP.NET Core enfocada en los Bounded Contexts de Identity and Access Management (IAM) y Warehouse Management. 
+
+Para asegurar el progreso continuo en la Web Application sin bloqueos de dependencia, el equipo implementó servicios simulados (Mock APIs) empleando archivos locales en formato JSON. Esta estrategia permitió mapear la estructura de datos que se espera recibir del backend real (como la lista de almacenes, roles de usuario y métricas iniciales del dashboard) y enlazar las vistas. Paralelamente se preparo para la integración final y consumo de datos reales en el Sprint 3.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+El despliegue de la Web Application se llevó a cabo configurando un entorno de despliegue completamente separado del Landing Page para mantener la independencia técnica de ambos productos. 
+
+Se configuró el entorno para procesar los artefactos generados por el build de Vue.js (`dist`), asegurando que las rutas protegidas del sistema funcionen adecuadamente en producción. La última versión estable, fusionada en la rama `main` del repositorio `watchgate-webapp`, se encuentra pública y operativa para que los usuarios puedan interactuar con la plataforma y validar los flujos de inicio de sesión y visualización de almacenes.
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, los cinco integrantes del equipo Watchgate mantuvieron una colaboración dinámica y altamente estructurada.
+
+El equipo respetó el flujo de trabajo GitFlow de manera rigurosa. Todo el código nuevo se integró a la rama `develop` exclusivamente mediante Pull Requests. Esta práctica no solo permitió la revisión de código cruzada (Code Review) entre los miembros, sino que también minimizó los merge conflicts del trabajo en los mismos componentes de Vue.js. Los mensajes de commit dejaron un historial de desarrollo limpio, rastreable y alineado con los estándares del proyecto.
+
 ## 5.3 Validation Interviews
 ### 5.3.1 Diseño de entrevistas
 **Primer segmento: Persona natural**
