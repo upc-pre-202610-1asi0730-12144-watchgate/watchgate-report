@@ -33,7 +33,7 @@
 | U202418645  | Sandoval Aiquipa, Kelber Yamir      |
 | U202414356  | Vite Celis, Rodrigo Matias          |
 
-<div style="font-weight: bold;"> Abril, 2026</div>
+<div style="font-weight: bold;"> Mayo, 2026</div>
 
 </div>
 
@@ -51,20 +51,22 @@
 
 ## Project Report Collaboration Insights
 
-| URL de la organización del proyecto | URL del repositorio del reporte   |
-| :------------------: | :---------------------------: | 
-|  |  |
+| URL de la organización del proyecto | URL del repositorio del reporte |
+| :------------------: | :---------------------------: |
+| [https://github.com/upc-pre-202610-1asi0730-12144-watchgate](https://github.com/upc-pre-202610-1asi0730-12144-watchgate) | [https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-report](https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-report) |
 
 | URL del repositorio de la landing page |
-| :----------------------------: | 
-|  | 
+| :----------------------------: |
+| [https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-website](https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-website) |
 
 
 
-**URL LANDING PAGE DESPLEGADO**: https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/
-
+**URL LANDING PAGE DESPLEGADA:** [Ir a la Landing Page](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/)
 
 Commits del Report:
+
+<img width="697" height="812" alt="image" src="https://github.com/user-attachments/assets/6f3b3a5e-7bce-4596-a1a5-259815387815" />
+
 
 ## CONTENIDO
 
@@ -1963,6 +1965,7 @@ El equipo trabajará con repositorios independientes para cada componente del si
 | Landing Page              | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-website |
 | Web Services              | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-platform |
 | Frontend Web Application  | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-webapp |
+| mock-api                  | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/mock-api | 
 
 ---
 
@@ -2268,13 +2271,13 @@ Las User Stories seleccionadas para este sprint se descompusieron en tareas téc
 
 Durante el Sprint 2, el equipo trabajó en el repositorio `watchgate-webapp`, integrando Vue.js y manejando el control de versiones a través de la rama `develop`. A continuación, se detallan los commits más relevantes del sprint.
 
-| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited On (Date) |
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed On (Date) |
 |---|---|---|---|---|---|
-| watchgate-webapp | develop |  |  | May 12, 2026 |
-| watchgate-webapp | develop |  |  | May 12, 2026 |
-| watchgate-webapp | develop |  |  | May 13, 2026 |
-| watchgate-webapp | develop |  |  | May 13, 2026 |
-| watchgate-webapp | develop |  |  | May 13, 2026 |
+| watchgate-webapp | develop | 4d9bb6b | feat(iam): add i18n support to iam module | Added internationalization support | May 12, 2026 |
+| watchgate-webapp | develop | c968fb5 | feat(iam): update user registration | Updated registration flow | May 12, 2026 |
+| watchgate-webapp | develop | 90d36d4 | feat(iam): add some bounded context directory | Initial directory setup | May 13, 2026 |
+| watchgate-webapp | develop | bd4e5cb | feat(iam): add some bounded context directory | Directory structure update | May 14, 2026 |
+| watchgate-webapp | develop | 0a664c9 | feat(iam): add i18n support to iam module | Added i18n to IAM | May 14, 2026 |
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
@@ -2674,5 +2677,9 @@ Estructura para la sección Objetivo del Estudiante (Student Outcome)
 El curso contribuye al cumplimiento del Student Outcome ABET:
 ABET – EAC - Student Outcome 5
 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
-LINKS IMPORTANTES:
-URL LANDING PAGE DESPLEGADO: https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/
+
+### LINKS IMPORTANTES:
+
+* **URL LANDING PAGE DESPLEGADA:** [https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/)
+* **URL APP WEB DESPLEGADA:** [https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/)
+* **URL DEL FIGMA:** [https://www.figma.com/design/kbhdQovpVLS8GuQqHQ0QDh/Watchgate?node-id=0-1&p=f](https://www.figma.com/design/kbhdQovpVLS8GuQqHQ0QDh/Watchgate?node-id=0-1&p=f)
