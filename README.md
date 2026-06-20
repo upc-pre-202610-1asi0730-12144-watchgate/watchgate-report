@@ -2102,7 +2102,7 @@ Esta sección registra y explica el proceso de implementación, pruebas y despli
 
 #### 5.2.1.1. Sprint Planning 1
 
-En esta sección se documenta el Sprint Planning Meeting del Sprint 1, en el que el equipo Watchgate estableció el objetivo del sprint, definió el alcance de trabajo y distribuyó las tareas entre los integrantes para lograr la primera versión desplegada de la Landing Page de Locksight.
+En esta sección se documenta el Sprint Planning Meeting del Sprint 1, en el que el equipo Watchgate estableció el objetivo del sprint, definió el alcance de trabajo y distribuyó las tareas (Engineering Tasks) entre los integrantes para lograr la primera versión desplegada de la Landing Page de Locksight.
 
 | Sprint # | Sprint 1 |
 |---|---|
@@ -2112,12 +2112,10 @@ En esta sección se documenta el Sprint Planning Meeting del Sprint 1, en el que
 | Location | Reunión virtual vía Discord |
 | Prepared By | Bardales Tejada, Luis Alexis |
 | Attendees (to planning meeting) | Bardales Tejada, Luis Alexis / Higa Kohatsu, Alonso Enrique / Lozano Quispe, Fabricio Jofred / Sandoval Aiquipa, Kelber Yamir / Vite Celis, Rodrigo Matias |
-| Sprint 0 Review Summary |  |
-| Sprint 0 Retrospective Summary | |
 | **Sprint Goal & User Stories** | |
-| Sprint 1 Goal | Our focus is on delivering a fully deployed Landing Page that communicates Locksight's value proposition to potential users. We believe it delivers the first professional touchpoint of the product to warehouse owners and security managers. This will be confirmed when visitors can navigate all sections of the Landing Page, understand the product's features, view the pricing plans, and access the registration call-to-action from a deployed public URL. |
-| Sprint 1 Velocity | 20 Story Points |
-| Sum of Story Points | 19 Story Points |
+| Sprint 1 Goal | Nuestro objetivo es ofrecer una página de destino completamente implementada que comunique la propuesta de valor de Locksight a los usuarios potenciales. Creemos que esta página representa el primer contacto profesional del producto con los propietarios de almacenes y los responsables de seguridad. Esto se confirmará cuando los visitantes puedan navegar por todas las secciones de la página, comprender las características del producto, consultar los planes de precios y acceder al formulario de registro desde una URL pública. |
+| Sprint 1 Velocity | 44 Hours |
+| Sum of Estimation (Hours) | 44 Hours |
 
 ---
 
@@ -2137,23 +2135,22 @@ Para este Sprint 1, el alcance se centra íntegramente en el desarrollo y despli
 
 #### 5.2.1.3. Sprint Backlog 1
 
-El objetivo principal del Sprint 1 es desplegar la primera versión funcional de la Landing Page de Locksight, que comunique la propuesta de valor a los segmentos objetivo e incluya los call-to-action correspondientes hacia la Web Application.
+El objetivo principal del Sprint 1 es desplegar la primera versión funcional de la Landing Page de Locksight. Las User Stories se han descompuesto en Engineering Tasks estimadas entre 4 y 8 horas, asegurando la viabilidad técnica del desarrollo.
 
 | Sprint # | Sprint 1 | | | | | | |
 |---|---|---|---|---|---|---|---|
 | **User Story** | | **Work-Item / Task** | | | | | |
 | Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
-| US21 | Visualizar landing page | T01 | Estructura HTML base del Landing Page | Crear el archivo `index.html` con la estructura semántica completa (header, main, sections, footer) | 3 | Bardales Tejada, Luis Alexis | Done |
-| US21 | Visualizar landing page | T02 | Estilos globales y variables CSS | Definir variables de color, tipografía y espaciado en `:root` siguiendo el Design System de Locksight | 2 | Bardales Tejada, Luis Alexis | Done |
-| US21 | Visualizar landing page | T03 | Sección Hero y barra de navegación | Implementar el hero section con headline, subheadline, CTAs y la navbar con menú responsive (hamburguesa para mobile) | 4 | Bardales Tejada, Luis Alexis | Done |
-| US21 | Visualizar landing page | T04 | Sección Features (características del producto) | Implementar la sección de tres columnas con íconos y descripción de las funcionalidades clave de Locksight | 3 | Higa Kohatsu, Alonso Enrique | Done |
-| US23 | Visualizar información del equipo | T05 | Sección About / Equipo | Implementar la sección que presenta a los integrantes del startup con foto, nombre y rol | 3 | Higa Kohatsu, Alonso Enrique | Done |
-| US58 | Ver planes y precios desde landing page | T06 | Sección Pricing con planes de suscripción | Implementar tarjetas comparativas de los planes Básico, Premium y Corporativo con sus precios y CTAs de registro | 4 | Lozano Quispe, Fabricio Jofred | Done |
-| US57 | Visualizar testimonios de la comunidad | T07 | Sección Testimonials | Implementar la cuadrícula de testimonios de usuarios con citas y datos de los entrevistados | 3 | Lozano Quispe, Fabricio Jofred | Done |
-| US24 | Contactar desde la landing page | T08 | Sección Contact / Footer | Implementar el formulario de contacto y el footer con enlaces legales, redes sociales e información de la empresa | 3 | Sandoval Aiquipa, Kelber Yamir | Done |
-| US22 | Visualizar video del producto | T09 | Integración de video del producto en Landing Page | Incrustar el video About-the-Product (YouTube embed) en la sección correspondiente del Landing Page | 2 | Sandoval Aiquipa, Kelber Yamir | Done |
-| US21 | Visualizar landing page | T10 | Responsividad completa (Mobile & Desktop) | Aplicar media queries y ajustes responsive para garantizar correcta visualización en dispositivos móviles y desktop | 3 | Vite Celis, Rodrigo Matias | Done |
-| US21 | Visualizar landing page | T11 | Despliegue en GitHub Pages y verificación | Configurar GitHub Pages sobre la rama `main`, verificar despliegue y validar todos los enlaces y assets en el entorno producción | 2 | Vite Celis, Rodrigo Matias | Done |
+| US21 | Visualizar landing page | T01 | Estructura HTML y entorno de desarrollo | Configurar el repositorio, definir la estructura semántica de HTML5 e implementar las variables globales CSS en `:root`. | 4 | Bardales Tejada, Luis Alexis | Done |
+| US21 | Visualizar landing page | T02 | Implementación del Hero Section y Navbar | Codificar la barra de navegación responsiva mediante JavaScript (Vanilla) y estructurar el contenedor del Hero. | 5 | Bardales Tejada, Luis Alexis | Done |
+| US21 | Visualizar landing page | T03 | Desarrollo técnico de la sección Features | Maquetar el sistema de grid (CSS Grid/Flexbox) para las tres columnas de características e incrustar los SVGs. | 4 | Higa Kohatsu, Alonso Enrique | Done |
+| US23 | Visualizar información del equipo | T04 | Maquetación del módulo About y Team | Desarrollar los componentes visuales de las tarjetas del equipo, asegurando la responsividad en vistas móviles. | 4 | Higa Kohatsu, Alonso Enrique | Done |
+| US58 | Ver planes y precios desde landing page | T05 | Implementación lógica de Pricing Cards | Construir la estructura CSS para las tarjetas comparativas de los planes Básico, Premium y Corporativo con sus CTAs. | 5 | Lozano Quispe, Fabricio Jofred | Done |
+| US57 | Visualizar testimonios de la comunidad | T06 | Construcción del grid de Testimonials | Codificar la cuadrícula adaptativa para la sección de testimonios, implementando avatares y jerarquía tipográfica. | 4 | Lozano Quispe, Fabricio Jofred | Done |
+| US24 | Contactar desde la landing page | T07 | Desarrollo de Contacto y Footer | Programar la estructura del footer corporativo, enlaces legales y la grid de botones de redes sociales. | 4 | Sandoval Aiquipa, Kelber Yamir | Done |
+| US22 | Visualizar video del producto | T08 | Integración de Video (Embed) y Media | Configurar los iframes para el video About-the-Product y optimizar la carga de assets estáticos en la web. | 4 | Sandoval Aiquipa, Kelber Yamir | Done |
+| US21 | Visualizar landing page | T09 | Refactorización de Media Queries | Realizar pruebas cross-browser y aplicar media queries (CSS) en toda la Landing Page para garantizar la vista mobile. | 5 | Vite Celis, Rodrigo Matias | Done |
+| US21 | Visualizar landing page | T10 | Configuración de CI/CD en GitHub Pages | Configurar las acciones de despliegue, habilitar GitHub Pages sobre la rama main y validar rutas en producción. | 5 | Vite Celis, Rodrigo Matias | Done |
 
 ---
 
@@ -2226,17 +2223,17 @@ En esta sección se documenta el Sprint Planning Meeting del Sprint 2, donde el 
 | Sprint # | Sprint 2 |
 |---|---|
 | **Sprint Planning Background** | |
-| Date | 2026-13-05 |
+| Date | 2026-05-13 |
 | Time | 07:00 PM |
 | Location | Reunión virtual vía Discord |
 | Prepared By | Sandoval Aiquipa, Kelber Yamir |
 | Attendees (to planning meeting) | Bardales Tejada, Luis Alexis / Higa Kohatsu, Alonso Enrique / Lozano Quispe, Fabricio Jofred / Sandoval Aiquipa, Kelber Yamir / Vite Celis, Rodrigo Matias |
-| Sprint 1 Review Summary | Se revisó el despliegue exitoso de la Landing Page (Sprint 1). Se validó que el feedback brindado se haya tomado en cuenta  mejorando o enriqueciendo el reporta, además de la nueva aplicación web que se desarrollará en este sprint. |
-| Sprint 1 Retrospective Summary | El equipo identificó que se necesita una mayor estandarización en la creación de componentes en Vue.js para evitar duplicidad de código. Se acordó implementar una carpeta de componentes compartidos (UI Kit) antes de iniciar las vistas principales. |
+| Sprint 1 Review Summary | Se revisó el despliegue exitoso de la Landing Page. Se confirmó que el código estático cumple con los requerimientos y los enlaces están preparados para conectar con el SPA (Single Page Application) de Vue.js. |
+| Sprint 1 Retrospective Summary | El equipo identificó que se necesita una mayor estandarización de componentes en la transición a Vue.js. Se acordó crear un UI Kit básico y aplicar el patrón de diseño por componentes para evitar duplicidad de código. |
 | **Sprint Goal & User Stories** | |
-| Sprint 2 Goal | Our focus is to deliver the foundational structure of the Locksight Web Application, implementing authentication flows (Login/Register) and initial warehouse management (Dashboard and branch creation). We believe this will allow users to access a secure environment and visualize the general state of their infrastructure. This will be validated once a user can successfully register, log in, view the consolidated dashboard, and register a new warehouse on the platform. |
-| Sprint 2 Velocity | 26 Story Points |
-| Sum of Story Points | 26 Story Points |
+| Sprint 2 Goal | Nuestro objetivo es implementar la estructura básica de la aplicación web Locksight, incluyendo los flujos de autenticación (inicio de sesión/registro) y la gestión inicial del almacén (panel de control y creación de sucursales). Creemos que esto permitirá a los usuarios acceder a un entorno seguro y visualizar el estado general de su infraestructura. Esto se validará una vez que el usuario pueda registrarse, iniciar sesión, ver el panel de control consolidado y registrar un nuevo almacén en la plataforma. |
+| Sprint 2 Velocity | 41 Hours |
+| Sum of Estimation (Hours) | 41 Hours |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
@@ -2252,20 +2249,20 @@ Para este Sprint 2, el trabajo se dividió en módulos clave de la Web Applicati
 
 #### 5.2.2.3. Sprint Backlog 2
 
-Las User Stories seleccionadas para este sprint se descompusieron en tareas técnicas de desarrollo (Frontend) orientadas a la creación de vistas, validación de formularios y componentes en Vue.js.
+Las User Stories seleccionadas para este sprint se descompusieron en tareas técnicas (Engineering Tasks) orientadas a la configuración de Vue.js, la lógica de enrutamiento, validación y gestión de estado. Todas las estimaciones se encuentran estrictamente en el rango de 4 a 8 horas, acorde a las métricas del proyecto.
 
 | Sprint # | Sprint 2 | | | | | | |
 |---|---|---|---|---|---|---|---|
 | **User Story** | | **Work-Item / Task** | | | | | |
 | Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
-| US25 | Registrar usuario | T01 | Vista de Registro (Register View) | Maquetar la vista de creación de cuenta y estructurar el formulario interactivo en Vue | 4 | Sandoval Aiquipa, Kelber Yamir | Done |
-| US25 | Registrar usuario | T02 | Validación de Formulario de Registro | Implementar validaciones de campos (correo, contraseña segura, roles) antes del submit | 3 | Sandoval Aiquipa, Kelber Yamir | Done |
-| US19 | Acceder al sistema | T03 | Vista de Login y Auth Guard | Desarrollar la vista de inicio de sesión e implementar protección de rutas en Vue Router | 5 | Bardales Tejada, Luis Alexis | Done |
-| US28 | Visualizar dashboard consolidado | T04 | Layout Principal y Navbar interno | Crear el layout del sistema (Sidebar y Topbar) para usuarios autenticados | 4 | Vite Celis, Rodrigo Matias | Done |
-| US28 | Visualizar dashboard consolidado | T05 | Dashboard Summary Components | Crear tarjetas de resumen (KPIs) de sensores activos y alertas recientes | 5 | Vite Celis, Rodrigo Matias | Done |
-| US01 | Visualizar almacenes registrados | T06 | Vista de Lista de Almacenes | Implementar la tabla o cuadrícula (Cards) para renderizar los almacenes asociados al usuario | 5 | Higa Kohatsu, Alonso Enrique | Done |
-| US04 | Registrar un nuevo almacén | T07 | Formulario de Nuevo Almacén | Crear el modal o vista dedicada para el registro de sucursales con captura de datos | 4 | Higa Kohatsu, Alonso Enrique | Done |
-| Todas | Integración | T08 | Mock de Servicios (JSON/API) | Desarrollar servicios simulados (mocks) para proveer datos a las vistas mientras se culmina la API REST | 5 | Lozano Quispe, Fabricio Jofred | Done |
+| US25 | Registrar usuario | T01 | Implementación de Vista Register en Vue | Desarrollar el componente de creación de cuenta y maquetar los inputs del formulario usando directivas de Vue. | 5 | Sandoval Aiquipa, Kelber Yamir | Done |
+| US25 | Registrar usuario | T02 | Lógica de Validación de Formulario (Auth) | Programar validaciones de regex para correo y contraseña usando JavaScript y emitir eventos de error en el DOM. | 4 | Sandoval Aiquipa, Kelber Yamir | Done |
+| US19 | Acceder al sistema | T03 | Desarrollo de Vista Login y Auth Guards | Codificar el componente de inicio de sesión e implementar la protección de rutas utilizando Vue Router (Navigation Guards). | 6 | Bardales Tejada, Luis Alexis | Done |
+| US28 | Visualizar dashboard | T04 | Programación del Layout Base y Sidebar | Configurar la estructura global (SPA), integrando el menú lateral persistente y la barra superior para usuarios autenticados. | 5 | Vite Celis, Rodrigo Matias | Done |
+| US28 | Visualizar dashboard | T05 | Implementación de Dashboard Components | Construir los componentes de UI (Tarjetas de métricas y gráficos simulados) para inyectar KPIs en el dashboard. | 5 | Vite Celis, Rodrigo Matias | Done |
+| US01 | Visualizar almacenes | T06 | Desarrollo del módulo de lista de Almacenes | Programar el componente contenedor que iterará (`v-for`) sobre la data para renderizar el grid de almacenes del usuario. | 6 | Higa Kohatsu, Alonso Enrique | Done |
+| US04 | Registrar almacén | T07 | Formulario de estado para Nuevo Almacén | Crear el modal dinámico en Vue para el registro de sucursales, vinculando los datos mediante `v-model` a un objeto reactivo. | 5 | Higa Kohatsu, Alonso Enrique | Done |
+| Todas | Integración | T08 | Configuración de Mock API (JSON Services) | Configurar Axios/Fetch para consumir endpoints simulados (.json) y gestionar la asincronía en los ciclos de vida de Vue. | 5 | Lozano Quispe, Fabricio Jofred | Done |
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
