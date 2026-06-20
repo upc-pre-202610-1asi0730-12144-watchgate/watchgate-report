@@ -2115,8 +2115,8 @@ En esta sección se documenta el Sprint Planning Meeting del Sprint 1, en el que
 | Location | Reunión virtual vía Discord |
 | Prepared By | Bardales Tejada, Luis Alexis |
 | Attendees (to planning meeting) | Bardales Tejada, Luis Alexis / Higa Kohatsu, Alonso Enrique / Lozano Quispe, Fabricio Jofred / Sandoval Aiquipa, Kelber Yamir / Vite Celis, Rodrigo Matias |
-| Sprint 1 – 1 Review Summary | Al ser el primer sprint, no existe sprint anterior que revisar. El equipo partió de los artefactos definidos en los capítulos I al IV: User Stories, Product Backlog, Style Guidelines, Wireframes y Mockups del Landing Page. |
-| Sprint 1 – 1 Retrospective Summary | Al ser el primer sprint, no existe retrospectiva previa. El equipo acordó mantener comunicación continua vía Discord, realizar revisiones de código mediante Pull Requests y respetar los acuerdos de convenciones de código definidos en 5.1.3. |
+| Sprint 0 Review Summary |  |
+| Sprint 0 Retrospective Summary | |
 | **Sprint Goal & User Stories** | |
 | Sprint 1 Goal | Our focus is on delivering a fully deployed Landing Page that communicates Locksight's value proposition to potential users. We believe it delivers the first professional touchpoint of the product to warehouse owners and security managers. This will be confirmed when visitors can navigate all sections of the Landing Page, understand the product's features, view the pricing plans, and access the registration call-to-action from a deployed public URL. |
 | Sprint 1 Velocity | 20 Story Points |
@@ -2234,8 +2234,8 @@ En esta sección se documenta el Sprint Planning Meeting del Sprint 2, donde el 
 | Location | Reunión virtual vía Discord |
 | Prepared By | Sandoval Aiquipa, Kelber Yamir |
 | Attendees (to planning meeting) | Bardales Tejada, Luis Alexis / Higa Kohatsu, Alonso Enrique / Lozano Quispe, Fabricio Jofred / Sandoval Aiquipa, Kelber Yamir / Vite Celis, Rodrigo Matias |
-| Sprint 2 – 1 Review Summary | Se revisó el despliegue exitoso de la Landing Page (Sprint 1). Se validó que el feedback brindado se haya tomado en cuenta  mejorando o enriqueciendo el reporta, además de la nueva aplicación web que se desarrollará en este sprint. |
-| Sprint 2 – 1 Retrospective Summary | El equipo identificó que se necesita una mayor estandarización en la creación de componentes en Vue.js para evitar duplicidad de código. Se acordó implementar una carpeta de componentes compartidos (UI Kit) antes de iniciar las vistas principales. |
+| Sprint 1 Review Summary | Se revisó el despliegue exitoso de la Landing Page (Sprint 1). Se validó que el feedback brindado se haya tomado en cuenta  mejorando o enriqueciendo el reporta, además de la nueva aplicación web que se desarrollará en este sprint. |
+| Sprint 1 Retrospective Summary | El equipo identificó que se necesita una mayor estandarización en la creación de componentes en Vue.js para evitar duplicidad de código. Se acordó implementar una carpeta de componentes compartidos (UI Kit) antes de iniciar las vistas principales. |
 | **Sprint Goal & User Stories** | |
 | Sprint 2 Goal | Our focus is to deliver the foundational structure of the Locksight Web Application, implementing authentication flows (Login/Register) and initial warehouse management (Dashboard and branch creation). We believe this will allow users to access a secure environment and visualize the general state of their infrastructure. This will be validated once a user can successfully register, log in, view the consolidated dashboard, and register a new warehouse on the platform. |
 | Sprint 2 Velocity | 26 Story Points |
