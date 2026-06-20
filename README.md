@@ -2116,7 +2116,7 @@ En esta sección se documenta el Sprint Planning Meeting del Sprint 1, en el que
 | Prepared By | Bardales Tejada, Luis Alexis |
 | Attendees (to planning meeting) | Bardales Tejada, Luis Alexis / Higa Kohatsu, Alonso Enrique / Lozano Quispe, Fabricio Jofred / Sandoval Aiquipa, Kelber Yamir / Vite Celis, Rodrigo Matias |
 | **Sprint Goal & User Stories** | |
-| Sprint 1 Goal | Our focus is on delivering a fully deployed Landing Page that communicates Locksight's value proposition to potential users. We believe it delivers the first professional touchpoint of the product to warehouse owners and security managers. This will be confirmed when visitors can navigate all sections of the Landing Page, understand the product's features, view the pricing plans, and access the registration call-to-action from a deployed public URL. |
+| Sprint 1 Goal | Nuestro objetivo es ofrecer una página de destino completamente implementada que comunique la propuesta de valor de Locksight a los usuarios potenciales. Creemos que esta página representa el primer contacto profesional del producto con los propietarios de almacenes y los responsables de seguridad. Esto se confirmará cuando los visitantes puedan navegar por todas las secciones de la página, comprender las características del producto, consultar los planes de precios y acceder al formulario de registro desde una URL pública. |
 | Sprint 1 Velocity | 44 Hours |
 | Sum of Estimation (Hours) | 44 Hours |
 
@@ -2234,7 +2234,7 @@ En esta sección se documenta el Sprint Planning Meeting del Sprint 2, donde el 
 | Sprint 1 Review Summary | Se revisó el despliegue exitoso de la Landing Page. Se confirmó que el código estático cumple con los requerimientos y los enlaces están preparados para conectar con el SPA (Single Page Application) de Vue.js. |
 | Sprint 1 Retrospective Summary | El equipo identificó que se necesita una mayor estandarización de componentes en la transición a Vue.js. Se acordó crear un UI Kit básico y aplicar el patrón de diseño por componentes para evitar duplicidad de código. |
 | **Sprint Goal & User Stories** | |
-| Sprint 2 Goal | Our focus is to deliver the foundational structure of the Locksight Web Application, implementing authentication flows (Login/Register) and initial warehouse management (Dashboard and branch creation). We believe this will allow users to access a secure environment and visualize the general state of their infrastructure. This will be validated once a user can successfully register, log in, view the consolidated dashboard, and register a new warehouse on the platform. |
+| Sprint 2 Goal | Nuestro objetivo es implementar la estructura básica de la aplicación web Locksight, incluyendo los flujos de autenticación (inicio de sesión/registro) y la gestión inicial del almacén (panel de control y creación de sucursales). Creemos que esto permitirá a los usuarios acceder a un entorno seguro y visualizar el estado general de su infraestructura. Esto se validará una vez que el usuario pueda registrarse, iniciar sesión, ver el panel de control consolidado y registrar un nuevo almacén en la plataforma. |
 | Sprint 2 Velocity | 41 Hours |
 | Sum of Estimation (Hours) | 41 Hours |
 
