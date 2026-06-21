@@ -2843,7 +2843,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 
 ### LINKS IMPORTANTES:
 
-* **URL LANDING PAGE DESPLEGADA:** [https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/)
+* **URL LANDING PAGE DESPLEGADA:** [https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/)](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/)
 * **URL APP WEB DESPLEGADA:** [https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/)
 * **URL DEL FIGMA:** [https://www.figma.com/design/kbhdQovpVLS8GuQqHQ0QDh/Watchgate?node-id=0-1&p=f](https://www.figma.com/design/kbhdQovpVLS8GuQqHQ0QDh/Watchgate?node-id=0-1&p=f)
 * **URL DEL SWAGGER (BACKEND):** [https://locksight-app-service-a2a2dfhdf4enghg2.centralus-01.azurewebsites.net/swagger/index.html](https://locksight-app-service-a2a2dfhdf4enghg2.centralus-01.azurewebsites.net/swagger/index.html)
