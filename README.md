@@ -2326,6 +2326,167 @@ Durante el Sprint 2, los cinco integrantes del equipo Watchgate mantuvieron una 
 
 El equipo respetó el flujo de trabajo GitFlow de manera rigurosa. Todo el código nuevo se integró a la rama `develop` exclusivamente mediante Pull Requests. Esta práctica no solo permitió la revisión de código cruzada (Code Review) entre los miembros, sino que también minimizó los merge conflicts del trabajo en los mismos componentes de Vue.js. Los mensajes de commit dejaron un historial de desarrollo limpio, rastreable y alineado con los estándares del proyecto.
 
+### 5.2.3. Sprint 3
+
+Durante el Sprint 3, el equipo Watchgate enfocó sus esfuerzos en conectar la Web Application (Frontend en Vue.js)
+con la RESTful API real (Backend en ASP.NET Core), reemplazando los Mock APIs utilizados en el Sprint 2. El
+objetivo principal fue completar la integración end-to-end de los Bounded Contexts de Identity and Access
+Management (IAM), Warehouse Management, Sensor Integration y Security Alerts, habilitando autenticación
+real mediante JWT y persistencia de sesión.
+
+#### 5.2.3.1. Sprint Planning 3
+
+En esta sección se documenta el Sprint Planning Meeting del Sprint 3, donde el equipo revisó los resultados del
+Sprint 2, estableció los nuevos objetivos centrados en la integración Frontend-Backend y asignó las tareas
+correspondientes.
+
+| Sprint # | Sprint 3 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-06-08 |
+| Time | 07:00 PM |
+| Location | Reunión virtual vía Discord |
+| Prepared By | Vite Celis, Rodrigo Matias |
+| Attendees (to planning meeting) | Bardales Tejada, Luis Alexis / Higa Kohatsu, Alonso Enrique / Lozano Quispe, Fabricio Jofred / Sandoval Aiquipa, Kelber Yamir / Vite Celis, Rodrigo Matias |
+| Sprint 2 Review Summary | Se revisó la implementación de la estructura core de la Web Application sobre datos simulados (Mock APIs). Se confirmó que las vistas de IAM y Warehouse Management estaban listas para reemplazar los datos locales por el consumo de la API real. |
+| Sprint 2 Retrospective Summary | El equipo identificó la necesidad de estandarizar el manejo de tokens de autenticación y los Facades de Access Control List (ACL) entre Bounded Contexts, para evitar lógica de mapeo duplicada entre Frontend y Backend. |
+| **Sprint Goal & User Stories** | |
+| Sprint 3 Goal | Nuestro objetivo es integrar la Web Application de Locksight con la API RESTful real, habilitando autenticación persistente, gestión de sensores IoT y visualización de alertas de seguridad. Creemos que esto permitirá a los usuarios operar la plataforma con datos reales en lugar de datos simulados. Esto se validará una vez que el usuario pueda iniciar sesión con JWT, registrar sensores vinculados a una zona y visualizar alertas generadas desde el backend. |
+| Sprint 3 Velocity | 43 Hours |
+| Sum of Estimation (Hours) | 43 Hours |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+Para este Sprint 3, el trabajo se dividió por Bounded Context, alineando a cada integrante con su contraparte en
+el Backend (ASP.NET Core) para asegurar la integración correcta entre capas.
+
+| Team Member (Last Name, First Name) | GitHub Username | IAM Integration (Auth/JWT) (L/C) | Warehouse Integration (L/C) | Sensor Integration (L/C) | Security Alerts (L/C) | API & Deployment (L/C) |
+|---|---|---|---|---|---|---|
+| Bardales Tejada, Luis Alexis | AlexisBardales | L | C | C | C | C |
+| Higa Kohatsu, Alonso Enrique | AlonsoHiga | C | L | C | C | C |
+| Lozano Quispe, Fabricio Jofred | FabricioZz15 | C | C | C | C | L |
+| Sandoval Aiquipa, Kelber Yamir | Kyesei | C | C | C | L | C |
+| Vite Celis, Rodrigo Matias | rodriznnn | C | C | L | C | C |
+
+#### 5.2.3.3. Sprint Backlog 3
+
+El objetivo principal del Sprint 3 es completar la integración Frontend-Backend de Locksight. Las User Stories se
+descompusieron en Engineering Tasks estimadas entre 4 y 8 horas, manteniendo la viabilidad técnica acordada
+desde el Sprint 1.
+
+| User Story Id | User Story Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| US19 | Acceder al sistema | T01 | Integración de Login con JWT | Reemplazar el mock de autenticación por el consumo del endpoint real de login, almacenando el token JWT y configurando el interceptor de Axios para adjuntarlo en cada request. | 6 | Bardales Tejada, Luis Alexis | Done |
+| US25 | Registrar usuario | T02 | Integración de Registro real | Conectar el formulario de registro al endpoint real de creación de cuenta, mapeando errores de validación devueltos por la API mediante el Assembler correspondiente. | 5 | Bardales Tejada, Luis Alexis | Done |
+| US19 | Acceder al sistema | T03 | Persistencia de Sesión | Implementar la persistencia del token JWT y los datos del usuario autenticado en el store de Pinia, corrigiendo la pérdida de sesión al refrescar la página. | 5 | Vite Celis, Rodrigo Matias | Done |
+| US01 | Visualizar módulo de almacenes | T04 | Integración del listado de Almacenes | Reemplazar el archivo .json local por el consumo del endpoint real de Warehouse Management, propagando el almacén seleccionado mediante el store global. | 5 | Higa Kohatsu, Alonso Enrique | Done |
+| US04 | Registrar almacén | T05 | Integración de creación de Almacén y Zonas | Conectar el modal de registro de almacén y zonas al endpoint real, validando los niveles de riesgo (alto, medio, bajo) contra el dominio del backend. | 6 | Higa Kohatsu, Alonso Enrique | Done |
+| US30 | Registrar sensor IoT | T06 | Implementación del Bounded Context Sensor Integration | Construir el módulo de registro y listado de sensores IoT en Vue, consumiendo el endpoint real y vinculando cada sensor a una zona del almacén. | 7 | Vite Celis, Rodrigo Matias | Done |
+| US31 | Visualizar alertas de seguridad | T07 | Implementación del Bounded Context Security Alerts | Construir la vista de listado de alertas de seguridad, consumiendo el endpoint real e implementando el Facade de Access Control List (ACL) para mapear el estado de la alerta a la UI. | 6 | Sandoval Aiquipa, Kelber Yamir | Done |
+| Todas | Tarea transversal | T08 | Resolución de conflictos de integración y despliegue de API | Resolver conflictos de merge derivados de la integración paralela entre bounded contexts y configurar el despliegue de la RESTful API en su entorno de producción. | 3 | Lozano Quispe, Fabricio Jofred | Done |
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo trabajó de forma paralela en los repositorios `watchgate-platform` y
+`watchgate-webapp`, integrando ambos extremos de la plataforma principalmente sobre la rama `develop`. A
+continuación se presentan los commits más relevantes relacionados con la integración.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed On (Date) |
+|---|---|---|---|---|---|
+| watchgate-platform | develop | 8bfd676 | feat(security-alerts): add domain model, commands, queries and repository contracts | Modelo de dominio inicial del Bounded Context Security Alerts. | Jun 20, 2026 |
+| watchgate-platform | develop | b686c76 | feat(security-alerts): add application command and query services | Servicios de aplicación (commands/queries) para Security Alerts. | Jun 20, 2026 |
+| watchgate-platform | develop | 4e3eeb9 | feat(security-alerts): add EF Core repositories and model builder configuration | Repositorios EF Core y configuración del model builder para Security Alerts. | Jun 20, 2026 |
+| watchgate-platform | develop | bd4cf46 | feat(security-alerts): add REST controller, resources and assemblers | Controlador REST, resources y assemblers del módulo de alertas. | Jun 20, 2026 |
+| watchgate-platform | develop | 115d622 | refactor: actualización a arquitectura DDD avanzada (Auditoría, VOs, Typed IDs, Events, ACL) + fix Swagger bearer auth | Incorporación de Value Objects, Typed IDs, Domain Events, ACL y corrección de autenticación Bearer en Swagger. | Jun 20, 2026 |
+| watchgate-platform | develop | 49f9197 | feat: agrega facades ACL (Warehouse/Sensor) y endpoints de security-alerts por warehouseId | Implementación de los Facades de Access Control List para Warehouse y Sensor, y endpoints de alertas filtrados por almacén. | Jun 20, 2026 |
+| watchgate-platform | feature/sensor-integration → develop | 785ea9e | Merge pull request #1 from feature/sensor-integration | Integración del Bounded Context Sensor Integration a develop. | Jun 19, 2026 |
+| watchgate-platform | feature/iam → develop | f6c23da | Merge pull request #2 from feature/iam | Integración del Bounded Context IAM a develop. | Jun 19, 2026 |
+| watchgate-platform | feature/warehouse-management → develop | 266899a | Merge pull request #4 from feature/warehouse-management | Integración del Bounded Context Warehouse Management a develop. | Jun 19, 2026 |
+| watchgate-platform | develop | a6aeae2 | Fix: add missing NuGet package references (EF Core, BCrypt, Swashbuckle, Cortex.Mediator, MySQL) and remove duplicate using directive | Corrección de dependencias faltantes en el `.csproj` y limpieza de directivas `using` duplicadas. | Jun 19, 2026 |
+| watchgate-platform | develop | ea1ee47 | Fix: shorten FK constraint names for many-to-many relationship and add initial migration | Acortado de nombres de Foreign Keys y creación de la migración inicial de EF Core. | Jun 19, 2026 |
+| watchgate-platform | develop | ce152a0 | Add automatic migration on startup using Database.Migrate() | Aplicación automática de migraciones pendientes al iniciar la API. | Jun 19, 2026 |
+| watchgate-webapp | develop | 2d1abad | fix: elimina warehouse-edit.vue (reapareció en merge anterior, feature obsoleta) | Eliminación de un componente obsoleto reintroducido por un merge previo. | Jun 20, 2026 |
+| watchgate-webapp | develop | e3c7546 | merge develop: conserva version local | Resolución de conflicto de merge conservando los cambios locales del módulo de almacenes. | Jun 20, 2026 |
+| watchgate-webapp | develop | f9c6bcc | feat(develop): correction of some files in warehouse bounded context | Corrección de archivos del Bounded Context Warehouse tras la integración con la API real. | Jun 18, 2026 |
+| watchgate-webapp | develop | 0a3c0f1 | use hash router for GitHub Pages refresh | Cambio a hash router en Vue Router para evitar errores 404 al refrescar en GitHub Pages. | Jun 17, 2026 |
+| watchgate-webapp | develop | af3c7a6 | feat(devices): update devices-api url | Actualización de la URL del endpoint real de Sensor Integration (devices). | May 15, 2026 |
+| watchgate-webapp | develop | fe4d98f | feat(devices): add devices module | Implementación inicial del módulo de Sensor Integration (devices) en el Frontend. | May 15, 2026 |
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Al concluir el Sprint 3, el equipo logró integrar la Web Application de Locksight con la RESTful API real,
+reemplazando todos los Mock APIs utilizados durante el Sprint 2. Los usuarios ahora pueden registrarse, iniciar
+sesión de forma persistente, registrar almacenes y zonas, registrar sensores IoT y visualizar alertas de seguridad
+generadas por el backend.
+
+A continuación se presentan capturas de las principales vistas implementadas:
+
+<p align="center">
+  <img width="800" alt="Vista de Registro" src="https://github.com/user-attachments/assets/49d44f35-d1d3-4d66-ab84-3fca67f78ff5" />
+</p>
+
+<p align="center">
+  <img width="800" alt="Vista de Registro(Swagger)" src="https://github.com/user-attachments/assets/079a87d1-5c80-4d6b-84b5-ec568e785bed" />
+</p>
+
+<p align="center">
+  <img width="800" alt="Vista de Registro Almacen" src="https://github.com/user-attachments/assets/e9548ef3-81ab-4ced-950f-1439bc176d6d" />
+</p>
+
+<p align="center">
+  <img width="800" alt="Vista de Registro Almacen(Swagger)" src="https://github.com/user-attachments/assets/f9d6cc65-102e-41a0-ac34-3c1f043a1488" />
+</p>
+
+<p align="center">
+  <img width="800" alt="Historial de eventos" src="https://github.com/user-attachments/assets/a9ec15ec-fe1d-464a-b8bf-e46af54737af" />
+</p>
+
+<p align="center">
+  <img width="800" alt="Historial de eventos(Swagger)" src="https://github.com/user-attachments/assets/f7a45a89-aa99-4431-b76a-341559cf552b" />
+</p>
+
+**Video de navegación del Sprint 3:**
+
+URL del video: [NAVEGACIÓN DEL SPRINT 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412903_upc_edu_pe/IQB5fc9_uSr-S5MjBmS8rA-sAfZxlfX24EpfiiBmfkojjuw?e=ddUWJP)
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo de Backend completó la implementación de los endpoints RESTful para los
+Bounded Contexts de Sensor Integration y Security Alerts en ASP.NET Core, documentando los contratos
+mediante OpenAPI/Swagger. Se implementaron los Facades de Access Control List (ACL) necesarios para exponer
+únicamente la información requerida por el Frontend, evitando el acoplamiento directo entre el modelo de
+dominio interno y la capa de presentación.
+
+Quedan pendientes para el siguiente sprint: la sección de integración CCTV, el endpoint de recuperación de
+contraseña y la población del almacén actual (`currentWarehouse`) en el historial de eventos.
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+El despliegue de la RESTful API (`watchgate-platform`) se realizó mediante GitHub Actions hacia Azure App Service
+(`web-app-locksight` / `locksight-app-service`). El workflow presentó varias fallas iniciales asociadas a la
+configuración del archivo `.yml` (commits `9820ffc`, `f95aba4`, `495cd6c`, `3fff463`), las cuales fueron corregidas
+hasta lograr un despliegue exitoso (`4057fe7`). En paralelo, se validó que las rutas protegidas por JWT funcionen
+correctamente en producción y que el CORS esté configurado para aceptar únicamente el dominio de la Web
+Application.
+
+El despliegue de la Web Application (`watchgate-webapp`) se mantuvo sobre GitHub Pages en la rama `develop`,
+y se corrigió el enrutamiento a hash router (`0a3c0f1`) para evitar errores 404 al refrescar páginas internas en
+producción.
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, los cinco integrantes del equipo Watchgate mantuvieron una colaboración estrecha entre
+Frontend y Backend, dado que cada Bounded Context requería coordinación directa entre quien implementaba el
+endpoint y quien lo consumía.
+
+Se aplicó GitFlow de forma consistente sobre la rama `develop`, integrando los Bounded Contexts mediante Pull
+Requests (`#1 feature/sensor-integration`, `#2 feature/iam`, `#4 feature/warehouse-management`) revisados antes
+del merge. Producto del trabajo paralelo sobre los mismos bounded contexts, surgió un conflicto de merge en el
+módulo de almacenes del Frontend, donde un componente obsoleto (`warehouse-edit.vue`) reapareció tras un
+merge anterior; el conflicto fue resuelto conservando la versión local correcta (`e3c7546`, `2d1abad`) sin pérdida
+de funcionalidad.
+
+
 ## 5.3 Validation Interviews
 ### 5.3.1 Diseño de entrevistas
 **Primer segmento: Persona natural**
@@ -2685,3 +2846,4 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 * **URL LANDING PAGE DESPLEGADA:** [https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/)
 * **URL APP WEB DESPLEGADA:** [https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/)
 * **URL DEL FIGMA:** [https://www.figma.com/design/kbhdQovpVLS8GuQqHQ0QDh/Watchgate?node-id=0-1&p=f](https://www.figma.com/design/kbhdQovpVLS8GuQqHQ0QDh/Watchgate?node-id=0-1&p=f)
+* **URL DEL SWAGGER (BACKEND):** [https://locksight-app-service-a2a2dfhdf4enghg2.centralus-01.azurewebsites.net/swagger/index.html](https://locksight-app-service-a2a2dfhdf4enghg2.centralus-01.azurewebsites.net/swagger/index.html)
