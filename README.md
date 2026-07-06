@@ -12,7 +12,7 @@
 
 <div align="center"> 
 
-**Ciclo:** 2026 - 1  
+**Período:** 2026 - 1  
 **Curso:** Aplicaciones Web<br>
 **NRC:** 12144<br>
 **Docente:** Efraín Ricardo Bautista Ubillús
