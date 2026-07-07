@@ -1898,20 +1898,226 @@ La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño 
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
+Los diagramas de componentes se organizan de acuerdo con la separación de responsabilidades de la solución. En el frontend, los componentes se agrupan alrededor de navegación, vistas, servicios de aplicación y cliente HTTP. En el backend, la REST API separa controllers, seguridad/autenticación, integración externa y repositorios, manteniendo una relación clara con los bounded contexts definidos en el análisis de dominio.
+
 <div align="center">
-  <img src="/assets/chapter-4/component-diagram-backend.png" alt="C4 Component Diagram Frontend - LockSight" width="800">
+  <img src="./assets/chapter-4/c4-component-backend.png" alt="C4 Component Diagram Backend - LockSight" width="800">
 </div>
-<img src="/assets/chapter-4/component-diagram-frontend.png" alt="C4 Component Diagram Frontend - LockSight" width="800">
+
+<div align="center">
+  <img src="./assets/chapter-4/c4-component-frontend.png" alt="C4 Component Diagram Frontend - LockSight" width="800">
 </div>
+
+Como complemento al diagrama C4, se presenta una vista de componentes alineada a bounded contexts. Esta vista evidencia que la REST API no se organiza únicamente por capas técnicas, sino por capacidades de negocio: registro de compañías, gestión de almacenes, integración de sensores, alertas, reportes, suscripciones y control de acceso.
+
+```mermaid
+flowchart LR
+    Frontend["Frontend Web App<br/>Vue SPA"] --> ApiGateway["REST API<br/>ASP.NET Core"]
+
+    subgraph API["REST API Application"]
+        CompanyRegistration["Company Registration<br/>Application Services"]
+        WarehouseManagement["Warehouse Management<br/>Application Services"]
+        SensorIntegration["Sensor Integration<br/>Application Services"]
+        SecurityAlerts["Security Alerts<br/>Application Services"]
+        Reports["Reports<br/>Application Services"]
+        SubscriptionBilling["Subscription & Billing<br/>Application Services"]
+        UserAccess["User & Access Management<br/>Application Services"]
+        Auth["Authentication & Authorization<br/>JWT + RBAC"]
+    end
+
+    ApiGateway --> Auth
+    ApiGateway --> CompanyRegistration
+    ApiGateway --> WarehouseManagement
+    ApiGateway --> SensorIntegration
+    ApiGateway --> SecurityAlerts
+    ApiGateway --> Reports
+    ApiGateway --> SubscriptionBilling
+    ApiGateway --> UserAccess
+
+    CompanyRegistration --> Database["Azure Database for MySQL"]
+    WarehouseManagement --> Database
+    SensorIntegration --> Database
+    SecurityAlerts --> Database
+    Reports --> Database
+    SubscriptionBilling --> Database
+    UserAccess --> Database
+
+    SecurityAlerts --> NotificationService["External Notification Service<br/>Email / SMS"]
+    SubscriptionBilling --> PaymentProvider["External Payment Provider<br/>Simulated Billing"]
+```
 
 
 ## 4.7. Software Object-Oriented Design.
 El diseño orientado a objetos es fundamental para estructurar Locksight de manera modular. A través de este diseño, definimos las clases y métodos que dan vida a las funcionalidades, aprovechando principios de reutilización de código y mantenimiento. Esto nos permite modelar entidades del mundo real (sensores, usuarios, almacenes) dentro del código de forma lógica, facilitando que el sistema crezca y se adapte a nuevas necesidades de seguridad industrial sin comprometer la estabilidad actual.
 ### 4.7.1. Class Diagrams.
 
+El diagrama de clases fue actualizado para reflejar mejor el enfoque DDD de Locksight. Se separan los bounded contexts principales, como Subscription & Billing, Warehouse Management, Access & Security, Reporting & Community e IoT Monitoring & Alerts. Además, se incorporan Value Objects como Money, Address y Coordinates para representar reglas de dominio y evitar que conceptos importantes del negocio queden modelados únicamente como tipos primitivos.
+
 <div align="center">
-  <img src="./assets/class-diagram-locksight.jpeg" alt="Class Diagram - LockSight" width="1000">
+  <img src="./assets/chapter-4/class-diagram-locksight.png" alt="Class Diagram - LockSight" width="1000">
 </div>
+
+Para responder a la observación sobre la presencia de pocos Value Objects, el modelo incorpora un detalle complementario de objetos de valor por bounded context. Estos objetos encapsulan validaciones y reglas del dominio, reduciendo el uso de tipos primitivos para conceptos críticos del negocio.
+
+```mermaid
+classDiagram
+direction LR
+
+class Company {
+  <<Entity>>
+  +CompanyId id
+  +TradeName tradeName
+  +TaxId taxId
+}
+
+class User {
+  <<Entity>>
+  +UserId id
+  +FullName fullName
+  +EmailAddress email
+  +PasswordHash passwordHash
+}
+
+class Warehouse {
+  <<Entity>>
+  +WarehouseId id
+  +WarehouseName name
+  +Address address
+  +Capacity capacity
+}
+
+class Zone {
+  <<Entity>>
+  +ZoneId id
+  +ZoneName name
+  +RiskLevel riskLevel
+}
+
+class Sensor {
+  <<Entity>>
+  +SensorId id
+  +SensorType type
+  +MacAddress macAddress
+  +Coordinates location
+}
+
+class Alert {
+  <<Entity>>
+  +AlertId id
+  +AlertType type
+  +AlertSeverity severity
+  +AlertStatus status
+}
+
+class SubscriptionPlan {
+  <<Entity>>
+  +PlanId id
+  +PlanName name
+  +Money price
+  +WarehouseLimit warehouseLimit
+}
+
+class SecurityReport {
+  <<Entity>>
+  +ReportId id
+  +ReportPeriod period
+  +ReportFormat format
+}
+
+class EmailAddress {
+  <<ValueObject>>
+  +string value
+  +validateFormat()
+}
+
+class PasswordHash {
+  <<ValueObject>>
+  +string value
+  +verifyPassword()
+}
+
+class TaxId {
+  <<ValueObject>>
+  +string value
+  +validateLength()
+}
+
+class Address {
+  <<ValueObject>>
+  +string street
+  +string city
+  +string country
+}
+
+class Capacity {
+  <<ValueObject>>
+  +int value
+  +ensurePositive()
+}
+
+class RiskLevel {
+  <<ValueObject>>
+  +string value
+  +isHighRisk()
+}
+
+class MacAddress {
+  <<ValueObject>>
+  +string value
+  +validateFormat()
+}
+
+class Coordinates {
+  <<ValueObject>>
+  +double latitude
+  +double longitude
+}
+
+class AlertSeverity {
+  <<ValueObject>>
+  +string value
+  +requiresEscalation()
+}
+
+class AlertStatus {
+  <<ValueObject>>
+  +string value
+  +canBeResolved()
+}
+
+class Money {
+  <<ValueObject>>
+  +decimal amount
+  +string currency
+}
+
+class ReportPeriod {
+  <<ValueObject>>
+  +DateTime from
+  +DateTime to
+  +validateRange()
+}
+
+class ReportFormat {
+  <<ValueObject>>
+  +string value
+  +isDownloadable()
+}
+
+Company --> TaxId
+User --> EmailAddress
+User --> PasswordHash
+Warehouse --> Address
+Warehouse --> Capacity
+Zone --> RiskLevel
+Sensor --> MacAddress
+Sensor --> Coordinates
+Alert --> AlertSeverity
+Alert --> AlertStatus
+SubscriptionPlan --> Money
+SecurityReport --> ReportPeriod
+SecurityReport --> ReportFormat
+```
 
 ## 4.8. Database Design.
 El diseño de la base de datos proporciona la estructura necesaria para almacenar y gestionar toda la información operativa de Locksight de forma segura y eficiente. Se ha modelado un esquema relacional que organiza las tablas, relaciones y restricciones necesarias para garantizar la integridad de los datos de sensores, historiales de acceso y perfiles de usuario. Un diseño de base de datos sólido permite que el sistema responda con rapidez ante consultas históricas y guarde cada evento de seguridad con precisión milimétrica.
@@ -1920,7 +2126,7 @@ El diseño de la base de datos proporciona la estructura necesaria para almacena
 
 
 <div align="center">
-  <img src="./assets/erd-database-locksight.png" alt="Database Entity-Relationship Diagram - LockSight" width="800">
+  <img src="./assets/chapter-4/erd-database-locksight.png" alt="Database Entity-Relationship Diagram - LockSight" width="800">
 </div>
 
 # Capítulo V: Product Implementation, Validation & Deployment. 
