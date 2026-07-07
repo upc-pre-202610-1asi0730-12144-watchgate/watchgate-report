@@ -17,12 +17,12 @@
 **NRC:** 12144<br>
 **Docente:** Efraín Ricardo Bautista Ubillús
 
-## "Informe del trabajo final"
+## "Informe de Trabajo Final"
 **Startup:** watchgate<br>
 **Producto:** locksight
 
 
-## Relacion de integrantes:
+## Relación de integrantes
 
 
 | Código      | Nombre                              |
@@ -74,36 +74,38 @@ Commits del Report:
 ### Tabla de contenido
 - [Universidad Peruana de Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
   - [Carrera de Ingeniería de Software](#carrera-de-ingeniería-de-software)
-  - ["Informe del trabajo final"](#informe-del-trabajo-final)
-  - [Relacion de integrantes:](#relacion-de-integrantes)
+  - ["Informe de Trabajo Final"](#informe-de-trabajo-final)
+  - [Relación de integrantes](#relación-de-integrantes)
   - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [CONTENIDO](#contenido)
     - [Tabla de contenido](#tabla-de-contenido)
-- [**Student Outcomes**](#student-outcomes)
+- [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-  - [1.2.2. Lean UX Process](#122-lean-ux-process)
-    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivos](#13-segmentos-objetivos)
+  - [1.1. Startup Profile.](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup.](#111-descripción-de-la-startup)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática.](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process.](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements.](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions.](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements.](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
     - [Segmento 1: Dueños y Administradores de PYMES (Retail, Tiendas y Pequeños Almacenes)](#segmento-1-dueños-y-administradores-de-pymes-retail-tiendas-y-pequeños-almacenes)
     - [Segmento 2: Jefes de Seguridad y Operaciones (Medianas y Grandes Corporaciones)](#segmento-2-jefes-de-seguridad-y-operaciones-medianas-y-grandes-corporaciones)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores.](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.1. Análisis competitivo.](#211-análisis-competitivo)
   - [¿Por qué llevar a cabo este análisis?](#por-qué-llevar-a-cabo-este-análisis)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
       - [Estrategia de diferenciación tecnológica](#estrategia-de-diferenciación-tecnológica)
       - [Estrategia de inserción en el mercado](#estrategia-de-inserción-en-el-mercado)
       - [Estrategia de captación de clientes](#estrategia-de-captación-de-clientes)
       - [Estrategia frente a lo existente](#estrategia-frente-a-lo-existente)
   - [2.2. Entrevistas.](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.1. Registro de entrevistas](#221-registro-de-entrevistas)
+    - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas.](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas.](#223-análisis-de-entrevistas)
   - [Análisis de entrevistas – Segmento 1: Dueños y Administradores de PYMES](#análisis-de-entrevistas--segmento-1-dueños-y-administradores-de-pymes)
     - [Características objetivas](#características-objetivas)
@@ -111,17 +113,18 @@ Commits del Report:
   - [Análisis de entrevistas – Segmento 2: Jefes de Seguridad y Operaciones](#análisis-de-entrevistas--segmento-2-jefes-de-seguridad-y-operaciones)
     - [Características objetivas](#características-objetivas-1)
     - [Características subjetivas](#características-subjetivas-1)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2 User Task Matrix](#232-user-task-matrix)
+  - [2.3. Needfinding.](#23-needfinding)
+    - [2.3.1. User Personas.](#231-user-personas)
+    - [2.3.2. User Task Matrix.](#232-user-task-matrix)
     - [Segmento 1: Dueños y Administradores de PYMES](#segmento-1-dueños-y-administradores-de-pymes)
     - [Segmento 2: Jefes de Seguridad y Operaciones](#segmento-2-jefes-de-seguridad-y-operaciones)
-    - [2.3.3 User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
-    - [Big Picture Event Storming – Mapa General](#big-picture-event-storming--mapa-general)
-- [Capitulo III: Requirements Specification](#capitulo-iii-requirements-specification)
-  - [3.1 User Stories](#31-user-stories)
+    - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
+  - [2.4. Big Picture EventStorming.](#24-big-picture-eventstorming)
+    - [Big Picture EventStorming – Mapa General.](#big-picture-eventstorming--mapa-general)
+  - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories.](#31-user-stories)
   - [Relación de Epics y User Stories – Locksight](#relación-de-epics-y-user-stories--locksight)
     - [Epic 01: Monitoreo y visualización de almacenes](#epic-01-monitoreo-y-visualización-de-almacenes)
     - [Epic 02: Gestión de usuarios y almacenes](#epic-02-gestión-de-usuarios-y-almacenes)
@@ -133,28 +136,28 @@ Commits del Report:
     - [Epic 08: Gestión de sensores IoT y zonas](#epic-08-gestión-de-sensores-iot-y-zonas)
     - [Epic 09: Seguridad de acceso e identidad](#epic-09-seguridad-de-acceso-e-identidad)
     - [Epic 10: Experiencia de usuario y accesibilidad](#epic-10-experiencia-de-usuario-y-accesibilidad)
-  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.2. Impact Mapping.](#32-impact-mapping)
     - [Segmento 1: Dueños y Administradores de PYMES](#segmento-1-dueños-y-administradores-de-pymes-1)
     - [Segmento 2: Jefes de Seguridad y Operaciones](#segmento-2-jefes-de-seguridad-y-operaciones-1)
-  - [3.4. Product Backlog](#34-product-backlog)
+  - [3.3. Product Backlog.](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1. Style Guidelines](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2. Information Architecture](#42-information-architecture)
-    - [4.2.1. Organization Systems](#421-organization-systems)
-    - [4.2.2. Labeling Systems](#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems](#424-searching-systems)
-    - [4.2.5. Navigation Systems](#425-navigation-systems)
-  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.1. Style Guidelines.](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
+  - [4.2. Information Architecture.](#42-information-architecture)
+    - [4.2.1. Organization Systems.](#421-organization-systems)
+    - [4.2.2. Labeling Systems.](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags.](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems.](#424-searching-systems)
+    - [4.2.5. Navigation Systems.](#425-navigation-systems)
+  - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups.](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams.](#444-web-applications-user-flow-diagrams)
       - [**User Goal 1: Acceso e Inicio en el Sistema**](#user-goal-1-acceso-e-inicio-en-el-sistema)
       - [**User Goal 2: Registro y Monitoreo de Almacenes**](#user-goal-2-registro-y-monitoreo-de-almacenes)
       - [**User Goal 3: Gestión de Dispositivos IoT**](#user-goal-3-gestión-de-dispositivos-iot)
@@ -162,52 +165,53 @@ Commits del Report:
       - [**User Goal 5: Gestión de Equipo y Accesos**](#user-goal-5-gestión-de-equipo-y-accesos)
       - [**User Goal 6: Suscripción y Facturación**](#user-goal-6-suscripción-y-facturación)
       - [**User Goal 7: Configuración de cuenta y notificaciones**](#user-goal-7-configuración-de-cuenta-y-notificaciones)
-  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
-    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-    - [4.6.3. Software Architecture Components Diagram](#463-software-architecture-components-diagram)
-  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams](#471-class-diagrams)
-  - [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagrams](#481-database-diagrams)
+  - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming.](#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram.](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams.](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams.](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams.](#471-class-diagrams)
+  - [4.8. Database Design.](#48-database-design)
+    - [4.8.1. Database Diagrams.](#481-database-diagrams)
 - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+  - [5.1. Software Configuration Management.](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management.](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions.](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation.](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint n](#521-sprint-n)
-      - [5.2.1.1. Sprint Planning n](#5211-sprint-planning-n)
-      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog n](#5213-sprint-backlog-n)
-      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.4. Sprint 4: Final Release 3.0.0](#524-sprint-4-final-release-300)
-      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
-      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
-      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
-      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
-      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
-      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
+      - [5.2.1.1. Sprint Planning n.](#5211-sprint-planning-n)
+      - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog n.](#5213-sprint-backlog-n)
+      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4.](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4.](#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review.](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review.](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review.](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review.](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint.](#5248-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews.](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product.](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
+  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
+- [Video About-the-Team.](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
-# **Student Outcomes**
+# Student Outcome
 
 | Criterio Específico | Acciones realizadas | Conclusiones |
 |---|---|---|
@@ -216,18 +220,24 @@ Commits del Report:
 
 # Capítulo I: Introducción
 
-## 1.1. Startup Profile
+## 1.1. Startup Profile.
 
-###  1.1.1. Descripción de la Startup
+###  1.1.1. Descripción de la Startup.
 En un entorno empresarial donde la seguridad de los almacenes y el control de accesos representan un desafío constante, especialmente en ciudades como Lima donde las pérdidas por robos internos, accesos no autorizados y falta de monitoreo en tiempo real impactan directamente en la rentabilidad de las empresas, las soluciones tradicionales ya no son suficientes. Frente a esta problemática surge nuestra startup, una iniciativa impulsada por estudiantes enfocada en transformar la gestión de seguridad mediante el uso de tecnología IoT. Reconocemos que la falta de visibilidad, control y trazabilidad en los almacenes genera vulnerabilidad operativa, por lo que proponemos una solución que conecta sensores físicos con una plataforma web inteligente, permitiendo supervisar en tiempo real lo que ocurre en cada espacio. No nos limitamos a registrar eventos, sino que convertimos cada almacén en un entorno inteligente capaz de detectar anomalías, generar alertas automáticas y proporcionar información clara para la toma de decisiones, brindando así mayor control, seguridad y eficiencia operativa.
 
 **Misión:** Nuestra misión es transformar la seguridad y gestión de accesos en almacenes mediante un sistema inteligente basado en IoT, que permita a las empresas monitorear en tiempo real sus instalaciones, reducir riesgos y tomar decisiones informadas a partir de datos precisos. Buscamos proteger los activos empresariales y optimizar la operación mediante alertas inteligentes, trazabilidad completa y una plataforma accesible que elimine la incertidumbre y fortalezca el control sobre cada evento crítico dentro del almacén.
 
 **Visión:** Nuestra visión es posicionarnos como una plataforma líder en seguridad inteligente para entornos empresariales, elevando el estándar de control y protección en almacenes mediante el uso de IoT y análisis de datos. Aspiramos a que cada instalación conectada opere como un sistema autónomo capaz de anticipar riesgos, detectar comportamientos inusuales y activar mecanismos de alerta en tiempo real, permitiendo a las empresas mantener el control total desde cualquier lugar. Con nuestra solución buscamos construir un ecosistema seguro, eficiente y escalable que no solo reduzca pérdidas, sino que también transforme la manera en que las organizaciones gestionan su seguridad y operación diaria.
 
-## 1.2.2. Lean UX Process
+## 1.2. Solution Profile
 
-###  1.2.2.1. Lean UX Problem Statements
+###  1.2.1. Antecedentes y problemática.
+
+Locksight responde a la necesidad de contar con una plataforma centralizada para monitorear almacenes, sensores IoT, zonas, eventos, alertas y reportes de seguridad en tiempo real. La solución busca reducir la dependencia de controles manuales y sistemas aislados, ofreciendo trazabilidad operativa y capacidad de reacción ante incidentes críticos.
+
+###  1.2.2. Lean UX Process.
+
+###  1.2.2.1. Lean UX Problem Statements.
 Nuestro servicio busca resolver la falta de control y visibilidad en la gestión de almacenes empresariales. Es por esto que se propone integrar tecnología IoT como sensores, con una plataforma web que permita monitorear los espacios, controlar accesos y gestionar la información en tiempo real.
 
 En muchos sectores, especialmente en logística e industria, las empresas enfrentan dificultades para proteger sus activos de manera eficiente. Los sistemas tradicionales de seguridad suelen ser reactivos, ya que solo registran lo que ocurrió, pero no ayudan a prevenir incidentes, esto genera problemas como robos internos, accesos no autorizados y falta de control continuo, afectando directamente la rentabilidad de las empresas.
@@ -237,7 +247,7 @@ Ante esta situación, surge la necesidad de contar con soluciones que permitan u
 Conociendo esto, se generan las siguientes preguntas, ¿Cómo podemos ayudar a las empresas a tener un control más claro y en tiempo real de sus almacenes?,
 ¿Cómo podemos hacer que el uso de tecnología IoT sea más accesible y fácil de implementar? y ¿Cómo podemos convertir los datos recolectados en información útil para reducir pérdidas?
 
-###  1.2.2.2. Lean UX Assumptions
+###  1.2.2.2. Lean UX Assumptions.
 
 **Business Outcomes**
 
@@ -299,18 +309,18 @@ Conociendo esto, se generan las siguientes preguntas, ¿Cómo podemos ayudar a l
   
   Debe tener un diseño limpio y profesional, transmitiendo seguridad. Además, debe responder de forma rápida y precisa ante cualquier evento.
 
-###  1.2.2.3. Lean UX Hypothesis Statements
+###  1.2.2.3. Lean UX Hypothesis Statements.
 
 * Creemos que implementar alertas en tiempo real mediante sensores IoT permitirá a los dueños de empresas y jefes de seguridad reaccionar más rápido ante accesos no autorizados. Sabremos que funciona si el tiempo de respuesta se reduce a menos de 1 minuto y los casos de mermas o robos disminuyen durante el primer trimestre.
 * Creemos que contar con un dashboard web centralizado e intuitivo permitirá a los administradores gestionar varios almacenes y configurar accesos sin necesidad de conocimientos técnicos. Sabremos que funciona si el 90% de los usuarios puede revisar eventos o configurar permisos en menos de 3 minutos sin ayuda.
 * Creemos que incorporar almacenamiento local temporal en los dispositivos mejorará la confiabilidad del sistema, evitando la pérdida de datos ante fallas de conexión. Sabremos que funciona si el 100% de los eventos se sincroniza correctamente después de restablecer el servicio y se mantiene una alta retención de clientes.
 * Creemos que ofrecer un modelo de suscripción flexible junto con pruebas piloto facilitará la adopción del sistema. Sabremos que funciona si al menos 5 empresas prueban el sistema en el primer mes y el 60% decide continuar con un plan de pago.
 
-###  1.2.2.4. Lean UX Canvas
+###  1.2.2.4. Lean UX Canvas.
 
 ![Lean UX Canvas](./assets/img/lean-ux-canvas-locksight.png)
 
-## 1.3. Segmentos objetivos
+## 1.3. Segmentos objetivo.
 
 El modelo de negocio se enmarca en el sector B2B (Business-to-Business), enfocándose en la seguridad de activos críticos y la optimización de la gestión operativa en almacenes. Se han identificado dos segmentos principales que presentan necesidades diferenciadas en cuanto a escalabilidad y profundidad de control:
 
@@ -359,7 +369,7 @@ Este segmento incluye a profesionales que gestionan infraestructuras logísticas
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
-### 2.1.1. Análisis competitivo
+### 2.1.1. Análisis competitivo.
 
 | Característica | Su Startup | Competidor 1: Ditrack | Competidor 2: Global GPS Perú | Competidor 3: Soluciones Globales |
 |--------------|------------|------------------------|-------------------------------|----------------------------------|
@@ -378,7 +388,7 @@ Este segmento incluye a profesionales que gestionan infraestructuras logísticas
 | Oportunidades | Crecimiento del IoT y necesidad de seguridad inteligente. | Integrar nuevas tecnologías. | Expansión a nuevos segmentos. | Expansión en Latinoamérica. |
 | Amenazas | Competidores posicionados y barrera de confianza. | Nuevas startups innovadoras. | Alta competencia en precios. | Regulaciones y competencia local. |
 
-### 2.1.2. Estrategias y tácticas frente a competidores
+### 2.1.2. Estrategias y tácticas frente a competidores.
 
 En el mercado actual existen distintas soluciones de seguridad para almacenes, desde sistemas tradicionales solo enfocados en alarmas hasta plataformas avanzadas de videovigilancia. Sin embargo, muchas de estas opciones se limitan a registrar incidentes, sin enfocarse en prevenirlos o analizarlos en tiempo real. Ante esta situación, nuestra propuesta se diferencia al integrar monitoreo en tiempo real, tecnología IoT adaptable y análisis inteligente en una sola plataforma, accesible para empresas de distintos tamaños.
 
@@ -395,7 +405,7 @@ Aprovechando la creciente digitalización de las empresas peruanas, ofreceremos 
 Para empresas que aún utilizan sistemas tradicionales, ya sea por desconfianza o por los elevados costos, nuestra estrategia será demostrar de forma clara los beneficios de la solución, como la facilidad de uso y capacidad preventiva. Buscaremos posicionarnos no solo como una alternativa tecnológica, sino como una inversión rentable que mejora la seguridad y optimiza la operación.
 
 ## 2.2. Entrevistas.
-### 2.2.1. Diseño de entrevistas
+### 2.2.1. Diseño de entrevistas.
 **Primer segmento: Dueños y Administradores de PYMES**
 
 A continuación, se presentan las preguntas dirigidas al segmento de dueños y administradores de pequeñas y medianas empresas, quienes buscan tener mayor control y seguridad sobre sus almacenes sin necesidad de sistemas complejos o costosos.
@@ -454,7 +464,7 @@ A continuación, se presentan las preguntas dirigidas al segmento de jefes de se
 19. ¿Trabajas más en oficina o en campo?
 20. ¿Qué tan familiarizado estás con sistemas tecnológicos?
 
-### 2.2.1. Registro de entrevistas
+### 2.2.2. Registro de entrevistas.
 **Primer segmento: Dueños y Administradores de PYMES**
 
 | Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Timing del video | Evidencia de entrevista |
@@ -484,11 +494,11 @@ En general, todas las entrevistas muestran algo bien claro: quienes manejan esto
 En estas entrevistas se repite una idea bastante clara: quienes trabajan en seguridad y supervisión de almacenes lidian todos los días con sistemas poco integrados que les hacen perder tiempo y les quitan visibilidad. Aunque usan cámaras, controles de acceso y registros manuales, igual les cuesta detectar a tiempo accesos fuera de horario o pérdidas, y muchas veces terminan reaccionando tarde porque todo es más reactivo que preventivo. Por eso, valoran mucho poder tener información en tiempo real, recibir alertas precisas apenas ocurre algo sospechoso y contar con un historial claro que les facilite auditorías y decisiones. Al final, lo que buscan es una plataforma centralizada, confiable y fácil de manejar que les permita controlar varios almacenes desde cualquier lugar, reducir riesgos y responder más rápido sin complicarse con sistemas dispersos.
 
 ### 2.2.3. Análisis de entrevistas.
-## Análisis de entrevistas – Segmento 1: Dueños y Administradores de PYMES
+#### Análisis de entrevistas – Segmento 1: Dueños y Administradores de PYMES
 
 A partir de las 4 entrevistas realizadas a dueños y administradores de PYMES en distintos rubros (distribución, retail y almacenes), se identificaron patrones consistentes en sus características objetivas y subjetivas, evidenciando necesidades claras relacionadas con el control y la seguridad de sus negocios.
 
-### Características objetivas
+##### Características objetivas
 
 - El **100% de los entrevistados administra directamente su negocio** (dueños o responsables de operación).
 - El **100% utiliza herramientas digitales básicas** (principalmente celular, apps como WhatsApp o sistemas simples de control).
@@ -496,7 +506,7 @@ A partir de las 4 entrevistas realizadas a dueños y administradores de PYMES en
 - El **100% ha experimentado pérdidas de mercadería** o situaciones donde no pueden identificar claramente su origen.
 - El **100% gestiona equipos de trabajo**, lo que incrementa la necesidad de control de accesos y supervisión.
 
-### Características subjetivas
+##### Características subjetivas
 
 - El **100% manifiesta preocupación constante por pérdidas de mercadería**, especialmente asociadas al “robo hormiga”.
 
@@ -525,11 +535,11 @@ A partir de las 4 entrevistas realizadas a dueños y administradores de PYMES en
 
 - El **100% asocia este tipo de soluciones con mayor control y tranquilidad**, destacando que el principal beneficio es poder supervisar su negocio sin estar físicamente presente.
 
-## Análisis de entrevistas – Segmento 2: Jefes de Seguridad y Operaciones
+#### Análisis de entrevistas – Segmento 2: Jefes de Seguridad y Operaciones
 
 A partir de las 4 entrevistas realizadas a jefes de seguridad y supervisores de operaciones en entornos logísticos, se identificaron patrones claros en sus características objetivas y subjetivas, evidenciando necesidades enfocadas en la centralización, eficiencia y control de la seguridad operativa.
 
-### Características objetivas
+##### Características objetivas
 
 - El **100% de los entrevistados trabaja en roles de supervisión o gestión de seguridad**, con responsabilidad directa sobre uno o más almacenes.
 - El **75% supervisa múltiples almacenes**, lo que incrementa la complejidad del control y monitoreo.
@@ -537,7 +547,7 @@ A partir de las 4 entrevistas realizadas a jefes de seguridad y supervisores de 
 - El **75% trabaja con sistemas no integrados**, lo que dificulta la gestión unificada de la información.
 - El **100% ha enfrentado incidentes como accesos no autorizados o pérdidas difíciles de rastrear**.
 
-### Características subjetivas
+##### Características subjetivas
 
 - El **100% manifiesta frustración por la falta de integración de los sistemas actuales**, lo que genera pérdida de tiempo y menor visibilidad.
 
@@ -566,16 +576,16 @@ A partir de las 4 entrevistas realizadas a jefes de seguridad y supervisores de 
 
 - El **100% asocia este tipo de soluciones con mayor control, rapidez de respuesta y reducción de riesgos**, destacando que el valor principal está en pasar de un enfoque reactivo a uno preventivo en la gestión de seguridad.
 
-## 2.3. Needfinding
-### 2.3.1. User Personas
+## 2.3. Needfinding.
+### 2.3.1. User Personas.
 > Segmento 1
 <img width="1920" height="1080" alt="Black and White Simple User Persona Brainstorm (1)" src="https://github.com/user-attachments/assets/eaa98a45-fc38-4d33-b509-2be98e38e938" />
 
 > Segmento 2
 <img width="1920" height="1080" alt="Black and White Simple User Persona Brainstorm (2)" src="https://github.com/user-attachments/assets/7e5f923f-9b0b-4385-a30a-9b2ad64ad57b" />
 
-### 2.3.2 User Task Matrix
-### Segmento 1: Dueños y Administradores de PYMES
+### 2.3.2. User Task Matrix.
+#### Segmento 1: Dueños y Administradores de PYMES
 
 | Tarea | Frecuencia | Importancia |
 |------|------------|-------------|
@@ -589,7 +599,7 @@ A partir de las 4 entrevistas realizadas a jefes de seguridad y supervisores de 
 
 ---
 
-### Segmento 2: Jefes de Seguridad y Operaciones
+#### Segmento 2: Jefes de Seguridad y Operaciones
 
 | Tarea | Frecuencia | Importancia |
 |------|------------|-------------|
@@ -601,7 +611,7 @@ A partir de las 4 entrevistas realizadas a jefes de seguridad y supervisores de 
 | Gestionar información dispersa de diferentes sistemas | Often | High |
 | Responder rápidamente ante alertas de seguridad | Sometimes | High |
 
-### 2.3.3 User Journey Mapping
+### 2.3.3. User Journey Mapping.
 > Segmento 1
 <img width="1053" height="949" alt="Customer Journey by XO Projects (2)" src="https://github.com/user-attachments/assets/20e6d520-f0ca-443d-b73d-550d09ab947c" />
 
@@ -609,7 +619,7 @@ A partir de las 4 entrevistas realizadas a jefes de seguridad y supervisores de 
 > Segmento 2
 <img width="1049" height="952" alt="Customer Journey by XO Projects (4)" src="https://github.com/user-attachments/assets/fd7a9003-c573-41ce-8a39-a776b6b69823" />
 
-### 2.3.4. Empathy Mapping
+### 2.3.4. Empathy Mapping.
 > Segmento 1
 <img width="1024" height="768" alt="Copia de Brainstorming Mapa de Empatia Usuario Simple Blanco Y Negro (2)" src="https://github.com/user-attachments/assets/81968604-632d-42a7-8acc-da0d898de92c" />
 
@@ -617,17 +627,17 @@ A partir de las 4 entrevistas realizadas a jefes de seguridad y supervisores de 
 <img width="1024" height="768" alt="Copia de Brainstorming Mapa de Empatia Usuario Simple Blanco Y Negro (3)" src="https://github.com/user-attachments/assets/39001a97-eb6d-4024-9288-702c280d79e5" />
 
 
-## 2.4. Big Picture Event Storming
+## 2.4. Big Picture EventStorming.
 
 En la sesión de Big Picture Event Storming, el equipo identificó los eventos más relevantes del dominio de seguridad inteligente para almacenes, trazando de forma visual el panorama general de la plataforma LockSight. Se representaron los flujos críticos de monitoreo, control de accesos y gestión de alertas, integrando los sistemas externos que interactúan con la solución e identificando dudas, problemas y oportunidades de mejora. Esta primera exploración permitió al equipo alinear el entendimiento del negocio y establecer las bases para un diseño más detallado en etapas posteriores.
 
-### Big Picture Event Storming – Mapa General
+### Big Picture EventStorming – Mapa General.
 
 <p align="center"><img src="./assets/big-picture-event-storming.png" width="1505" height="664"></p>
 
 <p align="center"><img src="./assets/big picture-leyenda de colores.jpg" width="1505" height="664"></p>
 
-## 2.5. Ubiquitous Language
+## 2.5. Ubiquitous Language.
 
 | Término | Definición |
 |--------|-----------|
@@ -665,8 +675,8 @@ La voz y el tono con el que Locksight se dirige a sus usuarios en la landing pag
 
 
 
-# Capitulo III: Requirements Specification
-## 3.1 User Stories
+# Capítulo III: Requirements Specification
+## 3.1. User Stories.
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |----------------|--------|-------------|--------------------------|---------------------------|
 | US01 | Visualizar almacenes registrados | Como dueño de PYME, quiero visualizar mis almacenes registrados para tener control general de mis operaciones. | Given el usuario tiene almacenes registrados, When accede al sistema, Then el sistema muestra la lista de almacenes asociados.<br>Given no tiene almacenes, When accede, Then el sistema muestra un estado vacío. | EP01 |
@@ -730,7 +740,7 @@ La voz y el tono con el que Locksight se dirige a sus usuarios en la landing pag
 | US59 | Cancelar suscripción activa | Como dueño de PYME, quiero cancelar mi suscripción activa para dejar de ser facturado cuando ya no necesite el servicio. | Given el usuario tiene una suscripción activa, When solicita la cancelación y confirma, Then el sistema registra la cancelación y desactiva el plan al finalizar el período vigente.<br>Given la cancelación es confirmada, When ocurre, Then el sistema genera un evento SuscripcionCancelada y notifica al usuario. | EP07 |
 | US60 | Editar o eliminar un sensor IoT registrado | Como jefe de seguridad, quiero editar o eliminar un sensor IoT registrado para mantener actualizado el inventario de sensores activos. | Given el sensor existe en el sistema, When el usuario edita sus datos y guarda, Then el sistema actualiza la información del sensor y genera el evento SensorActualizado.<br>Given el usuario elimina el sensor, When confirma la acción, Then el sistema lo marca como inactivo, desvincula de la zona y genera el evento SensorEliminado. | EP08 |
 
-## Relación de Epics y User Stories – Locksight
+### Relación de Epics y User Stories – Locksight
 
 ### Epic 01: Monitoreo y visualización de almacenes
 | Story ID | Título |
@@ -871,8 +881,8 @@ La voz y el tono con el que Locksight se dirige a sus usuarios en la landing pag
 | US57 | Visualizar testimonios de la comunidad |
 | US58 | Ver planes y precios desde la landing page |
 
-## 3.3. Impact Mapping
-### Segmento 1: Dueños y Administradores de PYMES
+## 3.2. Impact Mapping.
+#### Segmento 1: Dueños y Administradores de PYMES
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/873b5135-e602-48f6-9627-f24400a6a3ea" width="800"/>
@@ -892,7 +902,7 @@ La voz y el tono con el que Locksight se dirige a sus usuarios en la landing pag
 
 ---
 
-### Segmento 2: Jefes de Seguridad y Operaciones
+#### Segmento 2: Jefes de Seguridad y Operaciones
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d659a9d3-48e1-4eff-905c-72c063ddbb75" width="800"/>
@@ -910,7 +920,7 @@ La voz y el tono con el que Locksight se dirige a sus usuarios en la landing pag
   <img src="https://github.com/user-attachments/assets/26ae3501-feee-4c6b-99f5-74040c93faee" width="800"/>
 </p>
 
-## 3.4. Product Backlog
+## 3.3. Product Backlog.
 
 | # | User Story ID | Título | Descripción | Story Points |
 |---|--------------|--------|-------------|--------------|
@@ -978,9 +988,9 @@ La voz y el tono con el que Locksight se dirige a sus usuarios en la landing pag
 
 # Capítulo IV: Product Design
 
-## 4.1. Style Guidelines
+## 4.1. Style Guidelines.
 
-###  4.1.1. General Style Guidelines
+###  4.1.1. General Style Guidelines.
 
 **Logo de LockSight**
 
@@ -1031,22 +1041,22 @@ La voz y el tono con el que Locksight se dirige a sus usuarios en la landing pag
    En situaciones de monitoreo o riesgo, los usuarios no tienen tiempo para leer textos largos. El tono debe ir directo al grano, fomentando la prevención y la acción inmediata. Debe ser instructivo y libre de ambigüedades, lo cual es clave para la interfaz de un dashboard donde una instrucción confusa podría resultar en una brecha de seguridad.
 
 
-###  4.1.2. Web Style Guidelines
+###  4.1.2. Web Style Guidelines.
 Para el desarrollo de las interfaces web de Locksight, se adoptará el lenguaje de diseño Material Design junto con la biblioteca de componentes PrimeVue. Esta elección permite construir interfaces responsivas mediante un sistema de grillas fluidas, adaptando la visualización del dashboard y del landing page a distintos dispositivos. De esta manera, se asegura que los administradores puedan monitorear sus almacenes de forma cómoda y eficiente en todo momento.
 
 En cuanto a la interacción y la estructura visual, se emplearán tarjetas con ligeras elevaciones para organizar la información proveniente de los sensores IoT, favoreciendo una interfaz clara y ordenada. De igual manera, los elementos interactivos, como botones y alertas flotantes, utilizarán una paleta de colores semántica previamente definida, proporcionando un feedback visual inmediato que facilite la interpretación de eventos y la toma de decisiones operativas dentro del sistema.
 
-## 4.2. Information Architecture
+## 4.2. Information Architecture.
 En esta sección se definen las decisiones y fundamentos que orientan la organización del contenido dentro de las interfaces web de Locksight. El objetivo principal es facilitar la adaptación de los usuarios, como dueños de negocios y jefes de seguridad, permitiéndoles acceder de manera rápida y sencilla a la información de sus almacenes, alertas y reportes. Para ello, se plantea una estructuración lógica basada en sistemas de organización, etiquetado, búsqueda y navegación, que optimizan la experiencia de uso y reducen el esfuerzo cognitivo.
 
-### 4.2.1. Organization Systems
+### 4.2.1. Organization Systems.
 Para la interfaz principal de Locksight, tanto en el dashboard web como en su versión móvil, se ha optado por un sistema de organización que prioriza el acceso rápido a la información crítica. Dado que la plataforma está orientada a la seguridad de almacenes, se busca que gerentes y dueños de negocio puedan comprender de forma inmediata el estado general del sistema, especialmente en situaciones que requieren una respuesta rápida.
 
 Se adopta una organización jerárquica, ya que permite estructurar la información según su nivel de importancia e inmediatez. Este enfoque facilita que la capa superior muestre siempre un resumen del estado de las instalaciones, como alertas activas o el estado de los sensores, mientras que los niveles inferiores agrupan información más detallada, como el historial de accesos, la gestión de usuarios, las zonas del almacén y la configuración de dispositivos. Complementariamente, se emplea una organización secuencial en procesos críticos que requieren pasos controlados, como la incorporación de nuevos sensores, la creación de perfiles de usuario o la suscripción a planes. En estos casos, el sistema permite retroceder entre pasos para verificar la información antes de confirmar una acción.
 
 En cuanto a la categorización del contenido, el dashboard agrupa la información en función de objetos de negocio, como Sensores, Eventos, Usuarios y Sucursales, lo que facilita la localización de funcionalidades. Asimismo, el módulo de eventos y alertas, se organiza de manera cronológica, mostrando la actividad más reciente en la parte superior, con el fin de asegurar una respuesta oportuna ante cualquier incidente.
 
-### 4.2.2. Labeling Systems
+### 4.2.2. Labeling Systems.
 
 Esta sección se centra en la forma en que se nombran los grupos de información dentro de Locksight. El objetivo es que las etiquetas sean precisas, consistentes y alineadas a un entorno corporativo. En un contexto de seguridad logística, es fundamental que el usuario comprenda de inmediato el significado de cada sección, especialmente al momento de auditar un almacén.
 
@@ -1054,7 +1064,7 @@ En este sentido, se han definido etiquetas claras y estandarizadas, como “Dash
 
 Por último, las etiquetas están diseñadas para facilitar una asociación lógica entre los distintos niveles de información. Aquellas que representan módulos principales funcionan como contenedores de contenido más específico.
 
-### 4.2.3. SEO Tags and Meta Tags
+### 4.2.3. SEO Tags and Meta Tags.
 
 En esta sección se definen los SEO Tags y Meta Tags que serán implementados en las principales páginas de la experiencia de LockSight, tanto en la Landing Page como en la Web Application. Estos elementos permiten mejorar el posicionamiento del producto en motores de búsqueda y facilitar su descubrimiento por parte de profesionales del sector logístico y de seguridad.
 
@@ -1076,7 +1086,7 @@ En esta sección se definen los SEO Tags y Meta Tags que serán implementados en
 | Meta Keywords | dashboard seguridad, monitoreo IoT, sensores inteligentes, auditoría de accesos, control de almacenes, alertas en tiempo real |
 | Author | Equipo LockSight - UPC Ingeniería de Software |
 
-### 4.2.4. Searching Systems
+### 4.2.4. Searching Systems.
 
 En esta sección se describen los mecanismos de búsqueda que ofrece LockSight para ayudar al usuario a encontrar información dentro del sistema, evitando que se sienta perdido frente al volumen de datos generados por sensores y eventos.
 
@@ -1112,7 +1122,7 @@ El sistema permite realizar búsquedas dentro de los principales módulos del pr
 - Presenta resultados claros y fáciles de interpretar.
 - Facilita la identificación de eventos críticos en el sistema.
 
-### 4.2.5. Navigation Systems
+### 4.2.5. Navigation Systems.
 
 En esta sección se describen las acciones y técnicas de navegación que permiten guiar a los usuarios a través del Landing Page y la Web Application de LockSight, facilitando el cumplimiento de sus objetivos dentro del sistema.
 
@@ -1142,11 +1152,11 @@ El sistema de navegación está diseñado para que el usuario pueda recorrer el 
 - Reduce la cantidad de pasos para acceder a información crítica.
 - Se adapta a diferentes dispositivos (desktop y mobile).
 
-## 4.3. Landing Page UI Design
+## 4.3. Landing Page UI Design.
 En esta sección se presenta la propuesta de diseño de interfaz de usuario para el landing page de Locksight desde la versión desktop como la mobile. El objetivo es materializar las decisiones de arquitectura de la información y los lineamientos visuales en una experiencia digital clara y estructurada.
 
 A través de este diseño, se busca captar la atención del segmento objetivo y guiarlo de manera progresiva desde el primer impacto visual hasta la conversión final. Todo ello se desarrolla bajo una estética limpia, corporativa y centrada en la usabilidad, asegurando una interacción intuitiva y coherente en cada etapa del recorrido del usuario.
-### 4.3.1. Landing Page Wireframe
+### 4.3.1. Landing Page Wireframe.
 **Explicación para Desktop**
 
 <div align="center">
@@ -1176,7 +1186,7 @@ En la versión móvil del landing page, la experiencia se replantea para prioriz
 
 A medida que el usuario avanza, el contenido se distribuye en bloques independientes que priorizan la claridad y evitan la sobrecarga visual. Las secciones de características, planes y testimonios se presentan de forma progresiva, permitiendo una comprensión gradual sin necesidad de desplazamientos laterales. Del mismo modo, elementos como el equipo se ajustan dinámicamente al ancho del dispositivo. La experiencia se cierra con un footer organizado en formato vertical, donde los enlaces se presentan con suficiente separación para asegurar una navegación precisa, manteniendo la coherencia y usabilidad hasta el final del recorrido.
 
-### 4.3.2. Landing Page Mock-up
+### 4.3.2. Landing Page Mock-up.
 
 **Explicación para Desktop**
 <div align="center">
@@ -1200,10 +1210,10 @@ La versión mobile adapta la landing page a un formato de desplazamiento vertica
 
 Para aprovechar mejor el espacio, las secciones de características, planes de suscripción y equipo se reorganizan en un diseño de una sola columna, lo que mejora la legibilidad y facilita la interacción táctil. 
 
-## 4.4. Web Applications UX/UI Design
+## 4.4. Web Applications UX/UI Design.
 El diseño de la experiencia de usuario (UX) y de la interfaz (UI) de la plataforma Locksight se ha centrado en la operatividad bajo presión. Entendemos que un jefe de seguridad o un dueño de negocio entra a la aplicación web buscando respuestas rápidas: "¿Está todo cerrado?", "¿Hubo alguna alerta?". Por ello, la UX prioriza la visibilidad de los estados de los sensores y la facilidad para auditar eventos pasados. La UI, basada en Material Design, utiliza una estética limpia y profesional que reduce la carga cognitiva, permitiendo que el usuario identifique anomalías mediante el uso estratégico de colores semánticos (rojo para alertas, verde para estados seguros).
 
-### 4.4.1. Web Applications Wireframes
+### 4.4.1. Web Applications Wireframes.
 En esta sección se presentan los wireframes diseñados para la versión mobile de la plataforma. Estos modelos estructurales establecen la arquitectura de la información, la jerarquía visual y los flujos de interacción principales sin la distracción de elementos gráficos complejos. Los wireframes detallan la experiencia del usuario administrador a través de los módulos críticos del sistema, como lo es el dashboard de monitoreo de almacenes, la gestión del inventario de dispositivos IoT, el control de accesos del personal y el ecosistema de facturación. El objetivo de esta etapa es validar la usabilidad y la eficiencia de las tareas operativas antes de transicionar al diseño de alta fidelidad.
 
 **Desktop**
@@ -1368,7 +1378,7 @@ En esta sección se presentan los wireframes diseñados para la versión mobile 
   * Ventana emergente que advierte al usuario las consecuencias si intenta silenciar por completo las notificaciones del sistema
   * Ventana emergente de confirmación que avisa sobre la pausa de recepción de alertas Push en el dispositivo actual al salir de la cuenta
 
-### 4.4.2. Web Applications Wireflow Diagrams
+### 4.4.2. Web Applications Wireflow Diagrams.
 El Wireflow es un artefacto que combina la estructura de los wireframes con la lógica de un diagrama de flujo. Su importancia radica en que permite visualizar no solo qué elementos hay en cada pantalla, sino cómo el usuario se desplaza entre ellas para completar un proceso. Para Locksight, esto es vital porque el sistema debe ser capaz de guiar al usuario desde la recepción de una alerta hasta la resolución del incidente en el menor número de pasos posible. En esta sección se detalla la arquitectura de navegación, mostrando los caminos que conectan el panel de control con los módulos de configuración de sensores y revisión de historiales.
 
 1. User Goal: Acceso al sistema
@@ -1553,7 +1563,7 @@ El Wireflow es un artefacto que combina la estructura de los wireframes con la l
     <img src="./assets/chapter-4/wireflow-user-goal-7-picture-1.png" alt="user-goal-7" width="450">
   </div>
 
-### 4.4.3. Web Applications Mock-ups
+### 4.4.3. Web Applications Mock-ups.
 
 **Desktop**
 <div align="center">
@@ -1586,7 +1596,7 @@ La versión móvil mantiene coherencia con el diseño de escritorio, conservando
 
 A nivel interactivo, se priorizan patrones propios del entorno móvil, como el uso de bottom sheets para opciones secundarias y modales para confirmaciones críticas, evitando menús complejos. También, se incorporan indicadores visuales claros para estados del sistema, lo que permite identificar alertas de forma inmediata. Este enfoque no solo responde a las limitaciones del dispositivo, sino que mejora la experiencia general al ofrecer navegación intuitiva, retroalimentación constante y un diseño accesible para distintos tipos de usuarios.
 
-### 4.4.4. Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams.
 Mientras que el wireflow se enfoca en el diseño de las pantallas, el User Flow o Diagrama de Flujo de Usuario se centra en el proceso de toma de decisiones de la persona que opera Locksight. Este diagrama ayuda a comprender el camino lógico que sigue un Administrador o Jefe de Seguridad para alcanzar un objetivo específico, como puede ser la auditoría de un acceso no autorizado. Al desglosar cada acción y punto de decisión, podemos identificar posibles fricciones en la experiencia y asegurar que el sistema responda de manera coherente a las necesidades operativas de la empresa, garantizando que el flujo de información sea siempre claro y directo.
 
 #### **User Goal 1: Acceso e Inicio en el Sistema**
@@ -1801,7 +1811,7 @@ Confirmación => Marcelo presiona el botón rojo Sí salir.
 
 Fin del flujo => La plataforma finaliza la sesión de forma segura y redirige a Marcelo a la pantalla inicial de acceso
 
-## 4.5. Web Applications Prototyping
+## 4.5. Web Applications Prototyping.
 El prototipado de la aplicación web es la etapa donde se materializa la interacción de Locksight de manera funcional antes de pasar al desarrollo. Este artefacto, desarrollado en la herramienta Figma, permite simular el comportamiento real de la plataforma, desde el inicio de sesión hasta la recepción de una alerta inteligente. El objetivo es validar el flujo de navegación y la usabilidad, asegurando que el sistema sea comprensible y que los administradores puedan acceder a sus reportes y cámaras sin fricciones.
 
 **Version Desktop**
@@ -1821,10 +1831,10 @@ link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416276_upc_edu_pe/IQ
 link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416276_upc_edu_pe/IQCfW_b3VmGhSIjF7rQDbtkPAZKYeF5M-mMwFxVv6BLr9tI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6q8KR4
 
 
-## 4.6. Domain-Driven Software Architecture
+## 4.6. Domain-Driven Software Architecture.
 La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño que estructura Locksight en torno a los procesos clave del negocio de seguridad y almacenamiento. Este método permite que el software refleje con precisión las reglas de negocio, como la gestión de permisos por zonas o la activación automática de alertas. Al aplicar DDD, logramos un sistema robusto, escalable y fácil de mantener, donde cada componente técnico está alineado con los objetivos de seguridad y eficiencia operativa de nuestros clientes.
 
-### 4.6.1. Design-Level Event Storming
+### 4.6.1. Design-Level EventStorming.
 
 <div align="center">
   <img src="./assets/chapter-4/Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
@@ -1872,7 +1882,7 @@ La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño 
   <img src="./assets/chapter-4/Reports Section-Design-Level Event Storming.jpg" alt="Design-Level Event Storming - LockSight" width="800">
 </div>
 
-### 4.6.2. Software Architecture Context Diagram
+### 4.6.2. Software Architecture Context Diagram.
 
 <div align="center">
   <img src="./assets/chapter-4/c4-context-locksight.png" alt="C4 Context Diagram - LockSight" width="800">
@@ -1884,7 +1894,7 @@ La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño 
   <img src="./assets/chapter-4/c4-container-locksight.png" alt="C4 Container Diagram - LockSight" width="800">
 </div>
 
-### 4.6.4 Software Architecture Components Diagrams.
+### 4.6.4. Software Architecture Components Diagrams.
 
 <div align="center">
   <img src="/assets/chapter-4/component-diagram-backend.png" alt="C4 Component Diagram Frontend - LockSight" width="800">
@@ -1893,18 +1903,18 @@ La arquitectura de software orientada al dominio (DDD) es el enfoque de diseño 
 </div>
 
 
-## 4.7. Software Object-Oriented Design
+## 4.7. Software Object-Oriented Design.
 El diseño orientado a objetos es fundamental para estructurar Locksight de manera modular. A través de este diseño, definimos las clases y métodos que dan vida a las funcionalidades, aprovechando principios de reutilización de código y mantenimiento. Esto nos permite modelar entidades del mundo real (sensores, usuarios, almacenes) dentro del código de forma lógica, facilitando que el sistema crezca y se adapte a nuevas necesidades de seguridad industrial sin comprometer la estabilidad actual.
-### 4.7.1. Class Diagrams
+### 4.7.1. Class Diagrams.
 
 <div align="center">
   <img src="./assets/class-diagram-locksight.jpeg" alt="Class Diagram - LockSight" width="1000">
 </div>
 
-## 4.8. Database Design
+## 4.8. Database Design.
 El diseño de la base de datos proporciona la estructura necesaria para almacenar y gestionar toda la información operativa de Locksight de forma segura y eficiente. Se ha modelado un esquema relacional que organiza las tablas, relaciones y restricciones necesarias para garantizar la integridad de los datos de sensores, historiales de acceso y perfiles de usuario. Un diseño de base de datos sólido permite que el sistema responda con rapidez ante consultas históricas y guarde cada evento de seguridad con precisión milimétrica.
 
-### 4.8.1. Database Diagrams
+### 4.8.1. Database Diagrams.
 
 
 <div align="center">
@@ -1914,7 +1924,7 @@ El diseño de la base de datos proporciona la estructura necesaria para almacena
 # Capítulo V: Product Implementation, Validation & Deployment. 
 ## 5.1. Software Configuration Management. 
 ### 5.1.1. Software Development Environment Configuration. 
-# Project Management
+#### Project Management
 
 | Producto | Propósito | Ruta |
 |----------|----------|------|
@@ -1922,7 +1932,7 @@ El diseño de la base de datos proporciona la estructura necesaria para almacena
 
 ---
 
-# Requirements Management
+#### Requirements Management
 
 | Producto | Propósito | Ruta |
 |----------|----------|------|
@@ -1931,7 +1941,7 @@ El diseño de la base de datos proporciona la estructura necesaria para almacena
 
 ---
 
-# Product UX/UI Design
+#### Product UX/UI Design
 
 | Producto | Propósito | Ruta |
 |----------|----------|------|
@@ -1942,7 +1952,7 @@ El diseño de la base de datos proporciona la estructura necesaria para almacena
 
 ---
 
-# Software Development
+#### Software Development
 
 Se refiere al marco de trabajo y metodologías empleadas para la creación de productos digitales. Define los procesos y actividades del ciclo de vida del software.
 
@@ -1955,7 +1965,7 @@ Se refiere al marco de trabajo y metodologías empleadas para la creación de pr
 
 ---
 
-# Software Testing
+#### Software Testing
 
 Proceso de evaluación del sistema para garantizar el cumplimiento de requisitos mediante validación y verificación.
 
@@ -1981,7 +1991,7 @@ El equipo trabajará con repositorios independientes para cada componente del si
 
 ---
 
-### GitFlow
+#### GitFlow
 
 GitFlow es un modelo de trabajo basado en el uso de ramas dentro de Git, ampliamente adoptado en proyectos de desarrollo de software. Fue propuesto por Vincent Driessen y permite estructurar de manera eficiente el ciclo de vida del desarrollo, facilitando la incorporación de nuevas funcionalidades y la corrección de errores.
 
@@ -2005,7 +2015,7 @@ Este enfoque organiza el trabajo mediante distintas ramas, lo que ayuda a manten
 
 ---
 
-### Conventional Commits
+#### Conventional Commits
 
 Se empleará la convención Conventional Commits para estructurar los mensajes de los commits, permitiendo una mejor comprensión del historial de cambios y facilitando la automatización de procesos.
 **Tipos utilizados:**
@@ -2039,7 +2049,7 @@ Los tipos utilizados son: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `c
 - `docs(readme): update sprint 1 deployment evidence section`
 - `chore(deps): upgrade PrimeVue to latest version`
 
-### Semantic Versioning
+#### Semantic Versioning
 
 Para la entrega final se aplicó versionado semántico con el objetivo de evidenciar la evolución del producto y diferenciar los incrementos funcionales de cada release. El equipo utilizó la estructura `MAJOR.MINOR.PATCH`, donde los cambios mayores representan entregas funcionales completas, los cambios menores agregan nuevas capacidades compatibles y los patches corrigen defectos sin alterar el contrato principal del sistema.
 
@@ -2050,7 +2060,7 @@ Para la entrega final se aplicó versionado semántico con el objetivo de eviden
 | 3.0.0 | Release final con Web Application, backend desplegado en Azure, contenedor Docker, base de datos MySQL, Swagger y endpoint de verificación de salud. | Docker image `locksightacr12144.azurecr.io/locksight-platform:3.0.0`, Azure App Service y GitHub Pages. |
 
 ---
-### 5.1.3. Source Code Style Guide & Conventions
+### 5.1.3. Source Code Style Guide & Conventions.
 
 Para garantizar coherencia, legibilidad y mantenibilidad en todos los repositorios del proyecto Locksight, el equipo adoptó las siguientes guías de estilo y convenciones de codificación. Todos los identificadores, comentarios y documentación en el código se redactan en inglés.
 
@@ -2110,7 +2120,7 @@ Para los criterios de aceptación se aplican las [Gherkin Conventions for Readab
 
 Todos los mensajes de commit siguen la especificación de [Conventional Commits](https://www.conventionalcommits.org/).
 
-### 5.1.4. Software Deployment Configuration
+### 5.1.4. Software Deployment Configuration.
 
 Creación de la Landing Page:
 Se crea un repositorio (watchgate-website) desde upc-pre-202610-1asi0730-12144-watchgate organization
@@ -2120,7 +2130,7 @@ Agregamos a los miembros del equipo
 
 Habilitamos GitHub Pages en branch main y ruta "/(root)".
 
-### Configuración de despliegue final
+#### Configuración de despliegue final
 
 Para la entrega final, Locksight quedó desplegado como una solución compuesta por tres artefactos principales: Landing Page, Web Application y RESTful API. Esta separación permite que cada componente tenga su propio repositorio, pipeline y responsabilidad dentro de la arquitectura.
 
@@ -2181,13 +2191,13 @@ Como evidencia operativa, se habilitaron dos rutas públicas de validación:
   <img width="800" alt="Azure App Service Docker registry variables without exposing secret values" src="./assets/chapter-5/04-app-service-environment-variables-docker.png">
 </p>
 
-## 5.2. Landing Page, Services & Applications Implementation
+## 5.2. Landing Page, Services & Applications Implementation.
 
 Esta sección registra y explica el proceso de implementación, pruebas y despliegue de los productos digitales de Locksight organizados por Sprint. Durante el Sprint 1, el equipo centró sus esfuerzos en la implementación y despliegue de la primera versión funcional de la Landing Page, que representa la primera forma de contacto del modelo de negocio con los segmentos objetivo.
 
 ### 5.2.1. Sprint 1
 
-#### 5.2.1.1. Sprint Planning 1
+#### 5.2.1.1. Sprint Planning 1.
 
 En esta sección se documenta el Sprint Planning Meeting del Sprint 1, en el que el equipo Watchgate estableció el objetivo del sprint, definió el alcance de trabajo y distribuyó las tareas (Engineering Tasks) entre los integrantes para lograr la primera versión desplegada de la Landing Page de Locksight.
 
@@ -2206,7 +2216,7 @@ En esta sección se documenta el Sprint Planning Meeting del Sprint 1, en el que
 
 ---
 
-#### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.1.2. Aspect Leaders and Collaborators.
 
 Para este Sprint 1, el alcance se centra íntegramente en el desarrollo y despliegue de la Landing Page. Los aspectos identificados corresponden a las secciones funcionales y de contenido del sitio estático, organizadas de manera que cada integrante asuma liderazgo sobre un aspecto mientras colabora en los demás.
 
@@ -2220,7 +2230,7 @@ Para este Sprint 1, el alcance se centra íntegramente en el desarrollo y despli
 
 ---
 
-#### 5.2.1.3. Sprint Backlog 1
+#### 5.2.1.3. Sprint Backlog 1.
 
 El objetivo principal del Sprint 1 es desplegar la primera versión funcional de la Landing Page de Locksight. Las User Stories se han descompuesto en Engineering Tasks estimadas entre 4 y 8 horas, asegurando la viabilidad técnica del desarrollo.
 
@@ -2241,7 +2251,7 @@ El objetivo principal del Sprint 1 es desplegar la primera versión funcional de
 
 ---
 
-#### 5.2.1.4. Development Evidence for Sprint Review
+#### 5.2.1.4. Development Evidence for Sprint Review.
 
 Durante el Sprint 1, el equipo trabajó de forma colaborativa en el repositorio de la Landing Page, aplicando GitFlow con ramas por feature y mensajes de commit siguiendo la convención de Conventional Commits. A continuación se presentan los commits más relevantes relacionados con la implementación.
 
@@ -2253,7 +2263,7 @@ Durante el Sprint 1, el equipo trabajó de forma colaborativa en el repositorio 
 | watchgate-report    | main   | docs:ux          | docs(chapter-02): add user personas      | Documentation of user profiles.                        | Apr 15, 2026       |
 | watchgate-report    | main   | docs:startup     | docs: update startup description         | Detailed profile of WatchGate.                         | Apr 10, 2026       |
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Al concluir el Sprint 1, el equipo logró desplegar la primera versión funcional de la Landing Page de Locksight en un entorno público accesible. La página presenta la propuesta de valor del producto de forma clara y estructurada, cubriendo todas las secciones planificadas en el Sprint Backlog: Hero, Navbar, Features, About, Pricing, Testimonials, Contact y Footer. La experiencia es consistente tanto en desktop como en dispositivos móviles.
 
@@ -2282,18 +2292,18 @@ URL del video: [[Insertar URL del video de navegación en Microsoft Stream]](htt
 
 ---
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 Durante el Sprint 1, el alcance estuvo centrado en el desarrollo e implementación de la Landing Page como sitio estático. En este sprint no se implementaron endpoints de Web Services ni se generó documentación OpenAPI, dado que el backend RESTful API de Locksight se desarrollará a partir del Sprint 2.
 
 No obstante, como preparación para los sprints siguientes, el equipo definió la estructura base del repositorio de Web Services (`watchgate/locksight-web-services`) con la configuración inicial del proyecto ASP.NET Core, la estructura de bounded contexts y la configuración del entorno de desarrollo.
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 El despliegue de la Landing Page se llevó a cabo mediante GitHub Pages. Se configuraron adecuadamente los registros CNAME y el archivo *index.html*, garantizando la disponibilidad inmediata del sitio bajo el dominio del proyecto.
 
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 Durante el Sprint 1, los cinco integrantes del equipo Watchgate participaron activamente en la implementación de la Landing Page. Cada miembro lideró el aspecto asignado según la Leadership-and-Collaboration Matrix, realizando commits directamente desde sus cuentas de GitHub hacia sus ramas feature correspondientes, y luego integrando mediante Pull Requests hacia `main`.
 
@@ -2303,7 +2313,7 @@ Se aplicó GitFlow de forma consistente: se crearon ramas con la convención `fe
 
 Durante el Sprint 2, el equipo Watchgate enfocó sus esfuerzos en el desarrollo parcial de la Web Application (Frontend) de Locksight, utilizando Vue.js. El objetivo principal fue implementar el Bounded Context de Identity and Access Management (IAM) para el control de acceso, así como el Bounded Context de Warehouse Management para permitir a los usuarios visualizar y registrar almacenes en la plataforma.
 
-#### 5.2.2.1. Sprint Planning 2
+#### 5.2.2.1. Sprint Planning 2.
 
 En esta sección se documenta el Sprint Planning Meeting del Sprint 2, donde el equipo revisó los resultados del Sprint 1, estableció los nuevos objetivos centrados en la aplicación web interactiva y asignó las tareas correspondientes.
 
@@ -2322,7 +2332,7 @@ En esta sección se documenta el Sprint Planning Meeting del Sprint 2, donde el 
 | Sprint 2 Velocity | 41 Hours |
 | Sum of Estimation (Hours) | 41 Hours |
 
-#### 5.2.2.2. Aspect Leaders and Collaborators
+#### 5.2.2.2. Aspect Leaders and Collaborators.
 
 Para este Sprint 2, el trabajo se dividió en módulos clave de la Web Application. Cada integrante asumió el liderazgo de un componente o Bounded Context en el Frontend, colaborando con los demás para la integración mediante Vue Router y la gestión de estado.
 
@@ -2334,7 +2344,7 @@ Para este Sprint 2, el trabajo se dividió en módulos clave de la Web Applicati
 | Sandoval Aiquipa, Kelber Yamir | Kyesei | L | C | C | C | C |
 | Vite Celis, Rodrigo Matias | rodriznnn | C | C | L | C | C |
 
-#### 5.2.2.3. Sprint Backlog 2
+#### 5.2.2.3. Sprint Backlog 2.
 
 Las User Stories seleccionadas para este sprint se descompusieron en tareas técnicas (Engineering Tasks) orientadas a la configuración de Vue.js, la lógica de enrutamiento, validación y gestión de estado. Todas las estimaciones se encuentran estrictamente en el rango de 4 a 8 horas, acorde a las métricas del proyecto.
 
@@ -2351,7 +2361,7 @@ Las User Stories seleccionadas para este sprint se descompusieron en tareas téc
 | US04 | Registrar almacén | T07 | Formulario de estado para Nuevo Almacén | Crear el modal dinámico en Vue para el registro de sucursales, vinculando los datos mediante `v-model` a un objeto reactivo. | 5 | Higa Kohatsu, Alonso Enrique | Done |
 | Todas | Integración | T08 | Configuración de Mock API (JSON Services) | Configurar Axios/Fetch para consumir endpoints simulados (.json) y gestionar la asincronía en los ciclos de vida de Vue. | 5 | Lozano Quispe, Fabricio Jofred | Done |
 
-#### 5.2.2.4. Development Evidence for Sprint Review
+#### 5.2.2.4. Development Evidence for Sprint Review.
 
 Durante el Sprint 2, el equipo trabajó en el repositorio `watchgate-webapp`, integrando Vue.js y manejando el control de versiones a través de la rama `develop`. A continuación, se detallan los commits más relevantes del sprint.
 
@@ -2364,7 +2374,7 @@ Durante el Sprint 2, el equipo trabajó en el repositorio `watchgate-webapp`, in
 | watchgate-webapp | develop | 0a664c9 | feat(iam): add i18n support to iam module | Added i18n to IAM | May 14, 2026 |
 
 
-#### 5.2.2.5. Execution Evidence for Sprint Review
+#### 5.2.2.5. Execution Evidence for Sprint Review.
 
 En esta entrega, el equipo logró implementar la estructura core de la Web Application. Los usuarios ahora pueden navegar por el sistema, registrarse, iniciar sesión y acceder al panel de control para visualizar y gestionar almacenes.
 
@@ -2390,19 +2400,19 @@ A continuación, se presentan las capturas de la aplicación en funcionamiento:
 
 URL del video: [NAVEGACIÓN DEL SPRINT 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418645_upc_edu_pe/IQAgZR1OWtMYQJbNAhf5C6_0AZAakhsJIfMCBFytiqNUEnc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=URbqw1)
 
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
 Durante el Sprint 2, a la par del desarrollo del Frontend interactivo en Vue.js, el equipo de Backend continuó estructurando la RESTful API en ASP.NET Core enfocada en los Bounded Contexts de Identity and Access Management (IAM) y Warehouse Management. 
 
 Para asegurar el progreso continuo en la Web Application sin bloqueos de dependencia, el equipo implementó servicios simulados (Mock APIs) empleando archivos locales en formato JSON. Esta estrategia permitió mapear la estructura de datos que se espera recibir del backend real (como la lista de almacenes, roles de usuario y métricas iniciales del dashboard) y enlazar las vistas. Paralelamente se preparo para la integración final y consumo de datos reales en el Sprint 3.
 
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
 El despliegue de la Web Application se llevó a cabo configurando un entorno de despliegue completamente separado del Landing Page para mantener la independencia técnica de ambos productos. 
 
 Se configuró el entorno para procesar los artefactos generados por el build de Vue.js (`dist`), asegurando que las rutas protegidas del sistema funcionen adecuadamente en producción. La última versión estable, fusionada en la rama `main` del repositorio `watchgate-webapp`, se encuentra pública y operativa para que los usuarios puedan interactuar con la plataforma y validar los flujos de inicio de sesión y visualización de almacenes.
 
-#### 5.2.2.8. Team Collaboration Insights during Sprint
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 Durante el Sprint 2, los cinco integrantes del equipo Watchgate mantuvieron una colaboración dinámica y altamente estructurada.
 
@@ -2416,7 +2426,7 @@ objetivo principal fue completar la integración end-to-end de los Bounded Conte
 Management (IAM), Warehouse Management, Sensor Integration y Security Alerts, habilitando autenticación
 real mediante JWT y persistencia de sesión.
 
-#### 5.2.3.1. Sprint Planning 3
+#### 5.2.3.1. Sprint Planning 3.
 
 En esta sección se documenta el Sprint Planning Meeting del Sprint 3, donde el equipo revisó los resultados del
 Sprint 2, estableció los nuevos objetivos centrados en la integración Frontend-Backend y asignó las tareas
@@ -2437,7 +2447,7 @@ correspondientes.
 | Sprint 3 Velocity | 43 Hours |
 | Sum of Estimation (Hours) | 43 Hours |
 
-#### 5.2.3.2. Aspect Leaders and Collaborators
+#### 5.2.3.2. Aspect Leaders and Collaborators.
 
 Para este Sprint 3, el trabajo se dividió por Bounded Context, alineando a cada integrante con su contraparte en
 el Backend (ASP.NET Core) para asegurar la integración correcta entre capas.
@@ -2450,7 +2460,7 @@ el Backend (ASP.NET Core) para asegurar la integración correcta entre capas.
 | Sandoval Aiquipa, Kelber Yamir | Kyesei | C | C | C | L | C |
 | Vite Celis, Rodrigo Matias | rodriznnn | C | C | L | C | C |
 
-#### 5.2.3.3. Sprint Backlog 3
+#### 5.2.3.3. Sprint Backlog 3.
 
 El objetivo principal del Sprint 3 es completar la integración Frontend-Backend de Locksight. Las User Stories se
 descompusieron en Engineering Tasks estimadas entre 4 y 8 horas, manteniendo la viabilidad técnica acordada
@@ -2467,7 +2477,7 @@ desde el Sprint 1.
 | US31 | Visualizar alertas de seguridad | T07 | Implementación del Bounded Context Security Alerts | Construir la vista de listado de alertas de seguridad, consumiendo el endpoint real e implementando el Facade de Access Control List (ACL) para mapear el estado de la alerta a la UI. | 6 | Sandoval Aiquipa, Kelber Yamir | Done |
 | Todas | Tarea transversal | T08 | Resolución de conflictos de integración y despliegue de API | Resolver conflictos de merge derivados de la integración paralela entre bounded contexts y configurar el despliegue de la RESTful API en su entorno de producción. | 3 | Lozano Quispe, Fabricio Jofred | Done |
 
-#### 5.2.3.4. Development Evidence for Sprint Review
+#### 5.2.3.4. Development Evidence for Sprint Review.
 
 Durante el Sprint 3, el equipo trabajó de forma paralela en los repositorios `watchgate-platform` y
 `watchgate-webapp`, integrando ambos extremos de la plataforma principalmente sobre la rama `develop`. A
@@ -2494,7 +2504,7 @@ continuación se presentan los commits más relevantes relacionados con la integ
 | watchgate-webapp | develop | af3c7a6 | feat(devices): update devices-api url | Actualización de la URL del endpoint real de Sensor Integration (devices). | May 15, 2026 |
 | watchgate-webapp | develop | fe4d98f | feat(devices): add devices module | Implementación inicial del módulo de Sensor Integration (devices) en el Frontend. | May 15, 2026 |
 
-#### 5.2.3.5. Execution Evidence for Sprint Review
+#### 5.2.3.5. Execution Evidence for Sprint Review.
 
 Al concluir el Sprint 3, el equipo logró integrar la Web Application de Locksight con la RESTful API real,
 reemplazando todos los Mock APIs utilizados durante el Sprint 2. Los usuarios ahora pueden registrarse, iniciar
@@ -2531,7 +2541,7 @@ A continuación se presentan capturas de las principales vistas implementadas:
 
 URL del video: [NAVEGACIÓN DEL SPRINT 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412903_upc_edu_pe/IQB5fc9_uSr-S5MjBmS8rA-sAfZxlfX24EpfiiBmfkojjuw?e=ddUWJP)
 
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
 Durante el Sprint 3, el equipo de Backend completó la implementación de los endpoints RESTful para los
 Bounded Contexts de Sensor Integration y Security Alerts en ASP.NET Core, documentando los contratos
@@ -2542,7 +2552,7 @@ dominio interno y la capa de presentación.
 Quedan pendientes para el siguiente sprint: la sección de integración CCTV, el endpoint de recuperación de
 contraseña y la población del almacén actual (`currentWarehouse`) en el historial de eventos.
 
-#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
 El despliegue de la RESTful API (`watchgate-platform`) se realizó mediante GitHub Actions hacia Azure App Service
 (`web-app-locksight` / `locksight-app-service`). El workflow presentó varias fallas iniciales asociadas a la
@@ -2555,7 +2565,7 @@ El despliegue de la Web Application (`watchgate-webapp`) se mantuvo sobre GitHub
 y se corrigió el enrutamiento a hash router (`0a3c0f1`) para evitar errores 404 al refrescar páginas internas en
 producción.
 
-#### 5.2.3.8. Team Collaboration Insights during Sprint
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
 
 Durante el Sprint 3, los cinco integrantes del equipo Watchgate mantuvieron una colaboración estrecha entre
 Frontend y Backend, dado que cada Bounded Context requería coordinación directa entre quien implementaba el
@@ -2569,11 +2579,11 @@ merge anterior; el conflicto fue resuelto conservando la versión local correcta
 de funcionalidad.
 
 
-### 5.2.4. Sprint 4: Final Release 3.0.0
+### 5.2.4. Sprint 4
 
 Durante el Sprint 4, correspondiente a la preparación final de TB2, Bardales Tejada, Luis Alexis y Sandoval Aiquipa, Kelber Yamir asumieron la ejecución principal del cierre del producto. El trabajo se enfocó en estabilizar la Web Application, completar flujos funcionales pendientes, corregir problemas detectados por el docente y desplegar el backend mediante contenedores Docker en Azure. El objetivo fue entregar una versión verificable públicamente, alineada con los requisitos de Landing Page, Frontend Web Application, RESTful API, documentación Swagger/OpenAPI y despliegue en la nube.
 
-#### 5.2.4.1. Sprint Planning 4
+#### 5.2.4.1. Sprint Planning 4.
 
 | Sprint # | Sprint 4 |
 |---|---|
@@ -2590,14 +2600,14 @@ Durante el Sprint 4, correspondiente a la preparación final de TB2, Bardales Te
 | Sprint 4 Velocity | 46 Hours |
 | Sum of Estimation (Hours) | 46 Hours |
 
-#### 5.2.4.2. Aspect Leaders and Collaborators
+#### 5.2.4.2. Aspect Leaders and Collaborators.
 
 | Team Member (Last Name, First Name) | GitHub Username | Frontend Final Flows (L/C) | Backend API & Health (L/C) | Docker & Azure Deployment (L/C) | Documentation & Report (L/C) | QA & Release Evidence (L/C) |
 |---|---|---|---|---|---|---|
 | Bardales Tejada, Luis Alexis | AlexisBardales | L | C | C | L | L |
 | Sandoval Aiquipa, Kelber Yamir | Kyesei | C | L | L | C | L |
 
-#### 5.2.4.3. Sprint Backlog 4
+#### 5.2.4.3. Sprint Backlog 4.
 
 | User Story Id | User Story Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
@@ -2611,7 +2621,7 @@ Durante el Sprint 4, correspondiente a la preparación final de TB2, Bardales Te
 | US62 | Desplegar backend en contenedor | T08 | Docker image y Azure App Service | Crear imagen Docker `3.0.0`, publicarla en Azure Container Registry y configurar Azure App Service para ejecutarla. | 6 | Sandoval Aiquipa, Kelber Yamir | Done |
 | US63 | Documentar entrega final | T09 | Evidencia técnica en README | Actualizar el informe con URLs, commits, despliegues, Swagger, health endpoint y alineación con la rúbrica. | 4 | Bardales Tejada, Luis Alexis | Done |
 
-#### 5.2.4.4. Development Evidence for Sprint Review
+#### 5.2.4.4. Development Evidence for Sprint Review.
 
 Durante el Sprint 4, Bardales Tejada, Luis Alexis y Sandoval Aiquipa, Kelber Yamir trabajaron principalmente en los repositorios `watchgate-webapp`, `watchgate-platform` y `watchgate-report`. Se mantuvo el uso de Conventional Commits para registrar nuevas funcionalidades, correcciones y tareas de infraestructura.
 
@@ -2628,7 +2638,7 @@ Durante el Sprint 4, Bardales Tejada, Luis Alexis y Sandoval Aiquipa, Kelber Yam
 | watchgate-platform | main | f1954af | feat: release backend health check and docker version 3.0.0 | Agrega endpoint de health y versionamiento `3.0.0` para el release final. | Jul 06, 2026 |
 | watchgate-platform | main | 9e41fe4 | chore: add docker image publish workflow | Agrega workflow de GitHub Actions para publicar la imagen Docker en Azure Container Registry. | Jul 06, 2026 |
 
-#### 5.2.4.5. Execution Evidence for Sprint Review
+#### 5.2.4.5. Execution Evidence for Sprint Review.
 
 Al cierre del Sprint 4, Locksight cuenta con una Web Application funcional y desplegada. Desde la URL pública, el usuario puede acceder a la Landing Page incorporada en la Web Application, registrarse, iniciar sesión, navegar por módulos de almacenes, dispositivos IoT, historial de eventos, alertas de seguridad, reportes y suscripción.
 
@@ -2655,7 +2665,7 @@ Al cierre del Sprint 4, Locksight cuenta con una Web Application funcional y des
   <img width="800" alt="LockSight authenticated web application showing Web v3.0.0 and API v3.0.0 status" src="./assets/chapter-5/07-webapp-api-version-status.png">
 </p>
 
-#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
 La RESTful API de Locksight se encuentra documentada mediante Swagger/OpenAPI. La documentación expone los endpoints agrupados por bounded context, incluyendo autenticación, billing, almacenes, sensores, alertas y otros servicios de soporte.
 
@@ -2710,7 +2720,7 @@ El endpoint de salud devuelve información operativa del servicio, lo que permit
   <img width="800" alt="Health endpoint response showing healthy status and API version 3.0.0" src="./assets/chapter-5/14-health-endpoint.png">
 </p>
 
-#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
 El despliegue final se realizó con una estrategia separada por componente:
 
@@ -2741,7 +2751,7 @@ La configuración de backend en Azure se realizó mediante variables de entorno,
   <img width="800" alt="GitHub Actions frontend workflow deploying Web Application to GitHub Pages" src="./assets/chapter-5/18-frontend-github-actions.png">
 </p>
 
-#### 5.2.4.8. Team Collaboration Insights during Sprint
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
 
 Durante este sprint, la ejecución principal de TB2 fue asumida por Bardales Tejada, Luis Alexis y Sandoval Aiquipa, Kelber Yamir. Ambos priorizaron la estabilización del producto sobre nuevas funcionalidades aisladas y coordinaron las responsabilidades técnicas de frontend, backend, despliegue, documentación y validación. Las mejoras se realizaron sobre ramas activas y se integraron mediante commits convencionales, manteniendo trazabilidad entre user stories, tareas técnicas y evidencias públicas.
 
@@ -2751,8 +2761,8 @@ La retroalimentación recibida en entregas anteriores permitió corregir puntos 
   <img width="800" alt="GitHub Actions and commit history showing TB2 collaboration and release stabilization" src="./assets/chapter-5/18-frontend-github-actions.png">
 </p>
 
-## 5.3 Validation Interviews
-### 5.3.1 Diseño de entrevistas
+## 5.3. Validation Interviews.
+### 5.3.1. Diseño de Entrevistas.
 **Primer segmento: Dueños y administradores de PYMES**
 
 A continuación, se presentan las preguntas dirigidas a dueños y administradores de pequeños y medianos negocios que necesitan proteger almacenes, tiendas o espacios de inventario frente a accesos no autorizados, pérdidas, movimientos sospechosos y falta de trazabilidad operativa.
@@ -2807,8 +2817,8 @@ A continuación, se presentan las preguntas dirigidas a responsables de segurida
 17. ¿Qué herramientas o sistemas usan actualmente para monitoreo?
 18. ¿Qué tan seguido revisas reportes o historiales de incidentes?
 
-### 5.3.2. Registro de entrevistas
-## Segmento 1: Dueños y administradores de PYMES
+### 5.3.2. Registro de Entrevistas.
+#### Segmento 1: Dueños y administradores de PYMES
 
 <div align="center">
 
@@ -2820,11 +2830,11 @@ A continuación, se presentan las preguntas dirigidas a responsables de segurida
 
 </div>
 
-### Resumen de entrevistas segmento #1
+#### Resumen de entrevistas segmento #1
 
 A partir de las entrevistas, se observa que los dueños y administradores de PYMES necesitan una solución simple, confiable y centralizada para monitorear sus almacenes o zonas de inventario. Sus principales preocupaciones son la falta de visibilidad en tiempo real, la dependencia de controles manuales y la dificultad para reaccionar rápidamente ante eventos sospechosos. Los entrevistados valoran especialmente las alertas automáticas, el historial de eventos, la facilidad de uso y la posibilidad de acceder a la información desde una aplicación web.
 
-## Segmento 2: Jefes de seguridad y operaciones
+#### Segmento 2: Jefes de seguridad y operaciones
 
 <div align="center">
 
@@ -2836,11 +2846,11 @@ A partir de las entrevistas, se observa que los dueños y administradores de PYM
 
 </div>
 
-### Resumen de entrevistas segmento #2
+#### Resumen de entrevistas segmento #2
 
 A partir de las entrevistas, se concluye que los jefes de seguridad y operaciones necesitan una plataforma que reduzca la fragmentación de información. El valor principal de LockSight para este segmento está en centralizar la supervisión de almacenes, sensores, zonas, alertas, eventos y reportes. Los entrevistados resaltan la importancia de contar con filtros de historial, reportes de seguridad, visibilidad del estado de sensores y acciones claras para gestionar alertas críticas.
 
-### 5.3.3. Evaluaciones según heurísticas
+### 5.3.3. Evaluaciones según heurísticas.
 
 ---
 
@@ -2987,7 +2997,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 ---
 
-## 5.4. Video About-the-Product
+## 5.4. Video About-the-Product.
 
 El Video About-the-Product de Locksight tiene como objetivo comunicar de forma clara, directa y convincente el valor de la plataforma a dos audiencias principales: visitantes del Landing Page que aún no conocen la solución, y usuarios actuales que desean explorar las funcionalidades disponibles. El tono adoptado es profesional pero accesible, coherente con la identidad visual de la plataforma, transmitiendo seguridad, confianza y modernidad tecnológica.
 
@@ -3005,7 +3015,7 @@ El video inicia con la presentación del problema: la vulnerabilidad operativa q
 
 ## Conclusiones
 
-### Conclusiones y recomendaciones
+### Conclusiones y recomendaciones.
 
 A lo largo del ciclo de desarrollo del presente proyecto, el equipo de Watchgate construyó Locksight, una plataforma web de seguridad inteligente para almacenes empresariales, integrando tecnología IoT con una interfaz de monitoreo en tiempo real. Las siguientes conclusiones sintetizan los resultados obtenidos en contraste con los Problem Statements, Assumptions e Hypothesis Statements definidos durante el proceso de Lean UX.
 
@@ -3044,6 +3054,14 @@ Con base en los hallazgos del ciclo de desarrollo y las entrevistas de validaci�
 5. **Mejorar la accesibilidad del Landing Page** añadiendo atributos `alt` a todas las imágenes, incrementando el contraste de texto en secciones clave y verificando la compatibilidad con lectores de pantalla, en alineación con los estándares WCAG 2.1.
 
 6. **Añadir filtros directos en el panel de alertas** (por tipo de evento y por almacén) para optimizar el flujo de trabajo de los jefes de seguridad que gestionan múltiples ubicaciones de forma simultánea.
+
+---
+
+## Video About-the-Team.
+
+El Video About-the-Team documenta la participación del equipo, la retrospectiva del proceso, los roles asumidos durante TB2 y los logros alcanzados en la entrega final. Este artefacto complementa la evidencia de colaboración descrita en Project Report Collaboration Insights y en las secciones de Sprint Review.
+
+**Evidencia:** agregar enlace al video About-the-Team.
 
 ---
 
