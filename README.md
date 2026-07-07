@@ -81,6 +81,7 @@ Commits del Report:
   - [CONTENIDO](#contenido)
     - [Tabla de contenido](#tabla-de-contenido)
 - [Student Outcome](#student-outcome)
+  - [Actualización TB2 - Release Review](#actualización-tb2---release-review)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile.](#11-startup-profile)
     - [1.1.1. Descripción de la Startup.](#111-descripción-de-la-startup)
@@ -212,6 +213,18 @@ Commits del Report:
 - [Anexos](#anexos)
 
 # Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET - EAC 5: la capacidad de funcionar efectivamente en un equipo cuyos miembros proporcionan liderazgo en conjunto, crean un entorno colaborativo e inclusivo, establecen objetivos, planifican tareas y cumplen metas. Para la entrega TB2, el equipo actual de trabajo estuvo conformado principalmente por Bardales Tejada, Luis Alexis y Sandoval Aiquipa, Kelber Yamir, quienes asumieron el cierre funcional, técnico y documental del producto.
+
+## Actualización TB2 - Release Review
+
+| Criterio específico | Evidencia TB2 | Resultado alcanzado |
+|---|---|---|
+| Liderazgo compartido | Bardales Tejada, Luis Alexis lideró la estabilización del Frontend Web Application, la corrección de navegación, i18n, vistas finales, evidencias del Project Report y preparación del keynote TB2. Sandoval Aiquipa, Kelber Yamir lideró la estabilización del backend, despliegue en Azure, publicación de la imagen Docker, conexión con Azure Database for MySQL, Swagger/OpenAPI y health endpoint. | El liderazgo se distribuyó por responsabilidades claras, permitiendo cerrar el release `3.0.0` con frontend, backend, base de datos, despliegue cloud y documentación final alineada a la rúbrica. |
+| Entorno colaborativo e inclusivo | Ambos integrantes coordinaron la corrección de observaciones del docente, integración de cambios, validación de flujos funcionales, actualización del reporte, preparación de capturas y revisión de evidencias para TB2. | El trabajo colaborativo permitió integrar aportes técnicos y documentales en un entregable consistente, evitando duplicidades y manteniendo trazabilidad mediante GitHub, commits y workflows. |
+| Establecimiento de objetivos | Se definió como meta liberar una versión final verificable de Locksight con Web Application pública, RESTful API desplegada, documentación Swagger, Docker image `3.0.0`, base de datos MySQL en Azure y endpoint `/api/v1/health`. | Los objetivos del Sprint 4 fueron concretos, medibles y orientados a evidenciar el cierre del ciclo de vida del proyecto. |
+| Planificación y cumplimiento de tareas | Las tareas se organizaron alrededor de Sprint 4: mejoras de frontend, endpoints y documentación de backend, despliegue con contenedores, configuración de Azure, actualización de evidencias, corrección de diagramas y preparación de links finales. | Las tareas planificadas se completaron y quedaron evidenciadas en `5.2.4.4`, `5.2.4.5`, `5.2.4.6`, `5.2.4.7` y `5.2.4.8`. |
+| Cumplimiento de objetivos del equipo | Se verificó el producto mediante GitHub Pages, Azure App Service, Azure Container Registry, Azure Database for MySQL, Swagger/OpenAPI y el health check público. | El equipo entregó una versión final desplegada, funcional y documentada, cumpliendo con las consideraciones solicitadas para TB2: reporte final, keynote, Sprint 4, evidencias de despliegue y mejora continua. |
 
 | Criterio Específico | Acciones realizadas | Conclusiones |
 |---|---|---|
