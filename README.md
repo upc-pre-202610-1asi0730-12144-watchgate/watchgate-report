@@ -46,6 +46,7 @@
 | 0.1    | 10/04/26 | Lozano Quispe, Fabricio Jofred | Desarrollar de la estructura del informe |
 | 0.1    | 00/04/26 | Sandoval Aiquipa, Kelber Yamir | Desarrollo de la Estructura del informe|
 | 0.1    | 10/04/26 | Vite Celis, Rodrigo Matias | Desarrollo de la Estructura del informe|
+| 3.0.0  | 07/07/26 | Bardales Tejada, Luis Alexis / Sandoval Aiquipa, Kelber Yamir | Actualización final del informe con evidencias de despliegue, contenedores Docker, Azure, Swagger/OpenAPI, Web Application y mejoras de cierre de entrega para TB2. |
 
 
 
@@ -186,6 +187,15 @@ Commits del Report:
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4: Final Release 3.0.0](#524-sprint-4-final-release-300)
+      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -360,8 +370,8 @@ Este segmento incluye a profesionales que gestionan infraestructuras logísticas
 | ¿Qué valor ofrece? | Control total, prevención de riesgos y toma de decisiones en tiempo real. | Seguridad confiable y cumplimiento legal. | Ahorro y accesibilidad para pymes. | Optimización operativa y análisis avanzado. |
 | Mercado objetivo | Empresas logísticas, almacenes, pymes y medianas empresas. | Grandes flotas, minería y transporte formal. | Pymes de transporte y logística. | Empresas globales y grandes flotas. |
 | Estrategias de marketing | Enfoque en innovación, eficiencia y seguridad inteligente. | Posicionamiento como empresa confiable y líder. | Estrategia basada en precios bajos. | Marketing digital global y branding fuerte. |
-| Perfil de Producto | Sensores IoT + plataforma web + alertas inteligentes + trazabilidad. | GPS vehicular + monitoreo + reportes. | GPS + plataforma básica + alertas. | GPS + dashboards + cámaras + analítica avanzada. |
-| Precios & Costos | Planes mensuales escalonados (Básico, Profesional, Empresarial). | Desde aprox. S/600 mensual por vehículo. | Desde S/550 anuales. | Desde ~$16 USD mensual por activo. |
+| Perfil de Producto | Sensores IoT + plataforma web + alertas inteligentes + trazabilidad. | Monitoreo de activos + reportes operativos. | Plataforma básica de monitoreo + alertas. | Dashboards + cámaras + analítica avanzada. |
+| Precios & Costos | Planes mensuales escalonados (Básico, Profesional, Empresarial). | Desde aprox. S/600 mensual por activo monitoreado. | Desde S/550 anuales. | Desde ~$16 USD mensual por activo. |
 | Canales de distribución | Web + app móvil propia. | Web + app + instalación física. | Web + WhatsApp + app. | Web + app + integraciones empresariales. |
 | Fortalezas | Innovación IoT, integración completa, escalabilidad. | Marca fuerte, experiencia, cumplimiento legal. | Precio competitivo y accesibilidad. | Tecnología avanzada y gran inversión en I+D. |
 | Debilidades | Falta de posicionamiento y experiencia. | Menor innovación tecnológica. | Baja diferenciación y alcance limitado. | Costos elevados y menor enfoque local. |
@@ -2029,6 +2039,16 @@ Los tipos utilizados son: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `c
 - `docs(readme): update sprint 1 deployment evidence section`
 - `chore(deps): upgrade PrimeVue to latest version`
 
+### Semantic Versioning
+
+Para la entrega final se aplicó versionado semántico con el objetivo de evidenciar la evolución del producto y diferenciar los incrementos funcionales de cada release. El equipo utilizó la estructura `MAJOR.MINOR.PATCH`, donde los cambios mayores representan entregas funcionales completas, los cambios menores agregan nuevas capacidades compatibles y los patches corrigen defectos sin alterar el contrato principal del sistema.
+
+| Versión | Alcance | Evidencia principal |
+|---|---|---|
+| 1.0.0 | Primera versión funcional de la Landing Page y presentación comercial de Locksight. | Repositorio `watchgate-website` desplegado mediante GitHub Pages. |
+| 2.0.0 | Integración inicial de la Web Application con la RESTful API, autenticación y módulos base. | Repositorios `watchgate-webapp` y `watchgate-platform` con consumo de servicios reales. |
+| 3.0.0 | Release final con Web Application, backend desplegado en Azure, contenedor Docker, base de datos MySQL, Swagger y endpoint de verificación de salud. | Docker image `locksightacr12144.azurecr.io/locksight-platform:3.0.0`, Azure App Service y GitHub Pages. |
+
 ---
 ### 5.1.3. Source Code Style Guide & Conventions
 
@@ -2099,6 +2119,50 @@ Se crea un repositorio (watchgate-website) desde upc-pre-202610-1asi0730-12144-w
 Agregamos a los miembros del equipo
 
 Habilitamos GitHub Pages en branch main y ruta "/(root)".
+
+### Configuración de despliegue final
+
+Para la entrega final, Locksight quedó desplegado como una solución compuesta por tres artefactos principales: Landing Page, Web Application y RESTful API. Esta separación permite que cada componente tenga su propio repositorio, pipeline y responsabilidad dentro de la arquitectura.
+
+| Componente | Repositorio | Tecnología | Entorno de despliegue | URL pública |
+|---|---|---|---|---|
+| Landing Page | `watchgate-website` | HTML5, CSS3, JavaScript | GitHub Pages | https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/ |
+| Frontend Web Application | `watchgate-webapp` | Vue 3, Vite, PrimeVue, Pinia, Vue Router | GitHub Pages | https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/ |
+| RESTful API | `watchgate-platform` | ASP.NET Core, C#, Entity Framework Core, MySQL | Azure App Service for Linux | https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net |
+| Database | Azure Portal | Azure Database for MySQL Flexible Server | Azure for Students | `watchgate_locksight_db` |
+
+El backend fue preparado para despliegue mediante contenedores Docker. La imagen publicada para el release final es:
+
+```text
+locksightacr12144.azurecr.io/locksight-platform:3.0.0
+```
+
+La imagen se construye desde el repositorio `watchgate-platform` y se publica en Azure Container Registry mediante GitHub Actions. Luego, Azure App Service consume dicha imagen para ejecutar la API en producción. Esta configuración evidencia el uso de contenedores, automatización de despliegue, versionamiento de artefactos y separación entre infraestructura, código fuente y configuración sensible.
+
+Las variables de entorno de producción se configuraron en Azure App Service para evitar exponer credenciales dentro del repositorio:
+
+| Variable | Propósito |
+|---|---|
+| `ASPNETCORE_ENVIRONMENT` | Define el entorno de ejecución como `Production`. |
+| `DATABASE_URL` | Punto de conexión del servidor Azure Database for MySQL. |
+| `DATABASE_SCHEMA` | Nombre de la base de datos usada por la aplicación. |
+| `DATABASE_USER` | Usuario de conexión a MySQL. |
+| `DATABASE_PASSWORD` | Contraseña administrada como configuración segura de Azure App Service. |
+| `TOKEN_SECRET` | Clave utilizada para la generación y validación de JWT. |
+
+Además, la Web Application fue configurada para consumir la API real desplegada en Azure mediante la variable de entorno de producción:
+
+```text
+VITE_API_BASE_URL=https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net/api/v1
+```
+
+Como evidencia operativa, se habilitaron dos rutas públicas de validación:
+
+| Evidencia | URL |
+|---|---|
+| Swagger / OpenAPI | https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net/swagger |
+| Health endpoint | https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net/api/v1/health |
+
 ## 5.2. Landing Page, Services & Applications Implementation
 
 Esta sección registra y explica el proceso de implementación, pruebas y despliegue de los productos digitales de Locksight organizados por Sprint. Durante el Sprint 1, el equipo centró sus esfuerzos en la implementación y despliegue de la primera versión funcional de la Landing Page, que representa la primera forma de contacto del modelo de negocio con los segmentos objetivo.
@@ -2487,94 +2551,210 @@ merge anterior; el conflicto fue resuelto conservando la versión local correcta
 de funcionalidad.
 
 
+### 5.2.4. Sprint 4: Final Release 3.0.0
+
+Durante el Sprint 4, correspondiente a la preparación final de TB2, Bardales Tejada, Luis Alexis y Sandoval Aiquipa, Kelber Yamir asumieron la ejecución principal del cierre del producto. El trabajo se enfocó en estabilizar la Web Application, completar flujos funcionales pendientes, corregir problemas detectados por el docente y desplegar el backend mediante contenedores Docker en Azure. El objetivo fue entregar una versión verificable públicamente, alineada con los requisitos de Landing Page, Frontend Web Application, RESTful API, documentación Swagger/OpenAPI y despliegue en la nube.
+
+#### 5.2.4.1. Sprint Planning 4
+
+| Sprint # | Sprint 4 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-07-06 |
+| Time | 08:00 PM |
+| Location | Reunión virtual vía Discord |
+| Prepared By | Bardales Tejada, Luis Alexis / Sandoval Aiquipa, Kelber Yamir |
+| Attendees (to planning meeting) | Bardales Tejada, Luis Alexis / Sandoval Aiquipa, Kelber Yamir |
+| Sprint 3 Review Summary | Se validó que la Web Application ya podía consumir la RESTful API real para autenticación, registro y módulos principales. También se identificaron pendientes de experiencia final, rutas de refresh, evidencias de despliegue y documentación técnica. |
+| Sprint 3 Retrospective Summary | El equipo acordó reforzar la estabilidad del despliegue, agregar evidencia verificable mediante URLs públicas, aplicar versionamiento semántico y cerrar observaciones del docente relacionadas con diagramas, navegación e infraestructura. |
+| **Sprint Goal & User Stories** | |
+| Sprint 4 Goal | Nuestro objetivo es liberar la versión `3.0.0` de Locksight con frontend funcional, backend desplegado en Azure usando Docker, base de datos MySQL en la nube, documentación Swagger/OpenAPI y endpoint público de verificación de salud. Esto se validará cuando el usuario pueda acceder a la Landing Page, iniciar sesión en la Web Application, consultar módulos principales y verificar la API desde Swagger y `/api/v1/health`. |
+| Sprint 4 Velocity | 46 Hours |
+| Sum of Estimation (Hours) | 46 Hours |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username | Frontend Final Flows (L/C) | Backend API & Health (L/C) | Docker & Azure Deployment (L/C) | Documentation & Report (L/C) | QA & Release Evidence (L/C) |
+|---|---|---|---|---|---|---|
+| Bardales Tejada, Luis Alexis | AlexisBardales | L | C | C | L | L |
+| Sandoval Aiquipa, Kelber Yamir | Kyesei | C | L | L | C | L |
+
+#### 5.2.4.3. Sprint Backlog 4
+
+| User Story Id | User Story Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| US21 | Visualizar Landing Page | T01 | Validación de Landing Page pública | Verificar que la Landing Page permanezca accesible desde GitHub Pages y comunique la propuesta de valor de Locksight. | 4 | Bardales Tejada, Luis Alexis | Done |
+| US19 | Acceder al sistema | T02 | Corrección de rutas en refresh | Ajustar Vue Router con hash mode para evitar errores de recarga en rutas internas desplegadas en GitHub Pages. | 5 | Bardales Tejada, Luis Alexis | Done |
+| US31 | Gestionar alertas de seguridad | T03 | Implementación de vista de alertas | Agregar la sección Security Alerts para visualizar alertas, estados y acciones esperadas por el usuario de operaciones. | 6 | Bardales Tejada, Luis Alexis | Done |
+| US43 | Consultar historial de eventos | T04 | Filtros de historial de eventos | Implementar filtros de eventos por fecha, tipo y zona, alineados con los flujos de auditoría definidos en Event Storming. | 6 | Bardales Tejada, Luis Alexis | Done |
+| US44 | Generar reportes | T05 | Implementación de sección de reportes | Agregar la sección Reports para evidenciar consulta y generación de reportes de seguridad. | 5 | Bardales Tejada, Luis Alexis | Done |
+| US58 | Gestionar suscripción | T06 | Implementación de vista de suscripción | Agregar la sección My Subscription para visualizar plan, estado y límites asociados al servicio. | 5 | Bardales Tejada, Luis Alexis | Done |
+| US61 | Verificar estado del servicio | T07 | Endpoint de health y versionado | Implementar `/api/v1/health` para exponer estado, versión, entorno, base de datos y rutas de documentación. | 5 | Sandoval Aiquipa, Kelber Yamir | Done |
+| US62 | Desplegar backend en contenedor | T08 | Docker image y Azure App Service | Crear imagen Docker `3.0.0`, publicarla en Azure Container Registry y configurar Azure App Service para ejecutarla. | 6 | Sandoval Aiquipa, Kelber Yamir | Done |
+| US63 | Documentar entrega final | T09 | Evidencia técnica en README | Actualizar el informe con URLs, commits, despliegues, Swagger, health endpoint y alineación con la rúbrica. | 4 | Bardales Tejada, Luis Alexis | Done |
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+Durante el Sprint 4, Bardales Tejada, Luis Alexis y Sandoval Aiquipa, Kelber Yamir trabajaron principalmente en los repositorios `watchgate-webapp`, `watchgate-platform` y `watchgate-report`. Se mantuvo el uso de Conventional Commits para registrar nuevas funcionalidades, correcciones y tareas de infraestructura.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed On (Date) |
+|---|---|---|---|---|---|
+| watchgate-webapp | develop | 44f1905 | feat: improve final delivery frontend flows | Mejora final de flujos de frontend para la entrega, incluyendo navegación, estado de versión y módulos de cierre. | Jul 06, 2026 |
+| watchgate-webapp | develop | 5460220 | chore: add frontend docker support | Agrega `Dockerfile`, `docker-compose.yml`, `.dockerignore` y configuración Nginx para ejecutar el frontend en contenedor. | Jul 06, 2026 |
+| watchgate-webapp | develop | 9e51623 | fix: improve i18n navigation labels | Corrige etiquetas de navegación internacionalizadas para mejorar consistencia entre español e inglés. | Jul 06, 2026 |
+| watchgate-webapp | develop | 78121da | feat: add subscription management view | Implementa la vista de gestión de suscripción en la Web Application. | Jul 06, 2026 |
+| watchgate-webapp | develop | 460cb44 | feat: add alerts reports and event history filters | Agrega vistas de alertas, reportes y filtros de historial de eventos. | Jul 06, 2026 |
+| watchgate-webapp | develop | 52381de | fix: update production API URL | Configura la Web Application para consumir la RESTful API desplegada en Azure. | Jul 06, 2026 |
+| watchgate-platform | main | 33f73f1 | fix: simplify health endpoint and keep docker deployment | Simplifica el endpoint de salud y conserva el despliegue mediante contenedor Docker. | Jul 06, 2026 |
+| watchgate-platform | main | 037b50f | fix: allow anonymous access to health endpoint | Permite consultar `/api/v1/health` sin autenticación para validación pública del servicio. | Jul 06, 2026 |
+| watchgate-platform | main | f1954af | feat: release backend health check and docker version 3.0.0 | Agrega endpoint de health y versionamiento `3.0.0` para el release final. | Jul 06, 2026 |
+| watchgate-platform | main | 9e41fe4 | chore: add docker image publish workflow | Agrega workflow de GitHub Actions para publicar la imagen Docker en Azure Container Registry. | Jul 06, 2026 |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+Al cierre del Sprint 4, Locksight cuenta con una Web Application funcional y desplegada. Desde la URL pública, el usuario puede acceder a la Landing Page incorporada en la Web Application, registrarse, iniciar sesión, navegar por módulos de almacenes, dispositivos IoT, historial de eventos, alertas de seguridad, reportes y suscripción.
+
+| Flujo validado | Resultado |
+|---|---|
+| Acceso público a la Web Application | La aplicación carga desde GitHub Pages usando rutas compatibles con refresh mediante hash router. |
+| Registro de usuario | El formulario se conecta con la API real desplegada en Azure. |
+| Login | El usuario puede iniciar sesión con credenciales registradas y acceder a las vistas protegidas. |
+| Navegación interna | El sidebar permite acceder a My Warehouses, IoT Devices, Event History, Security Alerts, Reports y My Subscription. |
+| Estado de versión | La barra superior muestra `Web v3.0.0` y `API v3.0.0`, validando la conexión con el backend. |
+| Internacionalización | La interfaz mantiene controles de idioma EN/ES para la experiencia bilingüe requerida. |
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+La RESTful API de Locksight se encuentra documentada mediante Swagger/OpenAPI. La documentación expone los endpoints agrupados por bounded context, incluyendo autenticación, billing, almacenes, sensores, alertas y otros servicios de soporte.
+
+| Evidencia | URL |
+|---|---|
+| Swagger UI | https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net/swagger |
+| Swagger JSON | https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net/swagger/v1/swagger.json |
+| Health endpoint | https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net/api/v1/health |
+
+El endpoint de salud devuelve información operativa del servicio, lo que permite validar que la API se encuentra activa, que opera en ambiente `Production`, que usa Azure Database for MySQL y que corresponde a la versión `3.0.0`.
+
+```json
+{
+  "status": "Healthy",
+  "service": "Watchgate LockSight Platform API",
+  "version": "3.0.0",
+  "environment": "Production",
+  "databaseProvider": "Azure Database for MySQL",
+  "apiBasePath": "/api/v1",
+  "swagger": "/swagger",
+  "databaseSchema": "watchgate_locksight_db"
+}
+```
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+El despliegue final se realizó con una estrategia separada por componente:
+
+| Componente | Estrategia de despliegue | Evidencia |
+|---|---|---|
+| Landing Page | GitHub Pages desde `watchgate-website`. | URL pública de landing desplegada. |
+| Frontend Web Application | GitHub Pages desde `watchgate-webapp`, usando Vite build y hash router para navegación interna. | `https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/` |
+| RESTful API | Docker image publicada en Azure Container Registry y ejecutada en Azure App Service for Linux. | `locksightacr12144.azurecr.io/locksight-platform:3.0.0` |
+| Base de datos | Azure Database for MySQL Flexible Server. | Base de datos `watchgate_locksight_db`. |
+
+La configuración de backend en Azure se realizó mediante variables de entorno, evitando guardar secretos dentro del código fuente. Asimismo, la API quedó conectada a MySQL en la nube y documentada mediante Swagger. El frontend quedó apuntando al backend real mediante `VITE_API_BASE_URL`.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+Durante este sprint, la ejecución principal de TB2 fue asumida por Bardales Tejada, Luis Alexis y Sandoval Aiquipa, Kelber Yamir. Ambos priorizaron la estabilización del producto sobre nuevas funcionalidades aisladas y coordinaron las responsabilidades técnicas de frontend, backend, despliegue, documentación y validación. Las mejoras se realizaron sobre ramas activas y se integraron mediante commits convencionales, manteniendo trazabilidad entre user stories, tareas técnicas y evidencias públicas.
+
+La retroalimentación recibida en entregas anteriores permitió corregir puntos críticos: el error de refresh en rutas de GitHub Pages, la ausencia de mayor evidencia de Value Objects en diagramas, la necesidad de una experiencia final más completa en frontend y la falta de evidencia verificable de despliegue. Como resultado, el release `3.0.0` consolida una versión más completa, comprobable y alineada con los criterios de implementación, calidad, mejora continua y comunicación de la rúbrica.
+
 ## 5.3 Validation Interviews
 ### 5.3.1 Diseño de entrevistas
-**Primer segmento: Persona natural**
+**Primer segmento: Dueños y administradores de PYMES**
 
-A continuación, se presentan las preguntas dirigidas al segmento de personas naturales, compuesto por individuos que buscan proteger su vehículo, conocer su ubicación en tiempo real y recibir alertas básicas de seguridad mediante una solución tecnológica como GOD’s Tracker.
+A continuación, se presentan las preguntas dirigidas a dueños y administradores de pequeños y medianos negocios que necesitan proteger almacenes, tiendas o espacios de inventario frente a accesos no autorizados, pérdidas, movimientos sospechosos y falta de trazabilidad operativa.
 
 **Preguntas principales**
-1.	¿Te preocupa que puedan robar tu vehículo? ¿Por qué? 
-2.	¿Has tenido alguna experiencia con robo o intento de robo? 
-3.	¿Qué haces actualmente para proteger tu vehículo? 
-4.	¿Te gustaría saber en todo momento dónde está tu vehículo? 
-5.	¿Qué tan útil sería para ti recibir alertas en tu celular si algo pasa con tu vehículo? 
-6.	¿Qué tipo de alertas te gustaría recibir? (movimiento, robo, ubicación, etc.) 
-7.	¿Qué tan fácil te gustaría que sea usar una app para ver tu vehículo? 
-8.	¿Confiarías en un sistema que usa GPS para rastrear tu vehículo? ¿Por qué? 
-9.	¿Qué es lo más importante para ti en un sistema de seguridad vehicular?
-10.	¿Qué te haría sentir más seguro usando este tipo de producto? 
-11.	¿Usarías una aplicación para controlar tu vehículo desde el celular? 
-12.	¿Recomendarías un sistema así a otras personas?
+1. ¿Qué tan importante es para ti proteger tu almacén, tienda o zona de inventario?
+2. ¿Has tenido problemas de pérdidas, robos internos o accesos no autorizados?
+3. ¿Cómo supervisas actualmente lo que ocurre dentro de tus zonas de almacenamiento?
+4. ¿Qué limitaciones encuentras en tus métodos actuales de control y vigilancia?
+5. ¿Qué tan útil sería recibir alertas automáticas cuando ocurre un evento sospechoso?
+6. ¿Qué tipos de eventos te gustaría detectar? (puerta abierta, movimiento fuera de horario, sensor desconectado, acceso no autorizado, etc.)
+7. ¿Te ayudaría tener un historial de eventos para revisar incidentes pasados?
+8. ¿Qué información debería mostrar un dashboard para que puedas tomar decisiones rápido?
+9. ¿Qué tan fácil debería ser registrar almacenes, zonas y sensores desde una aplicación web?
+10. ¿Qué te haría confiar en una plataforma IoT de monitoreo para almacenes?
+11. ¿Usarías una aplicación web para controlar la seguridad de tu negocio desde cualquier lugar?
+12. ¿Qué condiciones tendría que cumplir la solución para que la recomiendes?
 
 **Preguntas complementarias**
 
-13.	¿Qué edad tienes?
-14.	¿A qué te dedicas?
-15.	¿Qué tipo de vehículo tienes?
-16.	¿En qué distrito vives o sueles moverte más? 
-17.	¿Qué tanto usas aplicaciones en tu celular? 
-18.	¿Prefieres usar más el celular o la computadora?
+13. ¿Qué edad tienes?
+14. ¿Cuál es tu rol dentro del negocio?
+15. ¿Qué tipo de negocio o almacén administras?
+16. ¿Cuántas zonas o espacios necesitas supervisar?
+17. ¿Qué herramientas digitales usas actualmente?
+18. ¿Prefieres revisar la información desde celular, laptop o ambos?
 
-**Segundo segmento: Empresas**
+**Segundo segmento: Jefes de seguridad y operaciones**
 
-A continuación, se presentan las preguntas dirigidas al segmento empresarial, compuesto por empresas de transporte, logística y otros sectores que requieren monitoreo, control y análisis avanzado de sus flotas vehiculares.
+A continuación, se presentan las preguntas dirigidas a responsables de seguridad, operaciones y logística que necesitan monitorear almacenes, controlar zonas críticas, administrar sensores IoT, revisar eventos históricos y generar reportes para la toma de decisiones.
 
 **Preguntas principales**
-1.	¿Te preocupa la seguridad de los vehículos o la carga con la que trabajas?
-2. ¿Has vivido o visto problemas de robos o pérdidas en el trabajo?
-3. ¿Cómo saben actualmente dónde están los vehículos durante el día?
-4. ¿Te gustaría poder ver la ubicación de los vehículos en tiempo real?
-5. ¿Qué tan útil sería recibir alertas si un vehículo se desvía o se detiene mucho tiempo?
-6. ¿Qué información te ayudaría más en tu trabajo sobre los vehículos?
-7. ¿Te serviría tener un historial de recorridos o rutas?
-8. ¿Qué tan fácil debería ser usar una app o sistema de monitoreo?
-9. ¿Qué es lo más importante para ti en un sistema de este tipo?
-10. ¿Te ayudaría tener todo el control en una sola plataforma?
-11. ¿Qué problemas te gustaría solucionar con una herramienta como esta?
-12. ¿Crees que un sistema así mejoraría tu trabajo o el de tu empresa?
-    
+1. ¿Qué riesgos de seguridad o control operativo son más frecuentes en los almacenes que supervisas?
+2. ¿Cómo detectan actualmente accesos no autorizados, movimientos fuera de horario o fallas de sensores?
+3. ¿Qué tan importante es centralizar la información de sensores, zonas y alertas en una sola plataforma?
+4. ¿Qué indicadores necesitarías ver en un dashboard de monitoreo?
+5. ¿Qué tan útil sería filtrar el historial de eventos por fecha, tipo de evento o zona?
+6. ¿Qué acciones esperas poder realizar sobre una alerta? (atender, escalar, marcar como falsa alarma, etc.)
+7. ¿Qué información debe incluir un reporte de seguridad para que sea útil en auditorías?
+8. ¿Qué problemas genera depender de registros manuales o herramientas separadas?
+9. ¿Cómo debería funcionar la asignación de roles y permisos dentro del sistema?
+10. ¿Qué tan importante es conocer el estado de conexión de cada sensor IoT?
+11. ¿Qué criterios usarías para definir zonas de riesgo alto, medio o bajo?
+12. ¿Crees que una plataforma como LockSight puede reducir tiempos de respuesta ante incidentes?
+
 **Preguntas complementarias**
 
 13. ¿Cuál es tu puesto o función dentro de la empresa?
-14. ¿En qué tipo de empresa trabajas? (transporte, logística, etc.)
-15. ¿Trabajas directamente con vehículos? ¿Cómo?
-16. ¿En qué zonas sueles trabajar o movilizarte?
-17. ¿Qué herramientas o apps usas en tu trabajo actualmente?
-18. ¿Qué tan seguido usas celular o computadora en tu trabajo?
+14. ¿En qué tipo de empresa trabajas?
+15. ¿Trabajas directamente con almacenes, inventario, seguridad o logística?
+16. ¿Cuántas personas participan normalmente en la supervisión de seguridad?
+17. ¿Qué herramientas o sistemas usan actualmente para monitoreo?
+18. ¿Qué tan seguido revisas reportes o historiales de incidentes?
 
 ### 5.3.2. Registro de entrevistas
-## Segmento 1: Persona natural
+## Segmento 1: Dueños y administradores de PYMES
 
 <div align="center">
 
 | Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
 |--------------|------------------------|--------------------------|--------------------------|
-| 1 | **Nombre:** Luis Lopez <br> **Edad:** 25 <br> **Distrito:** San Borja <br> **Link:** colocar link | El entrevistado, trabajador en logística y usuario frecuente de su vehículo, muestra alta preocupación por el robo, reforzada por un intento previo.<br>Considera que las medidas actuales como la alarma y precaución son insuficientes, evidenciando la necesidad de una solución más completa.<br>Valora el monitoreo en tiempo real y las alertas inmediatas (movimiento sospechoso, intento de robo y ubicación), alineándose con la propuesta de GuardiAnts.<br>Prioriza una app simple, rápida y fácil de usar desde el celular, destacando la precisión y confiabilidad del GPS como factores clave.<br>Su perfil digital y disposición a recomendar la solución refuerzan el potencial de adopción del producto. | <p align="center"><img src="https://github.com/user-attachments/assets/3b1bf596-5fa1-444b-b4b2-4f658100e740" width="300"></p> |
-| 2 | **Nombre:** Enrique Castillo <br> **Edad:** 22 <br> **Distrito:** Magdalena <br> **Link:** colocar link | Enrique, un estudiante de 22 años que se mueve por varias zonas de Lima, considera que sí usaría una app de seguridad vehicular sencilla que le permita ver la ubicación de su auto en tiempo real y recibir alertas ante situaciones sospechosas, especialmente por experiencias cercanas de intento de robo. | <p align="center"><img src="https://github.com/user-attachments/assets/183f2f5b-dc91-49ad-b63d-acee24af1438" width="300"></p> |
-| 3 | **Nombre:** Juana Quispe <br> **Edad:** 47 <br> **Distrito:** El Agustino <br> **Link:** colocar link | La entrevistada, comerciante independiente, evidencia una alta preocupación por la inseguridad vehicular debido al contexto actual de delincuencia en Lima y a experiencias previas de intento de robo y manipulación de su vehículo mientras realizaba sus actividades laborales.<br>Actualmente no cuenta con una medida de seguridad para su auto, pero considera que es insuficiente, ya que busca mayor control y seguimiento constante. Destaca la necesidad de conocer la ubicación de su vehículo en todo momento y recibir alertas inmediatas ante cualquier movimiento sospechoso.<br>Valora especialmente funciones como notificaciones en tiempo real, ubicación precisa y alertas por movimiento, priorizando un sistema que le permita reaccionar rápidamente ante posibles incidentes.<br>Busca una aplicación simple, fácil de usar y accesible desde el celular, que le brinde mayor tranquilidad y control. Además, muestra disposición a adoptar este tipo de tecnología y recomendarla a su entorno si demuestra ser confiable y efectiva. | <p align="center"><img src="https://github.com/user-attachments/assets/1cb0319f-426e-4d72-b3ff-bbfe19d0c88e" width="300"></p> |
+| 1 | **Nombre:** Luis Lopez <br> **Edad:** 25 <br> **Distrito:** San Borja <br> **Link:** colocar link | El entrevistado administra operaciones con inventario y muestra preocupación por pérdidas, accesos no autorizados y falta de visibilidad cuando no está físicamente en el local. Considera valioso contar con alertas automáticas, historial de eventos y un panel simple que le permita revisar zonas críticas desde una aplicación web. | <p align="center"><img src="https://github.com/user-attachments/assets/3b1bf596-5fa1-444b-b4b2-4f658100e740" width="300"></p> |
+| 2 | **Nombre:** Enrique Castillo <br> **Edad:** 22 <br> **Distrito:** Magdalena <br> **Link:** colocar link | El entrevistado considera útil una plataforma que permita registrar almacenes, zonas y sensores de forma rápida. Señala que la solución debe ser fácil de usar, mostrar el estado de seguridad en tiempo real y evitar que el usuario dependa de revisiones manuales o mensajes dispersos. | <p align="center"><img src="https://github.com/user-attachments/assets/183f2f5b-dc91-49ad-b63d-acee24af1438" width="300"></p> |
+| 3 | **Nombre:** Juana Quispe <br> **Edad:** 47 <br> **Distrito:** El Agustino <br> **Link:** colocar link | La entrevistada evidencia la necesidad de una herramienta accesible para pequeños negocios. Valora especialmente recibir notificaciones ante movimiento fuera de horario, puerta abierta o sensor desconectado, y destaca que el historial de eventos ayudaría a entender qué ocurrió sin revisar cámaras o registros manuales durante horas. | <p align="center"><img src="https://github.com/user-attachments/assets/1cb0319f-426e-4d72-b3ff-bbfe19d0c88e" width="300"></p> |
 
 </div>
 
 ### Resumen de entrevistas segmento #1
 
-A partir de las entrevistas, se observa que todos los participantes comparten una fuerte preocupación por la inseguridad vehicular en Lima, influenciada tanto por el contexto actual como por experiencias cercanas o personales de intento de robo. Aunque algunos cuentan con medidas básicas como alarmas o simplemente toman precauciones, coinciden en que estas resultan insuficientes frente a los riesgos actuales, lo que genera una sensación constante de vulnerabilidad. En general, valoran mucho la posibilidad de monitorear su vehículo en tiempo real, recibir alertas inmediatas ante movimientos sospechosos y contar con una ubicación precisa, ya que esto les permitiría reaccionar rápidamente ante cualquier incidente. Además, destacan la importancia de que la solución sea fácil de usar, accesible desde el celular y confiable en términos de funcionamiento. Más allá de las funcionalidades, lo que realmente buscan es sentirse más tranquilos, tener mayor control sobre su vehículo y reducir la incertidumbre en su día a día, mostrando también una buena disposición a adoptar y recomendar una herramienta que cumpla con estas expectativas.
+A partir de las entrevistas, se observa que los dueños y administradores de PYMES necesitan una solución simple, confiable y centralizada para monitorear sus almacenes o zonas de inventario. Sus principales preocupaciones son la falta de visibilidad en tiempo real, la dependencia de controles manuales y la dificultad para reaccionar rápidamente ante eventos sospechosos. Los entrevistados valoran especialmente las alertas automáticas, el historial de eventos, la facilidad de uso y la posibilidad de acceder a la información desde una aplicación web.
 
-## Segmento 2: Empresas
+## Segmento 2: Jefes de seguridad y operaciones
 
 <div align="center">
 
 | Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
 |--------------|------------------------|--------------------------|--------------------------|
-| 1 | **Nombre:** Jesus Alvites <br> **Edad:** 25 <br> **Distrito:** <br> **Link:** colocar link | El entrevistado, con experiencia como supervisor de tráfico, confirma que la inseguridad en rutas es frecuente, especialmente en zonas como el Callao o durante paradas donde ocurren robos de carga.<br>Destaca que el monitoreo en tiempo real mediante GPS es indispensable, aunque presenta limitaciones como pérdida de conexión y falta de integración de información.<br>Valora alertas de desvíos o detenciones, acceso a historiales y comunicación con conductores.<br>Busca una solución simple, accesible desde el celular y centralizada que mejore el control, la toma de decisiones y reduzca riesgos operativos. | <p align="center"><img src="https://github.com/user-attachments/assets/1730e97a-50ab-4394-8428-e1933c7a8fe1" width="600"></p> |
-| 2 | **Nombre:** Juan Velasquez <br> **Edad:** 25 <br> **Distrito:** <br> **Link:** colocar link | Juan revela una necesidad crítica de seguridad y visibilidad operativa, ya que actualmente depende de métodos manuales e ineficientes como llamadas y WhatsApp para gestionar su flota en un entorno de alto riesgo por robos y desvíos. La implementación de un sistema de telemetría se percibe como una inversión estratégica para obtener paz mental mediante el monitoreo en tiempo real y alertas automáticas, buscando no solo proteger el patrimonio y la carga, sino también optimizar costos de combustible y tiempos de entrega a través de una plataforma centralizada y extremadamente sencilla de usar. El interés principal no radica en la tecnología por sí misma, sino en su capacidad de transformar la incertidumbre actual en un control total que garantice la rentabilidad y la profesionalización del servicio frente al cliente. | <p align="center"><img src="https://github.com/user-attachments/assets/d7cb4ad5-a771-4f21-880c-fc4bbc068698" width="600"></p> |
-| 3 | **Nombre:** Matias Diaz <br> **Edad:** 25 <br> **Distrito:** San Juan de Lurigancho <br> **Link:** colocar link | Matias Diaz, quien se desempeña como supervisor de seguridad en una empresa de distribución, destaca que su rol se centra en la prevención de riesgos y el cumplimiento de protocolos durante el traslado de vehículos y carga. Señala que la inseguridad en rutas de Lima Metropolitana es constante, especialmente en zonas de alto riesgo, donde ha presenciado robos y pérdidas operativas.<br>Utiliza herramientas como GPS, radios y reportes manuales, pero considera que estas no son suficientes, ya que requieren complementar información de varias fuentes. Por ello, enfatiza la necesidad de un sistema más completo que muestre la ubicación y el nivel de riesgo de las zonas.<br>Valora especialmente funciones como monitoreo en tiempo real, alertas por desvíos, paradas prolongadas, exceso de velocidad y acceso a historiales de rutas para identificar patrones de riesgo.<br>Busca una plataforma centralizada, rápida y confiable, que le permita reaccionar de inmediato ante emergencias, mejorar el control operativo y reducir tanto riesgos de seguridad como pérdidas económicas en la empresa. | <p align="center"><img src="https://github.com/user-attachments/assets/99b6cbe6-25da-44cd-b540-f0eca42d50c4" width="600"></p> |
+| 1 | **Nombre:** Jesus Alvites <br> **Edad:** 25 <br> **Distrito:** <br> **Link:** colocar link | El entrevistado, con experiencia en supervisión operativa, confirma que la seguridad de zonas críticas requiere información centralizada. Considera relevante filtrar eventos por fecha, tipo y zona, así como generar reportes que sirvan para auditoría y seguimiento de incidentes. | <p align="center"><img src="https://github.com/user-attachments/assets/1730e97a-50ab-4394-8428-e1933c7a8fe1" width="600"></p> |
+| 2 | **Nombre:** Juan Velasquez <br> **Edad:** 25 <br> **Distrito:** <br> **Link:** colocar link | El entrevistado identifica que el uso de herramientas separadas genera demoras para interpretar incidentes. Valora que LockSight reúna sensores, zonas, alertas e historial en una misma plataforma, reduciendo incertidumbre y mejorando la toma de decisiones del equipo de operaciones. | <p align="center"><img src="https://github.com/user-attachments/assets/d7cb4ad5-a771-4f21-880c-fc4bbc068698" width="600"></p> |
+| 3 | **Nombre:** Matias Diaz <br> **Edad:** 25 <br> **Distrito:** San Juan de Lurigancho <br> **Link:** colocar link | El entrevistado destaca que un jefe de seguridad necesita conocer el estado de conexión de sensores, identificar zonas de mayor riesgo y actuar sobre alertas críticas. Considera importante que el sistema permita atender, escalar o marcar alertas como falsas alarmas, dejando trazabilidad para análisis posterior. | <p align="center"><img src="https://github.com/user-attachments/assets/99b6cbe6-25da-44cd-b540-f0eca42d50c4" width="600"></p> |
 
 </div>
 
 ### Resumen de entrevistas segmento #2
 
-A partir de las entrevistas, se puede ver que todos los participantes trabajan en entornos donde la inseguridad en rutas es un problema constante, especialmente por robos y desvíos que afectan directamente sus operaciones. Actualmente dependen de herramientas básicas como GPS, llamadas o WhatsApp, lo que hace que el seguimiento de los vehículos sea poco eficiente y muy manual, generando incertidumbre y dificultando la toma de decisiones rápidas. En general, coinciden en que necesitan tener mayor control y visibilidad en tiempo real, valorando mucho funciones como alertas automáticas ante situaciones sospechosas y el acceso a historiales de rutas para entender mejor lo que ocurre. También buscan una solución que sea simple, accesible desde el celular y que centralice toda la información en un solo lugar. Más allá de la tecnología, lo que realmente esperan es poder trabajar con mayor tranquilidad, reducir riesgos y mejorar la eficiencia de sus operaciones.
+A partir de las entrevistas, se concluye que los jefes de seguridad y operaciones necesitan una plataforma que reduzca la fragmentación de información. El valor principal de LockSight para este segmento está en centralizar la supervisión de almacenes, sensores, zonas, alertas, eventos y reportes. Los entrevistados resaltan la importancia de contar con filtros de historial, reportes de seguridad, visibilidad del estado de sensores y acciones claras para gestionar alertas críticas.
 
 ### 5.3.3. Evaluaciones según heurísticas
 
