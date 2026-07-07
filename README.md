@@ -58,11 +58,11 @@
 
 | URL del repositorio de la landing page |
 | :----------------------------: |
-| [https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-website](https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-website) |
+| [https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-webapp](https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-webapp) |
 
 
 
-**URL LANDING PAGE DESPLEGADA:** [Ir a la Landing Page](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/)
+**URL LANDING PAGE DESPLEGADA:** [Ir a la Landing Page](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/)
 
 Commits del Report:
 
@@ -1984,10 +1984,12 @@ El equipo trabajará con repositorios independientes para cada componente del si
 | Component                  | Repository                                                                 |
 |---------------------------|-----------------------------------------------------------------------------|
 | Project Report            | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-report |
-| Landing Page              | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-website |
+| Landing Page              | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-webapp |
 | Web Services              | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-platform |
 | Frontend Web Application  | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-webapp |
 | mock-api                  | https://github.com/upc-pre-202610-1asi0730-12144-watchgate/mock-api | 
+
+Para la entrega final, la Landing Page se integró dentro del repositorio `watchgate-webapp`, desde donde también se despliega la Web Application mediante GitHub Pages.
 
 ---
 
@@ -2136,8 +2138,8 @@ Para la entrega final, Locksight quedó desplegado como una solución compuesta 
 
 | Componente | Repositorio | Tecnología | Entorno de despliegue | URL pública |
 |---|---|---|---|---|
-| Landing Page | `watchgate-website` | HTML5, CSS3, JavaScript | GitHub Pages | https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/ |
-| Frontend Web Application | `watchgate-webapp` | Vue 3, Vite, PrimeVue, Pinia, Vue Router | GitHub Pages | https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/ |
+| Landing Page | `watchgate-webapp` | Vue 3, Vite, PrimeVue, Pinia, Vue Router | GitHub Pages | https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/ |
+| Frontend Web Application | `watchgate-webapp` | Vue 3, Vite, PrimeVue, Pinia, Vue Router | GitHub Pages | https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/#/iam/sign-in |
 | RESTful API | `watchgate-platform` | ASP.NET Core, C#, Entity Framework Core, MySQL | Azure App Service for Linux | https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net |
 | Database | Azure Portal | Azure Database for MySQL Flexible Server | Azure for Students | `watchgate_locksight_db` |
 
@@ -2726,8 +2728,8 @@ El despliegue final se realizó con una estrategia separada por componente:
 
 | Componente | Estrategia de despliegue | Evidencia |
 |---|---|---|
-| Landing Page | GitHub Pages desde `watchgate-website`. | URL pública de landing desplegada. |
-| Frontend Web Application | GitHub Pages desde `watchgate-webapp`, usando Vite build y hash router para navegación interna. | `https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/` |
+| Landing Page | GitHub Pages desde `watchgate-webapp`. | `https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/` |
+| Frontend Web Application | GitHub Pages desde `watchgate-webapp`, usando Vite build y hash router para navegación interna. | `https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/#/iam/sign-in` |
 | RESTful API | Docker image publicada en Azure Container Registry y ejecutada en Azure App Service for Linux. | `locksightacr12144.azurecr.io/locksight-platform:3.0.0` |
 | Base de datos | Azure Database for MySQL Flexible Server. | Base de datos `watchgate_locksight_db`. |
 
@@ -3125,7 +3127,17 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 
 ### LINKS IMPORTANTES:
 
-* **URL LANDING PAGE DESPLEGADA:** [https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/)](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-website/)
-* **URL APP WEB DESPLEGADA:** [https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/)
+* **URL LANDING PAGE DESPLEGADA:** [https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/)
+* **URL APP WEB DESPLEGADA:** [https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/#/iam/sign-in](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/#/iam/sign-in)
+* **URL BACKEND / RESTFUL API DESPLEGADA:** [https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net](https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net)
+* **URL SWAGGER / OPENAPI:** [https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net/swagger/index.html](https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net/swagger/index.html)
+* **URL HEALTH CHECK:** [https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net/api/v1/health](https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net/api/v1/health)
+* **DOCKER IMAGE BACKEND FINAL:** `locksightacr12144.azurecr.io/locksight-platform:3.0.0`
+* **AZURE RESOURCE GROUP:** `rg-locksight-final`
+* **AZURE APP SERVICE:** `locksight-app-service-12144`
+* **AZURE DATABASE FOR MYSQL:** `locksight-mysql-12144-2026.mysql.database.azure.com`
+* **AZURE CONTAINER REGISTRY:** `locksightacr12144`
+* **REPOSITORIO PROJECT REPORT:** [https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-report](https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-report)
+* **REPOSITORIO FRONTEND WEB APP:** [https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-webapp](https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-webapp)
+* **REPOSITORIO SERVER-SIDE / BACKEND:** [https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-platform](https://github.com/upc-pre-202610-1asi0730-12144-watchgate/watchgate-platform)
 * **URL DEL FIGMA:** [https://www.figma.com/design/kbhdQovpVLS8GuQqHQ0QDh/Watchgate?node-id=0-1&p=f](https://www.figma.com/design/kbhdQovpVLS8GuQqHQ0QDh/Watchgate?node-id=0-1&p=f)
-* **URL DEL SWAGGER (BACKEND):** [https://locksight-app-service-a2a2dfhdf4enghg2.centralus-01.azurewebsites.net/swagger/index.html](https://locksight-app-service-a2a2dfhdf4enghg2.centralus-01.azurewebsites.net/swagger/index.html)
