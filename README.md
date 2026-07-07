@@ -2163,6 +2163,24 @@ Como evidencia operativa, se habilitaron dos rutas públicas de validación:
 | Swagger / OpenAPI | https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net/swagger |
 | Health endpoint | https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net/api/v1/health |
 
+**Evidencias de configuración de infraestructura en Azure**
+
+<p align="center">
+  <img width="800" alt="Azure resource group with LockSight deployment resources" src="./assets/chapter-5/01-azure-resource-group.png">
+</p>
+
+<p align="center">
+  <img width="800" alt="Azure App Service overview running LockSight API" src="./assets/chapter-5/02-azure-app-service-overview.png">
+</p>
+
+<p align="center">
+  <img width="800" alt="Azure App Service environment variables without exposing secret values" src="./assets/chapter-5/03-app-service-environment-variables-main.png">
+</p>
+
+<p align="center">
+  <img width="800" alt="Azure App Service Docker registry variables without exposing secret values" src="./assets/chapter-5/04-app-service-environment-variables-docker.png">
+</p>
+
 ## 5.2. Landing Page, Services & Applications Implementation
 
 Esta sección registra y explica el proceso de implementación, pruebas y despliegue de los productos digitales de Locksight organizados por Sprint. Durante el Sprint 1, el equipo centró sus esfuerzos en la implementación y despliegue de la primera versión funcional de la Landing Page, que representa la primera forma de contacto del modelo de negocio con los segmentos objetivo.
@@ -2623,6 +2641,20 @@ Al cierre del Sprint 4, Locksight cuenta con una Web Application funcional y des
 | Estado de versión | La barra superior muestra `Web v3.0.0` y `API v3.0.0`, validando la conexión con el backend. |
 | Internacionalización | La interfaz mantiene controles de idioma EN/ES para la experiencia bilingüe requerida. |
 
+**Evidencias de ejecución de la Web Application**
+
+<p align="center">
+  <img width="800" alt="LockSight Web Application deployed on GitHub Pages" src="./assets/chapter-5/05-webapp-landing-github-pages.png">
+</p>
+
+<p align="center">
+  <img width="800" alt="LockSight login view connected to production deployment" src="./assets/chapter-5/06-webapp-login-production.png">
+</p>
+
+<p align="center">
+  <img width="800" alt="LockSight authenticated web application showing Web v3.0.0 and API v3.0.0 status" src="./assets/chapter-5/07-webapp-api-version-status.png">
+</p>
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 La RESTful API de Locksight se encuentra documentada mediante Swagger/OpenAPI. La documentación expone los endpoints agrupados por bounded context, incluyendo autenticación, billing, almacenes, sensores, alertas y otros servicios de soporte.
@@ -2632,6 +2664,32 @@ La RESTful API de Locksight se encuentra documentada mediante Swagger/OpenAPI. L
 | Swagger UI | https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net/swagger |
 | Swagger JSON | https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net/swagger/v1/swagger.json |
 | Health endpoint | https://locksight-app-service-12144-fkgjgphcczguf2fd.chilecentral-01.azurewebsites.net/api/v1/health |
+
+**Evidencias de documentación de servicios con Swagger/OpenAPI**
+
+<p align="center">
+  <img width="800" alt="Swagger documentation showing authentication and billing endpoints" src="./assets/chapter-5/08-swagger-authentication-billing.png">
+</p>
+
+<p align="center">
+  <img width="800" alt="Swagger documentation showing company registration and reports endpoints" src="./assets/chapter-5/09-swagger-company-reports.png">
+</p>
+
+<p align="center">
+  <img width="800" alt="Swagger documentation showing reports and security alerts endpoints" src="./assets/chapter-5/10-swagger-reports-alerts.png">
+</p>
+
+<p align="center">
+  <img width="800" alt="Swagger documentation showing sensor integration and subscription endpoints" src="./assets/chapter-5/11-swagger-sensors-subscriptions.png">
+</p>
+
+<p align="center">
+  <img width="800" alt="Swagger documentation showing subscription management and user access endpoints" src="./assets/chapter-5/12-swagger-subscriptions-user-access.png">
+</p>
+
+<p align="center">
+  <img width="800" alt="Swagger documentation showing warehouse management endpoints" src="./assets/chapter-5/13-swagger-warehouses.png">
+</p>
 
 El endpoint de salud devuelve información operativa del servicio, lo que permite validar que la API se encuentra activa, que opera en ambiente `Production`, que usa Azure Database for MySQL y que corresponde a la versión `3.0.0`.
 
@@ -2648,6 +2706,10 @@ El endpoint de salud devuelve información operativa del servicio, lo que permit
 }
 ```
 
+<p align="center">
+  <img width="800" alt="Health endpoint response showing healthy status and API version 3.0.0" src="./assets/chapter-5/14-health-endpoint.png">
+</p>
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
 El despliegue final se realizó con una estrategia separada por componente:
@@ -2661,11 +2723,33 @@ El despliegue final se realizó con una estrategia separada por componente:
 
 La configuración de backend en Azure se realizó mediante variables de entorno, evitando guardar secretos dentro del código fuente. Asimismo, la API quedó conectada a MySQL en la nube y documentada mediante Swagger. El frontend quedó apuntando al backend real mediante `VITE_API_BASE_URL`.
 
+**Evidencias de despliegue en producción**
+
+<p align="center">
+  <img width="800" alt="GitHub Actions backend workflow publishing Docker image successfully" src="./assets/chapter-5/15-backend-github-actions.png">
+</p>
+
+<p align="center">
+  <img width="800" alt="Azure App Service configured with Azure Container Registry image locksight-platform version 3.0.0" src="./assets/chapter-5/16-app-service-docker-image.png">
+</p>
+
+<p align="center">
+  <img width="800" alt="Azure Database for MySQL Flexible Server ready for LockSight" src="./assets/chapter-5/17-mysql-flexible-server-ready.png">
+</p>
+
+<p align="center">
+  <img width="800" alt="GitHub Actions frontend workflow deploying Web Application to GitHub Pages" src="./assets/chapter-5/18-frontend-github-actions.png">
+</p>
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
 Durante este sprint, la ejecución principal de TB2 fue asumida por Bardales Tejada, Luis Alexis y Sandoval Aiquipa, Kelber Yamir. Ambos priorizaron la estabilización del producto sobre nuevas funcionalidades aisladas y coordinaron las responsabilidades técnicas de frontend, backend, despliegue, documentación y validación. Las mejoras se realizaron sobre ramas activas y se integraron mediante commits convencionales, manteniendo trazabilidad entre user stories, tareas técnicas y evidencias públicas.
 
 La retroalimentación recibida en entregas anteriores permitió corregir puntos críticos: el error de refresh en rutas de GitHub Pages, la ausencia de mayor evidencia de Value Objects en diagramas, la necesidad de una experiencia final más completa en frontend y la falta de evidencia verificable de despliegue. Como resultado, el release `3.0.0` consolida una versión más completa, comprobable y alineada con los criterios de implementación, calidad, mejora continua y comunicación de la rúbrica.
+
+<p align="center">
+  <img width="800" alt="GitHub Actions and commit history showing TB2 collaboration and release stabilization" src="./assets/chapter-5/18-frontend-github-actions.png">
+</p>
 
 ## 5.3 Validation Interviews
 ### 5.3.1 Diseño de entrevistas
