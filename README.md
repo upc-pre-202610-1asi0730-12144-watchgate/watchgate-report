@@ -1951,13 +1951,13 @@ flowchart LR
 El diseño orientado a objetos es fundamental para estructurar Locksight de manera modular. A través de este diseño, definimos las clases y métodos que dan vida a las funcionalidades, aprovechando principios de reutilización de código y mantenimiento. Esto nos permite modelar entidades del mundo real (sensores, usuarios, almacenes) dentro del código de forma lógica, facilitando que el sistema crezca y se adapte a nuevas necesidades de seguridad industrial sin comprometer la estabilidad actual.
 ### 4.7.1. Class Diagrams.
 
-El diagrama de clases fue actualizado para reflejar mejor el enfoque DDD de Locksight. Se separan los bounded contexts principales, como Subscription & Billing, Warehouse Management, Access & Security, Reporting & Community e IoT Monitoring & Alerts. Además, se incorporan Value Objects como Money, Address y Coordinates para representar reglas de dominio y evitar que conceptos importantes del negocio queden modelados únicamente como tipos primitivos.
+El diagrama de clases fue actualizado para reflejar mejor el enfoque DDD de Locksight. Se separan los bounded contexts principales, como Subscription & Billing, Warehouse Management, Access & Security, Reporting & Community e IoT Monitoring & Alerts. Además, se evidencian Value Objects y conceptos de dominio como EmailAddress, StreetAddress, Money, Address y Coordinates para representar reglas del negocio y reducir el uso de tipos primitivos en elementos críticos del modelo.
 
 <div align="center">
   <img src="./assets/chapter-4/class-diagram-locksight.png" alt="Class Diagram - LockSight" width="1000">
 </div>
 
-Para responder a la observación sobre la presencia de pocos Value Objects, el modelo incorpora un detalle complementario de objetos de valor por bounded context. Estos objetos encapsulan validaciones y reglas del dominio, reduciendo el uso de tipos primitivos para conceptos críticos del negocio.
+Para responder a la observación sobre la presencia de pocos Value Objects, se incorpora un detalle complementario de objetos de valor por bounded context. Esta vista combina Value Objects implementados en el backend, como EmailAddress, StreetAddress y Typed IDs, con refinamientos de diseño DDD que representan conceptos relevantes del dominio, como RiskLevel, MacAddress, AlertSeverity, Money y ReportPeriod.
 
 ```mermaid
 classDiagram
