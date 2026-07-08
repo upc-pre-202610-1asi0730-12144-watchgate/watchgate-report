@@ -78,9 +78,59 @@ LockSight
 
 **URL LANDING PAGE DESPLEGADA:** [Ir a la Landing Page](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/)
 
-Commits del Report:
+### TB1 - Project Report Collaboration Insights
 
-<img width="697" height="812" alt="image" src="https://github.com/user-attachments/assets/6f3b3a5e-7bce-4596-a1a5-259815387815" />
+<div align="center">
+  <img src="./assets/project-report-collaboration-insights-tb1.png" alt="TB1 Project Report Collaboration Insights - Contributors" width="700">
+</div>
+
+### AV1 - Project Report Collaboration Insights
+
+<div align="center">
+  <img src="./assets/project-report-collaboration-insights-av1.png" alt="AV1 Project Report Collaboration Insights - Contributors" width="700">
+</div>
+
+### AV2 - Project Report Collaboration Insights
+
+<div align="center">
+  <img src="./assets/project-report-collaboration-insights-av2.png" alt="AV2 Project Report Collaboration Insights - Contributors" width="700">
+</div>
+
+### TB2 - Project Report Collaboration Insights
+
+<div align="center">
+  <img src="./assets/project-report-collaboration-insights-tb2.png" alt="TB2 Project Report Collaboration Insights - Contributors" width="700">
+</div>
+
+### TB1 - WebApp Collaboration Insights
+
+<div align="center">
+  <img src="./assets/webapp-collaboration-insights-tb1.png" alt="TB1 WebApp Collaboration Insights - Contributors" width="700">
+</div>
+
+### AV2 - WebApp Collaboration Insights
+
+<div align="center">
+  <img src="./assets/webapp-collaboration-insights-av2.png" alt="AV2 WebApp Collaboration Insights - Contributors" width="700">
+</div>
+
+### TB2 - WebApp Collaboration Insights
+
+<div align="center">
+  <img src="./assets/webapp-collaboration-insights-tb2.png" alt="TB2 WebApp Collaboration Insights - Contributors" width="700">
+</div>
+
+### AV2 - Platform Collaboration Insights
+
+<div align="center">
+  <img src="./assets/platform-collaboration-insights-av2.png" alt="AV2 Platform Collaboration Insights - Contributors" width="700">
+</div>
+
+### TB2 - Platform Collaboration Insights
+
+<div align="center">
+  <img src="./assets/platform-collaboration-insights-tb2.png" alt="TB2 Platform Collaboration Insights - Contributors" width="700">
+</div>
 
 
 ## CONTENIDO
