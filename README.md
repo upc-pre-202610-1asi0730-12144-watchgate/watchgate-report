@@ -564,7 +564,7 @@ En general, todas las entrevistas muestran algo bien claro: quienes manejan esto
 | 1 | **Nombre:** Joao Jiménez <br> **Edad:** 26 <br> **Distrito:** San Juan de Lurigancho <br> **Ocupación:** Encargado de seguridad y planificación <br> **Link:** colocar link | El entrevistado trabaja en seguridad supervisando almacenes y utilizando métodos tradicionales como guardias, registros manuales y cámaras; enfrenta problemas como accesos fuera de horario y pérdidas difíciles de rastrear, además de la ineficiencia al revisar grabaciones; por ello, valora el monitoreo en tiempo real, alertas precisas y un historial de accesos, buscando una solución confiable que optimice el control y mejore la toma de decisiones. | **Inicio:** 17:47 <br> **Duración:** 7:05 <br> **Final:** 24:52 | <p align="center"><img src="./assets/screenshot-interview-joao-jimenez.png" width="300"></p> |
 | 2 | **Nombre:** Carlos Rodrigo Chavez Quispe <br> **Edad:** 36 <br> **Distrito:** La Molina <br> **Ocupación:** Supervisor Logístico <br> **Link:** colocar link | El entrevistado supervisa tres almacenes utilizando sistemas tradicionales desconectados entre sí; su principal problema es rastrear las mermas debido a la naturaleza reactiva de las cámaras actuales; valora críticamente la información en tiempo real para reaccionar ante aperturas no autorizadas o fallas de sensores; por ello, requiere una plataforma centralizada que ofrezca trazabilidad absoluta y reportes consolidados, buscando una solución estable que optimice sus auditorías. | **Inicio:** 24:53 <br> **Duración:** 4:33 <br> **Final:** 29:26 | <p align="center"><img src="./assets/screenshot-interview-carlos-chavez.png" width="300"></p> |
 | 3 | **Nombre:** Diego Castillo <br> **Edad:** 24 <br> **Distrito:** San Juan de Lurigancho <br> **Ocupación:** Jefe de seguridad y supervisor de almacenes <br> **Link:** — | El entrevistado, jefe de seguridad en una empresa de logística y distribución, es responsable de supervisar múltiples almacenes, lo que implica un alto nivel de control y toma de decisiones sobre la seguridad operativa. Señala que la seguridad es crítica, ya que cualquier falla impacta directamente en la empresa, y ha enfrentado problemas como accesos no autorizados y pérdidas difíciles de justificar.<br>Actualmente utiliza cámaras, controles de acceso y registros manuales, pero identifica como principal limitación la falta de centralización de la información, lo que genera ineficiencia y pérdida de tiempo en el monitoreo y análisis.<br>Valora especialmente la posibilidad de contar con información en tiempo real, alertas automáticas ante eventos sospechosos (como accesos fuera de horario o movimientos en zonas restringidas) y un historial completo de accesos para auditorías y toma de decisiones.<br>Busca un sistema confiable, claro y centralizado, que le permita supervisar múltiples almacenes desde cualquier lugar, mejorar la trazabilidad y optimizar la gestión de la seguridad, facilitando una respuesta más rápida y efectiva ante incidentes. | **Inicio:** 29:27 <br> **Duración:** 4:34 <br> **Final:** 34:01 | <p align="center"><img src="./assets/screenshot-interview-diego-castillo.png" width="300"></p> |
-| 4 | **Nombre:** Cristina Celis <br> **Edad:** 61 <br> **Distrito:** Ate <br> **Ocupación:** Jefa de almacen— <br> **Link:** — | La entrevistada, jefa de Seguridad/Operaciones en una empresa mediana/grande de logística o retail que gestiona entre 2 y 10 almacenes en Lima y alrededores, enfrenta problemas de accesos fuera de horario, pérdidas difíciles de rastrear y falta de integración entre sistemas (CCTV, controles básicos y registros manuales), lo que limita la visibilidad y retrasa la detección de incidentes; valora altamente el monitoreo en tiempo real, las alertas automáticas (accesos no autorizados, actividad inusual, puertas abiertas) y un historial detallado para auditorías, además de poder acceder a la información desde cualquier lugar, por lo que considera clave una solución unificada, precisa e integrada que mejore la eficiencia, reduzca riesgos y simplifique la gestión operativa.| **Inicio:** 34:02 <br> **Duración:** 4:28 <br> **Final:** 38:30 | <img width="1350" height="739" alt="image" src="https://github.com/user-attachments/assets/a0a296eb-be77-467c-a995-15f26c506b01" /> |
+| 4 | **Nombre:** Cristina Celis <br> **Edad:** 61 <br> **Distrito:** Ate <br> **Ocupación:** Jefa de almacen— <br> **Link:** — | La entrevistada, jefa de Seguridad/Operaciones en una empresa mediana/grande de logística o retail que gestiona entre 2 y 10 almacenes en Lima y alrededores, enfrenta problemas de accesos fuera de horario, pérdidas difíciles de rastrear y falta de integración entre sistemas (CCTV, controles básicos y registros manuales), lo que limita la visibilidad y retrasa la detección de incidentes; valora altamente el monitoreo en tiempo real, las alertas automáticas (accesos no autorizados, actividad inusual, puertas abiertas) y un historial detallado para auditorías, además de poder acceder a la información desde cualquier lugar, por lo que considera clave una solución unificada, precisa e integrada que mejore la eficiencia, reduzca riesgos y simplifique la gestión operativa.| **Inicio:** 34:02 <br> **Duración:** 4:28 <br> **Final:** 38:30 | <img width="300" alt="image" src="https://github.com/user-attachments/assets/a0a296eb-be77-467c-a995-15f26c506b01" /> |
 </div>
 
 **Resumen de entrevistas segmento #2**
@@ -656,10 +656,10 @@ A partir de las 4 entrevistas realizadas a jefes de seguridad y supervisores de 
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
 > Segmento 1
-<img width="1920" height="1080" alt="Black and White Simple User Persona Brainstorm (1)" src="https://github.com/user-attachments/assets/eaa98a45-fc38-4d33-b509-2be98e38e938" />
+<img width="100%" alt="Black and White Simple User Persona Brainstorm (1)" src="https://github.com/user-attachments/assets/eaa98a45-fc38-4d33-b509-2be98e38e938" />
 
 > Segmento 2
-<img width="1920" height="1080" alt="Black and White Simple User Persona Brainstorm (2)" src="https://github.com/user-attachments/assets/7e5f923f-9b0b-4385-a30a-9b2ad64ad57b" />
+<img width="100%" alt="Black and White Simple User Persona Brainstorm (2)" src="https://github.com/user-attachments/assets/7e5f923f-9b0b-4385-a30a-9b2ad64ad57b" />
 
 ### 2.3.2. User Task Matrix.
 #### Segmento 1: Dueños y Administradores de PYMES
@@ -690,18 +690,18 @@ A partir de las 4 entrevistas realizadas a jefes de seguridad y supervisores de 
 
 ### 2.3.3. User Journey Mapping.
 > Segmento 1
-<img width="1053" height="949" alt="Customer Journey by XO Projects (2)" src="https://github.com/user-attachments/assets/20e6d520-f0ca-443d-b73d-550d09ab947c" />
+<img width="100%" alt="Customer Journey by XO Projects (2)" src="https://github.com/user-attachments/assets/20e6d520-f0ca-443d-b73d-550d09ab947c" />
 
 
 > Segmento 2
-<img width="1049" height="952" alt="Customer Journey by XO Projects (4)" src="https://github.com/user-attachments/assets/fd7a9003-c573-41ce-8a39-a776b6b69823" />
+<img width="100%" alt="Customer Journey by XO Projects (4)" src="https://github.com/user-attachments/assets/fd7a9003-c573-41ce-8a39-a776b6b69823" />
 
 ### 2.3.4. Empathy Mapping.
 > Segmento 1
-<img width="1024" height="768" alt="Copia de Brainstorming Mapa de Empatia Usuario Simple Blanco Y Negro (2)" src="https://github.com/user-attachments/assets/81968604-632d-42a7-8acc-da0d898de92c" />
+<img width="100%" alt="Copia de Brainstorming Mapa de Empatia Usuario Simple Blanco Y Negro (2)" src="https://github.com/user-attachments/assets/81968604-632d-42a7-8acc-da0d898de92c" />
 
 > Segmento 2
-<img width="1024" height="768" alt="Copia de Brainstorming Mapa de Empatia Usuario Simple Blanco Y Negro (3)" src="https://github.com/user-attachments/assets/39001a97-eb6d-4024-9288-702c280d79e5" />
+<img width="100%" alt="Copia de Brainstorming Mapa de Empatia Usuario Simple Blanco Y Negro (3)" src="https://github.com/user-attachments/assets/39001a97-eb6d-4024-9288-702c280d79e5" />
 
 
 ## 2.4. Big Picture EventStorming.
@@ -710,9 +710,9 @@ En la sesión de Big Picture Event Storming, el equipo identificó los eventos m
 
 ### Big Picture EventStorming – Mapa General.
 
-<p align="center"><img src="./assets/big-picture-event-storming.png" width="1505" height="664"></p>
+<p align="center"><img src="./assets/big-picture-event-storming.png" width="100%"></p>
 
-<p align="center"><img src="./assets/big picture-leyenda de colores.jpg" width="1505" height="664"></p>
+<p align="center"><img src="./assets/big picture-leyenda de colores.jpg" width="100%"></p>
 
 ## 2.5. Ubiquitous Language.
 
@@ -2254,7 +2254,7 @@ Todos los mensajes de commit siguen la especificación de [Conventional Commits]
 
 Creación de la Landing Page:
 Se crea un repositorio (watchgate-website) desde upc-pre-202610-1asi0730-12144-watchgate organization
-<img width="1628" height="501" alt="image" src="https://github.com/user-attachments/assets/4e1bc7af-1dd5-444c-8085-398ca0ae9402" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/4e1bc7af-1dd5-444c-8085-398ca0ae9402" />
 
 Agregamos a los miembros del equipo
 
@@ -2399,24 +2399,24 @@ Al concluir el Sprint 1, el equipo logró desplegar la primera versión funciona
 
 A continuación se presentan capturas de las principales vistas implementadas:
 
-<img width="1377" height="713" alt="image" src="https://github.com/user-attachments/assets/46f8120f-6527-4de0-89e9-f50f30b73127" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/46f8120f-6527-4de0-89e9-f50f30b73127" />
 
-<img width="1817" height="847" alt="image" src="https://github.com/user-attachments/assets/bf14877a-89c8-4d1f-9ba6-7a20ddf2084d" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/bf14877a-89c8-4d1f-9ba6-7a20ddf2084d" />
 
-<img width="1443" height="505" alt="image" src="https://github.com/user-attachments/assets/27dfe57d-3e3c-41aa-9fb4-56504e1dde9f" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/27dfe57d-3e3c-41aa-9fb4-56504e1dde9f" />
 
-<img width="1205" height="775" alt="image" src="https://github.com/user-attachments/assets/6c452438-cf69-4d7b-a520-ffc64f734234" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/6c452438-cf69-4d7b-a520-ffc64f734234" />
 
-<img width="1445" height="827" alt="image" src="https://github.com/user-attachments/assets/4dded845-87a2-470f-a6c4-3efab6cc2201" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/4dded845-87a2-470f-a6c4-3efab6cc2201" />
 
-<img width="380" height="405" alt="image" src="https://github.com/user-attachments/assets/53f21032-e119-4062-8b90-ebbfa1170121" />
+<img width="50%" alt="image" src="https://github.com/user-attachments/assets/53f21032-e119-4062-8b90-ebbfa1170121" />
 
-<img width="370" height="528" alt="image" src="https://github.com/user-attachments/assets/8081d3ce-4ed8-4cb7-ae98-ef5365c45001" />
+<img width="50%" width="70%" alt="image" src="https://github.com/user-attachments/assets/8081d3ce-4ed8-4cb7-ae98-ef5365c45001" />
 
 
 **Video de navegación del Sprint 1:**
 
-<img width="1826" height="596" alt="image" src="https://github.com/user-attachments/assets/c9f288db-cc27-40cc-b941-5a93a7f9bf3c" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/c9f288db-cc27-40cc-b941-5a93a7f9bf3c" />
 
 URL del video: [[Insertar URL del video de navegación en Microsoft Stream]](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414356_upc_edu_pe/IQBMnFr65jhxQqjrQ0R2KXCpAZgkuS2fbShhgwj5YgAR69w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=zBAbct)
 
