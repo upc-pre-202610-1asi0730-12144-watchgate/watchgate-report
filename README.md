@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./assets/logo-upc (1).png">
+    <img src="./assets/logo-upc (1).png" width="350" height="350" >
 </div>
 
 <div align="center">
@@ -18,9 +18,6 @@
 
 **Docente**  
 Bautista Ubillús, Efrain Ricardo
-
-**Equipo**  
-Solvers Squad
 
 **Startup**  
 Watchgate
@@ -45,7 +42,7 @@ LockSight
   </tr>
 </table>
 
-**Período 202610**
+**Período 2026-10**
 
 **Julio 2026**
 
@@ -78,58 +75,72 @@ LockSight
 
 **URL LANDING PAGE DESPLEGADA:** [Ir a la Landing Page](https://upc-pre-202610-1asi0730-12144-watchgate.github.io/watchgate-webapp/)
 
-### TB1 - Project Report Collaboration Insights
+### **AV1 Collaboration Insights:**
 
+- watchgate-report:
 <div align="center">
-  <img src="./assets/project-report-collaboration-insights-tb1.png" alt="TB1 Project Report Collaboration Insights - Contributors" width="700">
+  <img src="./assets/project-report-collaboration-insights-av1.png" alt="AV1 Project Report Collaboration Insights - Contributors" width="450">
 </div>
 
-### AV1 - Project Report Collaboration Insights
-
+- watchgate-website:
 <div align="center">
-  <img src="./assets/project-report-collaboration-insights-av1.png" alt="AV1 Project Report Collaboration Insights - Contributors" width="700">
+  <img src="./assets/website-collaboration-insights-av1.png" alt="AV1 Website Collaboration Insights - Contributors" width="450">
 </div>
 
-### AV2 - Project Report Collaboration Insights
+### **TB1 Collaboration Insights:**
 
+- watchgate-report:
 <div align="center">
-  <img src="./assets/project-report-collaboration-insights-av2.png" alt="AV2 Project Report Collaboration Insights - Contributors" width="700">
+  <img src="./assets/project-report-collaboration-insights-tb1.png" alt="TB1 Project Report Collaboration Insights - Contributors" width="450">
 </div>
 
-### TB2 - Project Report Collaboration Insights
-
+- watchgate-website:
 <div align="center">
-  <img src="./assets/project-report-collaboration-insights-tb2.png" alt="TB2 Project Report Collaboration Insights - Contributors" width="700">
+  <img src="./assets/website-collaboration-insights-tb1.png" alt="TB1 Website Collaboration Insights - Contributors" width="450">
 </div>
 
-### TB1 - WebApp Collaboration Insights
-
+- watchgate-webapp:
 <div align="center">
-  <img src="./assets/webapp-collaboration-insights-tb1.png" alt="TB1 WebApp Collaboration Insights - Contributors" width="700">
+  <img src="./assets/webapp-collaboration-insights-tb1.png" alt="TB1 WebApp Collaboration Insights - Contributors" width="450">
 </div>
 
-### AV2 - WebApp Collaboration Insights
+### **AV2 Collaboration Insights:**
 
+- watchgate-report:
 <div align="center">
-  <img src="./assets/webapp-collaboration-insights-av2.png" alt="AV2 WebApp Collaboration Insights - Contributors" width="700">
+  <img src="./assets/project-report-collaboration-insights-av2.png" alt="AV2 Project Report Collaboration Insights - Contributors" width="450">
 </div>
 
-### TB2 - WebApp Collaboration Insights
-
+- watchgate-website:
 <div align="center">
-  <img src="./assets/webapp-collaboration-insights-tb2.png" alt="TB2 WebApp Collaboration Insights - Contributors" width="700">
+  <img src="./assets/website-collaboration-insights-av2.png" alt="AV2 Website Collaboration Insights - Contributors" width="450">
 </div>
 
-### AV2 - Platform Collaboration Insights
-
+- watchgate-webapp:
 <div align="center">
-  <img src="./assets/platform-collaboration-insights-av2.png" alt="AV2 Platform Collaboration Insights - Contributors" width="700">
+  <img src="./assets/webapp-collaboration-insights-av2.png" alt="AV2 WebApp Collaboration Insights - Contributors" width="450">
 </div>
 
-### TB2 - Platform Collaboration Insights
-
+- watchgate-platform:
 <div align="center">
-  <img src="./assets/platform-collaboration-insights-tb2.png" alt="TB2 Platform Collaboration Insights - Contributors" width="700">
+  <img src="./assets/platform-collaboration-insights-av2.png" alt="AV2 Platform Collaboration Insights - Contributors" width="450">
+</div>
+
+### **TB2 Collaboration Insights:**
+
+- watchgate-report:
+<div align="center">
+  <img src="./assets/project-report-collaboration-insights-tb2.png" alt="TB2 Project Report Collaboration Insights - Contributors" width="450">
+</div>
+
+- watchgate-webapp:
+<div align="center">
+  <img src="./assets/webapp-collaboration-insights-tb2.png" alt="TB2 WebApp Collaboration Insights - Contributors" width="450">
+</div>
+
+- watchgate-platform:
+<div align="center">
+  <img src="./assets/platform-collaboration-insights-tb2.png" alt="TB2 Platform Collaboration Insights - Contributors" width="450">
 </div>
 
 
