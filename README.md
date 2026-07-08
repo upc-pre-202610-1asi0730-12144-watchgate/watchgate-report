@@ -8,32 +8,46 @@
 
 ## Carrera de Ingeniería de Software
 
-</div>
+**1ASI0730**  
+**Aplicaciones Web**
 
-<div align="center"> 
+**NRC**  
+12144
 
-**Período:** 2026 - 1  
-**Curso:** Aplicaciones Web<br>
-**NRC:** 12144<br>
-**Docente:** Efraín Ricardo Bautista Ubillús
+## Informe del Trabajo Final
 
-## "Informe de Trabajo Final"
-**Startup:** watchgate<br>
-**Producto:** locksight
+**Docente**  
+Bautista Ubillús, Efrain Ricardo
 
+**Equipo**  
+Solvers Squad
 
-## Relación de integrantes
+**Startup**  
+Watchgate
 
+**Proyecto**  
+LockSight
 
-| Código      | Nombre                              |
-|-------------|-------------------------------------|
-| U201819276  | Bardales Tejada, Luis Alexis        |
-| U202416276  | Higa Kohatsu, Alonso Enrique       |
-| U202412903  | Lozano Quispe, Fabricio Jofred      |
-| U202418645  | Sandoval Aiquipa, Kelber Yamir      |
-| U202414356  | Vite Celis, Rodrigo Matias          |
+## Integrantes
 
-<div style="font-weight: bold;"> Mayo, 2026</div>
+<table align="center">
+  <tr>
+    <th>Código</th>
+    <th>Apellidos y Nombres</th>
+  </tr>
+  <tr>
+    <td align="center">U201819276</td>
+    <td align="center">Bardales Tejada, Luis Alexis</td>
+  </tr>
+  <tr>
+    <td align="center">U202418645</td>
+    <td align="center">Sandoval Aiquipa, Kelber Yamir</td>
+  </tr>
+</table>
+
+**Período 202610**
+
+**Julio 2026**
 
 </div>
 
@@ -2126,7 +2140,7 @@ El diseño de la base de datos proporciona la estructura necesaria para almacena
 
 
 <div align="center">
-  <img src="./assets/chapter-4/erd-database-locksight.png" alt="Database Entity-Relationship Diagram - LockSight" width="800">
+  <img src="./assets/erd-database-locksight.png" alt="Database Entity-Relationship Diagram - LockSight" width="800">
 </div>
 
 # Capítulo V: Product Implementation, Validation & Deployment. 
